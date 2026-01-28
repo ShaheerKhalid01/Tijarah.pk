@@ -11,7 +11,7 @@ import { electronicsProducts } from '../categories/electronics/page';
 const ReturnsAndOrdersPage = () => {
   const t = useTranslations('ReturnsAndOrders');
   const router = useRouter();
-  const { clearCart } = useCart();
+  const { clearCart, cartCount } = useCart();
   
   const [activeTab, setActiveTab] = useState('orders');
   const [isLoading, setIsLoading] = useState(true);
@@ -163,19 +163,6 @@ const ReturnsAndOrdersPage = () => {
     
     localStorage.setItem('cart', JSON.stringify(updatedCart));
     console.log('Cart saved to localStorage');
-  };
-
-  const getCartCount = () => {
-    // Check if we're on the client side
-    if (typeof window === 'undefined') return 0;
-    
-    try {
-      const cart = JSON.parse(localStorage.getItem('cart') || '[]');
-      return cart.reduce((total, item) => total + (item.quantity || 1), 0);
-    } catch (error) {
-      console.error('Error getting cart count:', error);
-      return 0;
-    }
   };
 
   const createOrderFromCart = async () => {
@@ -600,7 +587,8 @@ const ReturnsAndOrdersPage = () => {
               <div className="space-y-3">
                 <h3 className="text-xl font-display text-white">Create Order from Cart</h3>
                 <p className="text-blue-100 text-sm">
-                  Add products to your cart and create an order. Cart: <span className="font-mono text-lg text-white">({getCartCount()} items)</span>
+                  Add products to your cart and create an order. Cart:{' '}
+                  <span className="font-mono text-lg text-white">({cartCount} items)</span>
                 </p>
                 <button
                   onClick={() => setShowProducts(!showProducts)}
