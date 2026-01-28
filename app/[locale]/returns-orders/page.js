@@ -668,8 +668,11 @@ const ReturnsAndOrdersPage = () => {
               </div>
             ) : (
               <div className="space-y-4">
-                {orders.map((order) => (
-                  <div key={order.id} className="order-item bg-white rounded-2xl shadow-sm hover:shadow-md transition-all border border-slate-200 overflow-hidden">
+                {orders.map((order, orderIndex) => (
+                  <div
+                    key={order.id || order._id || orderIndex}
+                    className="order-item bg-white rounded-2xl shadow-sm hover:shadow-md transition-all border border-slate-200 overflow-hidden"
+                  >
                     <div className="p-6 border-b border-slate-100">
                       <div className="flex items-center justify-between flex-wrap gap-4">
                         <div>
@@ -688,8 +691,11 @@ const ReturnsAndOrdersPage = () => {
                     </div>
 
                     <div className="p-6 space-y-4">
-                      {order.items.map((item, idx) => (
-                        <div key={item.cartItemId || `${item.id}-${idx}`} className="flex gap-4 pb-4 border-b border-slate-100 last:border-0">
+                      {order.items?.map((item, idx) => (
+                        <div
+                          key={item.cartItemId || item.id || item._id || `${idx}`}
+                          className="flex gap-4 pb-4 border-b border-slate-100 last:border-0"
+                        >
                           <img
                             src={item.image}
                             alt={item.name}
