@@ -1,0 +1,589 @@
+'use client';
+
+import { useState, useEffect, useMemo } from 'react';
+import { useRouter, useSearchParams } from 'next/navigation';
+import { useLocale } from 'next-intl';
+import { 
+  FiFilter, 
+  FiX, 
+  FiChevronDown, 
+  FiChevronUp, 
+  FiChevronLeft, 
+  FiChevronRight, 
+  FiStar, 
+  FiClock, 
+  FiDollarSign, 
+  FiTrendingUp 
+} from 'react-icons/fi';
+import Image from 'next/image';
+import Link from 'next/link';
+
+// Import components
+const FilterSidebar = dynamic(() => import('./components/FilterSidebar'), { ssr: false });
+const ProductCard = dynamic(() => import('./components/ProductCard'), { ssr: false });
+const Pagination = dynamic(() => import('./components/Pagination'), { ssr: false });
+
+export default function WatchesPage() {
+  const locale = useLocale();
+  const router = useRouter();
+  const searchParams = useSearchParams();
+  
+  // Mock data for watches
+  const allProducts = useMemo(() => [
+    // ... (your existing product data)
+  ], []);
+
+  // State
+  const [filters, setFilters] = useState({
+    type: [],
+    brand: [],
+    material: [],
+    priceRange: [0, 1000],
+    inStock: false,
+    onSale: false
+  });
+  
+  const [sortBy, setSortBy] = useState('featured');
+  const [currentPage, setCurrentPage] = useState(1);
+  const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false);
+  const [selectedProduct, setSelectedProduct] = useState(null);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  
+  const productsPerPage = 8;
+  
+  // Filter and sort products
+  const filteredProducts = useMemo(() => {
+    return allProducts.filter(product => {
+      // Filter by category
+      if (product.category !== 'watches') return false;
+      
+      // Filter by type
+      if (filters.type.length > 0 && !filters.type.includes(product.type)) {
+        return false;
+      }
+      
+      // Filter by brand
+      if (filters.brand.length > 0 && !filters.brand.includes(product.brand)) {
+        return false;
+      }
+      
+      // Filter by material
+      if (filters.material.length > 0 && !filters.material.includes(product.material)) {
+        return false;
+      }
+      
+      // Filter by price range
+      if (product.price < filters.priceRange[0] || product.price > filters.priceRange[1]) {
+        return false;
+      }
+      
+      // Filter by stock status
+      if (filters.inStock && !product.inStock) {
+        return false;
+      }
+      
+      // Filter by sale status
+      if (filters.onSale && !product.isOnSale) {
+        return false;
+      }
+      
+      return true;
+    });
+  }, [allProducts, filters]);
+  
+  // Sort products
+  const sortedProducts = useMemo(() => {
+    return [...filteredProducts].sort((a, b) => {
+      switch (sortBy) {
+        case 'price-low-high':
+          return a.price - b.price;
+        case 'price-high-low':
+          return b.price - a.price;
+        case 'rating':
+          return b.rating - a.rating;
+        case 'newest':
+          return (b.isNew ? 1 : 0) - (a.isNew ? 1 : 0) || b.rating - a.rating;
+        default: // 'featured'
+          return b.rating - a.rating;
+      }
+    });
+  }, [filteredProducts, sortBy]);
+  
+  // Pagination
+  const indexOfLastProduct = currentPage * productsPerPage;
+  const indexOfFirstProduct = indexOfLastProduct - productsPerPage;
+  const currentProducts = sortedProducts.slice(indexOfFirstProduct, indexOfLastProduct);
+  const totalPages = Math.ceil(sortedProducts.length / productsPerPage);
+  
+  // Reset to first page when filters or sort changes
+  useEffect(() => {
+    setCurrentPage(1);
+  }, [filters, sortBy]);
+  
+  // Toggle filter
+  const toggleFilter = (filterType, value) => {
+    if (filterType === 'inStock' || filterType === 'onSale') {
+      setFilters(prev => ({
+        ...prev,
+        [filterType]: !prev[filterType]
+      }));
+    } else {
+      setFilters(prev => ({
+        ...prev,
+        [filterType]: prev[filterType].includes(value)
+          ? prev[filterType].filter(item => item !== value)
+          : [...prev[filterType], value]
+      }));
+    }
+  };
+  
+  // Clear all filters
+  const clearAllFilters = () => {
+    setFilters({
+      type: [],
+      brand: [],
+      material: [],
+      priceRange: [0, 1000],
+      inStock: false,
+      onSale: false
+    });
+  };
+  
+  // Check if any filters are active
+  const hasActiveFilters = useMemo(() => {
+    return (
+      filters.type.length > 0 ||
+      filters.brand.length > 0 ||
+      filters.material.length > 0 ||
+      filters.priceRange[0] > 0 ||
+      filters.priceRange[1] < 1000 ||
+      filters.inStock ||
+      filters.onSale
+    );
+  }, [filters]);
+  
+  // Handle price range input
+  const handlePriceInputChange = (e, index) => {
+    const value = parseInt(e.target.value) || 0;
+    if (index === 0) {
+      setFilters(prev => ({
+        ...prev,
+        priceRange: [Math.min(value, prev.priceRange[1] - 1), prev.priceRange[1]]
+      }));
+    } else {
+      setFilters(prev => ({
+        ...prev,
+        priceRange: [prev.priceRange[0], Math.max(value, prev.priceRange[0] + 1)]
+      }));
+    }
+  };
+  
+  // Toggle mobile filters
+  const toggleMobileFilters = () => {
+    setMobileFiltersOpen(!mobileFiltersOpen);
+  };
+  
+  // Close mobile filters
+  const closeMobileFilters = () => {
+    setMobileFiltersOpen(false);
+  };
+  
+  // View product details
+  const viewProductDetails = (product) => {
+    setSelectedProduct(product);
+    setIsModalOpen(true);
+  };
+  
+  // Close modal
+  const closeModal = () => {
+    setIsModalOpen(false);
+    setSelectedProduct(null);
+  };
+  
+  // Handle page change
+  const handlePageChange = (page) => {
+    setCurrentPage(page);
+    if (typeof window !== 'undefined') {
+      window.scrollTo({
+        top: 400,
+        behavior: 'smooth'
+      });
+    }
+  };
+  
+  // Format price
+  const formatPrice = (price) => {
+    return new Intl.NumberFormat('en-US', {
+      style: 'currency',
+      currency: 'USD',
+      minimumFractionDigits: 0,
+      maximumFractionDigits: 0
+    }).format(price);
+  };
+  
+  // Generate star rating
+  const renderRating = (rating) => {
+    const fullStars = Math.floor(rating);
+    const hasHalfStar = rating % 1 >= 0.5;
+    const emptyStars = 5 - fullStars - (hasHalfStar ? 1 : 0);
+    
+    return (
+      <div className="flex items-center">
+        {[...Array(fullStars)].map((_, i) => (
+          <FiStar
+            key={`full-${i}`}
+            className="h-4 w-4 text-yellow-400"
+            fill="currentColor"
+          />
+        ))}
+        
+        {hasHalfStar && (
+          <div className="relative h-4 w-4">
+            <FiStar className="h-4 w-4 text-gray-300" fill="currentColor" />
+            <div className="absolute top-0 left-0 w-1/2 h-full overflow-hidden">
+              <FiStar className="h-4 w-4 text-yellow-400" fill="currentColor" />
+            </div>
+          </div>
+        )}
+        
+        {[...Array(emptyStars)].map((_, i) => (
+          <FiStar
+            key={`empty-${i}`}
+            className="h-4 w-4 text-gray-300"
+            fill="none"
+          />
+        ))}
+      </div>
+    );
+  };
+  
+  // Available filter options
+  const filterOptions = {
+    type: ['analog', 'digital', 'smartwatch', 'chronograph', 'diving', 'automatic'],
+    brand: ['TimeMaster', 'SportPro', 'Elegance', 'TechWear', 'MarineMaster', 'Minimal', 'Aviator', 'FitTech', 'OutdoorGear', 'Prestige', 'StyleTech'],
+    material: ['stainless-steel', 'silicone', 'leather', 'titanium', 'aluminum', 'resin', 'plastic']
+  };
+
+  return (
+    <div className="bg-white">
+      {/* Mobile filter dialog */}
+      <div className={`fixed inset-0 z-40 lg:hidden ${mobileFiltersOpen ? 'block' : 'hidden'}`}>
+        <div className="fixed inset-0 bg-black bg-opacity-25" onClick={closeMobileFilters} />
+        <div className="fixed inset-y-0 right-0 z-40 flex max-w-xs w-full h-full bg-white shadow-xl">
+          <div className="flex-1 flex flex-col h-full overflow-y-auto">
+            <div className="flex items-center justify-between px-4 py-6 border-b border-gray-200">
+              <h2 className="text-lg font-medium text-gray-900">Filters</h2>
+              <button
+                type="button"
+                className="-mr-2 p-2 rounded-md text-gray-400 hover:text-gray-500"
+                onClick={closeMobileFilters}
+              >
+                <span className="sr-only">Close menu</span>
+                <FiX className="h-6 w-6" aria-hidden="true" />
+              </button>
+            </div>
+            
+            <div className="flex-1 overflow-y-auto py-6 px-4">
+              <FilterSidebar
+                filters={filters}
+                filterOptions={filterOptions}
+                onToggleFilter={toggleFilter}
+                onPriceInputChange={handlePriceInputChange}
+                onClearAllFilters={clearAllFilters}
+                hasActiveFilters={hasActiveFilters}
+                isMobile={true}
+              />
+            </div>
+            
+            <div className="border-t border-gray-200 p-4">
+              <button
+                type="button"
+                className="w-full bg-indigo-600 border border-transparent rounded-md py-3 px-4 text-base font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                onClick={closeMobileFilters}
+              >
+                Apply filters
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="relative z-10 flex items-baseline justify-between pt-8 pb-6 border-b border-gray-200">
+          <h1 className="text-3xl font-extrabold tracking-tight text-gray-900">Watches</h1>
+          
+          <div className="flex items-center">
+            <div className="relative inline-block text-left">
+              <div>
+                <button
+                  type="button"
+                  className="group inline-flex justify-center text-sm font-medium text-gray-700 hover:text-gray-900"
+                  id="menu-button"
+                  onClick={() => document.getElementById('sort-options').classList.toggle('hidden')}
+                >
+                  Sort
+                  <FiChevronDown
+                    className="flex-shrink-0 -mr-1 ml-1 h-5 w-5 text-gray-400 group-hover:text-gray-500"
+                    aria-hidden="true"
+                  />
+                </button>
+              </div>
+              
+              <div
+                id="sort-options"
+                className="hidden origin-top-right absolute right-0 mt-2 w-40 rounded-md shadow-2xl bg-white ring-1 ring-black ring-opacity-5 focus:outline-none z-50"
+              >
+                <div className="py-1" role="none">
+                  <button
+                    className={`text-gray-500 block px-4 py-2 text-sm w-full text-left ${sortBy === 'featured' ? 'bg-gray-100' : ''}`}
+                    onClick={() => {
+                      setSortBy('featured');
+                      document.getElementById('sort-options').classList.add('hidden');
+                    }}
+                  >
+                    <div className="flex items-center">
+                      <FiStar className="mr-2 h-4 w-4" />
+                      Featured
+                    </div>
+                  </button>
+                  <button
+                    className={`text-gray-500 block px-4 py-2 text-sm w-full text-left ${sortBy === 'newest' ? 'bg-gray-100' : ''}`}
+                    onClick={() => {
+                      setSortBy('newest');
+                      document.getElementById('sort-options').classList.add('hidden');
+                    }}
+                  >
+                    <div className="flex items-center">
+                      <FiClock className="mr-2 h-4 w-4" />
+                      Newest
+                    </div>
+                  </button>
+                  <button
+                    className={`text-gray-500 block px-4 py-2 text-sm w-full text-left ${sortBy === 'price-low-high' ? 'bg-gray-100' : ''}`}
+                    onClick={() => {
+                      setSortBy('price-low-high');
+                      document.getElementById('sort-options').classList.add('hidden');
+                    }}
+                  >
+                    <div className="flex items-center">
+                      <FiDollarSign className="mr-2 h-4 w-4" />
+                      Price: Low to High
+                    </div>
+                  </button>
+                  <button
+                    className={`text-gray-500 block px-4 py-2 text-sm w-full text-left ${sortBy === 'price-high-low' ? 'bg-gray-100' : ''}`}
+                    onClick={() => {
+                      setSortBy('price-high-low');
+                      document.getElementById('sort-options').classList.add('hidden');
+                    }}
+                  >
+                    <div className="flex items-center">
+                      <FiDollarSign className="mr-2 h-4 w-4" />
+                      Price: High to Low
+                    </div>
+                  </button>
+                  <button
+                    className={`text-gray-500 block px-4 py-2 text-sm w-full text-left ${sortBy === 'rating' ? 'bg-gray-100' : ''}`}
+                    onClick={() => {
+                      setSortBy('rating');
+                      document.getElementById('sort-options').classList.add('hidden');
+                    }}
+                  >
+                    <div className="flex items-center">
+                      <FiStar className="mr-2 h-4 w-4" />
+                      Top Rated
+                    </div>
+                  </button>
+                </div>
+              </div>
+            </div>
+            
+            <button
+              type="button"
+              className="p-2 -m-2 ml-4 sm:ml-6 text-gray-400 hover:text-gray-500 lg:hidden"
+              onClick={toggleMobileFilters}
+            >
+              <span className="sr-only">Filters</span>
+              <FiFilter className="w-5 h-5" aria-hidden="true" />
+            </button>
+          </div>
+        </div>
+        
+        <section aria-labelledby="products-heading" className="pt-6 pb-24">
+          <h2 id="products-heading" className="sr-only">Products</h2>
+          
+          <div className="grid grid-cols-1 lg:grid-cols-4 gap-x-8 gap-y-10">
+            {/* Desktop filters */}
+            <div className="hidden lg:block">
+              <FilterSidebar
+                filters={filters}
+                filterOptions={filterOptions}
+                onToggleFilter={toggleFilter}
+                onPriceInputChange={handlePriceInputChange}
+                onClearAllFilters={clearAllFilters}
+                hasActiveFilters={hasActiveFilters}
+              />
+            </div>
+            
+            {/* Product grid */}
+            <div className="lg:col-span-3">
+              {currentProducts.length > 0 ? (
+                <div className="grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-3 xl:gap-x-8">
+                  {currentProducts.map((product) => (
+                    <ProductCard
+                      key={product.id}
+                      product={product}
+                      onViewDetails={viewProductDetails}
+                      formatPrice={formatPrice}
+                      renderRating={renderRating}
+                    />
+                  ))}
+                </div>
+              ) : (
+                <div className="text-center py-12">
+                  <FiClock className="mx-auto h-12 w-12 text-gray-400" />
+                  <h3 className="mt-2 text-sm font-medium text-gray-900">No watches found</h3>
+                  <p className="mt-1 text-sm text-gray-500">Try adjusting your filters to find what you're looking for.</p>
+                  <div className="mt-6">
+                    <button
+                      type="button"
+                      className="inline-flex items-center px-4 py-2 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                      onClick={clearAllFilters}
+                    >
+                      Clear all filters
+                    </button>
+                  </div>
+                </div>
+              )}
+              
+              {/* Pagination */}
+              {totalPages > 1 && (
+                <div className="mt-12">
+                  <Pagination
+                    currentPage={currentPage}
+                    totalPages={totalPages}
+                    onPageChange={handlePageChange}
+                  />
+                </div>
+              )}
+            </div>
+          </div>
+        </section>
+      </main>
+      
+      {/* Product Quick View Modal */}
+      {isModalOpen && selectedProduct && (
+        <div className="fixed z-50 inset-0 overflow-y-auto" aria-labelledby="modal-title" role="dialog" aria-modal="true">
+          <div className="flex items-end justify-center min-h-screen pt-4 px-4 pb-20 text-center sm:block sm:p-0">
+            <div className="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity" onClick={closeModal}></div>
+            <span className="hidden sm:inline-block sm:align-middle sm:h-screen" aria-hidden="true">&#8203;</span>
+            
+            <div className="inline-block align-bottom bg-white rounded-lg text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-2xl sm:w-full">
+              <div className="bg-white px-4 pt-5 pb-4 sm:p-6 sm:pb-4">
+                <div className="sm:flex sm:items-start">
+                  <div className="mt-3 text-center sm:mt-0 sm:ml-4 sm:text-left w-full">
+                    <div className="flex justify-between items-start">
+                      <h3 className="text-lg leading-6 font-medium text-gray-900" id="modal-title">
+                        {selectedProduct.name}
+                      </h3>
+                      <button
+                        type="button"
+                        className="bg-white rounded-md text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                        onClick={closeModal}
+                      >
+                        <span className="sr-only">Close</span>
+                        <FiX className="h-6 w-6" aria-hidden="true" />
+                      </button>
+                    </div>
+                    
+                    <div className="mt-2">
+                      <p className="text-sm text-gray-500">
+                        {selectedProduct.brand}
+                      </p>
+                      
+                      <div className="mt-4">
+                        <div className="flex items-center">
+                          {renderRating(selectedProduct.rating)}
+                          <span className="ml-2 text-sm text-gray-500">
+                            ({selectedProduct.reviewCount} reviews)
+                          </span>
+                        </div>
+                        
+                        <p className="text-2xl font-semibold text-gray-900 mt-2">
+                          {formatPrice(selectedProduct.price)}
+                          {selectedProduct.originalPrice && (
+                            <span className="ml-2 text-base font-normal text-gray-500 line-through">
+                              {formatPrice(selectedProduct.originalPrice)}
+                            </span>
+                          )}
+                        </p>
+                        
+                        <p className="text-sm text-gray-500 mt-2">
+                          {selectedProduct.inStock ? 'In Stock' : 'Out of Stock'}
+                        </p>
+                      </div>
+                      
+                      <div className="mt-6">
+                        <h4 className="text-sm font-medium text-gray-900">Description</h4>
+                        <p className="mt-2 text-sm text-gray-600">
+                          {selectedProduct.description || 'No description available.'}
+                        </p>
+                      </div>
+                      
+                      {selectedProduct.features && selectedProduct.features.length > 0 && (
+                        <div className="mt-6">
+                          <h4 className="text-sm font-medium text-gray-900">Features</h4>
+                          <ul className="mt-2 list-disc pl-5 text-sm text-gray-600">
+                            {selectedProduct.features.map((feature, index) => (
+                              <li key={index} className="py-1">{feature}</li>
+                            ))}
+                          </ul>
+                        </div>
+                      )}
+                      
+                      {selectedProduct.specs && Object.keys(selectedProduct.specs).length > 0 && (
+                        <div className="mt-6">
+                          <h4 className="text-sm font-medium text-gray-900">Specifications</h4>
+                          <dl className="mt-2 grid grid-cols-1 gap-x-4 gap-y-2 sm:grid-cols-2">
+                            {Object.entries(selectedProduct.specs).map(([key, value]) => (
+                              <div key={key} className="sm:col-span-1">
+                                <dt className="text-sm font-medium text-gray-500">
+                                  {key.split(/(?=[A-Z])/).join(' ').replace(/^./, str => str.toUpperCase())}
+                                </dt>
+                                <dd className="mt-1 text-sm text-gray-900">{value}</dd>
+                              </div>
+                            ))}
+                          </dl>
+                        </div>
+                      )}
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <div className="bg-gray-50 px-4 py-3 sm:px-6 sm:flex sm:flex-row-reverse">
+                <button
+                  type="button"
+                  className="w-full inline-flex justify-center rounded-md border border-transparent shadow-sm px-4 py-2 bg-indigo-600 text-base font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 sm:ml-3 sm:w-auto sm:text-sm"
+                  onClick={() => {
+                    // Add to cart logic here
+                    closeModal();
+                  }}
+                >
+                  Add to cart
+                </button>
+                <button
+                  type="button"
+                  className="mt-3 w-full inline-flex justify-center rounded-md border border-gray-300 shadow-sm px-4 py-2 bg-white text-base font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 sm:mt-0 sm:ml-3 sm:w-auto sm:text-sm"
+                  onClick={closeModal}
+                >
+                  Close
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+    </div>
+  );
+}

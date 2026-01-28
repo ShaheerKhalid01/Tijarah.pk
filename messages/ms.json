@@ -1,0 +1,1267 @@
+{
+  "Smartwatches": {
+    "title": "Jam Pintar",
+    "subtitle": "Jejak kecergasan anda dan kekal berhubung dengan gaya",
+    "categories": "Kategori",
+    "priceRange": "Julat Harga",
+    "brands": "Jenama",
+    "sortBy": "Isih mengikut:",
+    "featured": "Disyorkan",
+    "priceLow": "Harga: Rendah ke Tinggi",
+    "priceHigh": "Harga: Tinggi ke Rendah",
+    "rating": "Kedudukan Tertinggi",
+    "showingResults": "Menunjukkan {start}-{end} daripada {total} produk",
+    "inStock": "Dalam Stok",
+    "addToCart": "Tambah ke Troli",
+    "viewDetails": "Lihat Butiran",
+    "previous": "Sebelumnya",
+    "next": "Seterusnya",
+    "subcategories": {
+      "apple_watch": "Apple Watch",
+      "samsung_galaxy_watch": "Samsung Galaxy Watch",
+      "fitbit": "Fitbit",
+      "garmin": "Garmin",
+      "xiaomi": "Xiaomi",
+      "other": "Lain-lain"
+    },
+    "priceRanges": {
+      "0-100": "Di bawah $100",
+      "100-300": "$100 - $300",
+      "300-500": "$300 - $500",
+      "500": "Lebih $500"
+    },
+    "brandNames": {
+      "apple": "Apple",
+      "samsung": "Samsung",
+      "fitbit": "Fitbit",
+      "garmin": "Garmin",
+      "xiaomi": "Xiaomi",
+      "huawei": "Huawei",
+      "fossil": "Fossil",
+      "amazfit": "Amazfit"
+    },
+    "features": {
+      "heart_rate": "Monitor Kadar Jantung",
+      "gps": "GPS Terbina-dalam",
+      "waterproof": "Tahan Air",
+      "sleep_tracking": "Penjejakan Tidur",
+      "ecg": "EKG",
+      "sp02": "Oksigen Darah",
+      "nfc": "Pembayaran NFC",
+      "long_battery": "Hayat Bateri Panjang"
+    }
+  },
+  "common": {
+    "new": "Baru",
+    "hot": "Panas",
+    "view_details": "Lihat Butiran",
+    "no_products_found": "Tiada produk dijumpai",
+    "try_changing_filters": "Cuba tukar penapis",
+    "sortOptions": {
+      "featured": "Disyorkan",
+      "discountHigh": "Diskaun Tertinggi",
+      "priceLow": "Harga: Rendah ke Tinggi",
+      "priceHigh": "Harga: Tinggi ke Rendah"
+    },
+    "welcome": "Selamat datang ke Tijarah.pk",
+    "search_placeholder": "Cari di Tijarah.pk",
+    "sortBy": "Isih mengikut",
+    "newBadge": "Baru",
+    "sign_in": "Log Masuk",
+    "sign_out": "Log Keluar",
+    "account": "Akaun Saya",
+    "account_label": "Akaun",
+    "orders": "Pesanan Saya",
+    "returns": "Pemulangan",
+    "and_orders": "dan Pesanan",
+    "cart": "Troli",
+    "cart_label": "Troli",
+    "categories": "Kategori",
+    "home": "Laman Utama",
+    "products": "Produk",
+    "about": "Tentang Kami",
+    "contact": "Hubungi Kami",
+    "deliver_to": "Hantar ke",
+    "search_countries": "Cari negara",
+    "search_tijarah_pk": "Cari Tijarah.pk",
+    "select_language": "Pilih Bahasa",
+    "hello": "Hai",
+    "hello_sign_in": "Hai, log masuk",
+    "your_profile": "Profil Anda",
+    "all_asian_countries": "Semua Negara Asia",
+    "all": "Semua",
+    "all_categories": "Semua Kategori",
+    "todays_deals": "Tawaran Hari Ini",
+    "customer_service": "Khidmat Pelanggan",
+    "sell": "Jual",
+    "showing": "Menunjukkan {start} hingga {end} daripada {total} produk",
+    "hotBadge": "Panas",
+    "off": "Diskaun",
+    "inStock": "{count} ada stok",
+    "addToCart": "Tambah ke Troli",
+    "electronics": "Elektronik",
+    "fashion": "Fesyen",
+    "home_kitchen": "Rumah & Dapur",
+    "books_media": "Buku & Media",
+    "beauty_personal_care": "Kecantikan & Penjagaan Diri",
+    "sports_outdoors": "Sukan & Luar",
+    "toys_games": "Mainan & Permainan",
+    "price": "{price}"
+  },
+  "Electronics": {
+    "title": "Elektronik",
+    "subtitle": "Temui gajet dan elektronik terkini pada harga yang tiada tandingan",
+    "allElectronics": "Semua Elektronik",
+    "inStock": "Dalam Stok",
+    "addToCart": "Tambah ke Troli",
+    "sortBy": "Isih mengikut",
+    "showingResults": "Menunjukkan {start} hingga {end} daripada {total} hasil",
+    "noProducts": {
+      "title": "Tiada produk ditemui",
+      "description": "Cuba sesuaikan carian atau penapis anda untuk mencari apa yang anda cari."
+    },
+    "filters": {
+      "categories": "Kategori",
+      "priceRange": "Julat Harga",
+      "brands": "Jenama"
+    },
+    "priceRanges": {
+      "under100": "Bawah $100",
+      "100to250": "$100 - $250",
+      "250to500": "$250 - $500",
+      "500to1000": "$500 - $1000",
+      "over1000": "Atas $1000"
+    },
+    "sortOptions": {
+      "featured": "Disyorkan",
+      "priceLow": "Harga: Rendah ke Tinggi",
+      "priceHigh": "Harga: Tinggi ke Rendah",
+      "rating": "Penilaian Pelanggan"
+    },
+    "subcategories": {
+      "smartphones": "Telefon Pintar",
+      "laptops": "Komputer Riba",
+      "tablets": "Tablet",
+      "headphones": "Fon Kepala",
+      "smartwatches": "Jam Pintar",
+      "cameras": "Kamera"
+    }
+  },
+  "NewArrivals": {
+    "title": "Barang Baru",
+    "subtitle": "Terokai produk terbaharu dan inovasi untuk anda",
+    "viewDetails": "Lihat Butiran",
+    "filters": {
+      "categories": "Kategori",
+      "priceRange": "Julat Harga",
+      "clearPrice": "Kosongkan penapis harga",
+      "brands": "Jenama",
+      "clearBrands": "Kosongkan semua jenama"
+    },
+    "sort": {
+      "featured": "Disyorkan",
+      "discountHigh": "Diskaun: Tertinggi ke Terendah",
+      "priceLow": "Harga: Rendah ke Tinggi",
+      "priceHigh": "Harga: Tinggi ke Rendah"
+    },
+    "badges": {
+      "new": "Baru",
+      "hot": "Panas"
+    },
+    "viewDeal": "Lihat Tawaran",
+    "noProducts": {
+      "title": "Tiada Produk Ditemui",
+      "description": "Cuba sesuaikan carian atau penapis anda.",
+      "clearFilters": "Kosongkan semua penapis"
+    },
+    "pagination": {
+      "showing": "Menunjukkan {start} hingga {end} daripada {total}",
+      "previous": "Sebelumnya",
+      "next": "Seterusnya"
+    }
+  },
+  "home": {
+    "featured_products": "Produk Pilihan",
+    "view_all": "Lihat Semua",
+    "add_to_cart": "Tambah ke Troli",
+    "price": "{price}",
+    "currency": "PKR",
+    "best_sellers": "Paling Laris",
+    "new_arrivals": "Barang Baru",
+    "on_sale": "Promosi",
+    "trending_now": "Trending Sekarang",
+    "special_offers": "Tawaran Khas",
+    "free_shipping": "Penghantaran Percuma untuk Pesanan Melebihi {amount}",
+    "secure_payment": "Pembayaran Selamat",
+    "easy_returns": "Pulangan Mudah",
+    "customer_support": "Sokongan Pelanggan 24/7",
+    "shop_by_category": "Beli mengikut Kategori",
+    "browse_our_collection": "Lihat Koleksi Kami",
+    "electronics": "Elektronik",
+    "smartphones": "Telefon Pintar",
+    "laptops": "Komputer Riba",
+    "tablets": "Tablet",
+    "smartwatches": "Jam Pintar",
+    "accessories": "Aksesori",
+    "fashion": "Fesyen",
+    "mens_fashion": "Fesyen Lelaki",
+    "womens_fashion": "Fesyen Wanita",
+    "kids_fashion": "Fesyen Kanak-kanak",
+    "fashion_accessories": "Aksesori Fesyen",
+    "view_all_electronics": "Lihat Semua Elektronik",
+    "view_all_fashion": "Lihat Semua Fesyen",
+    "home_garden": "Rumah & Taman",
+    "furniture": "Perabot",
+    "home_decor": "Hiasan Rumah",
+    "decor": "Hiasan",
+    "kitchen": "Dapur",
+    "garden": "Taman",
+    "view_all_home": "Lihat Semua Rumah",
+    "beauty_personal_care": "Kecantikan & Penjagaan Diri",
+    "skincare": "Penjagaan Kulit",
+    "makeup": "Solek",
+    "fragrances": "Parfum",
+    "hair_care": "Penjagaan Rambut",
+    "view_all_beauty": "Lihat Semua Kecantikan",
+    "sports_outdoors": "Sukan & Luar",
+    "fitness_equipment": "Peralatan Kecergasan",
+    "camping_gear": "Peralatan Berkhemah",
+    "team_sports": "Sukan Berpasukan",
+    "outdoor_recreation": "Rekreasi Luar",
+    "view_all_sports": "Lihat Semua Sukan",
+    "toys_games": "Mainan & Permainan",
+    "educational_toys": "Mainan Pendidikan",
+    "board_games": "Permainan Papan",
+    "dolls_action_figures": "Patung & Figur Aksi",
+    "puzzles": "Teka-teki",
+    "view_all_toys": "Lihat Semua Mainan",
+    "fashion_collection": "Koleksi Fesyen",
+    "latest_fashion_trends": "Trend Fesyen Terkini",
+    "smartphone_pro": "Telefon Pintar Pro",
+    "wireless_earbuds": "Earbud Tanpa Wayar",
+    "smart_watch": "Jam Pintar",
+    "laptop_ultra": "Komputer Riba Ultra",
+    "bluetooth_speaker": "Pembesar Suara Bluetooth",
+    "mens_shirt": "Kemeja Lelaki",
+    "womens_dress": "Gaun Wanita",
+    "running_shoes": "Kasut Sukan",
+    "designer_handbag": "Beg Tangan Pereka",
+    "trending_now_description": "Lihat apa yang sedang tren sekarang",
+    "carousel": {
+      "slide1": {
+        "title": "Tawaran Istimewa",
+        "description": "Diskaun sehingga 50% untuk item terpilih",
+        "buttonText": "Beli Sekarang"
+      },
+      "slide2": {
+        "title": "Barang Baru",
+        "description": "Terokai koleksi terbaharu kami",
+        "buttonText": "Beli Sekarang"
+      },
+      "slide3": {
+        "title": "Tawaran Hebat",
+        "description": "Tawaran untuk tempoh terhad",
+        "buttonText": "Beli Sekarang"
+      }
+    }
+  },
+  "navigation": {
+    "all_categories": "Semua Kategori",
+    "electronics": "Elektronik",
+    "fashion": "Fesyen",
+    "home_living": "Rumah & Kehidupan",
+    "beauty": "Kecantikan",
+    "sports": "Sukan",
+    "books": "Buku",
+    "toys": "Mainan",
+    "grocery": "Barangan Runcit"
+  },
+  "product": {
+    "description": "Penerangan",
+    "specifications": "Spesifikasi",
+    "reviews": "Ulasan",
+    "related_products": "Produk Berkaitan",
+    "in_stock": "Ada Stok",
+    "out_of_stock": "Habis Stok",
+    "quantity": "Kuantiti",
+    "add_to_wishlist": "Tambah ke Senarai Hajat",
+    "share": "Kongsi"
+  },
+  "auth": {
+    "login": "Log Masuk",
+    "register": "Daftar",
+    "email": "E-mel",
+    "password": "Kata Laluan",
+    "forgot_password": "Lupa Kata Laluan?",
+    "dont_have_account": "Tiada akaun?",
+    "already_have_account": "Sudah ada akaun?",
+    "create_account": "Cipta Akaun",
+    "name": "Nama",
+    "confirm_password": "Sahkan Kata Laluan"
+  },
+  "CustomerService": {
+    "title": "Khidmat Pelanggan",
+    "subtitle": "Bagaimana kami dapat membantu anda hari ini?",
+    "tabs": {
+      "faq": "Soalan Lazim",
+      "contact": "Hubungi Kami",
+      "track": "Jejak Pesanan"
+    },
+    "faqTitle": "Soalan yang Sering Ditanya",
+    "needMoreHelp": "Perlukan bantuan lanjut?",
+    "contactUsPrompt": "Tidak dapat mencari apa yang anda cari? Pasukan khidmat pelanggan kami siap membantu.",
+    "contactUsButton": "Hubungi Kami",
+    "contactUs": "Hubungi Kami",
+    "form": {
+      "name": "Nama Penuh",
+      "email": "Alamat E-mel",
+      "orderId": "ID Pesanan",
+      "optional": "(pilihan)",
+      "subject": "Subjek",
+      "selectSubject": "Pilih subjek",
+      "orderIssue": "Isu Pesanan",
+      "shipping": "Penghantaran",
+      "return": "Pulangan",
+      "payment": "Pembayaran",
+      "other": "Lain-lain",
+      "message": "Mesej",
+      "submit": "Hantar Mesej",
+      "submitting": "Menghantar...",
+      "success": "Mesej anda telah dihantar dengan berjaya!"
+    },
+    "contactInfo": {
+      "title": "Maklumat Hubungan",
+      "email": "E-mel",
+      "phone": "Telefon",
+      "hours": "Waktu Perniagaan",
+      "hoursValue": "Isnin - Jumaat: 9:00 pagi - 6:00 petang (PST)",
+      "address": "Alamat",
+      "addressLine1": "123 Jalan Tijarah",
+      "addressLine2": "Karachi, 75500, Pakistan"
+    },
+    "trackOrder": {
+      "title": "Jejak Pesanan Anda",
+      "description": "Masukkan ID pesanan anda untuk memeriksa status pesanan.",
+      "placeholder": "Masukkan ID pesanan (cth: ORD-12345)",
+      "helpText": "Anda boleh menemui ID pesanan anda dalam e-mel pengesahan pesanan atau dalam pesanan akaun anda.",
+      "button": "Jejak Pesanan",
+      "tracking": "Menjejaki...",
+      "viewAllOrders": "Lihat semua pesanan anda",
+      "viewAllPrompt": "Mencari semua pesanan anda?",
+      "viewDetails": "Lihat Butiran Pesanan",
+      "validation": {
+        "required": "Sila masukkan ID pesanan untuk menjejaki"
+      },
+      "status": {
+        "ordered": "Pesanan Dibuat",
+        "processing": "Diproses",
+        "shipped": "Dihantar",
+        "delivered": "Telah Dihantar",
+        "cancelled": "Dibatalkan"
+      },
+      "details": {
+        "trackingNumber": "Nombor Penjejakan",
+        "carrier": "Pembawa",
+        "estimatedDelivery": "Penghantaran Dijangka",
+        "orderHistory": "Sejarah Pesanan"
+      },
+      "error": "Tidak dapat menjejaki pesanan. Sila periksa ID pesanan dan cuba lagi.",
+      "notFound": "Tiada pesanan ditemui dengan ID ini. Sila periksa dan cuba lagi."
+    },
+    "helpfulLinks": {
+      "title": "Pautan Berguna",
+      "payment": {
+        "title": "Pilihan Pembayaran",
+        "description": "Ketahui tentang kaedah pembayaran selamat kami"
+      },
+      "returns": {
+        "title": "Pulangan & Bayaran Balik",
+        "description": "Dasar pulangan mudah kami"
+      },
+      "shipping": {
+        "title": "Maklumat Penghantaran",
+        "description": "Masa penghantaran dan pilihan penghantaran"
+      },
+      "faq": {
+        "title": "Soalan Lazim",
+        "description": "Cari jawapan kepada soalan biasa"
+      }
+    },
+    "faq1": {
+      "question": "Bagaimana saya boleh menjejaki pesanan saya?",
+      "answer": "Anda boleh menjejaki pesanan anda dengan memasukkan ID pesanan anda di bahagian Jejak Pesanan. Anda akan menerima nombor penjejakan setelah pesanan anda dihantar."
+    },
+    "faq2": {
+      "question": "Apakah dasar pulangan kami?",
+      "answer": "Kami menawarkan dasar pulangan 30 hari untuk kebanyakan item. Item mesti dalam keadaan asal dengan semua tanda masih tertakluk. Sesetengah item mungkin dikecualikan."
+    },
+    "faq3": {
+      "question": "Bagaimana saya boleh menghubungi khidmat pelanggan?",
+      "answer": "Anda boleh menghubungi kami melalui borang hubungan, menghantar e-mel ke support@tijarah.pk, atau menelepon +92 300 1234567 semasa waktu perniagaan."
+    },
+    "faq4": {
+      "question": "Kaedah pembayaran apa yang anda terima?",
+      "answer": "Kami menerima semua kad kredit/debit utama, pemindahan bank, dan bayaran tunai semasa penghantaran (COD) untuk pesanan yang layak."
+    },
+    "faq5": {
+      "question": "Berapa lama penghantaran mengambil?",
+      "answer": "Penghantaran standard biasanya mengambil 3-5 hari kerja di dalam Malaysia. Masa penghantaran antarabangsa berbeza-beza mengikut destinasi."
+    }
+  },
+  "checkout": {
+    "shipping_address": "Alamat Penghantaran",
+    "billing_address": "Alamat Pengebilan",
+    "payment_method": "Kaedah Pembayaran",
+    "order_summary": "Ringkasan Pesanan",
+    "place_order": "Letak Pesanan",
+    "subtotal": "Jumlah Kecil",
+    "shipping": "Penghantaran",
+    "tax": "Cukai",
+    "total": "Jumlah",
+    "proceed_to_checkout": "Teruskan ke Pembayaran"
+  },
+  "smartphones": {
+    "title": "Telefon Pintar",
+    "subtitle": "Telefon mudah alih terbaharu daripada jenama terkemuka",
+    "products_found": "{count} produk ditemui",
+    "no_products": "Tiada telefon pintar ditemui",
+    "try_changing_filters": "Cuba ubah penapis anda untuk mencari apa yang anda cari.",
+    "filter": "Penapis",
+    "sort": {
+      "featured": "Disyorkan",
+      "price_low_high": "Harga: Rendah ke Tinggi",
+      "price_high_low": "Harga: Tinggi ke Rendah",
+      "top_rated": "Dinilai Tertinggi",
+      "newest": "Terbaharu"
+    },
+    "brand": "Jenama",
+    "all_brands": "Semua Jenama",
+    "price_range": "Julat Harga",
+    "all_prices": "Semua Harga",
+    "ram": "RAM",
+    "all_ram": "Semua RAM",
+    "storage": "Storan",
+    "all_storage": "Semua Storan",
+    "reset_filters": "Tetap Semula Penapis",
+    "apply_filters": "Gunakan Penapis",
+    "add_to_cart": "Tambah ke Troli",
+    "reviews": "ulasan",
+    "previous": "Sebelumnya",
+    "next": "Seterusnya",
+    "specs": {
+      "camera": "Kamera",
+      "battery": "Bateri",
+      "display": "Paparan",
+      "processor": "Pemproses",
+      "os": "Sistem Operasi"
+    }
+  },
+  "deals": {
+    "title": "Flash Deals Hari Ini",
+    "subtitle": "TAWARAN MASA TERHAD",
+    "description": "Dapatkan tawaran hebat pada produk kegemaran anda sebelum mereka hilang!",
+    "title_sub": "Jangan terlepas tawaran hebat ini. Kuantiti terhad!",
+    "deals_count": "{count} Tawaran Panas Tersedia",
+    "filters": "Penapis",
+    "filter_by_category": "Tapis mengikut Kategori",
+    "filter_by_discount": "Tapis mengikut Diskaun",
+    "all_discounts": "Semua Diskaun",
+    "or_more": "atau lebih",
+    "no_deals_found": "Tiada tawaran dijumpai",
+    "try_changing_filters": "Cuba ubah penapis",
+    "load_more": "Muat Turun Lebih Banyak Tawaran",
+    "hours": "Jam",
+    "minutes": "Minit",
+    "seconds": "Saat",
+    "sold": "telah dijual",
+    "add_to_cart": "Tambah ke Troli",
+    "categories": {
+      "all": "Semua Kategori",
+      "electronics": "Elektronik",
+      "fashion": "Fesyen",
+      "home": "Rumah & Taman",
+      "beauty": "Kecantikan"
+    },
+    "sort": {
+      "popular": "Paling Popular",
+      "newest": "Tawaran Terbaharu",
+      "discount": "Diskaun Tertinggi",
+      "price_low": "Harga: Rendah ke Tinggi",
+      "price_high": "Harga: Tinggi ke Rendah"
+    },
+    "filter_options": {
+      "all_categories": "Semua Kategori",
+      "price_range": "Julat Harga",
+      "clear_filters": "Kosongkan Semua Penapis",
+      "discount": "Jenama",
+      "showing": "Menunjukkan {start} hingga {end} daripada {total} hasil"
+    },
+    "sort_options": {
+      "ending_soon": "Akan Berakhir Segera",
+      "discount": "Diskaun Terbesar",
+      "price_low": "Harga: Rendah ke Tinggi",
+      "price_high": "Harga: Tinggi ke Rendah"
+    },
+    "newsletter": {
+      "title": "Dapatkan Tawaran di Inbox Anda",
+      "description": "Langgan surat berita kami dan jangan terlepas tawaran hebat lagi.",
+      "placeholder": "Masukkan alamat e-mel anda",
+      "button": "Langgan Sekarang"
+    },
+    "off": "DISKAUN",
+    "sold": "terjual",
+    "view_details": "Lihat Tawaran",
+    "save": "Simpan",
+    "free_shipping": "Penghantaran Percuma",
+    "limited_stock": "Stok Terhad"
+  },
+  "footer": {
+    "about_title": "Tentang Tijarah.pk",
+    "about_description": "Satu tempat untuk semua keperluan anda. Kami menyediakan produk berkualiti dengan penghantaran pantas di seluruh Asia.",
+    "quick_links_title": "Pautan Pantas",
+    "home": "Laman Utama",
+    "shop": "Beli-belah",
+    "categories": "Kategori",
+    "deals": "Tawaran",
+    "customer_service_title": "Khidmat Pelanggan",
+    "my_account": "Akaun Saya",
+    "order_tracking": "Jejak Pesanan",
+    "wishlist": "Senarai Hajat",
+    "customer_service": "Khidmat Pelanggan",
+    "returns_exchange": "Pulangan/Pertukaran",
+    "contact_title": "Hubungi Kami",
+    "address": "123 Jalan Perniagaan, Bandar, Negara",
+    "phone": "+92 123 4567890",
+    "email": "info@tijarah.pk",
+    "about_us": "Tentang Kami",
+    "contact_us": "Hubungi Kami",
+    "privacy_policy": "Dasar Privasi",
+    "terms_conditions": "Terma & Syarat",
+    "return_policy": "Dasar Pulangan",
+    "shipping_policy": "Dasar Penghantaran",
+    "newsletter": "Langgan surat berita kami",
+    "newsletter_placeholder": "Masukkan e-mel anda",
+    "subscribe": "Langgan",
+    "follow_us": "Ikuti Kami",
+    "copyright": "© {year} Tijarah.pk. Semua hak cipta terpelihara."
+  },
+  "home_decor": {
+    "title": "Hiasan Rumah",
+    "subtitle": "Tingkatkan ruang hidup anda dengan item hiasan rumah yang indah",
+    "products_found": "{count} produk ditemui",
+    "no_products": "Tiada item hiasan rumah ditemui",
+    "filters": {
+      "all_categories": "Semua Kategori",
+      "price_range": "Julat Harga",
+      "brand": "Jenama",
+      "type": "Jenis",
+      "clear_all": "Kosongkan Semua"
+    },
+    "sort_by": "Isih mengikut",
+    "sort_options": {
+      "featured": "Disyorkan",
+      "newest": "Barang Baru Terbaharu",
+      "price_low_high": "Harga: Rendah ke Tinggi",
+      "price_high_low": "Harga: Tinggi ke Rendah",
+      "top_rated": "Dinilai Tertinggi"
+    },
+    "showing_results": "Menunjukkan {count} hasil"
+  },
+  "ReturnsAndOrders": {
+    "title": "Pesanan & Pulangan Anda",
+    "subtitle": "Lihat dan uruskan pesanan serta pulangan anda di satu tempat",
+    "tabs": {
+      "orders": "Pesanan",
+      "returns": "Pulangan"
+    },
+    "noOrders": "Tiada pesanan ditemui",
+    "noOrdersDescription": "Anda belum membuat pesanan. Mulakan membeli-belah untuk melihat pesanan anda di sini.",
+    "noReturns": "Tiada pulangan ditemui",
+    "noReturnsDescription": "Anda tidak mempunyai pulangan atau bayaran balik pada masa ini.",
+    "continueShopping": "Teruskan Membeli-belah",
+    "selectAll": "Pilih semua",
+    "selectedCount": "{count} dipilih",
+    "returnSelectedItems": "Pulangkan Item Terpilih",
+    "orderPlaced": "Pesanan dibuat",
+    "order": "Pesanan",
+    "quantity": "Kuantiti",
+    "total": "Jumlah",
+    "tracking": "Penjejakan #",
+    "estimatedDelivery": "Penghantaran dijangka",
+    "trackPackage": "Jejak Pakej",
+    "viewOrder": "Lihat Pesanan",
+    "cancelOrder": "Batalkan Pesanan",
+    "returnItem": "Pulangkan Item",
+    "returnRequested": "Pulangan diminta",
+    "return": "Pulangan",
+    "itemsReturned": "Item yang akan dipulangkan",
+    "reason": "Sebab",
+    "condition": "Keadaan",
+    "refundAmount": "Jumlah bayaran balik",
+    "refundMethod": "Kaedah bayaran balik",
+    "returnTracking": "Penjejakan pulangan #",
+    "carrier": "Pembawa",
+    "viewReturnDetails": "Lihat Butiran Pulangan",
+    "status": {
+      "processing": "Diproses",
+      "shipped": "Dihantar",
+      "delivered": "Telah Dihantar",
+      "cancelled": "Dibatalkan",
+      "returnRequested": "Pulangan Diminta",
+      "returnApproved": "Pulangan Diluluskan",
+      "returnInTransit": "Pulangan dalam Perjalanan",
+      "refundProcessed": "Bayaran Balik Diproses",
+      "refundRejected": "Bayaran Balik Ditolak"
+    },
+    "noOrdersSelected": "Sila pilih sekurang-kurangnya satu pesanan untuk dipulangkan",
+    "initiatingReturn": "Memulakan proses pulangan...",
+    "trackingNotAvailable": "Maklumat penjejakan belum tersedia",
+    "confirmCancelOrder": "Adakah anda pasti ingin membatalkan pesanan ini? Tindakan ini tidak boleh dibuat alik.",
+    "orderCancelled": "Pesanan anda telah dibatalkan"
+  },
+  "ProductDetail": {
+    "notFound": {
+      "title": "Produk Tidak Ditemui",
+      "description": "Produk yang anda cari tidak wujud atau telah dialih keluar.",
+      "continueShopping": "Teruskan Membeli-belah"
+    },
+    "backButton": "Kembali ke Produk",
+    "rating": {
+      "withRating": "{rating} ({count} ulasan)",
+      "noRating": "Tiada penilaian lagi ({count} ulasan)"
+    },
+    "savePercentage": "Jimat {percent}%",
+    "keyFeatures": "Ciri-ciri Utama",
+    "quantity": "Kuantiti",
+    "stock": {
+      "inStock": "Ada Stok ({count} unit)",
+      "outOfStock": "Habis Stok"
+    },
+    "buttons": {
+      "addToCart": "Tambah ke Troli",
+      "added": "Ditambah!",
+      "outOfStock": "Habis Stok"
+    },
+    "shipping": {
+      "inStock": "Ada Stok - Biasanya dihantar dalam 24 jam",
+      "outOfStock": "Habis Stok",
+      "free": "Penghantaran Percuma",
+      "onAllOrders": "untuk Semua Pesanan"
+    },
+    "returnPolicy": {
+      "days": "Dasar Pulangan {days} Hari",
+      "policy": "Jaminan Wang Dikembalikan"
+    },
+    "navigation": {
+      "home": "Utama",
+      "products": "Produk"
+    },
+    "stock": {
+      "readyToShip": "Sedia Dihantar",
+      "soldOut": "Habis Dijual"
+    },
+    "reviews": "Ulasan",
+    "buttons": {
+      "addToCart": "Tambah ke Troli Beli-belah",
+      "addedToCart": "Ditambah ke Troli"
+    },
+    "trust": {
+      "swiftDelivery": "Penghantaran Pantas",
+      "freeOver": "Percuma melebihi $50",
+      "secureWarranty": "Jaminan Selamat",
+      "genuine": "100% Asli"
+    },
+    "sections": {
+      "coreFeatures": "Ciri-ciri Utama",
+      "technicalSpecifications": "Spesifikasi Teknikal"
+    },
+    "toast": {
+      "addedToCart": "{name} ditambah ke troli!",
+      "failedToAdd": "Gagal menambah item ke troli"
+    }
+  },
+  "SpecialOffers": {
+    "title": "Tawaran Istimewa & Tawaran",
+    "subtitle": "Tawaran terbatas untuk produk kegemaran anda. Jangan ketinggalan tawaran hebat ini!",
+    "filters": {
+      "categories": "Kategori",
+      "priceRange": "Julat Harga",
+      "clearPrice": "Kosongkan penapis harga",
+      "brands": "Jenama",
+      "clearBrands": "Kosongkan jenama"
+    },
+    "sort": {
+      "featured": "Disyorkan",
+      "discountHigh": "Diskaun: Tertinggi ke Terendah",
+      "priceLow": "Harga: Rendah ke Tinggi",
+      "priceHigh": "Harga: Tinggi ke Rendah"
+    },
+    "badges": {
+      "new": "Baru",
+      "hot": "Panas"
+    },
+    "viewDeal": "Lihat Tawaran",
+    "noProducts": {
+      "title": "Tiada Produk Ditemui",
+      "description": "Cuba sesuaikan carian atau penapis anda.",
+      "clearFilters": "Kosongkan semua penapis"
+    },
+    "pagination": {
+      "showing": "Menunjukkan {start} hingga {end} daripada {total} hasil",
+      "previous": "Sebelumnya",
+      "next": "Seterusnya"
+    }
+  },
+  "products": {
+    "iphone-15-pro-max": {
+      "name": "iPhone 15 Pro Max",
+      "description": "Telefon pintar premium dengan cip A17 Pro dan sistem kamera profesional."
+    },
+    "macbook-pro-16": {
+      "name": "MacBook Pro 16 inci",
+      "description": "MacBook Pro berkuasa dengan cip M3 Max untuk profesional."
+    },
+    "smartphone-1": {
+      "name": "iPhone 15",
+      "description": "Telefon pintar terkini dengan sistem kamera canggih dan cip A16 Bionic",
+      "specs": {
+        "Jenama": "Apple",
+        "Model": "iPhone 15",
+        "Sistem Operasi": "iOS 16",
+        "Paparan": "Super Retina XDR 6.1 inci",
+        "Cip": "A16 Bionic",
+        "Kamera Belakang": "48MP utama + 12MP ultra lebar",
+        "Kamera Depan": "12MP TrueDepth",
+        "Hayat Bateri": "Sehingga 20 jam main balik video",
+        "Rintangan Air & Habuk": "IP68"
+      },
+      "warna": [
+        "Hitam",
+        "Putih",
+        "Biru",
+        "Merah Jambu",
+        "Kuning"
+      ],
+      "ciri_ciri": [
+        "Cip A16 Bionic untuk prestasi luar biasa",
+        "Kamera utama 48MP untuk gambar sempurna",
+        "Reka bentuk moden dengan Dynamic Island",
+        "Port USB-C untuk pengecasan lebih pantas",
+        "Pelindung Seramik untuk kaca hadapan lebih tahan lasak"
+      ]
+    },
+    "smartphone-2": {
+      "name": "Samsung Galaxy S24 Ultra",
+      "description": "Telefon pintar premium dengan ciri AI maju dan kamera yang luar biasa.",
+      "specs": {
+        "Jenama": "Samsung",
+        "Model": "Galaxy S24 Ultra",
+        "Sistem Operasi": "Android 13",
+        "Paparan": "6.8 inci Dynamic AMOLED 2X",
+        "Pemproses": "Snapdragon 8 Gen 3",
+        "Memori": "12GB RAM",
+        "Storan": "256GB / 512GB / 1TB",
+        "Kamera Belakang": "200MP + 50MP + 12MP + 10MP",
+        "Kamera Depan": "40MP",
+        "Baterai": "5000mAh"
+      },
+      "warna": [
+        "Hitam Onyx",
+        "Krim",
+        "Hijau",
+        "Ungu"
+      ],
+      "ciri_ciri": [
+        "Kamera utama 200MP",
+        "Kadar segar semula 120Hz",
+        "Sokongan S Pen",
+        "Kalis air dan habuk IP68",
+        "Pengecasan wayarles"
+      ]
+    },
+    "ipad-air": {
+      "name": "iPad Air",
+      "description": "iPad serba guna dengan cip M1 dan paparan Liquid Retina yang hebat."
+    },
+    "laptop-1": {
+      "name": "MacBook Pro",
+      "description": "Komputer riba berprestasi tinggi dengan cip M2 Pro/Max dan paparan Liquid Retina XDR",
+      "specs": {
+        "Jenama": "Apple",
+        "Model": "MacBook Pro",
+        "Sistem Operasi": "macOS",
+        "Paparan": "14.2 atau 16.2 inci Liquid Retina XDR",
+        "Pemproses": "M2 Pro atau M2 Max",
+        "Memori": "16GB RAM (boleh dinaik taraf)",
+        "Storan": "512GB SSD (boleh dinaik taraf)",
+        "Hayat Bateri": "Sehingga 22 jam main balik video"
+      },
+      "warna": [
+        "Perak",
+        "Kelabu Angkasa"
+      ],
+      "ciri_ciri": [
+        "Cip M2 Pro/Max untuk prestasi tinggi",
+        "Paparan Liquid Retina XDR yang menakjubkan",
+        "Hayat bateri yang tahan lama dan cekap tenaga",
+        "Sistem penyejukan yang dipertingkat",
+        "Port HDMI dan pembaca kad SD"
+      ]
+    },
+    "smartwatch-1": {
+      "name": "Apple Watch Ultra 3",
+      "description": "Jam tangan pintar canggih yang direka untuk pengembaraan paling mencabar",
+      "specs": {
+        "Jenama": "Apple",
+        "Model": "Watch Ultra 3",
+        "Paparan": "Always-On Retina yang sangat terang",
+        "Kalis Air": "Sehingga 100 meter",
+        "Hayat Bateri": "Sehingga 36 jam dengan penggunaan biasa",
+        "Sambungan": "GPS + Selular",
+        "Bahan": "Kes Titanium",
+        "Keserasian": "iPhone 8 dan yang lebih baru"
+      },
+      "warna": [
+        "Titanium Asli",
+        "Titanium Biru",
+        "Titanium Hitam"
+      ],
+      "ciri_ciri": [
+        "GPS dwi-frekuensi untuk penjejakan lokasi yang tepat",
+        "Sensor suhu untuk pemantauan kesihatan lanjutan",
+        "S.O.S. Kecemasan dan Pengesanan Perlanggaran",
+        "Cip Ultra Wideband baru untuk Cari Saya yang lebih baik",
+        "Reka bentuk tahan lasak dan ringan"
+      ]
+    },
+    "tablet-1": {
+      "name": "Samsung Galaxy Tab S9",
+      "description": "Tablet Android berprestasi tinggi dengan S Pen dan paparan Dynamic AMOLED 2X",
+      "specs": {
+        "Jenama": "Samsung",
+        "Model": "Galaxy Tab S9",
+        "Sistem Operasi": "Android 13 dengan One UI 5.1",
+        "Paparan": "11 inci Dynamic AMOLED 2X, 120Hz",
+        "Pemproses": "Qualcomm Snapdragon 8 Gen 2",
+        "Memori": "8GB / 12GB RAM",
+        "Storan": "128GB / 256GB (boleh dikembangkan dengan kad microSD sehingga 1TB)",
+        "Kamera Belakang": "13MP + 8MP ultra lebar",
+        "Kamera Depan": "12MP",
+        "Bateri": "8400mAh dengan pengecasan pantas 45W"
+      },
+      "warna": [
+        "Beige",
+        "Graphite",
+        "Silver"
+      ],
+      "ciri_ciri": [
+        "S Pen disertakan dalam pakej",
+        "Paparan Dynamic AMOLED 2X dengan kadar segar semula 120Hz",
+        "Reka bentuk tahan air dan debu IP68",
+        "Pembesar suara quad AKG dengan Dolby Atmos",
+        "Sokongan DeX untuk pengalaman seperti komputer riba"
+      ]
+    },
+    "headphones-1": {
+      "name": "Sony WH-1000XM3",
+      "description": "Fon kepala wayarles premium dengan pembatalan bunyi bising yang canggih dan kualiti audio yang luar biasa",
+      "specs": {
+        "Jenama": "Sony",
+        "Model": "WH-1000XM3",
+        "Jenis": "Fon Kepala Over-Ear Nirkabel",
+        "Pembatalan Bunyi Bising": "HD Noise Cancelling Processor QN1",
+        "Masa Bateri": "Sehingga 30 jam (dengan NC dihidupkan)",
+        "Masa Cas Pantas": "10 minit cas untuk 5 jam penggunaan",
+        "Pembesar Suara": "40mm, jenis dinamik",
+        "Sambungan": "Bluetooth 4.2, NFC, Kabel Audio"
+      },
+      "warna": [
+        "Hitam",
+        "Perak"
+      ],
+      "ciri_ciri": [
+        "Pembatalan bunyi bising HD canggih",
+        "Pemproses audio DSEE HX",
+        "Kawalan sentuh intuitif",
+        "Mikrofon terbina dalam untuk panggilan jelas",
+        "Reka bentuk yang selesa untuk penggunaan jangka panjang"
+      ]
+    },
+    "airpods-pro-2": {
+      "name": "AirPods Pro 2",
+      "description": "Earbud berkualiti tinggi dengan pembatalan bunyi bising aktif dan kualiti suara yang luar biasa"
+    },
+    "samsung-s23-ultra": {
+      "name": "Samsung Galaxy S23 Ultra",
+      "description": "Telefon pintar maju dengan kamera 200MP dan paparan dinamik"
+    },
+    "sony-wh-1000xm5": {
+      "name": "Sony WH-1000XM5",
+      "description": "Fon telinga wayarles dengan pembatalan bunyi bising lanjutan dan hayat bateri 30 jam"
+    },
+    "ipad-pro-12-9": {
+      "name": "iPad Pro 12.9 inci",
+      "description": "Tablet berkuasa dengan paparan Liquid Retina XDR dan cip M2"
+    },
+    "samsung-galaxy-tab-s9": {
+      "name": "Samsung Galaxy Tab S9",
+      "description": "Tablet nipis dengan S Pen dan paparan Dynamic AMOLED"
+    },
+    "sony-a7-iv": {
+      "name": "Sony Alpha 7 IV",
+      "description": "Kamera tanpa cermin profesional dengan resolusi 61 megapiksel dan rakaman video 4K"
+    },
+    "macbook-air-15": {
+      "name": "MacBook Air 15 inci",
+      "description": "Komputer riba berkuasa dengan cip M2 dan hayat bateri 18 jam"
+    },
+    "samsung-galaxy-watch6": {
+      "name": "Samsung Galaxy Watch6",
+      "description": "Jam pintar maju dengan pemantauan kesihatan dan penjejakan kecergasan"
+    },
+    "offer-1": {
+      "name": "iPhone 15 Pro - Tawaran Terhad",
+      "description": "Alami iPhone terkini dengan sistem kamera canggih dan cip A16 Bionic.",
+      "specs": {
+        "Jenama": "Apple",
+        "Model": "iPhone 15 Pro",
+        "Paparan": "6.1 inci Super Retina XDR",
+        "Pemproses": "A16 Bionic",
+        "Storan": "128GB / 256GB / 512GB / 1TB",
+        "Kamera": "48MP + 12MP + 12MP tiga kamera",
+        "Bateri": "Sehingga 23 jam main balik video"
+      },
+      "colors": [
+        "Hitam Angkasa",
+        "Perak",
+        "Emas",
+        "Ungu Tua"
+      ],
+      "features": [
+        "Sistem kamera canggih",
+        "Cip A16 Bionic",
+        "Paparan Super Retina XDR",
+        "Pelindung hadapan Seramik Shield",
+        "Sokongan 5G"
+      ]
+    },
+    "offer-2": {
+      "name": "Samsung Galaxy S24 Ultra - Diskaun Istimewa",
+      "description": "Paparan Dinamik AMOLED 2X 200MP, pemproses Snapdragon 8 Gen 3, dan hayat bateri sepanjang hari.",
+      "specs": {
+        "Jenama": "Samsung",
+        "Model": "Galaxy S24 Ultra",
+        "Paparan": "6.8 inci Dinamik AMOLED 2X",
+        "Pemproses": "Snapdragon 8 Gen 3",
+        "Storan": "256GB / 512GB / 1TB",
+        "Kamera": "200MP + 50MP + 12MP + 10MP",
+        "Bateri": "5000mAh"
+      },
+      "colors": [
+        "Hitam Onyx",
+        "Krim",
+        "Hijau",
+        "Ungu"
+      ],
+      "features": [
+        "Kamera utama 200MP",
+        "Kadar segar semula 120Hz",
+        "Sokongan S Pen",
+        "Kalis air dan habuk IP68",
+        "Pengecasan wayarles"
+      ]
+    },
+    "offer-3": {
+      "name": "MacBook Pro 16 inci - Edisi M3 Pro",
+      "description": "Prestasi hebat dengan cip M3 Pro, paparan Liquid Retina XDR, dan reka bentuk yang anggun.",
+      "specs": {
+        "Jenama": "Apple",
+        "Model": "MacBook Pro 16 inci",
+        "Paparan": "16.2 inci Liquid Retina XDR",
+        "Pemproses": "M3 Pro",
+        "Memori": "16GB",
+        "Storan": "512GB",
+        "Bateri": "Sehingga 22 jam"
+      },
+      "colors": [
+        "Perak",
+        "Kelabu Angkasa"
+      ],
+      "features": [
+        "Cip M3 Pro",
+        "Paparan Liquid Retina XDR",
+        "Kamera FaceTime HD 1080p",
+        "Sistem bunyi 6 pembesar suara",
+        "Reka bentuk anggun"
+      ]
+    },
+    "offer-4": {
+      "name": "Sony WH-1000XM5 - Fon Telinga Wayarles",
+      "description": "Pembatalan bunyi bising termaju dan kualiti audio luar biasa dengan teknologi DSEE Extreme.",
+      "specs": {
+        "Jenama": "Sony",
+        "Model": "WH-1000XM5",
+        "Sambungan": "Bluetooth 5.2",
+        "Hayat Bateri": "Sehingga 30 jam",
+        "Pembatalan Bunyi Bising": "Ya",
+        "Berat": "250 gram",
+        "Kalis Air": "IPX4"
+      },
+      "colors": [
+        "Hitam",
+        "Perak",
+        "Biru"
+      ],
+      "features": [
+        "Pembatalan bunyi bising termaju",
+        "Sistem pelbagai mikrofon",
+        "Kawalan sentuh",
+        "Pengecasan pantas",
+        "Tahan peluh"
+      ]
+    },
+    "google-pixel-8-pro": {
+      "name": "Google Pixel 8 Pro",
+      "description": "Kamera kelas pertama dengan ciri AI Google"
+    },
+    "xiaomi-13-pro": {
+      "name": "Xiaomi Mi 11 Ultra",
+      "description": "Spesifikasi tinggi pada harga yang kompetitif"
+    },
+    "macbook-pro-16": {
+      "name": "MacBook Pro 16 inci",
+      "description": "Komputer riba berkuasa dengan cip M2 Max dan skrin Liquid Retina XDR"
+    },
+    "dell-xps-15": {
+      "name": "Dell XPS 15",
+      "description": "Komputer riba Windows premium dengan skrin OLED 4K"
+    },
+    "hp-spectre-x360": {
+      "name": "HP Spectre x360",
+      "description": "Komputer riba boleh tukar dengan skrin OLED 13.5 inci 3K2K"
+    },
+    "lenovo-thinkpad-x1": {
+      "name": "Lenovo ThinkPad X1 Carbon",
+      "description": "Komputer riba perniagaan dengan ketahanan gred tentera"
+    },
+    "asus-rog-zephyrus": {
+      "name": "ASUS ROG Zephyrus G14",
+      "description": "Komputer riba gaming dengan AMD Ryzen 9 dan RTX 3080"
+    },
+    "microsoft-surface-laptop": {
+      "name": "Microsoft Surface Laptop 5",
+      "description": "Komputer riba Windows yang bergaya dengan skrin sentuh PixelSense"
+    }
+  },
+  "Sell": {
+    "title": "Jual di Tijarah.pk",
+    "subtitle": "Senaraikan produk anda dan jangkau jutaan pelanggan",
+    "sections": {
+      "basicInfo": "Maklumat Asas",
+      "priceQuantity": "Harga & Kuantiti",
+      "photos": "Foto",
+      "shipping": "Pilihan Penghantaran",
+      "returnPolicy": "Dasar Pulangan",
+      "paymentMethods": "Kaedah Pembayaran",
+      "location": "Lokasi"
+    },
+    "form": {
+      "title": "Tajuk Produk *",
+      "category": "Kategori *",
+      "selectCategory": "Pilih kategori",
+      "subcategory": "Subkategori",
+      "selectSubcategory": "Pilih subkategori",
+      "condition": "Keadaan *",
+      "price": "Harga *",
+      "quantity": "Kuantiti *",
+      "uploadPhoto": "Muat naik foto",
+      "orDragDrop": "atau seret dan lepas",
+      "photoRequirements": "PNG, JPG, JPEG sehingga 10MB (maks 10 imej)",
+      "removeImage": "Buang imej",
+      "imagesUploaded": "{count} {count, plural, one {imej} other {imej}} dimuat naik",
+      "localPickup": "Pengambilan Tempatan",
+      "localPickupHelp": "Pembeli boleh mengambil item secara peribadi",
+      "freeShipping": "Penghantaran Percuma",
+      "freeShippingHelp": "Tawarkan penghantaran percuma untuk menarik lebih ramai pembeli",
+      "calculatedShipping": "Hitung Penghantaran",
+      "calculatedShippingHelp": "Kos penghantaran akan dikira berdasarkan lokasi pembeli",
+      "shippingCost": "Kos Penghantaran",
+      "location": "Lokasi Item",
+      "locationPlaceholder": "Bandar, Negara",
+      "locationHelp": "Bantu pembeli mengetahui di mana item berada",
+      "agreeToTerms": "Saya bersetuju dengan",
+      "termsAndConditions": "Dengan menyenaraikan item anda, anda bersetuju dengan",
+      "termsOfService": "Terma Perkhidmatan",
+      "and": "dan",
+      "privacyPolicy": "Dasar Privasi",
+      "saveDraft": "Simpan sebagai Draf",
+      "publishListing": "Terbitkan Senarai",
+      "submitting": "Menerbitkan..."
+    },
+    "conditions": {
+      "new": "Baru",
+      "likeNew": "Seperti Baru",
+      "good": "Baik",
+      "fair": "Adil",
+      "poor": "Buruk"
+    },
+    "returnPolicies": {
+      "7days": "Pulangan 7 Hari",
+      "14days": "Pulangan 14 Hari",
+      "30days": "Pulangan 30 Hari",
+      "noReturns": "Tiada Pulangan"
+    },
+    "paymentMethods": {
+      "cashOnDelivery": "Bayaran semasa Penghantaran",
+      "cashOnDeliveryHelp": "Terima pembayaran apabila pembeli menerima item",
+      "bankTransfer": "Pemindahan Bank",
+      "bankTransferHelp": "Pembeli akan memindahkan wang ke akaun bank anda",
+      "creditCard": "Kad Kredit/Debit",
+      "creditCardHelp": "Pembayaran dalam talian yang selamat"
+    },
+    "successMessage": "Senarai anda telah diterbitkan dengan berjaya!",
+    "validation": {
+      "titleRequired": "Sila masukkan tajuk untuk senarai anda",
+      "descriptionRequired": "Sila masukkan penerangan untuk senarai anda",
+      "categoryRequired": "Sila pilih kategori",
+      "validPrice": "Sila masukkan harga yang sah",
+      "validQuantity": "Sila masukkan kuantiti yang sah",
+      "atLeastOneImage": "Sila muat naik sekurang-kurangnya satu imej"
+    },
+    "errors": {
+      "fetchCategories": "Gagal memuatkan kategori. Sila cuba lagi.",
+      "submissionError": "Gagal menerbitkan senarai anda. Sila cuba lagi."
+    }
+  },
+  "Smartphones": {
+    "title": "Telefon Pintar",
+    "subtitle": "Temui telefon pintar terkini dengan harga yang tidak dapat ditandingi",
+    "categories": "Kategori",
+    "priceRange": "Julat Harga",
+    "brands": "Jenama",
+    "sortBy": "Susun mengikut:",
+    "featured": "Pilihan",
+    "priceLow": "Harga: Rendah ke Tinggi",
+    "priceHigh": "Harga: Tinggi ke Rendah",
+    "rating": "Penarafan",
+    "showingResults": "Menunjukkan {start}-{end} daripada {total} produk",
+    "inStock": "Dalam Stok",
+    "addToCart": "Tambah ke troli",
+    "previous": "Sebelumnya",
+    "next": "Seterusnya",
+    "subcategories": {
+      "flagship": "Telefon Bendera",
+      "midRange": "Julat Pertengahan",
+      "budget": "Telefon Belanjawan",
+      "foldable": "Telefon Lipat",
+      "gaming": "Telefon Gaming"
+    },
+    "priceRanges": {
+      "under200": "Di bawah $200",
+      "200to500": "$200 - $500",
+      "500to1000": "$500 - $1,000",
+      "1000to1500": "$1,000 - $1,500",
+      "1500to2000": "$1,500 - $2,000",
+      "over2000": "Lebih $2,000"
+    },
+    "brandNames": {
+      "apple": "Apple",
+      "samsung": "Samsung",
+      "google": "Google",
+      "oneplus": "OnePlus",
+      "xiaomi": "Xiaomi",
+      "nothing": "Nothing"
+    }
+  },
+  "Laptops": {
+    "title": "Komputer Riba",
+    "subtitle": "Temui komputer riba yang sesuai untuk kerja, permainan, dan kreativiti",
+    "categories": "Kategori",
+    "priceRange": "Julat Harga",
+    "brands": "Jenama",
+    "sortBy": "Susun mengikut:",
+    "featured": "Pilihan",
+    "priceLow": "Harga: Rendah ke Tinggi",
+    "priceHigh": "Harga: Tinggi ke Rendah",
+    "rating": "Penarafan Tertinggi",
+    "showingResults": "Menunjukkan {start}-{end} daripada {total} produk",
+    "inStock": "Stok Ada",
+    "addToCart": "Tambah ke Troli",
+    "previous": "Sebelumnya",
+    "next": "Seterusnya",
+    "subcategories": {
+      "ultrabooks": "Ultrabook",
+      "gaming": "Komputer Riba Permainan",
+      "business": "Komputer Riba Perniagaan",
+      "convertibles": "Komputer Riba 2-dalam-1",
+      "budget": "Komputer Riba Berbajet Rendah"
+    },
+    "priceRanges": {
+      "0-50000": "Di bawah PKR 50,000",
+      "50000-100000": "PKR 50,000 - 100,000",
+      "100000-200000": "PKR 100,000 - 200,000",
+      "200000-300000": "PKR 200,000 - 300,000",
+      "300000-400000": "PKR 300,000 - 400,000",
+      "400000": "Lebih PKR 400,000"
+    },
+    "brandNames": {
+      "apple": "Apple",
+      "dell": "Dell",
+      "hp": "HP",
+      "lenovo": "Lenovo",
+      "asus": "ASUS",
+      "microsoft": "Microsoft"
+    },
+    "pagination": {
+      "previous": "Sebelumnya",
+      "next": "Seterusnya"
+    }
+  },
+  "Tablets": {
+    "title": "Tablet",
+    "subtitle": "Tablet premium untuk kerja dan hiburan",
+    "categories": "Kategori",
+    "priceRange": "Julat Harga",
+    "brands": "Jenama",
+    "sortBy": "Isih mengikut:",
+    "featured": "Disyorkan",
+    "priceLow": "Harga: Rendah ke Tinggi",
+    "priceHigh": "Harga: Tinggi ke Rendah",
+    "rating": "Penarafan Tertinggi",
+    "showingResults": "Menunjukkan {start}-{end} daripada {total} produk",
+    "inStock": "Ada Stok",
+    "addToCart": "Tambah ke Troli",
+    "viewDetails": "Lihat Butiran",
+    "previous": "Sebelumnya",
+    "next": "Seterusnya",
+    "subcategories": {
+      "ipads": "iPad",
+      "android": "Tablet Android",
+      "windows": "Tablet Windows",
+      "kids": "Tablet Kanak-kanak"
+    },
+    "priceRanges": {
+      "0-200": "Bawah $200",
+      "200-500": "$200 - $500",
+      "500-1000": "$500 - $1000",
+      "1000": "Atas $1000"
+    },
+    "brandNames": {
+      "apple": "Apple",
+      "samsung": "Samsung",
+      "microsoft": "Microsoft",
+      "lenovo": "Lenovo"
+    },
+    "pagination": {
+      "previous": "Sebelumnya",
+      "next": "Seterusnya"
+    }
+  },
+  "footer_cta": {
+    "title": "Sedia Meneroka Lebih Banyak?",
+    "description": "Sertai komuniti kami dan dapatkan akses kepada tawaran dan kemas kini eksklusif.",
+    "get_started": "Mula Sekarang",
+    "sign_in": "Log Masuk",
+    "back_to_top": "Kembali ke Atas"
+  }
+}

@@ -48,33 +48,20 @@ export default function AdminDashboard() {
           console.error('Error fetching users:', err);
         }
 
-        // Fetch orders with user information from /api/orders
+        // Fetch orders directly from /api/orders (same place checkout writes to)
         try {
           const ordersRes = await fetch('/api/orders');
           if (ordersRes.ok) {
             const ordersData = await ordersRes.json();
             const ordersArray = Array.isArray(ordersData) ? ordersData : ordersData.orders || [];
 
-            console.log('=== DEBUG: Raw Orders Data ===');
+            console.log('=== DEBUG: /api/orders result ===');
             console.log('Orders array length:', ordersArray.length);
+            console.log('First order sample:', ordersArray[0]);
 
-            const processedOrders = ordersArray.map(order => ({
-              ...order,
-              userName: order.user?.name || 'Guest',
-              userEmail: order.user?.email || 'guest@example.com',
-              orderDate: order.createdAt ? new Date(order.createdAt).toLocaleDateString() : '',
-              orderTime: order.createdAt ? new Date(order.createdAt).toLocaleTimeString() : '',
-              formattedTotal: new Intl.NumberFormat('en-US', {
-                style: 'currency',
-                currency: 'USD'
-              }).format(order.total || 0)
-            }));
-
-            console.log('Processed orders (admin dashboard):', processedOrders.length);
-
-            // Newest first
-            processedOrders.sort((a, b) => new Date(b.createdAt || 0) - new Date(a.createdAt || 0));
-            setOrders(processedOrders.slice(0, 50));
+            // Sort newest first and store raw orders
+            ordersArray.sort((a, b) => new Date(b.createdAt || 0) - new Date(a.createdAt || 0));
+            setOrders(ordersArray);
 
             const totalRevenue = ordersArray.reduce((sum, order) => sum + (order.total || 0), 0);
             setStats(prev => ({

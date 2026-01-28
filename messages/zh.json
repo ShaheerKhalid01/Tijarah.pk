@@ -1,0 +1,635 @@
+{
+  "common": {
+    "new": "新品",
+    "hot": "热门",
+    "view_details": "查看详情",
+    "no_products_found": "未找到产品",
+    "try_changing_filters": "尝试更改筛选条件",
+    "sortOptions": {
+      "featured": "精选",
+      "discountHigh": "最高折扣",
+      "priceLow": "价格：从低到高",
+      "priceHigh": "价格：从高到低",
+      "rating": "客户评分"
+    },
+    "welcome": "欢迎来到 Tijarah.pk",
+    "search_placeholder": "在 Tijarah.pk 搜索",
+    "sortBy": "排序方式",
+    "newBadge": "新品",
+    "showing": "显示第 {start} 至 {end} 条，共 {total} 条商品",
+    "inStock": "{count} 件有货",
+    "addToCart": "加入购物车",
+    "sign_in": "登录",
+    "sign_out": "退出登录",
+    "account": "我的账户",
+    "account_label": "账户",
+    "orders": "我的订单",
+    "returns": "退货",
+    "and_orders": "和订单",
+    "cart": "购物车",
+    "cart_label": "购物车",
+    "categories": "分类",
+    "home": "首页",
+    "products": "商品",
+    "about": "关于我们",
+    "contact": "联系我们",
+    "deliver_to": "配送到",
+    "search_countries": "搜索国家",
+    "search_tijarah_pk": "搜索 Tijarah.pk",
+    "select_language": "选择语言",
+    "hello": "你好",
+    "hello_sign_in": "你好，请登录",
+    "your_profile": "个人资料",
+    "all_asian_countries": "所有亚洲国家",
+    "all": "全部",
+    "all_categories": "所有分类",
+    "todays_deals": "今日优惠",
+    "customer_service": "客户服务",
+    "sell": "出售",
+    "hotBadge": "热卖",
+    "off": "折扣",
+    "electronics": "电子产品",
+    "fashion": "时尚",
+    "home_kitchen": "家居与厨房",
+    "books_media": "书籍与媒体",
+    "beauty_personal_care": "美容与个人护理",
+    "sports_outdoors": "运动与户外",
+    "toys_games": "玩具与游戏",
+    "price": "{price}"
+  },
+  "footer_cta": {
+    "title": "准备发现更多？",
+    "description": "加入我们的社区，获取独家优惠和更新。",
+    "get_started": "立即开始",
+    "sign_in": "登录",
+    "back_to_top": "返回顶部"
+  },
+  "navigation": {
+    "all_categories": "所有分类",
+    "electronics": "电子产品",
+    "fashion": "时尚",
+    "home_living": "家居生活",
+    "beauty": "美容",
+    "sports": "运动",
+    "books": "图书",
+    "toys": "玩具",
+    "grocery": "食品杂货"
+  },
+  "product": {
+    "description": "描述",
+    "specifications": "规格",
+    "reviews": "评价",
+    "related_products": "相关商品",
+    "in_stock": "有货",
+    "out_of_stock": "缺货",
+    "quantity": "数量",
+    "add_to_wishlist": "添加到心愿单",
+    "share": "分享"
+  },
+  "auth": {
+    "login": "登录",
+    "register": "注册账户",
+    "email": "电子邮件",
+    "password": "密码",
+    "forgot_password": "忘记密码？",
+    "dont_have_account": "没有账户？",
+    "already_have_account": "已有账户？",
+    "create_account": "创建账户",
+    "name": "名字",
+    "confirm_password": "确认密码"
+  },
+  "Smartwatches": {
+    "title": "智能手表",
+    "subtitle": "追踪您的健康，保持优雅连接",
+    "categories": "分类",
+    "priceRange": "价格范围",
+    "brands": "品牌",
+    "sortBy": "排序方式:",
+    "featured": "精选",
+    "priceLow": "价格: 低到高",
+    "priceHigh": "价格: 高到低",
+    "rating": "评分最高",
+    "showingResults": "显示 {start}-{end} 条，共 {total} 条商品",
+    "inStock": "有货",
+    "addToCart": "加入购物车",
+    "viewDetails": "查看详情",
+    "previous": "上一页",
+    "next": "下一页",
+    "subcategories": {
+      "apple_watch": "苹果手表",
+      "samsung_galaxy_watch": "三星Galaxy手表",
+      "fitbit": "Fitbit",
+      "garmin": "佳明",
+      "xiaomi": "小米",
+      "other": "其他"
+    },
+    "priceRanges": {
+      "0-100": "$100以下",
+      "100-300": "$100 - $300",
+      "300-500": "$300 - $500",
+      "500": "$500以上"
+    },
+    "brandNames": {
+      "apple": "苹果",
+      "samsung": "三星",
+      "fitbit": "Fitbit",
+      "garmin": "佳明",
+      "xiaomi": "小米",
+      "huawei": "华为",
+      "fossil": "Fossil",
+      "amazfit": "华米"
+    }
+  },
+  "Headphones": {
+    "title": "耳机",
+    "subtitle": "发现最优质的音频体验",
+    "categories": "分类",
+    "priceRange": "价格范围",
+    "brands": "品牌",
+    "sortBy": "排序方式:",
+    "featured": "精选",
+    "priceLow": "价格: 低到高",
+    "priceHigh": "价格: 高到低",
+    "rating": "评分最高",
+    "showingResults": "显示 {start}-{end} 条，共 {total} 条商品",
+    "inStock": "有货",
+    "addToCart": "加入购物车",
+    "viewDetails": "查看详情",
+    "previous": "上一页",
+    "next": "下一页",
+    "subcategories": {
+      "wireless": "无线耳机",
+      "noise_cancelling": "降噪耳机",
+      "over_ear": "头戴式",
+      "earbuds": "耳塞",
+      "gaming": "游戏耳机"
+    },
+    "priceRanges": {
+      "0-100": "$100以下",
+      "100-300": "$100 - $300",
+      "300-500": "$300 - $500",
+      "500": "$500以上"
+    },
+    "brandNames": {
+      "sony": "索尼",
+      "bose": "博士",
+      "sennheiser": "森海塞尔",
+      "audio_technica": "铁三角",
+      "beats": "Beats",
+      "apple": "苹果"
+    }
+  },
+  "Cameras": {
+    "title": "相机",
+    "subtitle": "捕捉每一个珍贵瞬间",
+    "categories": "分类",
+    "priceRange": "价格范围",
+    "brands": "品牌",
+    "sortBy": "排序方式:",
+    "featured": "精选",
+    "priceLow": "价格: 低到高",
+    "priceHigh": "价格: 高到低",
+    "rating": "评分最高",
+    "showingResults": "显示 {start}-{end} 条，共 {total} 条商品",
+    "inStock": "有货",
+    "addToCart": "加入购物车",
+    "viewDetails": "查看详情",
+    "previous": "上一页",
+    "next": "下一页",
+    "subcategories": {
+      "dslr": "数码单反",
+      "mirrorless": "无反相机",
+      "point_shoot": "卡片机",
+      "action": "运动相机"
+    },
+    "priceRanges": {
+      "0-500": "$500以下",
+      "500-1000": "$500 - $1000",
+      "1000-2000": "$1000 - $2000",
+      "2000": "$2000以上"
+    },
+    "brandNames": {
+      "sony": "索尼",
+      "canon": "佳能",
+      "nikon": "尼康",
+      "fujifilm": "富士",
+      "gopro": "GoPro"
+    }
+  },
+  "Tablets": {
+    "title": "平板电脑",
+    "subtitle": "适用于工作和娱乐的优质平板电脑",
+    "categories": "分类",
+    "priceRange": "价格范围",
+    "brands": "品牌",
+    "sortBy": "排序方式：",
+    "featured": "精选",
+    "priceLow": "价格：从低到高",
+    "priceHigh": "价格：从高到低",
+    "rating": "最高评分",
+    "showingResults": "显示 {start}-{end} 共 {total} 个产品",
+    "inStock": "有货",
+    "addToCart": "加入购物车",
+    "viewDetails": "查看详情",
+    "previous": "上一页",
+    "next": "下一页",
+    "subcategories": {
+      "ipads": "iPad",
+      "android": "安卓平板",
+      "windows": "Windows 平板",
+      "kids": "儿童平板"
+    },
+    "priceRanges": {
+      "0-200": "200美元以下",
+      "200-500": "200 - 500美元",
+      "500-1000": "500 - 1000美元",
+      "1000": "1000美元以上"
+    },
+    "brandNames": {
+      "apple": "苹果",
+      "samsung": "三星",
+      "microsoft": "微软",
+      "lenovo": "联想"
+    }
+  },
+  "Smartphones": {
+    "title": "智能手机",
+    "subtitle": "以无与伦比的价格发现最新的智能手机",
+    "categories": "分类",
+    "priceRange": "价格范围",
+    "brands": "品牌",
+    "sortBy": "排序方式:",
+    "featured": "精选",
+    "priceLow": "价格：从低到高",
+    "priceHigh": "价格：从高到低",
+    "rating": "评分",
+    "showingResults": "显示 {start}-{end} 共 {total} 个产品",
+    "inStock": "有货",
+    "addToCart": "加入购物车",
+    "viewDetails": "查看详情",
+    "previous": "上一页",
+    "next": "下一页",
+    "subcategories": {
+      "flagship": "旗舰手机",
+      "midRange": "中端手机",
+      "budget": "预算手机",
+      "foldable": "折叠手机",
+      "gaming": "游戏手机"
+    },
+    "priceRanges": {
+      "under200": "200美元以下",
+      "200to500": "200美元 - 500美元",
+      "500to1000": "500美元 - 1,000美元",
+      "1000to1500": "1,000美元 - 1,500美元",
+      "1500to2000": "1,500美元 - 2,000美元",
+      "over2000": "2,000美元以上"
+    },
+    "brandNames": {
+      "apple": "苹果",
+      "samsung": "三星",
+      "google": "谷歌",
+      "oneplus": "一加",
+      "xiaomi": "小米",
+      "nothing": "Nothing"
+    }
+  },
+  "Laptops": {
+    "title": "笔记本电脑",
+    "subtitle": "发现适合工作、游戏和创意的完美笔记本电脑",
+    "categories": "分类",
+    "priceRange": "价格范围",
+    "brands": "品牌",
+    "sortBy": "排序方式：",
+    "featured": "精选",
+    "priceLow": "价格：从低到高",
+    "priceHigh": "价格：从高到低",
+    "rating": "最高评分",
+    "showingResults": "显示 {start}-{end} 共 {total} 个产品",
+    "inStock": "有货",
+    "addToCart": "加入购物车",
+    "viewDetails": "查看详情",
+    "previous": "上一页",
+    "next": "下一页",
+    "subcategories": {
+      "ultrabooks": "超极本",
+      "gaming": "游戏笔记本",
+      "business": "商务笔记本",
+      "convertibles": "二合一笔记本",
+      "budget": "经济型笔记本"
+    },
+    "priceRanges": {
+      "0-50000": "低于 50,000 巴基斯坦卢比",
+      "50000-100000": "50,000 - 100,000 巴基斯坦卢比",
+      "100000-200000": "100,000 - 200,000 巴基斯坦卢比",
+      "200000-300000": "200,000 - 300,000 巴基斯坦卢比",
+      "300000-400000": "300,000 - 400,000 巴基斯坦卢比",
+      "400000": "超过 400,000 巴基斯坦卢比"
+    },
+    "brandNames": {
+      "apple": "苹果",
+      "dell": "戴尔",
+      "hp": "惠普",
+      "lenovo": "联想",
+      "asus": "华硕",
+      "microsoft": "微软"
+    }
+  },
+  "Electronics": {
+    "title": "电子产品",
+    "subtitle": "发现最新的数码产品，价格无与伦比",
+    "allElectronics": "所有电子产品",
+    "inStock": "有货",
+    "addToCart": "加入购物车",
+    "sortBy": "排序方式",
+    "showingResults": "显示第 {start} 到 {end} 条，共 {total} 条结果",
+    "noProducts": {
+      "title": "未找到产品",
+      "description": "尝试调整搜索或筛选条件以找到您需要的内容。"
+    }
+  },
+  "home": {
+    "browse_our_collection": "浏览我们的精选系列",
+    "featured_products": "特色产品",
+    "view_all": "查看全部",
+    "add_to_cart": "添加到购物车",
+    "price": "{price}",
+    "currency": "PKR",
+    "best_sellers": "最畅销",
+    "new_arrivals": "新品",
+    "on_sale": "特价",
+    "trending_now": "热门趋势",
+    "trending_now_description": "看看现在最受欢迎的商品",
+    "special_offers": "特别优惠",
+    "carousel": {
+      "slide1": {
+        "title": "欢迎来到 Tijarah.pk",
+        "description": "发现数千种产品的惊人优惠。立即购物，享受最佳价格！",
+        "buttonText": "开始购物"
+      },
+      "slide2": {
+        "title": "新品上市",
+        "description": "探索我们最新的产品系列",
+        "buttonText": "查看系列"
+      },
+      "slide3": {
+        "title": "优惠商品",
+        "description": "不要错过我们价格实惠的产品！",
+        "buttonText": "查看优惠"
+      }
+    },
+    "electronics": "电子产品",
+    "smartphones": "智能手机",
+    "laptops": "笔记本电脑",
+    "tablets": "平板电脑",
+    "headphones": "耳机",
+    "smartwatches": "智能手表",
+    "accessories": "配件",
+    "view_all_electronics": "查看所有电子产品",
+    "fashion": "时尚",
+    "mens_fashion": "男装",
+    "womens_fashion": "女装",
+    "kids_fashion": "童装",
+    "footwear": "鞋类",
+    "fashion_accessories": "时尚配饰",
+    "view_all_fashion": "查看所有时尚",
+    "beauty_personal_care": "美容个人护理",
+    "skincare": "护肤",
+    "makeup": "彩妆",
+    "fragrances": "香水",
+    "hair_care": "发护",
+    "view_all_beauty": "查看所有美容",
+    "fashion_collection": "时尚系列",
+    "latest_fashion_trends": "最新时尚趋势",
+    "mens_shirt": "男士衬衫",
+    "womens_dress": "女士连衣裙",
+    "running_shoes": "跑鞋",
+    "designer_handbag": "设计师手袋",
+    "sports_outdoors": "运动户外",
+    "fitness_equipment": "健身器材",
+    "camping_gear": "露营装备",
+    "team_sports": "团队运动",
+    "outdoor_recreation": "户外休闲",
+    "view_all_sports": "查看所有运动",
+    "toys_games": "玩具游戏",
+    "educational_toys": "教育玩具",
+    "board_games": "桌游",
+    "puzzles": "益智玩具",
+    "view_all_toys": "查看所有玩具",
+    "home_garden": "家居园艺",
+    "view_all_home": "查看所有家居",
+    "garden": "园艺",
+    "furniture": "家具",
+    "decor": "装饰",
+    "home_decor": "家居装饰",
+    "kitchen": "厨房",
+    "kitchen_dining": "厨房餐饮",
+    "smartphone_pro": "专业版智能手机",
+    "wireless_earbuds": "无线耳机",
+    "smart_watch": "智能手表",
+    "laptop_ultra": "超极本"
+  },
+  "footer": {
+    "about_title": "关于 Tijarah.pk",
+    "about_description": "一站式购物平台。我们提供优质商品，并在亚洲范围内快速配送。",
+    "quick_links_title": "快速链接",
+    "home": "首页",
+    "shop": "购物",
+    "categories": "分类",
+    "deals": "优惠",
+    "contact_us": "联系我们",
+    "customer_service_title": "客户服务",
+    "my_account": "我的账户",
+    "order_tracking": "订单追踪",
+    "wishlist": "心愿单",
+    "customer_service": "客户服务",
+    "returns_exchange": "退换货",
+    "contact_title": "联系我们",
+    "address": "123 商业街，城市，国家",
+    "phone": "+92 123 4567890",
+    "email": "info@tijarah.pk",
+    "about_us": "关于我们",
+    "privacy_policy": "隐私政策",
+    "terms_conditions": "条款和条件",
+    "return_policy": "退货政策",
+    "shipping_policy": "配送政策",
+    "newsletter": "订阅我们的新闻通讯",
+    "newsletter_placeholder": "输入您的电子邮件",
+    "subscribe": "订阅",
+    "follow_us": "关注我们",
+    "copyright": "© {year} Tijarah.pk. 版权所有。"
+  },
+  "ProductDetail": {
+    "notFound": {
+      "title": "未找到商品",
+      "description": "您查找的商品不存在或已被移除。",
+      "continueShopping": "继续购物"
+    },
+    "backButton": "返回商品列表",
+    "rating": {
+      "withRating": "{rating}分（{count}条评价）",
+      "noRating": "暂无评分（{count}条评价）"
+    },
+    "savePercentage": "立省{percent}%",
+    "keyFeatures": "主要特点",
+    "quantity": "数量",
+    "stock": {
+      "inStock": "有货（库存{count}件）",
+      "outOfStock": "缺货"
+    },
+    "buttons": {
+      "addToCart": "加入购物车",
+      "added": "已添加！",
+      "outOfStock": "缺货"
+    },
+    "shipping": {
+      "inStock": "有货 - 通常24小时内发货",
+      "outOfStock": "缺货",
+      "free": "免费配送",
+      "onAllOrders": "所有订单"
+    },
+    "returnPolicy": {
+      "days": "{days}天退货政策",
+      "policy": "保证退款"
+    }
+  },
+  "NewArrivals": {
+    "title": "新品上市",
+    "subtitle": "发现最新的产品和创新",
+    "viewDetails": "查看详情",
+    "noProducts": {
+      "title": "未找到商品",
+      "description": "请尝试调整搜索或筛选条件。"
+    }
+  },
+  "SpecialOffers": {
+    "title": "特别优惠",
+    "subtitle": "限时特惠"
+  },
+  "deals": {
+    "title": "今日闪购优惠",
+    "subtitle": "限时优惠",
+    "description": "在您喜爱的产品消失之前，抢购惊人的优惠！",
+    "load_more": "加载更多优惠"
+  },
+  "CustomerService": {
+    "title": "客户服务",
+    "subtitle": "我们如何为您提供帮助？",
+    "faqTitle": "常见问题",
+    "needMoreHelp": "需要更多帮助？",
+    "contactUsPrompt": "如果您找不到所需的答案，请随时联系我们的客户服务团队。",
+    "contactUsButton": "联系我们",
+    "tabs": {
+      "faq": "常见问题",
+      "contact": "联系我们",
+      "track": "追踪订单"
+    },
+    "faq1": {
+      "question": "如何下订单？",
+      "answer": "只需浏览我们的产品，将商品添加到购物车，然后前往结账。您需要提供送货和付款信息以完成订单。"
+    },
+    "faq2": {
+      "question": "你们接受哪些付款方式？",
+      "answer": "我们接受信用卡/借记卡、银行转账，以及巴基斯坦境内订单的货到付款。"
+    },
+    "faq3": {
+      "question": "配送需要多长时间？",
+      "answer": "标准配送需要3-5个工作日，而主要城市内的快速配送需要1-2个工作日。"
+    },
+    "faq4": {
+      "question": "你们的退货政策是什么？",
+      "answer": "我们为大多数商品提供30天退货政策。商品必须未使用且在原包装中。某些商品可能为最终销售。"
+    },
+    "faq5": {
+      "question": "我如何追踪我的订单？",
+      "answer": "您可以使用订单确认邮件中提供的追踪ID来追踪您的订单。只需在上方的订单追踪部分输入追踪ID即可。"
+    },
+    "contactUs": "联系我们",
+    "form": {
+      "name": "全名",
+      "email": "电子邮件地址",
+      "orderId": "订单ID",
+      "optional": "可选",
+      "subject": "主题",
+      "selectSubject": "选择主题",
+      "orderIssue": "订单问题",
+      "shipping": "配送",
+      "return": "退货",
+      "payment": "付款",
+      "other": "其他",
+      "message": "消息",
+      "submit": "发送消息",
+      "success": "您的消息已成功发送！"
+    },
+    "helpfulLinks": {
+      "title": "有用链接",
+      "payment": {
+        "title": "付款选项",
+        "description": "了解我们的安全付款方式"
+      },
+      "returns": {
+        "title": "退货和退款",
+        "description": "我们简单的退货政策"
+      },
+      "shipping": {
+        "title": "配送信息",
+        "description": "配送时间和选项"
+      },
+      "faq": {
+        "title": "常见问题",
+        "description": "查找常见问题的答案"
+      }
+    },
+    "contactInfo": {
+      "title": "联系信息",
+      "email": "电子邮件",
+      "phone": "电话",
+      "hours": "营业时间",
+      "hoursValue": "周一 - 周五: 09:00 - 18:00 (PST)",
+      "address": "地址",
+      "addressLine1": "123 Tijarah 街",
+      "addressLine2": "卡拉奇, 75500, 巴基斯坦"
+    },
+    "trackOrder": {
+      "title": "追踪您的订单",
+      "label": "输入您的追踪ID",
+      "button": "追踪",
+      "validation": {
+        "required": "请输入追踪ID"
+      },
+      "error": "追踪订单失败。请检查您的追踪ID并重试。",
+      "description": "输入您的追踪ID以检查订单状态",
+      "placeholder": "输入追踪ID",
+      "viewAllOrders": "查看所有订单",
+      "viewAllPrompt": "正在查找所有订单？",
+      "viewDetails": "查看订单详情",
+      "tracking": "追踪中...",
+      "status": {
+        "ordered": "已下单",
+        "processing": "处理中",
+        "shipped": "已发货",
+        "delivered": "已送达",
+        "cancelled": "已取消"
+      },
+      "details": {
+        "trackingNumber": "追踪号码",
+        "carrier": "承运商",
+        "estimatedDelivery": "预计送达",
+        "orderHistory": "订单历史"
+      },
+      "notFound": "未找到订单。请检查您的追踪ID并重试。",
+      "helpText": "您可以在订单确认邮件或账户订单中找到您的追踪ID。"
+    }
+  },
+  "checkout": {
+    "shipping_address": "配送地址",
+    "billing_address": "账单地址",
+    "payment_method": "支付方式",
+    "order_summary": "订单摘要",
+    "place_order": "下单",
+    "subtotal": "小计",
+    "shipping": "配送",
+    "tax": "税",
+    "total": "总计",
+    "proceed_to_checkout": "继续结账"
+  }
+}

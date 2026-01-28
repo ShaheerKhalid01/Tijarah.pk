@@ -1,0 +1,33 @@
+{
+  "navbar": {
+    "search": "Search Tijarah.pk",
+    "deliver_to": "Deliver to",
+    "sign_in": "Sign In",
+    "hello": "Hello, {{name}}",
+    "profile": "Your Profile",
+    "orders": "Orders",
+    "lists": "Your Lists",
+    "sign_out": "Sign Out",
+    "cart": "Cart",
+    "all_categories": "All Categories",
+    "best_sellers": "Best Sellers",
+    "todays_deals": "Today's Deals",
+    "electronics": "Electronics",
+    "fashion": "Fashion",
+    "home_kitchen": "Home & Kitchen",
+    "sports_fitness": "Sports & Fitness"
+  },
+  "language": {
+    "select": "Select Language",
+    "en": "English",
+    "ar": "Arabic",
+    "ur": "Urdu",
+    "zh": "Chinese",
+    "tr": "Turkish",
+    "ms": "Malay",
+    "id": "Indonesian"
+  },
+  "notification": {
+    "language_changed": "Language changed to {{language}}"
+  }
+}

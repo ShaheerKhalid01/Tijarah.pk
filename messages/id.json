@@ -1,0 +1,798 @@
+{
+  "common": {
+    "welcome": "Selamat datang di Tijarah.pk",
+    "search_placeholder": "Cari di Tijarah.pk",
+    "sortBy": "Urutkan berdasarkan",
+    "sortOptions": {
+      "featured": "Unggulan",
+      "discountHigh": "Diskon Tertinggi",
+      "priceLow": "Harga: Terendah ke Tertinggi",
+      "priceHigh": "Harga: Tertinggi ke Terendah",
+      "newest": "Terbaru"
+    },
+    "new": "Baru",
+    "hot": "Panas",
+    "newBadge": "Baru",
+    "sign_in": "Masuk",
+    "sign_out": "Keluar",
+    "account": "Akun Saya",
+    "account_label": "Akun",
+    "orders": "Pesanan Saya",
+    "returns": "Pengembalian",
+    "and_orders": "dan Pesanan",
+    "cart": "Keranjang",
+    "cart_label": "Keranjang",
+    "categories": "Kategori",
+    "home": "Beranda",
+    "products": "Produk",
+    "about": "Tentang Kami",
+    "contact": "Hubungi Kami",
+    "deliver_to": "Kirim ke",
+    "search_countries": "Cari negara",
+    "search_tijarah_pk": "Cari Tijarah.pk",
+    "select_language": "Pilih Bahasa",
+    "hello": "Halo",
+    "hello_sign_in": "Halo, masuk",
+    "your_profile": "Profil Anda",
+    "all_asian_countries": "Semua Negara Asia",
+    "all": "Semua",
+    "all_categories": "Semua Kategori",
+    "todays_deals": "Penawaran Hari Ini",
+    "customer_service": "Layanan Pelanggan",
+    "sell": "Jual",
+    "showing": "Menampilkan {start} hingga {end} dari {total} produk",
+    "hotBadge": "Panas",
+    "off": "Diskon",
+    "inStock": "{count} tersedia",
+    "addToCart": "Tambah ke Keranjang",
+    "view_details": "Lihat Detail",
+    "electronics": "Elektronik",
+    "fashion": "Fashion",
+    "home_kitchen": "Rumah & Dapur",
+    "books_media": "Buku & Media",
+    "beauty_personal_care": "Kecantikan & Perawatan Pribadi",
+    "sports_outdoors": "Olahraga & Luar Ruangan",
+    "toys_games": "Mainan & Game",
+    "price": "{price}"
+  },
+  "home": {
+    "title": "Selamat datang di Tijarah.pk - Toko Serba Ada Anda",
+    "subtitle": "Temukan penawaran luar biasa untuk ribuan produk",
+    "featured_products": "Produk Unggulan",
+    "new_arrivals": "Kedatangan Baru",
+    "hot_deals": "Penawaran Panas",
+    "browse_categories": "Jelajahi Kategori",
+    "view_all": "Lihat Semua",
+    "trending_now": "Sedang Trending",
+    "best_sellers": "Penjualan Terbaik",
+    "on_sale": "Diskon",
+    "limited_offer": "Penawaran Terbatas",
+    "free_shipping": "Pengiriman Gratis untuk Pesanan Di Atas $50",
+    "secure_payment": "Pembayaran Aman",
+    "easy_returns": "Pengembalian Mudah",
+    "customer_support": "Dukungan Pelanggan 24/7",
+    "carousel": {
+      "slide1": {
+        "title": "Diskon Musim Panas Sekarang",
+        "description": "Diskon hingga 50% untuk produk pilihan. Penawaran terbatas!",
+        "buttonText": "Mulai Berbelanja"
+      },
+      "slide2": {
+        "title": "Kedatangan Baru",
+        "description": "Temukan koleksi produk terbaru kami",
+        "buttonText": "Lihat Koleksi"
+      },
+      "slide3": {
+        "title": "Penawaran Bagus",
+        "description": "Jangan lewatkan produk kami dengan harga tak terkalahkan!",
+        "buttonText": "Lihat Penawaran"
+      }
+    },
+    "electronics": "Elektronik",
+    "smartphones": "Smartphone",
+    "laptops": "Laptop",
+    "tablets": "Tablet",
+    "headphones": "Headphone",
+    "smartwatches": "Smartwatch",
+    "accessories": "Aksesori",
+    "view_all_electronics": "Lihat Semua Elektronik",
+    "fashion": "Fashion",
+    "mens_fashion": "Fashion Pria",
+    "womens_fashion": "Fashion Wanita",
+    "kids_fashion": "Fashion Anak",
+    "footwear": "Alas Kaki",
+    "fashion_accessories": "Aksesori Fashion",
+    "view_all_fashion": "Lihat Semua Fashion",
+    "home_garden": "Rumah & Taman",
+    "wireless_earbuds": "Earbud Nirkabel",
+    "smart_watch": "Jam Tangan Pintar",
+    "laptop_ultra": "Laptop Ultra",
+    "fashion_collection": "Koleksi Fashion",
+    "latest_fashion_trends": "Tren Fashion Terbaru",
+    "mens_shirt": "Kemeja Pria",
+    "womens_dress": "Gaun Wanita",
+    "running_shoes": "Sepatu Lari",
+    "designer_handbag": "Tangan Desainer",
+    "furniture": "Perabotan",
+    "decor": "Dekorasi Rumah",
+    "home_decor": "Dekorasi Rumah",
+    "kitchen": "Dapur",
+    "kitchen_dining": "Dapur & Makan",
+    "bed_bath": "Kamar Tidur & Kamar Mandi",
+    "garden": "Taman",
+    "garden_outdoor": "Taman & Luar Ruangan",
+    "lighting": "Pencahayaan",
+    "view_all_home": "Lihat Semua Rumah & Taman",
+    "view_all_home_garden": "Lihat Semua Rumah & Taman",
+    "beauty_personal_care": "Kecantikan & Perawatan Pribadi",
+    "skincare": "Perawatan Kulit",
+    "makeup": "Makeup",
+    "haircare": "Perawatan Rambut",
+    "hair_care": "Perawatan Rambut",
+    "fragrances": "Parfum",
+    "personal_care": "Perawatan Pribadi",
+    "view_all_beauty": "Lihat Semua Kecantikan & Perawatan Pribadi",
+    "sports_outdoors": "Olahraga & Luar Ruangan",
+    "fitness_equipment": "Peralatan Kebugaran",
+    "outdoor_recreation": "Rekreasi Luar Ruangan",
+    "team_sports": "Olahraga Tim",
+    "athletic_clothing": "Pakaian Olahraga",
+    "camping_hiking": "Berkemah & Mendaki",
+    "camping_gear": "Peralatan Berkemah",
+    "view_all_sports": "Lihat Semua Olahraga & Luar Ruangan",
+    "toys_games": "Mainan & Game",
+    "educational_toys": "Mainan Edukatif",
+    "action_figures": "Figur Aksi",
+    "board_games": "Papan Permainan",
+    "dolls": "Boneka & Aksesori",
+    "puzzles": "Teka-teki",
+    "view_all_toys": "Lihat Semua Mainan & Game",
+    "browse_our_collection": "Jelajahi koleksi produk berkualitas tinggi kami yang ekstensif di berbagai kategori",
+    "trending_now_description": "Lihat apa yang sedang populer sekarang",
+    "smartphone_pro": "Smartphone Pro"
+  },
+  "product": {
+    "description": "Deskripsi",
+    "specifications": "Spesifikasi",
+    "reviews": "Ulasan",
+    "related_products": "Produk Terkait"
+  },
+  "CustomerService": {
+    "title": "Layanan Pelanggan",
+    "subtitle": "Bagaimana kami dapat membantu Anda?",
+    "faqTitle": "Pertanyaan Umum",
+    "needMoreHelp": "Butuh bantuan lebih lanjut?",
+    "contactUsPrompt": "Jika Anda tidak menemukan jawaban yang Anda butuhkan, jangan ragu untuk menghubungi tim layanan pelanggan kami.",
+    "contactUsButton": "Hubungi Kami",
+    "tabs": {
+      "faq": "Pertanyaan Umum",
+      "contact": "Hubungi Kami",
+      "track": "Lacak Pesanan"
+    },
+    "faq1": {
+      "question": "Bagaimana cara melakukan pesanan?",
+      "answer": "Cukup telusuri produk kami, tambahkan item ke keranjang, dan lanjutkan ke checkout. Anda perlu memberikan informasi pengiriman dan detail pembayaran untuk menyelesaikan pesanan."
+    },
+    "faq2": {
+      "question": "Metode pembayaran apa yang Anda terima?",
+      "answer": "Kami menerima kartu kredit/debit, transfer bank, dan pembayaran di tempat untuk pesanan di dalam Pakistan."
+    },
+    "faq3": {
+      "question": "Berapa lama waktu pengiriman?",
+      "answer": "Pengiriman standar membutuhkan waktu 3-5 hari kerja, sementara pengiriman ekspres di kota-kota besar membutuhkan waktu 1-2 hari kerja."
+    },
+    "faq4": {
+      "question": "Apa kebijakan pengembalian Anda?",
+      "answer": "Kami menawarkan kebijakan pengembalian 30 hari untuk sebagian besar item. Item harus dalam kondisi belum digunakan dan dalam kemasan aslinya. Beberapa item mungkin penjualan akhir."
+    },
+    "faq5": {
+      "question": "Bagaimana cara melacak pesanan saya?",
+      "answer": "Anda dapat melacak pesanan Anda menggunakan ID pelacakan yang disediakan dalam email konfirmasi pesanan Anda. Cukup masukkan ID pelacakan di bagian Lacak Pesanan di atas."
+    },
+    "contactUs": "Hubungi Kami",
+    "form": {
+      "name": "Nama Lengkap",
+      "email": "Alamat Email",
+      "orderId": "ID Pesanan",
+      "optional": "Opsional",
+      "subject": "Subjek",
+      "selectSubject": "Pilih subjek",
+      "orderIssue": "Masalah Pesanan",
+      "shipping": "Pengiriman",
+      "return": "Pengembalian",
+      "payment": "Pembayaran",
+      "other": "Lainnya",
+      "message": "Pesan",
+      "submit": "Kirim Pesan",
+      "success": "Pesan Anda berhasil dikirim!"
+    },
+    "helpfulLinks": {
+      "title": "Tautan Bermanfaat",
+      "payment": {
+        "title": "Opsi Pembayaran",
+        "description": "Pelajari tentang metode pembayaran yang aman kami"
+      },
+      "returns": {
+        "title": "Pengembalian dan Pengembalian Dana",
+        "description": "Kebijakan pengembalian yang sederhana"
+      },
+      "shipping": {
+        "title": "Informasi Pengiriman",
+        "description": "Waktu dan opsi pengiriman"
+      },
+      "faq": {
+        "title": "Pertanyaan Umum",
+        "description": "Temukan jawaban untuk pertanyaan umum"
+      }
+    },
+    "contactInfo": {
+      "title": "Informasi Kontak",
+      "email": "Email",
+      "phone": "Telepon",
+      "hours": "Jam Kerja",
+      "hoursValue": "Senin - Jumat: 09:00 - 18:00 (PST)",
+      "address": "Alamat",
+      "addressLine1": "123 Jalan Tijarah",
+      "addressLine2": "Karachi, 75500, Pakistan"
+    },
+    "trackOrder": {
+      "title": "Lacak Pesanan Anda",
+      "label": "Masukkan ID pelacakan Anda",
+      "button": "Lacak",
+      "validation": {
+        "required": "Silakan masukkan ID pelacakan"
+      },
+      "error": "Gagal melacak pesanan. Silakan periksa ID pelacakan Anda dan coba lagi.",
+      "description": "Masukkan ID pelacakan Anda untuk memeriksa status pesanan Anda",
+      "placeholder": "Masukkan ID pelacakan",
+      "viewAllOrders": "Lihat semua pesanan",
+      "viewAllPrompt": "Mencari semua pesanan Anda?",
+      "viewDetails": "Lihat detail pesanan",
+      "tracking": "Melacak...",
+      "status": {
+        "ordered": "Pesanan Dibuat",
+        "processing": "Diproses",
+        "shipped": "Dikirim",
+        "delivered": "Terkirim",
+        "cancelled": "Dibatalkan"
+      },
+      "details": {
+        "trackingNumber": "Nomor Pelacakan",
+        "carrier": "Pengangkut",
+        "estimatedDelivery": "Perkiraan Pengiriman",
+        "orderHistory": "Riwayat Pesanan"
+      },
+      "notFound": "Pesanan tidak ditemukan. Silakan periksa ID pelacakan Anda dan coba lagi.",
+      "helpText": "Anda dapat menemukan ID pelacakan Anda di email konfirmasi pesanan atau di pesanan akun Anda."
+    }
+  },
+  "ProductDetail": {
+    "backButton": "Kembali ke Produk",
+    "add_to_cart": "Tambah ke Keranjang",
+    "add_to_wishlist": "Tambah ke Daftar Keinginan",
+    "description": "Deskripsi",
+    "features": "Fitur",
+    "specifications": "Spesifikasi",
+    "reviews": "Ulasan",
+    "related_products": "Produk Terkait",
+    "in_stock": "Tersedia",
+    "out_of_stock": "Habis",
+    "quantity": "Jumlah",
+    "categories": "Kategori",
+    "tags": "Tag",
+    "share": "Bagikan",
+    "sold": "terjual",
+    "available": "tersedia",
+    "view_all_images": "Lihat semua gambar",
+    "you_may_also_like": "Anda mungkin juga suka",
+    "rating": {
+      "noRating": "Belum ada rating",
+      "withRating": "{rating} dari 5 bintang ({count} ulasan)"
+    },
+    "savePercentage": "Hemat {percent}%",
+    "keyFeatures": "Fitur Utama",
+    "stock": {
+      "readyToShip": "Siap Dikirim",
+      "soldOut": "Habis Terjual"
+    },
+    "buttons": {
+      "addToCart": "Tambah ke Keranjang",
+      "added": "Ditambahkan ke Keranjang",
+      "outOfStock": "Habis"
+    },
+    "shipping": {
+      "inStock": "Tersedia & Siap Dikirim",
+      "outOfStock": "Saat Ini Tidak Tersedia",
+      "free": "Pengiriman Gratis",
+      "onAllOrders": "untuk semua pesanan di atas $50"
+    },
+    "returnPolicy": {
+      "days": "Pengembalian {days} Hari",
+      "policy": "Pengembalian penuh atau tukar"
+    },
+    "notFound": {
+      "title": "Produk Tidak Ditemukan",
+      "description": "Produk yang Anda cari mungkin telah dipindahkan atau dihapus.",
+      "continueShopping": "Lanjutkan Berbelanja"
+    },
+    "navigation": {
+      "home": "Beranda",
+      "products": "Produk"
+    },
+    "trust": {
+      "swiftDelivery": "Pengiriman Cepat",
+      "freeOver": "Gratis di atas $50",
+      "secureWarranty": "Garansi Aman",
+      "genuine": "100% Asli"
+    },
+    "sections": {
+      "coreFeatures": "Fitur Inti",
+      "technicalSpecifications": "Spesifikasi Teknis"
+    },
+    "toast": {
+      "addedToCart": "{name} ditambahkan ke keranjang!",
+      "failedToAdd": "Gagal menambahkan item ke keranjang"
+    }
+  },
+  "smartphones": {
+    "title": "Ponsel Pintar",
+    "subtitle": "Ponsel mobile terbaru dari merek terkemuka",
+    "products_found": "{count} produk ditemukan",
+    "no_products": "Tidak ada ponsel pintar ditemukan"
+  },
+  "home_decor": {
+    "title": "Dekorasi Rumah",
+    "subtitle": "Tingkatkan ruang hidup Anda dengan item dekorasi rumah yang indah",
+    "products_found": "{count} produk ditemukan",
+    "no_products": "Tidak ada item dekorasi rumah ditemukan"
+  },
+  "SpecialOffers": {
+    "title": "Penawaran Spesial & Penawaran",
+    "subtitle": "Penawaran terbatas untuk produk favorit Anda. Jangan lewatkan penawaran hebat ini!"
+  },
+  "products": {
+    "iphone-15-pro-max": {
+      "name": "iPhone 15 Pro Max",
+      "description": "Smartphone premium dengan chip A17 Pro dan sistem kamera profesional."
+    },
+    "samsung-galaxy-s23-ultra": {
+      "name": "Samsung Galaxy S23 Ultra",
+      "description": "Smartphone flagship dengan kamera 200MP dan S Pen yang inklusif"
+    },
+    "tablet-1": {
+      "name": "Samsung Galaxy Tab S9",
+      "description": "Tablet premium dengan layar Dynamic AMOLED 2X dan S Pen yang inklusif"
+    }
+  },
+  "Smartphones": {
+    "title": "Smartphone",
+    "subtitle": "Temukan smartphone terbaru dengan harga tak terkalahkan",
+    "categories": "Kategori",
+    "priceRange": "Rentang Harga",
+    "brands": "Merek",
+    "sortBy": "Urutkan berdasarkan:",
+    "featured": "Unggulan",
+    "priceLow": "Harga: Rendah ke Tinggi",
+    "priceHigh": "Harga: Tinggi ke Rendah",
+    "rating": "Peringkat",
+    "showingResults": "Menampilkan {start}-{end} dari {total} produk",
+    "inStock": "Tersedia",
+    "addToCart": "Tambah ke keranjang",
+    "previous": "Sebelumnya",
+    "next": "Selanjutnya",
+    "subcategories": {
+      "flagship": "Ponsel Flagship",
+      "midRange": "Menengah",
+      "budget": "Ponsel Terjangkau",
+      "foldable": "Ponsel Lipat",
+      "gaming": "Ponsel Gaming"
+    },
+    "priceRanges": {
+      "under200": "Di bawah $200",
+      "200to500": "$200 - $500",
+      "500to1000": "$500 - $1.000",
+      "1000to1500": "$1.000 - $1.500",
+      "1500to2000": "$1.500 - $2.000",
+      "over2000": "Di atas $2.000"
+    },
+    "brandNames": {
+      "apple": "Apple",
+      "samsung": "Samsung",
+      "google": "Google",
+      "oneplus": "OnePlus",
+      "xiaomi": "Xiaomi",
+      "nothing": "Nothing"
+    }
+  },
+  "Laptops": {
+    "title": "Laptop",
+    "subtitle": "Temukan laptop yang sempurna untuk kerja, gaming, dan kreativitas",
+    "categories": "Kategori",
+    "priceRange": "Rentang Harga",
+    "brands": "Merek",
+    "sortBy": "Urutkan berdasarkan:",
+    "featured": "Unggulan",
+    "priceLow": "Harga: Rendah ke Tinggi",
+    "priceHigh": "Harga: Tinggi ke Rendah",
+    "rating": "Peringkat Tertinggi",
+    "showingResults": "Menampilkan {start}-{end} dari {total} produk",
+    "inStock": "Tersedia",
+    "addToCart": "Tambah ke keranjang",
+    "previous": "Sebelumnya",
+    "next": "Selanjutnya",
+    "subcategories": {
+      "ultrabooks": "Ultrabook",
+      "gaming": "Laptop Gaming",
+      "business": "Laptop Bisnis",
+      "convertibles": "Laptop 2-in-1",
+      "budget": "Laptop Terjangkau"
+    },
+    "priceRanges": {
+      "0-50000": "Di bawah PKR 50,000",
+      "50000-100000": "PKR 50,000 - 100,000",
+      "100000-200000": "PKR 100,000 - 200,000",
+      "200000-300000": "PKR 200,000 - 300,000",
+      "300000-400000": "PKR 300,000 - 400,000",
+      "400000": "Di atas PKR 400,000"
+    },
+    "brandNames": {
+      "apple": "Apple",
+      "dell": "Dell",
+      "hp": "HP",
+      "lenovo": "Lenovo",
+      "asus": "ASUS",
+      "microsoft": "Microsoft"
+    }
+  },
+  "Smartwatches": {
+    "title": "Smartwatch",
+    "subtitle": "Lacak aktivitas dan terhubung dengan gaya",
+    "categories": "Kategori",
+    "priceRange": "Rentang Harga",
+    "brands": "Merek",
+    "sortBy": "Urutkan berdasarkan:",
+    "featured": "Unggulan",
+    "priceLow": "Harga: Rendah ke Tinggi",
+    "priceHigh": "Harga: Tinggi ke Rendah",
+    "rating": "Peringkat Tertinggi",
+    "showingResults": "Menampilkan {start}-{end} dari {total} produk",
+    "inStock": "Tersedia",
+    "addToCart": "Tambah ke Keranjang",
+    "viewDetails": "Lihat Detail",
+    "previous": "Sebelumnya",
+    "next": "Berikutnya",
+    "subcategories": {
+      "apple_watch": "Apple Watch",
+      "samsung_galaxy_watch": "Samsung Galaxy Watch",
+      "fitbit": "Fitbit",
+      "garmin": "Garmin",
+      "xiaomi": "Xiaomi",
+      "other": "Lainnya"
+    },
+    "priceRanges": {
+      "0-100": "Di bawah $100",
+      "100-300": "$100 - $300",
+      "300-500": "$300 - $500",
+      "500": "Di atas $500"
+    },
+    "brandNames": {
+      "apple": "Apple",
+      "samsung": "Samsung",
+      "fitbit": "Fitbit",
+      "garmin": "Garmin",
+      "xiaomi": "Xiaomi",
+      "huawei": "Huawei",
+      "fossil": "Fossil",
+      "amazfit": "Amazfit"
+    },
+    "features": {
+      "heart_rate": "Monitor Detak Jantung",
+      "gps": "GPS Bawaan",
+      "waterproof": "Tahan Air",
+      "sleep_tracking": "Pelacakan Tidur",
+      "ecg": "EKG",
+      "sp02": "Pengukur Oksigen Darah",
+      "nfc": "Pembayaran NFC",
+      "long_battery": "Baterai Tahan Lama"
+    }
+  },
+  "Tablets": {
+    "title": "Tablet",
+    "subtitle": "Tablet premium untuk bekerja dan bermain",
+    "categories": "Kategori",
+    "priceRange": "Rentang Harga",
+    "brands": "Merek",
+    "sortBy": "Urutkan berdasarkan:",
+    "featured": "Unggulan",
+    "priceLow": "Harga: Rendah ke Tinggi",
+    "priceHigh": "Harga: Tinggi ke Rendah",
+    "rating": "Peringkat Tertinggi",
+    "showingResults": "Menampilkan {start}-{end} dari {total} produk",
+    "inStock": "Tersedia",
+    "addToCart": "Tambah ke Keranjang",
+    "viewDetails": "Lihat Detail",
+    "previous": "Sebelumnya",
+    "next": "Berikutnya",
+    "subcategories": {
+      "ipads": "iPad",
+      "android": "Tablet Android",
+      "windows": "Tablet Windows",
+      "kids": "Tablet Anak"
+    },
+    "priceRanges": {
+      "0-200": "Di bawah $200",
+      "200-500": "$200 - $500",
+      "500-1000": "$500 - $1000",
+      "1000": "Di atas $1000"
+    },
+    "brandNames": {
+      "apple": "Apple",
+      "samsung": "Samsung",
+      "microsoft": "Microsoft",
+      "lenovo": "Lenovo"
+    },
+    "pagination": {
+      "previous": "Sebelumnya",
+      "next": "Berikutnya"
+    }
+  },
+  "pagination": {
+    "previous": "Sebelumnya",
+    "next": "Berikutnya"
+  },
+  "footer": {
+    "about_title": "Tentang Kami",
+    "about_description": "Tijarah.pk adalah platform belanja online terpercaya di Asia, menawarkan berbagai produk berkualitas dengan harga terbaik.",
+    "quick_links_title": "Tautan Cepat",
+    "home": "Beranda",
+    "shop": "Belanja",
+    "categories": "Kategori",
+    "deals": "Penawaran",
+    "contact_us": "Hubungi Kami",
+    "customer_service_title": "Layanan Pelanggan",
+    "my_account": "Akun Saya",
+    "order_tracking": "Lacak Pesanan",
+    "wishlist": "Daftar Keinginan",
+    "customer_service": "Layanan Pelanggan",
+    "returns_exchange": "Pengembalian & Penukaran",
+    "contact_title": "Hubungi Kami",
+    "address": "Jl. Contoh No. 123, Jakarta Selatan, Indonesia, 12345",
+    "phone": "+62 21 1234 5678",
+    "email": "info@tijarah.pk",
+    "newsletter_title": "Berlangganan Buletin",
+    "newsletter_description": "Dapatkan pembaruan tentang produk baru, penawaran khusus, dan lainnya!",
+    "subscribe": "Berlangganan",
+    "email_placeholder": "Alamat email Anda",
+    "follow_us": "Ikuti Kami",
+    "copyright": "Hak Cipta © {year} Tijarah.pk. Seluruh hak dilindungi.",
+    "privacy_policy": "Kebijakan Privasi",
+    "terms_conditions": "Syarat & Ketentuan",
+    "shipping_policy": "Kebijakan Pengiriman"
+  },
+  "Electronics": {
+    "title": "Elektronik",
+    "subtitle": "Temukan gadget dan elektronik terbaru dengan harga tak terkalahkan",
+    "allElectronics": "Semua Elektronik",
+    "inStock": "Tersedia",
+    "addToCart": "Tambah ke Keranjang",
+    "sortBy": "Urutkan berdasarkan",
+    "showingResults": "Menampilkan {start} hingga {end} dari {total} hasil",
+    "noProducts": {
+      "title": "Tidak ada produk ditemukan",
+      "description": "Coba sesuaikan pencarian atau filter Anda untuk menemukan yang Anda cari."
+    },
+    "filters": {
+      "categories": "Kategori",
+      "priceRange": "Rentang Harga",
+      "brands": "Merek"
+    },
+    "priceRanges": {
+      "under100": "Di bawah $100",
+      "100to250": "$100 - $250",
+      "250to500": "$250 - $500",
+      "500to1000": "$500 - $1000",
+      "over1000": "Di atas $1000"
+    },
+    "sortOptions": {
+      "featured": "Unggulan",
+      "priceLow": "Harga: Rendah ke Tinggi",
+      "priceHigh": "Harga: Tinggi ke Rendah",
+      "rating": "Peringkat Pelanggan"
+    },
+    "subcategories": {
+      "smartphones": "Smartphone",
+      "laptops": "Laptop",
+      "tablets": "Tablet",
+      "headphones": "Headphone",
+      "smartwatches": "Smartwatch",
+      "cameras": "Kamera"
+    }
+  },
+  "products": {
+    "description": "Deskripsi",
+    "specifications": "Spesifikasi",
+    "reviews": "Ulasan",
+    "related_products": "Produk Terkait",
+    "in_stock": "Tersedia",
+    "out_of_stock": "Habis",
+    "quantity": "Jumlah",
+    "add_to_wishlist": "Tambah ke Daftar Keinginan",
+    "share": "Bagikan",
+    "featured": "Unggulan",
+    "priceLow": "Harga: Rendah ke Tinggi",
+    "priceHigh": "Harga: Tinggi ke Rendah",
+    "rating": "Peringkat",
+    "showingResults": "Menampilkan {start}-{end} dari {total} produk",
+    "inStock": "Tersedia",
+    "addToCart": "Tambah ke keranjang",
+    "foldable": "Ponsel Lipat",
+    "gaming": "Ponsel Gaming",
+    "offer-1": {
+      "name": "iPhone 15 Pro",
+      "description": "iPhone terbaru dengan sistem kamera canggih"
+    },
+    "offer-2": {
+      "name": "Samsung Galaxy S24 Ultra",
+      "description": "Kamera 200MP dengan fitur canggih"
+    },
+    "offer-3": {
+      "name": "MacBook Pro 16 inch",
+      "description": "Laptop profesional dengan M3 Pro"
+    },
+    "offer-4": {
+      "name": "Sony WH-1000XM5",
+      "description": "Headphone peredam kebisingan premium"
+    },
+    "offer-5": {
+      "name": "Samsung 65\" 4K QLED Smart TV",
+      "description": "Pengalaman menonton 4K yang imersif"
+    },
+    "offer-6": {
+      "name": "Nike Air Max 270",
+      "description": "Sepatu lari yang nyaman"
+    },
+    "offer-7": {
+      "name": "Dyson V15 Detect",
+      "description": "Vacuum cleaner nirkabel yang kuat"
+    },
+    "offer-8": {
+      "name": "Canon EOS R5",
+      "description": "Kamera mirrorless profesional"
+    },
+    "smartphone-pro": {
+      "name": "Smartphone Pro",
+      "description": "Smartphone canggih dengan kamera profesional"
+    },
+    "wireless-earbuds": {
+      "name": "Earbud Nirkabel",
+      "description": "Suara berkualitas tinggi dengan daya tahan baterai lama"
+    },
+    "smart-watch": {
+      "name": "Jam Tangan Pintar",
+      "description": "Pantau kesehatan Anda dan tetap terhubung"
+    },
+    "laptop-ultra": {
+      "name": "Laptop Ultra",
+      "description": "Performa kuat untuk pengguna power"
+    },
+    "mens-shirt": {
+      "name": "Kemeja Pria",
+      "description": "Kemeja yang nyaman dan bergaya untuk setiap kesempatan"
+    },
+    "womens-dress": {
+      "name": "Gaun Wanita",
+      "description": "Gaun elegan untuk tampilan premium"
+    },
+    "running-shoes": {
+      "name": "Sepatu Lari",
+      "description": "Sepatu berperforma tinggi untuk pelari profesional"
+    },
+    "designer-handbag": {
+      "name": "Tangan Desainer",
+      "description": "Tangan desainer mewah untuk pernyataan gaya"
+    },
+    "headphones-1": {
+      "name": "Sony WH-1000XM5",
+      "description": "Headphone peredam kebisingan premium dengan kualitas suara yang luar biasa"
+    },
+    "laptop-1": {
+      "name": "MacBook Pro",
+      "description": "Laptop berperforma tinggi dengan chip M2 Pro/Max dan layar Liquid Retina XDR"
+    },
+    "smartwatch-1": {
+      "name": "Apple Watch Ultra 3",
+      "description": "Smartwatch premium dengan desain tangguh dan fitur kebugaran canggih"
+    },
+    "tablet-1": {
+      "name": "Samsung Galaxy Tab S9",
+      "description": "Tablet premium dengan layar Dynamic AMOLED 2X dan S Pen included"
+    },
+    "samsung-s23-ultra": {
+      "name": "Samsung Galaxy S23 Ultra",
+      "description": "Smartphone canggih dengan kamera 200MP dan layar Dynamic"
+    },
+    "sony-wh-1000xm5": {
+      "name": "Sony WH-1000XM5",
+      "description": "Headphone nirkabel dengan peredam kebisingan terkemuka di industri dan daya tahan baterai 30 jam"
+    },
+    "ipad-pro-12-9": {
+      "name": "iPad Pro 12.9-inch",
+      "description": "Tablet kuat dengan layar Liquid Retina XDR dan chip M2"
+    },
+    "samsung-galaxy-tab-s9": {
+      "name": "Samsung Galaxy Tab S9",
+      "description": "Tablet tipis dengan S Pen dan layar Dynamic AMOLED"
+    },
+    "sony-a7-iv": {
+      "name": "Sony Alpha 7 IV",
+      "description": "Kamera mirrorless profesional dengan sensor 33MP dan perekaman video 4K"
+    },
+    "macbook-air-15": {
+      "name": "MacBook Air 15-inch",
+      "description": "Laptop kuat dengan chip M2 dan daya tahan baterai 18 jam"
+    },
+    "samsung-galaxy-watch6": {
+      "name": "Samsung Galaxy Watch6",
+      "description": "Smartwatch canggih dengan pemantauan kesehatan dan pelacakan kebugaran"
+    },
+    "smartphone-1": {
+      "name": "Smartphone Premium",
+      "description": "Smartphone berperforma tinggi dengan fitur canggih"
+    },
+    "iphone-15-pro-max": {
+      "name": "iPhone 15 Pro Max",
+      "description": "iPhone terbaru dengan chip A17 Pro dan sistem kamera canggih"
+    },
+    "iphone-15-pro": {
+      "name": "iPhone 15 Pro",
+      "description": "iPhone terbaru dengan chip A17 Pro canggih, layar menakjubkan, dan sistem kamera profesional"
+    },
+    "macbook-pro-16": {
+      "name": "MacBook Pro 16\"",
+      "description": "MacBook Pro kuat dengan chip M3 Max untuk profesional"
+    },
+    "smartphone-2": {
+      "name": "Samsung Galaxy S24 Ultra",
+      "description": "Telepon flagship Samsung dengan fitur AI canggih dan kamera menakjubkan"
+    },
+    "ipad-air": {
+      "name": "iPad Air",
+      "description": "iPad serbaguna dengan chip M1 dan layar Liquid Retina yang menakjubkan"
+    },
+    "google-pixel-8-pro": {
+      "name": "Google Pixel 8 Pro",
+      "description": "Kamera terbaik di kelasnya dengan fitur AI Google"
+    },
+    "xiaomi-13-pro": {
+      "name": "Xiaomi Mi 11 Ultra",
+      "description": "Spesifikasi high-end dengan harga kompetitif"
+    },
+    "dell-xps-15": {
+      "name": "Dell XPS 15",
+      "description": "Laptop Windows premium dengan layar OLED 4K"
+    },
+    "hp-spectre-x360": {
+      "name": "HP Spectre x360",
+      "description": "Laptop konvertibel dengan layar OLED 13.5\" 3K2K"
+    },
+    "lenovo-thinkpad-x1": {
+      "name": "Lenovo ThinkPad X1 Carbon",
+      "description": "Laptop bisnis dengan daya tahan grade militer"
+    },
+    "asus-rog-zephyrus": {
+      "name": "ASUS ROG Zephyrus G14",
+      "description": "Laptop gaming dengan AMD Ryzen 9 dan RTX 3080"
+    },
+    "microsoft-surface-laptop": {
+      "name": "Microsoft Surface Laptop 5",
+      "description": "Laptop Windows yang ramping dengan layar sentuh PixelSense"
+    }
+  },
+  "footer_cta": {
+    "title": "Siap menemukan lebih banyak?",
+    "description": "Bergabunglah dengan komunitas kami dan dapatkan akses ke penawaran eksklusif serta pembaruan.",
+    "get_started": "Mulai",
+    "sign_in": "Masuk",
+    "back_to_top": "Kembali ke Atas"
+  }
+}

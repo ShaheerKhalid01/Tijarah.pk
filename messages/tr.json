@@ -1,0 +1,1035 @@
+{
+  "Smartwatches": {
+    "title": "Akıllı Saatler",
+    "subtitle": "Fitness'inizi takip edin ve şık bir şekilde bağlantıda kalın",
+    "categories": "Kategoriler",
+    "priceRange": "Fiyat Aralığı",
+    "brands": "Markalar",
+    "sortBy": "Sıralama:",
+    "featured": "Öne Çıkanlar",
+    "priceLow": "Fiyat: Düşükten Yükseğe",
+    "priceHigh": "Fiyat: Yüksekten Düşüğe",
+    "rating": "En Yüksek Puanlı",
+    "showingResults": "{total} ürünün {start}-{end} arası gösteriliyor",
+    "inStock": "Stokta",
+    "addToCart": "Sepete Ekle",
+    "viewDetails": "Detayları Görüntüle",
+    "previous": "Önceki",
+    "next": "Sonraki",
+    "subcategories": {
+      "apple_watch": "Apple Watch",
+      "samsung_galaxy_watch": "Samsung Galaxy Watch",
+      "fitbit": "Fitbit",
+      "garmin": "Garmin",
+      "xiaomi": "Xiaomi",
+      "other": "Diğer"
+    },
+    "priceRanges": {
+      "0-100": "100$ Altı",
+      "100-300": "100$ - 300$",
+      "300-500": "300$ - 500$",
+      "500": "500$ Üzeri"
+    },
+    "brandNames": {
+      "apple": "Apple",
+      "samsung": "Samsung",
+      "fitbit": "Fitbit",
+      "garmin": "Garmin",
+      "xiaomi": "Xiaomi",
+      "huawei": "Huawei",
+      "fossil": "Fossil",
+      "amazfit": "Amazfit"
+    },
+    "features": {
+      "heart_rate": "Kalp Hızı Monitörü",
+      "gps": " Dahili GPS",
+      "waterproof": "Su Geçirmez",
+      "sleep_tracking": "Uyku Takibi",
+      "ecg": "EKG",
+      "sp02": "Kan Oksijeni",
+      "nfc": "NFC Ödemeleri",
+      "long_battery": "Uzun Pil Ömrü"
+    }
+  },
+  "common": {
+    "new": "Yeni",
+    "hot": "Popüler",
+    "view_details": "Görüntüle",
+    "no_products_found": "Ürün bulunamadı",
+    "try_changing_filters": "Filtreleri değiştirmeyi deneyin",
+    "sortOptions": {
+      "featured": "Öne Çıkanlar",
+      "discountHigh": "En Yüksek İndirim",
+      "priceLow": "Fiyat: Düşükten Yükseğe",
+      "priceHigh": "Fiyat: Yüksekten Düşüğe"
+    },
+    "welcome": "Tijarah.pk'ye hoş geldiniz",
+    "search_placeholder": "Tijarah.pk içinde ara",
+    "sortBy": "Sırala",
+    "newBadge": "Yeni",
+    "sign_in": "Giriş Yap",
+    "sign_out": "Çıkış Yap",
+    "account": "Hesabım",
+    "account_label": "Hesap",
+    "orders": "Siparişlerim",
+    "returns": "İadeler",
+    "and_orders": "ve Siparişler",
+    "cart": "Sepet",
+    "cart_label": "Sepet",
+    "categories": "Kategoriler",
+    "home": "Ana Sayfa",
+    "products": "Ürünler",
+    "about": "Hakkımızda",
+    "contact": "İletişim",
+    "deliver_to": "Teslimat",
+    "search_countries": "Ülke ara",
+    "search_tijarah_pk": "Tijarah.pk'de ara",
+    "select_language": "Dil seç",
+    "hello": "Merhaba",
+    "hello_sign_in": "Merhaba, giriş yap",
+    "your_profile": "Profiliniz",
+    "all_asian_countries": "Tüm Asya Ülkeleri",
+    "all": "Tümü",
+    "all_categories": "Tüm Kategoriler",
+    "todays_deals": "Günün Fırsatları",
+    "customer_service": "Müşteri Hizmetleri",
+    "sell": "Satış Yap",
+    "showing": "Gösteriliyor {start} ile {end} - {total}",
+    "hotBadge": "Sıcak",
+    "off": "İndirim",
+    "inStock": "{count} stokta",
+    "addToCart": "Sepete Ekle",
+    "electronics": "Elektronik",
+    "fashion": "Moda",
+    "home_kitchen": "Ev & Mutfak",
+    "books_media": "Kitap & Medya",
+    "beauty_personal_care": "Güzellik & Kişisel Bakım",
+    "sports_outdoors": "Spor & Açık Hava",
+    "toys_games": "Oyuncak & Oyun",
+    "price": "{price}"
+  },
+  "Electronics": {
+    "title": "Elektronik",
+    "subtitle": "En yeni cihazları ve elektronikleri rakipsiz fiyatlarla keşfedin",
+    "allElectronics": "Tüm Elektronikler",
+    "inStock": "Stokta",
+    "addToCart": "Sepete Ekle",
+    "sortBy": "Sırala",
+    "showingResults": "{total} sonuçtan {start} ile {end} arası gösteriliyor",
+    "noProducts": {
+      "title": "Ürün bulunamadı",
+      "description": "Aradığınızı bulmak için aramanızı veya filtrenizi ayarlamayı deneyin."
+    },
+    "filters": {
+      "categories": "Kategoriler",
+      "priceRange": "Fiyat Aralığı",
+      "brands": "Markalar"
+    },
+    "priceRanges": {
+      "under100": "100$ Altı",
+      "100to250": "100$ - 250$",
+      "250to500": "250$ - 500$",
+      "500to1000": "500$ - 1000$",
+      "over1000": "1000$ Üzeri"
+    },
+    "sortOptions": {
+      "featured": "Öne Çıkanlar",
+      "priceLow": "Fiyat: Düşükten Yükseğe",
+      "priceHigh": "Fiyat: Yüksekten Düşüğe",
+      "rating": "Müşteri Puanı"
+    },
+    "subcategories": {
+      "smartphones": "Akıllı Telefonlar",
+      "laptops": "Dizüstü Bilgisayarlar",
+      "tablets": "Tabletler",
+      "headphones": "Kulaklıklar",
+      "smartwatches": "Akıllı Saatler",
+      "cameras": "Kameralar"
+    }
+  },
+  "NewArrivals": {
+    "title": "Yeni Gelenler",
+    "subtitle": "Sizin için seçilmiş en yeni ürün ve yenilikleri keşfedin",
+    "viewDetails": "Detayları Görüntüle",
+    "filters": {
+      "categories": "Kategoriler",
+      "priceRange": "Fiyat Aralığı",
+      "clearPrice": "Fiyat filtresini temizle",
+      "brands": "Markalar",
+      "clearBrands": "Tüm markaları temizle"
+    },
+    "sort": {
+      "featured": "Öne Çıkanlar",
+      "discountHigh": "İndirim: Yüksekten Düşüğe",
+      "priceLow": "Fiyat: Düşükten Yükseğe",
+      "priceHigh": "Fiyat: Yüksekten Düşüğe"
+    },
+    "badges": {
+      "new": "Yeni",
+      "hot": "Çok Satan"
+    },
+    "viewDeal": "Teklifi Görüntüle",
+    "noProducts": {
+      "title": "Ürün Bulunamadı",
+      "description": "Arama veya filtrenizi ayarlamayı deneyin.",
+      "clearFilters": "Tüm filtreleri temizle"
+    },
+    "pagination": {
+      "showing": "{start} ile {end} arası gösteriliyor, toplam {total}",
+      "previous": "Önceki",
+      "next": "Sonraki"
+    }
+  },
+  "home": {
+    "featured_products": "Öne Çıkan Ürünler",
+    "view_all": "Tümünü Gör",
+    "add_to_cart": "Sepete Ekle",
+    "price": "{price}",
+    "currency": "PKR",
+    "best_sellers": "En Çok Satanlar",
+    "new_arrivals": "Yeni Gelenler",
+    "on_sale": "İndirimde",
+    "trending_now": "Trend Olanlar",
+    "special_offers": "Özel Teklifler",
+    "free_shipping": "{amount} Üzeri Ücretsiz Kargo",
+    "secure_payment": "Güvenli Ödeme",
+    "easy_returns": "Kolay İade",
+    "customer_support": "24/7 Müşteri Desteği",
+    "shop_by_category": "Kategoriye Göre Alışveriş",
+    "browse_our_collection": "Ürün Koleksiyonumuza Göz Atın",
+    "electronics": "Elektronik",
+    "smartphones": "Akıllı Telefonlar",
+    "laptops": "Dizüstü Bilgisayarlar",
+    "tablets": "Tabletler",
+    "smartwatches": "Akıllı Saatler",
+    "accessories": "Aksesuarlar",
+    "fashion": "Moda",
+    "mens_fashion": "Erkek Giyim",
+    "womens_fashion": "Kadın Giyim",
+    "kids_fashion": "Çocuk Giyim",
+    "fashion_accessories": "Moda Aksesuarları",
+    "view_all_electronics": "Tüm Elektronikleri Gör",
+    "view_all_fashion": "Tüm Modayı Gör",
+    "home_garden": "Ev & Bahçe",
+    "furniture": "Mobilya",
+    "home_decor": "Ev Dekorasyonu",
+    "decor": "Dekorasyon",
+    "kitchen": "Mutfak",
+    "garden": "Bahçe",
+    "view_all_home": "Tüm Ev & Bahçe Ürünlerini Gör",
+    "beauty_personal_care": "Güzellik & Kişisel Bakım",
+    "skincare": "Cilt Bakımı",
+    "makeup": "Makyaj",
+    "fragrances": "Parfüm",
+    "hair_care": "Saç Bakımı",
+    "view_all_beauty": "Tüm Güzellik Ürünlerini Gör",
+    "sports_outdoors": "Spor & Açık Hava",
+    "fitness_equipment": "Fitness Ekipmanları",
+    "camping_gear": "Kamp Malzemeleri",
+    "team_sports": "Takım Sporları",
+    "outdoor_recreation": "Açık Hava Rekreasyonu",
+    "view_all_sports": "Tüm Spor Ürünlerini Gör",
+    "toys_games": "Oyuncak & Oyunlar",
+    "educational_toys": "Eğitici Oyuncaklar",
+    "board_games": "Masa Oyunları",
+    "dolls_action_figures": "Bebek & Aksiyon Figürleri",
+    "puzzles": "Bulmacalar",
+    "view_all_toys": "Tüm Oyuncakları Gör",
+    "fashion_collection": "Moda Koleksiyonu",
+    "latest_fashion_trends": "En Son Moda Trendleri",
+    "smartphone_pro": "Profesyonel Akıllı Telefon",
+    "wireless_earbuds": "Kablosuz Kulaklık",
+    "smart_watch": "Akıllı Saat",
+    "laptop_ultra": "Ultra Dizüstü Bilgisayar",
+    "bluetooth_speaker": "Bluetooth Hoparlör",
+    "mens_shirt": "Erkek Gömlek",
+    "womens_dress": "Kadın Elbise",
+    "running_shoes": "Koşu Ayakkabıları",
+    "designer_handbag": "Tasarımcı Çanta",
+    "trending_now_description": "Şu anda neler popüler",
+    "carousel": {
+      "slide1": {
+        "title": "Özel Teklifler",
+        "description": "Seçili ürünlerde %50'ye varan indirimler",
+        "buttonText": "Hemen Alışveriş Yap"
+      },
+      "slide2": {
+        "title": "Yeni Gelenler",
+        "description": "Yeni koleksiyonumuzu keşfedin",
+        "buttonText": "Hemen Alışveriş Yap"
+      },
+      "slide3": {
+        "title": "Fırsatlar",
+        "description": "Sınırlı süreli teklifler",
+        "buttonText": "Hemen Alışveriş Yap"
+      }
+    }
+  },
+  "navigation": {
+    "all_categories": "Tüm Kategoriler",
+    "electronics": "Elektronik",
+    "fashion": "Moda",
+    "home_living": "Ev & Yaşam",
+    "beauty": "Güzellik",
+    "sports": "Spor",
+    "books": "Kitaplar",
+    "toys": "Oyuncaklar",
+    "grocery": "Gıda"
+  },
+  "product": {
+    "description": "Açıklama",
+    "specifications": "Özellikler",
+    "reviews": "Yorumlar",
+    "related_products": "İlgili Ürünler",
+    "in_stock": "Stokta",
+    "out_of_stock": "Stokta Yok",
+    "quantity": "Adet",
+    "add_to_wishlist": "İstek Listesine Ekle",
+    "share": "Paylaş"
+  },
+  "auth": {
+    "login": "Giriş Yap",
+    "register": "Kayıt Ol",
+    "email": "E-posta",
+    "password": "Şifre",
+    "forgot_password": "Şifremi Unuttum?",
+    "dont_have_account": "Hesabınız yok mu?",
+    "already_have_account": "Zaten bir hesabınız var mı?",
+    "create_account": "Hesap Oluştur",
+    "name": "Ad",
+    "confirm_password": "Şifreyi Onayla"
+  },
+  "CustomerService": {
+    "title": "Müşteri Hizmetleri",
+    "subtitle": "Bugün size nasıl yardımcı olabiliriz?",
+    "tabs": {
+      "faq": "SSS",
+      "contact": "İletişim",
+      "track": "Sipariş Takibi"
+    },
+    "faqTitle": "Sık Sorulan Sorular",
+    "needMoreHelp": "Daha fazla yardıma mı ihtiyacınız var?",
+    "contactUsPrompt": "Aradığınız şeyi bulamadınız mı? Müşteri hizmetleri ekibimiz yardımcı olmak için burada.",
+    "contactUsButton": "İletişim",
+    "contactUs": "İletişim",
+    "form": {
+      "name": "Tam Ad",
+      "email": "E-posta Adresi",
+      "orderId": "Sipariş ID",
+      "optional": "(opsiyonel)",
+      "subject": "Konu",
+      "selectSubject": "Konu seçin",
+      "orderIssue": "Sipariş Sorunu",
+      "shipping": "Kargo",
+      "return": "İade",
+      "payment": "Ödeme",
+      "other": "Diğer",
+      "message": "Mesaj",
+      "submit": "Mesaj Gönder",
+      "submitting": "Gönderiliyor...",
+      "success": "Mesajınız başarıyla gönderildi!"
+    },
+    "contactInfo": {
+      "title": "İletişim Bilgileri",
+      "email": "E-posta",
+      "phone": "Telefon",
+      "hours": "Çalışma Saatleri",
+      "hoursValue": "Pazartesi - Cuma: 09:00 - 18:00 (PST)",
+      "address": "Adres",
+      "addressLine1": "123 Tijarah Caddesi",
+      "addressLine2": "Karaçi, 75500, Pakistan"
+    },
+    "trackOrder": {
+      "title": "Siparişinizi Takip Edin",
+      "description": "Siparişinizin durumunu kontrol etmek için sipariş ID'nizi girin.",
+      "placeholder": "Sipariş ID girin (örn: ORD-12345)",
+      "helpText": "Sipariş ID'nizi sipariş onay e-postanızda veya hesap siparişlerinizde bulabilirsiniz.",
+      "button": "Sipariş Takibi",
+      "tracking": "Takip Ediliyor...",
+      "viewAllOrders": "Tüm siparişlerinizi görüntüleyin",
+      "viewAllPrompt": "Tüm siparişlerinizi mi arıyorsunuz?",
+      "viewDetails": "Sipariş Detaylarını Görüntüle",
+      "validation": {
+        "required": "Takip etmek için lütfen sipariş ID girin"
+      },
+      "status": {
+        "ordered": "Sipariş Verildi",
+        "processing": "İşleniyor",
+        "shipped": "Kargoya Verildi",
+        "delivered": "Teslim Edildi",
+        "cancelled": "İptal Edildi"
+      },
+      "details": {
+        "trackingNumber": "Takip Numarası",
+        "carrier": "Kargo Şirketi",
+        "estimatedDelivery": "Tahmini Teslimat",
+        "orderHistory": "Sipariş Geçmişi"
+      },
+      "error": "Sipariş takip edilemiyor. Lütfen sipariş ID'nizi kontrol edin ve tekrar deneyin.",
+      "notFound": "Bu ID ile sipariş bulunamadı. Lütfen kontrol edin ve tekrar deneyin."
+    },
+    "helpfulLinks": {
+      "title": "Yararlı Bağlantılar",
+      "payment": {
+        "title": "Ödeme Seçenekleri",
+        "description": "Güvenli ödeme yöntemlerimiz hakkında bilgi edinin"
+      },
+      "returns": {
+        "title": "İade & Geri Ödeme",
+        "description": "Kolay iade politikamız"
+      },
+      "shipping": {
+        "title": "Kargo Bilgisi",
+        "description": "Teslimat süreleri ve kargo seçenekleri"
+      },
+      "faq": {
+        "title": "SSS",
+        "description": "Yaygın sorulara yanıtlar bulun"
+      }
+    },
+    "faq1": {
+      "question": "Siparişimi nasıl takip edebilirim?",
+      "answer": "Siparişinizi Sipariş Takibi bölümüne sipariş ID'nizi girerek takip edebilirsiniz. Siparişiniz gönderildikten sonra bir takip numarası alacaksınız."
+    },
+    "faq2": {
+      "question": "İade politikanız nedir?",
+      "answer": "Çoğu ürün için 30 günlük iade politikamız vardır. Ürünler orijinal durumda tüm etiketler ekli olmalıdır. Bazı ürünler hariç tutulabilir."
+    },
+    "faq3": {
+      "question": "Müşteri hizmetleriyle nasıl iletişim kurabilirim?",
+      "answer": "İletişim formu aracılığıyla, support@tijarah.pk adresine e-posta göndererek veya çalışma saatleri içinde +92 300 1234567 numarasını arayarak bize ulaşabilirsiniz."
+    },
+    "faq4": {
+      "question": "Hangi ödeme yöntemlerini kabul ediyorsunuz?",
+      "answer": "Tüm büyük kredi/banka kartlarını, banka transferlerini ve uygun siparişler için kapıda nakit ödemeyi (COD) kabul ediyoruz."
+    },
+    "faq5": {
+      "question": "Kargo ne kadar sürer?",
+      "answer": "Standart kargo genellikle Pakistan içinde 3-5 iş günü sürer. Uluslararası kargo süreleri varış yerine göre değişir."
+    }
+  },
+  "checkout": {
+    "shipping_address": "Teslimat Adresi",
+    "billing_address": "Fatura Adresi",
+    "payment_method": "Ödeme Yöntemi",
+    "order_summary": "Sipariş Özeti",
+    "place_order": "Siparişi Yerleştir",
+    "subtotal": "Ara Toplam",
+    "shipping": "Kargo",
+    "tax": "Vergi",
+    "total": "Toplam",
+    "proceed_to_checkout": "Ödemeye Devam Et"
+  },
+  "deals": {
+    "title": "Bugünün Flash Fırsatları",
+    "subtitle": "SÜRERLİ TEKLİFLER",
+    "description": "Favori ürünlerinizdeki harika fırsatları kaçırmadan alın!",
+    "title_sub": "Bu harika fırsatları kaçırmayın. Sınırlı sayıda!",
+    "deals_count": "{count} Sıcak Fırsat Mevcut",
+    "filters": "Filtreler",
+    "filter_by_category": "Kategoriye Göre Filtrele",
+    "filter_by_discount": "İndirime Göre Filtrele",
+    "all_discounts": "Tüm İndirimler",
+    "or_more": "veya daha fazla",
+    "no_deals_found": "Fırsat bulunamadı",
+    "try_changing_filters": "Filtreleri değiştirmeyi deneyin",
+    "load_more": "Daha Fazla Fırsat Yükle",
+    "hours": "Saat",
+    "minutes": "Dakika",
+    "seconds": "Saniye",
+    "sold": "satıldı",
+    "add_to_cart": "Sepete Ekle",
+    "categories": {
+      "all": "Tüm Kategoriler",
+      "electronics": "Elektronik",
+      "fashion": "Moda",
+      "home": "Ev & Bahçe",
+      "beauty": "Güzellik"
+    },
+    "sort": {
+      "popular": "En Popüler",
+      "newest": "En Yeni Fırsatlar",
+      "discount": "En Yüksek İndirim",
+      "price_low": "Fiyat: Düşükten Yükseğe",
+      "price_high": "Fiyat: Yüksekten Düşüğe"
+    },
+    "filter_options": {
+      "all_categories": "Tüm Kategoriler",
+      "price_range": "Fiyat Aralığı",
+      "clear_filters": "Filtreleri Temizle",
+      "discount": "Markalar",
+      "showing": "{total} sonuçtan {start} ile {end} arası gösteriliyor"
+    },
+    "sort_options": {
+      "ending_soon": "Yakında Bitiyor",
+      "discount": "En Yüksek İndirim",
+      "price_low": "Fiyat: Düşükten Yükseğe",
+      "price_high": "Fiyat: Yüksekten Düşüğe"
+    },
+    "newsletter": {
+      "title": "Fırsatlar Cebinize Gelsin",
+      "description": "Bültenimize abone olun ve sıcak fırsatları asla kaçırmayın.",
+      "placeholder": "E-posta adresinizi girin",
+      "button": "Şimdi Abone Ol"
+    },
+    "off": "İndirim",
+    "sold": "Satıldı",
+    "view_details": "Fırsatı Gör",
+    "save": "Kaydet",
+    "free_shipping": "Ücretsiz Kargo",
+    "limited_stock": "Sınırlı Stok"
+  },
+  "footer": {
+    "about_title": "Tijarah.pk Hakkında",
+    "about_description": "Tüm ihtiyaçlarınız için tek adres. Asya genelinde hızlı teslimat ile kaliteli ürünler sunuyoruz.",
+    "quick_links_title": "Hızlı Bağlantılar",
+    "home": "Ana Sayfa",
+    "shop": "Mağaza",
+    "categories": "Kategoriler",
+    "deals": "Fırsatlar",
+    "customer_service_title": "Müşteri Hizmetleri",
+    "my_account": "Hesabım",
+    "order_tracking": "Sipariş Takibi",
+    "wishlist": "İstek Listesi",
+    "customer_service": "Müşteri Hizmetleri",
+    "returns_exchange": "İade/Değişim",
+    "contact_title": "İletişim",
+    "address": "123 İş Caddesi, Şehir, Ülke",
+    "phone": "+92 123 4567890",
+    "email": "info@tijarah.pk",
+    "about_us": "Hakkımızda",
+    "contact_us": "İletişim",
+    "privacy_policy": "Gizlilik Politikası",
+    "terms_conditions": "Şartlar & Koşullar",
+    "return_policy": "İade Politikası",
+    "shipping_policy": "Kargo Politikası",
+    "newsletter": "Bültenimize Abone Olun",
+    "newsletter_placeholder": "E-postanızı girin",
+    "subscribe": "Abone Ol",
+    "follow_us": "Bizi Takip Edin",
+    "copyright": "© {year} Tijarah.pk. Tüm hakları saklıdır."
+  },
+  "home_decor": {
+    "title": "Ev Dekorasyonu",
+    "subtitle": "Yaşam alanınızı güzel ev dekorasyon ürünleriyle geliştirin",
+    "products_found": "{count} ürün bulundu",
+    "no_products": "Ev dekorasyon ürünü bulunamadı",
+    "filters": {
+      "all_categories": "Tüm Kategoriler",
+      "price_range": "Fiyat Aralığı",
+      "brand": "Marka",
+      "type": "Tür",
+      "clear_all": "Tümünü Temizle"
+    },
+    "sort_by": "Sıralama",
+    "sort_options": {
+      "featured": "Öne Çıkanlar",
+      "newest": "En Yeni Gelenler",
+      "price_low_high": "Fiyat: Düşükten Yükseğe",
+      "price_high_low": "Fiyat: Yüksekten Düşüğe",
+      "top_rated": "En Yüksek Puanlı"
+    },
+    "showing_results": "{count} sonuç gösteriliyor"
+  },
+  "ReturnsAndOrders": {
+    "title": "Siparişleriniz & İadeler",
+    "subtitle": "Siparişlerinizi ve iadelerinizi tek bir yerde görüntüleyin ve yönetin",
+    "tabs": {
+      "orders": "Siparişler",
+      "returns": "İadeler"
+    },
+    "noOrders": "Sipariş bulunamadı",
+    "noOrdersDescription": "Henüz sipariş vermediniz. Alışveriş yapmaya başlayın.",
+    "noReturns": "İade bulunamadı",
+    "noReturnsDescription": "Şu anda hiç iade veya geri ödemeniz yok.",
+    "continueShopping": "Alışverişe Devam Et",
+    "selectAll": "Tümünü Seç",
+    "selectedCount": "{count} seçildi",
+    "returnSelectedItems": "Seçili Ürünleri İade Et",
+    "orderPlaced": "Sipariş verildi",
+    "order": "Sipariş",
+    "quantity": "Adet",
+    "total": "Toplam",
+    "tracking": "Takip #",
+    "estimatedDelivery": "Tahmini teslimat",
+    "trackPackage": "Paket Takibi",
+    "viewOrder": "Siparişi Görüntüle",
+    "cancelOrder": "Siparişi İptal Et",
+    "returnItem": "Ürünü İade Et",
+    "returnRequested": "İade talep edildi",
+    "return": "İade",
+    "itemsReturned": "İade edilecek ürünler",
+    "reason": "Neden",
+    "condition": "Durum",
+    "refundAmount": "Geri ödeme tutarı",
+    "refundMethod": "Geri ödeme yöntemi",
+    "returnTracking": "İade takip #",
+    "carrier": "Kargo Şirketi",
+    "viewReturnDetails": "İade Detaylarını Görüntüle",
+    "status": {
+      "processing": "İşleniyor",
+      "shipped": "Gönderildi",
+      "delivered": "Teslim Edildi",
+      "cancelled": "İptal Edildi",
+      "returnRequested": "İade Talep Edildi",
+      "returnApproved": "İade Onaylandı",
+      "returnInTransit": "İade Yolda",
+      "refundProcessed": "Geri Ödeme İşlendi",
+      "refundRejected": "Geri Ödeme Reddedildi"
+    },
+    "noOrdersSelected": "İade etmek için lütfen en az bir sipariş seçin",
+    "initiatingReturn": "İade süreci başlatılıyor...",
+    "trackingNotAvailable": "Takip bilgisi henüz mevcut değil",
+    "confirmCancelOrder": "Bu siparişi iptal etmek istediğinizden emin misiniz? Bu işlem geri alınamaz.",
+    "orderCancelled": "Siparişiniz iptal edildi"
+  },
+  "ProductDetail": {
+    "notFound": {
+      "title": "Ürün Bulunamadı",
+      "description": "Aradığınız ürün mevcut değil veya kaldırılmış olabilir.",
+      "continueShopping": "Alışverişe Devam Et"
+    },
+    "backButton": "Ürünlere Geri Dön",
+    "rating": {
+      "withRating": "{rating} ({count} değerlendirme)",
+      "noRating": "Henüz değerlendirme yok ({count} değerlendirme)"
+    },
+    "savePercentage": "%{percent} Tasarruf Edin",
+    "keyFeatures": "Temel Özellikler",
+    "quantity": "Adet",
+    "stock": {
+      "inStock": "Stokta Var ({count} adet)",
+      "outOfStock": "Stokta Yok"
+    },
+    "buttons": {
+      "addToCart": "Sepete Ekle",
+      "added": "Eklendi!",
+      "outOfStock": "Stokta Yok"
+    },
+    "shipping": {
+      "inStock": "Stokta - Genellikle 24 saat içinde kargoda",
+      "outOfStock": "Stokta Yok",
+      "free": "Ücretsiz Kargo",
+      "onAllOrders": "Tüm Siparişlerde"
+    },
+    "returnPolicy": {
+      "days": "{days} Gün İade Politikası",
+      "policy": "Para İade Garantisi"
+    },
+    "navigation": {
+      "home": "Ana Sayfa",
+      "products": "Ürünler"
+    },
+    "stock": {
+      "readyToShip": "Kargoya Hazır",
+      "soldOut": "Tükendi"
+    },
+    "reviews": "Yorumlar",
+    "buttons": {
+      "addToCart": "Alışveriş Sepetine Ekle",
+      "addedToCart": "Sepete Eklendi"
+    },
+    "trust": {
+      "swiftDelivery": "Hızlı Teslimat",
+      "freeOver": "50$ Üzeri Ücretsiz",
+      "secureWarranty": "Güvenli Garanti",
+      "genuine": "%100 Orijinal"
+    },
+    "sections": {
+      "coreFeatures": "Temel Özellikler",
+      "technicalSpecifications": "Teknik Özellikler"
+    },
+    "toast": {
+      "addedToCart": "{name} sepete eklendi!",
+      "failedToAdd": "Ürün sepete eklenemedi"
+    }
+  },
+  "SpecialOffers": {
+    "title": "Özel Teklifler & Fırsatlar",
+    "subtitle": "Sınırlı süreli teklifler. Bu harika fırsatları kaçırmayın!",
+    "filters": {
+      "categories": "Kategoriler",
+      "priceRange": "Fiyat Aralığı",
+      "clearPrice": "Fiyat filtresini temizle",
+      "brands": "Markalar",
+      "clearBrands": "Markaları temizle"
+    },
+    "sort": {
+      "featured": "Öne Çıkanlar",
+      "discountHigh": "İndirim: Yüksekten Düşüğe",
+      "priceLow": "Fiyat: Düşükten Yükseğe",
+      "priceHigh": "Fiyat: Yüksekten Düşüğe"
+    },
+    "badges": {
+      "new": "Yeni",
+      "hot": "Çok Satan"
+    },
+    "viewDeal": "Teklifi Görüntüle",
+    "noProducts": {
+      "title": "Ürün Bulunamadı",
+      "description": "Arama veya filtrenizi ayarlamayı deneyin.",
+      "clearFilters": "Tüm filtreleri temizle"
+    },
+    "pagination": {
+      "showing": "{start} ile {end} arası gösteriliyor, toplam {total}",
+      "previous": "Önceki",
+      "next": "Sonraki"
+    }
+  },
+  "products": {
+    "iphone-15-pro-max": {
+      "name": "iPhone 15 Pro Max",
+      "description": "A17 Pro çipi ve profesyonel kamera sistemi ile üst düzey akıllı telefon."
+    },
+    "macbook-pro-16": {
+      "name": "MacBook Pro 16 inç",
+      "description": "M3 Max çipi ile profesyoneller için tasarlanmış güçlü MacBook Pro."
+    },
+    "headphones-1": {
+      "name": "Sony WH-1000XM3",
+      "description": "Gelişmiş gürültü önleme ve olağanüstü ses kalitesi ile lüks kablosuz kulaklık"
+    },
+    "smartphone-2": {
+      "name": "Samsung Galaxy S24 Ultra",
+      "description": "Gelişmiş AI özellikleri ve harika kamera ile üst düzey Samsung telefon."
+    },
+    "ipad-air": {
+      "name": "iPad Air",
+      "description": "M1 çipi ve harika Liquid Retina ekran ile çok yönlü iPad."
+    },
+    "airpods-pro-2": {
+      "name": "AirPods Pro 2",
+      "description": "Aktif gürültü engelleme ve yüksek ses kalitesi ile premium kablosuz kulaklıklar"
+    },
+    "laptop-1": {
+      "name": "MacBook Pro",
+      "description": "M2 Pro/Max çipli güçlü profesyonel dizüstü bilgisayar",
+      "specs": {
+        "Marka": "Apple",
+        "Model": "MacBook Pro",
+        "İşletim Sistemi": "macOS",
+        "Ekran": "14.2 veya 16.2 inç Liquid Retina XDR",
+        "İşlemci": "M2 Pro veya M2 Max",
+        "Bellek": "16GB (yükseltilebilir)",
+        "Depolama": "512GB SSD (yükseltilebilir)",
+        "Pil Ömrü": "22 saate kadar video oynatma"
+      },
+      "renkler": [
+        "Gümüş",
+        "Uzay Grisi"
+      ],
+      "özellikler": [
+        "M2 Pro/Max çip ile yüksek performans",
+        "Liquid Retina XDR ekran",
+        "Uzun pil ömrü ve verimlilik",
+        "Geliştirilmiş soğutma sistemi",
+        "HDMI ve SD kart okuyucu"
+      ]
+    },
+    "smartwatch-1": {
+      "name": "Apple Watch Ultra 3",
+      "description": "En zorlu maceralar için tasarlanmış en gelişmiş Apple saati",
+      "specs": {
+        "Marka": "Apple",
+        "Model": "Watch Ultra 3",
+        "Ekran": "Süper parlak Always-On Retina ekran",
+        "Su Geçirmezlik": "100 metreye kadar",
+        "Pil Ömrü": "Normal kullanımda 36 saate kadar",
+        "Bağlantı": "GPS + Hücresel",
+        "Malzeme": "Titanyum kasa",
+        "Uyumluluk": "iPhone 8 ve sonrası"
+      },
+      "renkler": [
+        "Titanyum Doğal",
+        "Titanyum Mavi",
+        "Titanyum Siyah"
+      ],
+      "özellikler": [
+        "Çift frekanslı GPS ile hassas konum takibi",
+        "Sıcaklık sensörü ile gelişmiş sağlık takibi",
+        "Acil Durum S.O.S. ve Çarpma Tespiti",
+        "Yeni Ultra Genişbant çipi ile Geliştirilmiş Bul Özelliği",
+        "Dayanıklı ve hafif titanyum kasa"
+      ]
+    },
+    "tablet-1": {
+      "name": "Samsung Galaxy Tab S9",
+      "description": "S Pen ve Dynamic AMOLED 2X ekran ile üst düzey tablet deneyimi",
+      "specs": {
+        "Marka": "Samsung",
+        "Model": "Galaxy Tab S9",
+        "İşletim Sistemi": "Android 13 (One UI 5.1)",
+        "Ekran": "11 inç Dynamic AMOLED 2X, 120Hz",
+        "İşlemci": "Qualcomm Snapdragon 8 Gen 2",
+        "Bellek": "8GB/12GB RAM",
+        "Depolama": "128GB/256GB (microSD ile genişletilebilir)",
+        "Pil": "8400mAh, 45W hızlı şarj"
+      },
+      "renkler": [
+        "Bej",
+        "Grafit"
+      ],
+      "özellikler": [
+        "Dahili S Pen ve düşük gecikme süresi",
+        "IP68 su ve toz direnci",
+        "Dört hoparlörlü AKG ses sistemi",
+        "Yüksek çözünürlüklü çift arka kamera",
+        "İnce ve hafif alüminyum gövde"
+      ]
+    },
+    "samsung-s23-ultra": {
+      "name": "Samsung Galaxy S23 Ultra",
+      "description": "200MP kamera ve dinamik ekran ile ileri düzey akıllı telefon"
+    },
+    "sony-wh-1000xm5": {
+      "name": "Sony WH-1000XM5",
+      "description": "İleri düzey gürültü engelleme ve 30 saat pil ömrü ile kablosuz kulaklıklar"
+    },
+    "ipad-pro-12-9": {
+      "name": "iPad Pro 12.9 inç",
+      "description": "Liquid Retina XDR ekranı ile güçlü tablet bilgisayar"
+    },
+    "samsung-galaxy-tab-s9": {
+      "name": "Samsung Galaxy Tab S9",
+      "description": "S Pen ve Dynamic AMOLED ekran ile ince tablet"
+    },
+    "google-pixel-8-pro": {
+      "name": "Google Pixel 8 Pro",
+      "description": "Google AI özellikleri ile üst düzey kamera"
+    },
+    "xiaomi-13-pro": {
+      "name": "Xiaomi Mi 11 Ultra",
+      "description": "Yüksek özellikler, rekabetçi fiyat"
+    },
+    "macbook-pro-16": {
+      "name": "MacBook Pro 16 inç",
+      "description": "M2 Max çip ve Liquid Retina XDR ekranlı güçlü dizüstü bilgisayar"
+    },
+    "dell-xps-15": {
+      "name": "Dell XPS 15",
+      "description": "4K OLED ekranlı premium Windows dizüstü bilgisayar"
+    },
+    "hp-spectre-x360": {
+      "name": "HP Spectre x360",
+      "description": "Dokunmatik ekran ve 360 derece dönebilen menteşeli şık ve güçlü dizüstü bilgisayar"
+    },
+    "lenovo-thinkpad-x1": {
+      "name": "Lenovo ThinkPad X1 Carbon",
+      "description": "Hafif ve dayanıklı iş dizüstü bilgisayar, uzun pil ömrü ve üstün klavye deneyimi"
+    },
+    "asus-rog-zephyrus": {
+      "name": "ASUS ROG Zephyrus",
+      "description": "Yüksek performanslı oyun dizüstü bilgisayarı, güçlü grafikler ve yüksek yenileme hızı"
+    },
+    "microsoft-surface-laptop": {
+      "name": "Microsoft Surface Laptop",
+      "description": "Şık tasarımı, dokunmatik ekranı ve uzun pil ömrü ile premium Windows dizüstü bilgisayar"
+    },
+    "form": {
+      "title": "Ürün Başlığı *",
+      "titlePlaceholder": "Açık ve açıklayıcı bir başlık girin",
+      "description": "Açıklama *",
+      "descriptionPlaceholder": "Ürün hakkında detaylı bilgi sağlayın",
+      "descriptionHelp": "Durum, özellikler ve spesifikasyonlar hakkında detaylar ekleyin",
+      "category": "Kategori *",
+      "selectCategory": "Kategori seçin",
+      "subcategory": "Alt Kategori",
+      "selectSubcategory": "Alt kategori seçin",
+      "condition": "Durum *",
+      "price": "Fiyat *",
+      "quantity": "Adet *",
+      "uploadPhoto": "Fotoğraf yükle",
+      "orDragDrop": "veya sürükleyip bırakın",
+      "photoRequirements": "PNG, JPG, JPEG 10MB'ye kadar (max 10 resim)",
+      "removeImage": "Resmi kaldır",
+      "imagesUploaded": "{count} {count, plural, one {resim} other {resim}} yüklendi",
+      "localPickup": "Yerel Alım",
+      "localPickupHelp": "Alıcılar ürünü kişisel olarak alabilir",
+      "freeShipping": "Ücretsiz Kargo",
+      "freeShippingHelp": "Daha fazla alıcı çekmek için ücretsiz kargo sunun",
+      "calculatedShipping": "Kargo Hesapla",
+      "calculatedShippingHelp": "Kargo maliyeti alıcının konumuna göre hesaplanacak",
+      "shippingCost": "Kargo Maliyeti",
+      "location": "Ürün Konumu",
+      "locationPlaceholder": "Şehir, Ülke",
+      "locationHelp": "Alıcıların ürünün nerede olduğunu bilmelerine yardımcı olun",
+      "agreeToTerms": "Kabul ediyorum",
+      "termsAndConditions": "Ürün listelemesi yaparak şu koşulları kabul etmiş olursunuz",
+      "termsOfService": "Hizmet Şartları",
+      "and": "ve",
+      "privacyPolicy": "Gizlilik Politikası",
+      "saveDraft": "Taslak Olarak Kaydet",
+      "publishListing": "Listeleyi Yayınla",
+      "submitting": "Yayınlanıyor..."
+    },
+    "conditions": {
+      "new": "Yeni",
+      "likeNew": "Yeni Gibi",
+      "good": "İyi",
+      "fair": "Orta",
+      "poor": "Kötü"
+    },
+    "returnPolicies": {
+      "7days": "7 Gün İade",
+      "14days": "14 Gün İade",
+      "30days": "30 Gün İade",
+      "noReturns": "İade Yok"
+    },
+    "paymentMethods": {
+      "cashOnDelivery": "Kapıda Ödeme",
+      "cashOnDeliveryHelp": "Alıcı ürünü aldığında ödeme alın",
+      "bankTransfer": "Banka Transferi",
+      "bankTransferHelp": "Alıcı banka hesabınıza para transfer edecek",
+      "creditCard": "Kredi/Banka Kartı",
+      "creditCardHelp": "Güvenli çevrimiçi ödeme"
+    },
+    "successMessage": "Listelemeniz başarıyla yayınlandı!",
+    "validation": {
+      "titleRequired": "Lütfen listelemeniz için bir başlık girin",
+      "descriptionRequired": "Lütfen listelemeniz için bir açıklama girin",
+      "categoryRequired": "Lütfen bir kategori seçin",
+      "validPrice": "Lütfen geçerli bir fiyat girin",
+      "validQuantity": "Lütfen geçerli bir adet girin",
+      "atLeastOneImage": "Lütfen en az bir resim yükleyin"
+    },
+    "errors": {
+      "fetchCategories": "Kategoriler yüklemeye başarısız. Lütfen tekrar deneyin.",
+      "submissionError": "Listelemenizi yayınlamaya başarısız. Lütfen tekrar deneyin."
+    }
+  },
+  "Smartphones": {
+    "title": "Akıllı Telefonlar",
+    "subtitle": "Yenilmez fiyatlarla en yeni akıllı telefonları keşfedin",
+    "categories": "Kategoriler",
+    "priceRange": "Fiyat Aralığı",
+    "brands": "Markalar",
+    "sortBy": "Sıralama:",
+    "featured": "Öne Çıkan",
+    "priceLow": "Fiyat: Düşükten Yükseğe",
+    "priceHigh": "Fiyat: Yüksekten Düşüğe",
+    "rating": "Değerlendirme",
+    "showingResults": "{start}-{end} / {total} ürün gösteriliyor",
+    "inStock": "Stokta Var",
+    "addToCart": "Sepete Ekle",
+    "previous": "Önceki",
+    "next": "Sonraki",
+    "subcategories": {
+      "flagship": "Bayrak Telefonlar",
+      "midRange": "Orta Segment",
+      "budget": "Bütçe Telefonları",
+      "foldable": "Katlanabilir Telefonlar",
+      "gaming": "Oyun Telefonları"
+    },
+    "priceRanges": {
+      "under200": "200$ Altı",
+      "200to500": "200$ - 500$",
+      "500to1000": "500$ - 1.000$",
+      "1000to1500": "1.000$ - 1.500$",
+      "1500to2000": "1.500$ - 2.000$",
+      "over2000": "2.000$ Üzeri"
+    },
+    "brandNames": {
+      "apple": "Apple",
+      "dell": "Dell",
+      "hp": "HP",
+      "lenovo": "Lenovo",
+      "asus": "ASUS",
+      "microsoft": "Microsoft"
+    },
+    "pagination": {
+      "previous": "Önceki",
+      "next": "Sonraki"
+    }
+  },
+  "Laptops": {
+    "title": "Dizüstü Bilgisayarlar",
+    "subtitle": "İhtiyaçlarınıza uygun en yeni dizüstü bilgisayarları keşfedin",
+    "categories": "Kategoriler",
+    "priceRange": "Fiyat Aralığı",
+    "brands": "Markalar",
+    "sortBy": "Sıralama:",
+    "featured": "Öne Çıkan",
+    "priceLow": "Fiyat: Düşükten Yükseğe",
+    "priceHigh": "Fiyat: Yüksekten Düşüğe",
+    "rating": "Değerlendirme",
+    "showingResults": "{start}-{end} / {total} ürün gösteriliyor",
+    "inStock": "Stokta Var",
+    "addToCart": "Sepete Ekle",
+    "previous": "Önceki",
+    "next": "Sonraki",
+    "subcategories": {
+      "ultrabooks": "Ultra İnce ve Hafif",
+      "gaming": "Oyun Dizüstüleri",
+      "business": "İş Dizüstüleri",
+      "convertibles": "Dokunmatik ve Dönüştürülebilir",
+      "budget": "Bütçe Dostu"
+    },
+    "priceRanges": {
+      "0-50000": "50.000₺ Altı",
+      "50000-100000": "50.000₺ - 100.000₺",
+      "100000-200000": "100.000₺ - 200.000₺",
+      "200000-300000": "200.000₺ - 300.000₺",
+      "300000-400000": "300.000₺ - 400.000₺",
+      "400000": "400.000₺ ve Üzeri"
+    },
+    "brandNames": {
+      "apple": "Apple",
+      "dell": "Dell",
+      "hp": "HP",
+      "lenovo": "Lenovo",
+      "asus": "ASUS",
+      "microsoft": "Microsoft"
+    },
+    "pagination": {
+      "previous": "Önceki",
+      "next": "Sonraki"
+    }
+  },
+  "Tablets": {
+    "title": "Tabletler",
+    "subtitle": "İş ve eğlence için premium tabletler",
+    "categories": "Kategoriler",
+    "priceRange": "Fiyat Aralığı",
+    "brands": "Markalar",
+    "sortBy": "Sırala:",
+    "featured": "Öne Çıkanlar",
+    "priceLow": "Fiyat: Düşükten Yükseğe",
+    "priceHigh": "Fiyat: Yüksekten Düşüğe",
+    "rating": "En Yüksek Puan",
+    "showingResults": "{start}-{end} arası gösteriliyor, toplam {total} ürün",
+    "inStock": "Stokta Var",
+    "addToCart": "Sepete Ekle",
+    "viewDetails": "Detayları Görüntüle",
+    "previous": "Önceki",
+    "next": "Sonraki",
+    "subcategories": {
+      "ipads": "iPad'ler",
+      "android": "Android Tabletler",
+      "windows": "Windows Tabletler",
+      "kids": "Çocuk Tabletleri"
+    },
+    "priceRanges": {
+      "0-200": "200$'ın Altı",
+      "200-500": "200$ - 500$",
+      "500-1000": "500$ - 1000$",
+      "1000": "1000$ Üzeri"
+    },
+    "brandNames": {
+      "apple": "Apple",
+      "samsung": "Samsung",
+      "microsoft": "Microsoft",
+      "lenovo": "Lenovo"
+    },
+    "pagination": {
+      "previous": "Önceki",
+      "next": "Sonraki"
+    }
+  },
+  "footer_cta": {
+    "title": "Daha Fazlasını Keşfetmeye Hazır mısınız?",
+    "description": "Topluluğumuza katılın ve özel fırsatlar ve güncellemeler alın.",
+    "get_started": "Başlayın",
+    "sign_in": "Giriş Yap",
+    "back_to_top": "Yukarı Çık"
+  }
+}

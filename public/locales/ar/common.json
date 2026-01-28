@@ -1,0 +1,33 @@
+{
+  "navbar": {
+    "search": "ابحث في تيجارة",
+    "deliver_to": "التوصيل إلى",
+    "sign_in": "تسجيل الدخول",
+    "hello": "مرحباً، {{name}}",
+    "profile": "ملفك الشخصي",
+    "orders": "طلباتي",
+    "lists": "قوائمك",
+    "sign_out": "تسجيل الخروج",
+    "cart": "السلة",
+    "all_categories": "جميع الفئات",
+    "best_sellers": "الأكثر مبيعاً",
+    "todays_deals": "عروض اليوم",
+    "electronics": "إلكترونيات",
+    "fashion": "أزياء",
+    "home_kitchen": "المنزل والمطبخ",
+    "sports_fitness": "الرياضة واللياقة"
+  },
+  "language": {
+    "select": "اختر اللغة",
+    "en": "الإنجليزية",
+    "ar": "العربية",
+    "ur": "الأردية",
+    "zh": "الصينية",
+    "tr": "التركية",
+    "ms": "الملايوية",
+    "id": "الإندونيسية"
+  },
+  "notification": {
+    "language_changed": "تم تغيير اللغة إلى {{language}}"
+  }
+}
