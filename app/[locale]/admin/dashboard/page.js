@@ -21,78 +21,74 @@ export default function AdminDashboard() {
   // Fetch all data on component mount
   useEffect(() => {
     const fetchData = async () => {
+      setLoading(true);
       try {
-        setLoading(true);
-
-        // Fetch products
-        const productsRes = await fetch('/api/products');
-        if (productsRes.ok) {
-          const productsData = await productsRes.json();
-          // Handle different response structures
-          const productsArray = Array.isArray(productsData) ? productsData : productsData.products || [];
-          setProducts(productsArray.slice(0, 10));
+        // Fetch products (isolated error handling)
+        try {
+          const productsRes = await fetch('/api/products');
+          if (productsRes.ok) {
+            const productsData = await productsRes.json();
+            const productsArray = Array.isArray(productsData) ? productsData : productsData.products || [];
+            setProducts(productsArray.slice(0, 10));
+          }
+        } catch (err) {
+          console.error('Error fetching products:', err);
         }
 
-        // Fetch users
-        const usersRes = await fetch('/api/admin/users');
-        if (usersRes.ok) {
-          const usersData = await usersRes.json();
-          // Handle different response structures
-          const usersArray = Array.isArray(usersData) ? usersData : usersData.users || [];
-          setUsers(usersArray.slice(0, 10));
-          setStats(prev => ({ ...prev, totalUsers: usersArray.length }));
+        // Fetch users (isolated error handling)
+        try {
+          const usersRes = await fetch('/api/admin/users');
+          if (usersRes.ok) {
+            const usersData = await usersRes.json();
+            const usersArray = Array.isArray(usersData) ? usersData : usersData.users || [];
+            setUsers(usersArray.slice(0, 10));
+            setStats(prev => ({ ...prev, totalUsers: usersArray.length }));
+          }
+        } catch (err) {
+          console.error('Error fetching users:', err);
         }
 
-        // Fetch orders with user information
-        // Use the same source that checkout writes to: /api/orders
-        const ordersRes = await fetch('/api/orders');
-        if (ordersRes.ok) {
-          const ordersData = await ordersRes.json();
-          // Handle different response structures
-          const ordersArray = Array.isArray(ordersData) ? ordersData : ordersData.orders || [];
-          
-          console.log('=== DEBUG: Raw Orders Data ===');
-          console.log('Orders array length:', ordersArray.length);
-          console.log('First order ID:', ordersArray[0]?._id);
-          console.log('First order ID type:', typeof ordersArray[0]?._id);
-          console.log('First order ID string:', ordersArray[0]?._id?.toString());
-          
-          // Process orders to include user information
-          const processedOrders = ordersArray.map(order => ({
-            ...order,
-            userName: order.user?.name || 'Guest',
-            userEmail: order.user?.email || 'guest@example.com',
-            orderDate: new Date(order.createdAt).toLocaleDateString(),
-            orderTime: new Date(order.createdAt).toLocaleTimeString(),
-            formattedTotal: new Intl.NumberFormat('en-US', {
-              style: 'currency',
-              currency: 'USD'
-            }).format(order.total || 0)
-          }));
+        // Fetch orders with user information from /api/orders
+        try {
+          const ordersRes = await fetch('/api/orders');
+          if (ordersRes.ok) {
+            const ordersData = await ordersRes.json();
+            const ordersArray = Array.isArray(ordersData) ? ordersData : ordersData.orders || [];
 
-          console.log('=== DEBUG: Processed Orders ===');
-          console.log('Processed orders:', processedOrders.map(o => ({ 
-            _id: o._id, 
-            _idType: typeof o._id,
-            _idString: o._id?.toString(),
-            status: o.status 
-          })));
+            console.log('=== DEBUG: Raw Orders Data ===');
+            console.log('Orders array length:', ordersArray.length);
 
-          setOrders(processedOrders.slice(0, 10));
-          
-          // Calculate statistics
-          const totalRevenue = ordersArray.reduce((sum, order) => sum + (order.total || 0), 0);
-          
-          setStats(prev => ({
-            ...prev,
-            totalOrders: ordersArray.length,
-            pendingOrders: ordersArray.filter(o => o.status === 'pending').length,
-            totalRevenue: totalRevenue
-          }));
+            const processedOrders = ordersArray.map(order => ({
+              ...order,
+              userName: order.user?.name || 'Guest',
+              userEmail: order.user?.email || 'guest@example.com',
+              orderDate: order.createdAt ? new Date(order.createdAt).toLocaleDateString() : '',
+              orderTime: order.createdAt ? new Date(order.createdAt).toLocaleTimeString() : '',
+              formattedTotal: new Intl.NumberFormat('en-US', {
+                style: 'currency',
+                currency: 'USD'
+              }).format(order.total || 0)
+            }));
+
+            console.log('Processed orders (admin dashboard):', processedOrders.length);
+
+            // Newest first
+            processedOrders.sort((a, b) => new Date(b.createdAt || 0) - new Date(a.createdAt || 0));
+            setOrders(processedOrders.slice(0, 50));
+
+            const totalRevenue = ordersArray.reduce((sum, order) => sum + (order.total || 0), 0);
+            setStats(prev => ({
+              ...prev,
+              totalOrders: ordersArray.length,
+              pendingOrders: ordersArray.filter(o => o.status === 'pending').length,
+              totalRevenue
+            }));
+          } else {
+            console.error('Failed to fetch /api/orders. Status:', ordersRes.status);
+          }
+        } catch (err) {
+          console.error('Error fetching orders:', err);
         }
-
-      } catch (error) {
-        console.error('Error fetching data:', error);
       } finally {
         setLoading(false);
       }
