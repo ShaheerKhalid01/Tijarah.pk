@@ -178,7 +178,7 @@ const ReturnsAndOrdersPage = () => {
     }
   };
 
-  const createOrderFromCart = () => {
+  const createOrderFromCart = async () => {
     console.log('Create order button clicked');
     
     // Check if we're on the client side
@@ -210,50 +210,82 @@ const ReturnsAndOrdersPage = () => {
         return;
       }
 
-      const newOrder = {
-        id: `ORD-${Date.now()}-${Math.random().toString(36).substr(2, 9).toUpperCase()}`,
-        date: new Date().toISOString().split('T')[0],
-        status: 'processing',
-        items: validItems.map((item, index) => ({
-          ...item,
-          cartItemId: `${item.id}-${index}`,
-          orderItemId: `${Date.now()}-${item.id}-${index}`
+      const subtotal = validItems.reduce((sum, item) => {
+        const price = parseFloat(item.price) || 0;
+        const quantity = parseInt(item.quantity) || 1;
+        return sum + (price * quantity);
+      }, 0);
+
+      const shippingCost = 0;
+      const tax = 0;
+      const total = subtotal + shippingCost + tax;
+
+      // Build payload that matches /api/orders expectations
+      const backendOrderPayload = {
+        customerName: 'Guest Checkout',
+        customerEmail: 'guest@example.com',
+        customerPhone: '',
+        shippingAddress: {
+          street: 'N/A',
+          city: 'N/A',
+          country: 'Pakistan',
+        },
+        items: validItems.map(item => ({
+          productId: item.id,
+          productName: item.name || item.title,
+          quantity: item.quantity || 1,
+          price: item.price,
+          image: item.image || '',
         })),
-        total: validItems.reduce((sum, item) => {
-          const price = parseFloat(item.price) || 0;
-          const quantity = parseInt(item.quantity) || 1;
-          return sum + (price * quantity);
-        }, 0),
-        subtotal: validItems.reduce((sum, item) => {
-          const price = parseFloat(item.price) || 0;
-          const quantity = parseInt(item.quantity) || 1;
-          return sum + (price * quantity);
-        }, 0),
-        shipping: 0,
-        tax: 0,
-        shippingAddress: 'User Address - Will be collected during checkout',
-        paymentMethod: 'Pending - Will be collected during checkout',
-        statusDescription: 'Order placed successfully. Processing payment and preparing for shipment.',
-        estimatedDelivery: new Date(Date.now() + 7 * 24 * 60 * 60 * 1000).toISOString().split('T')[0],
-        createdAt: new Date().toISOString(),
-        updatedAt: new Date().toISOString()
+        subtotal,
+        shippingCost,
+        tax,
+        total,
+        paymentMethod: 'cash_on_delivery',
+        paymentStatus: 'pending',
+        notes: 'Created from returns-orders page',
       };
 
-      console.log('New order created:', newOrder);
+      console.log('Sending order to /api/orders:', backendOrderPayload);
 
-      const existingOrders = JSON.parse(localStorage.getItem('orders') || '[]');
-      const updatedOrders = [newOrder, ...existingOrders];
-      localStorage.setItem('orders', JSON.stringify(updatedOrders));
-      setOrders(updatedOrders);
+      const response = await fetch('/api/orders', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(backendOrderPayload),
+      });
 
+      const result = await response.json();
+      console.log('Response from /api/orders:', response.status, result);
+
+      if (!response.ok) {
+        throw new Error(result?.error || result?.message || 'Failed to create order');
+      }
+
+      // Clear cart locally since backend order was created
       clearCart();
-      
-      const successMessage = `Order ${newOrder.id} placed successfully! Total: ${formatCurrency(newOrder.total)}`;
+
+      // Refresh orders list from backend so this order appears here and in admin
+      try {
+        const ordersRes = await fetch('/api/orders');
+        if (ordersRes.ok) {
+          const data = await ordersRes.json();
+          const ordersArray = Array.isArray(data) ? data : data.orders || [];
+          ordersArray.sort((a, b) => new Date(b.createdAt || 0) - new Date(a.createdAt || 0));
+          setOrders(ordersArray);
+        }
+      } catch (refreshErr) {
+        console.error('Failed to refresh orders after creation:', refreshErr);
+      }
+
+      const createdOrderNumber = result?.order?.orderNumber || 'N/A';
+      const successMessage = `Order ${createdOrderNumber} placed successfully! Total: ${formatCurrency(total)}`;
       console.log('Success:', successMessage);
       showNotification(successMessage, 'success');
 
       setActiveTab('orders');
-      return newOrder;
+      return result;
     } catch (error) {
       console.error('Error in createOrderFromCart:', error);
       showNotification('Failed to create order. Please check console for details.', 'error');
@@ -325,13 +357,13 @@ const ReturnsAndOrdersPage = () => {
     localStorage.setItem('returns', JSON.stringify(updatedReturns));
     setReturns(updatedReturns);
 
-    const updatedOrders = orders.map(order => 
-      selectedOrders.includes(order.id) 
-        ? { ...order, status: 'return_requested' }
-        : order
-    );
-    localStorage.setItem('orders', JSON.stringify(updatedOrders));
-    setOrders(updatedOrders);
+      const updatedOrders = orders.map(order => {
+        const orderKey = order.id || order._id;
+        return selectedOrders.includes(orderKey) 
+          ? { ...order, status: 'return_requested' }
+          : order;
+      });
+      setOrders(updatedOrders);
 
     setSelectedOrders([]);
     
@@ -344,8 +376,7 @@ const ReturnsAndOrdersPage = () => {
     console.log('Remove order clicked:', orderId);
     
     if (window.confirm('Remove this order?')) {
-      const updatedOrders = orders.filter(order => order.id !== orderId);
-      localStorage.setItem('orders', JSON.stringify(updatedOrders));
+      const updatedOrders = orders.filter(order => (order.id || order._id) !== orderId);
       setOrders(updatedOrders);
       setSelectedOrders(prev => prev.filter(id => id !== orderId));
       
@@ -359,13 +390,13 @@ const ReturnsAndOrdersPage = () => {
     console.log('Cancel order clicked:', orderId);
     
     if (window.confirm(t('confirmCancelOrder'))) {
-      const updatedOrders = orders.map(order => 
-        order.id === orderId 
+      const updatedOrders = orders.map(order => {
+        const orderKey = order.id || order._id;
+        return orderKey === orderId 
           ? { ...order, status: 'cancelled', statusDescription: 'Order cancelled by customer' }
-          : order
-      );
+          : order;
+      });
       
-      localStorage.setItem('orders', JSON.stringify(updatedOrders));
       setOrders(updatedOrders);
       setSelectedOrders(prev => prev.filter(id => id !== orderId));
       
@@ -380,7 +411,8 @@ const ReturnsAndOrdersPage = () => {
     
     if (window.confirm('Remove this item?')) {
       const updatedOrders = orders.map(order => {
-        if (order.id === orderId) {
+        const orderKey = order.id || order._id;
+        if (orderKey === orderId) {
           const updatedItems = order.items.filter(item => item.cartItemId !== itemId && item.id !== itemId);
           const newTotal = updatedItems.reduce((sum, item) => {
             const price = parseFloat(item.price) || 0;
@@ -403,7 +435,6 @@ const ReturnsAndOrdersPage = () => {
         return order;
       }).filter(Boolean);
       
-      localStorage.setItem('orders', JSON.stringify(updatedOrders));
       setOrders(updatedOrders);
       
       const successMessage = 'Item removed from order!';
@@ -676,12 +707,20 @@ const ReturnsAndOrdersPage = () => {
                     <div className="p-6 border-b border-slate-100">
                       <div className="flex items-center justify-between flex-wrap gap-4">
                         <div>
-                          <p className="text-sm text-slate-600">
-                            {t('orderPlaced')} <span className="font-mono text-slate-900">{formatDate(order.date)}</span>
-                          </p>
-                          <p className="text-lg font-display text-slate-900 mt-1">
-                            Order <span className="text-blue-600">{order.id}</span>
-                          </p>
+                          {order.createdAt || order.date ? (
+                            <p className="text-sm text-slate-600">
+                              {t('orderPlaced')}{' '}
+                              <span className="font-mono text-slate-900">
+                                {formatDate(order.date || order.createdAt)}
+                              </span>
+                            </p>
+                          ) : null}
+                            <p className="text-lg font-display text-slate-900 mt-1">
+                              Order{' '}
+                              <span className="text-blue-600">
+                                {order.orderNumber || order.id || order._id}
+                              </span>
+                            </p>
                         </div>
                         <div className="flex items-center gap-3">
                           {getStatusBadge(order.status)}
