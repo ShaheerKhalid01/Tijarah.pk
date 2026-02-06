@@ -3,8 +3,8 @@
 import { useState, useEffect } from 'react';
 import { useSession } from 'next-auth/react';
 import { useRouter } from 'next/navigation';
-import Recommendations from '../../../../components/Recommendations';
-import RecommendationWidget from '../../../../components/RecommendationWidget';
+import Recommendations from '@/components/Recommendations';
+import RecommendationWidget from '@/components/RecommendationWidget';
 
 export default function RecommendationsPage() {
   const { data: session, status } = useSession();

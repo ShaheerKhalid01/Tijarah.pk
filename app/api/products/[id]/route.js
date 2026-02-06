@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
 import { connectToDatabase } from '@/lib/db';
 import Product from '@/models/Product';
-import { getAllProducts } from '@/lib/product-data';
+import { getAllProducts } from '@/app/lib/product-data';
 
 // Mock data for special offers (should match frontend or be moved to a shared config)
 const specialOffers = {

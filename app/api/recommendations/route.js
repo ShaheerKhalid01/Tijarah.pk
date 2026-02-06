@@ -1,8 +1,8 @@
 import { NextResponse } from 'next/server';
 import mongoose from 'mongoose';
-import Recommendation from '../../../../models/Recommendation';
-import Product from '../../../../models/Product';
-import User from '../../../../models/User';
+import Recommendation from '@/models/Recommendation';
+import Product from '@/models/Product';
+import User from '@/models/User';
 
 /**
  * GET /api/recommendations

@@ -2,7 +2,7 @@ const createNextIntlConfig = require('next-intl').createNextIntlConfig;
 
 const nextIntlConfig = createNextIntlConfig({
   // List of all locales that should be supported
-  locales: ['en', 'ar', 'ur', 'zh', 'tr', 'ms', 'id'],
+  locales: ['en', 'ur', 'zh', 'tr', 'ms', 'id'],
   
   // Default locale to use when visiting a non-locale prefixed path
   defaultLocale: 'en',

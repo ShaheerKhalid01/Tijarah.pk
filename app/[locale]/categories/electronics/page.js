@@ -24,6 +24,9 @@ const PRICE_RANGES = [
 // ✅ EXPORT: Export electronics products for use in other components
 import { electronicsProducts } from '@/app/lib/product-data';
 
+// ✅ RE-EXPORT: Make electronicsProducts available for other components
+export { electronicsProducts };
+
 // ✅ OPTIMIZED: Memoize currency formatter
 const formatCurrency = memo(function CurrencyFormatter({ amount }) {
   const formatted = useMemo(() => {

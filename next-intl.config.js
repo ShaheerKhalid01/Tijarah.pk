@@ -1,7 +1,7 @@
 /** @type {import('next-intl').createRequestConfig} */
 const config = {
   // A list of all locales that are supported
-  locales: ['en', 'ar', 'ur', 'zh', 'tr', 'ms', 'id'],
+  locales: ['en', 'ur', 'zh', 'tr', 'ms', 'id'],
   
   // The default locale to use when visiting a non-locale prefixed path
   defaultLocale: 'en',

@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
 import mongoose from 'mongoose';
-import Recommendation from '../../../../../models/Recommendation';
-import Product from '../../../../../models/Product';
+import Recommendation from '@/models/Recommendation';
+import Product from '@/models/Product';
 
 /**
  * POST /api/recommendations/track
