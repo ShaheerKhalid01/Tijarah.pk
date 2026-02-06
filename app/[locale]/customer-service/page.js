@@ -24,6 +24,16 @@ const CustomerServicePage = () => {
   const [trackingResult, setTrackingResult] = useState(null);
   const [isTracking, setIsTracking] = useState(false);
 
+  // Handle hash fragment to set active tab
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      const hash = window.location.hash;
+      if (hash === '#track') {
+        setActiveTab('track');
+      }
+    }
+  }, []);
+
   const handleInputChange = (e) => {
     const { name, value } = e.target;
     setFormData(prev => ({

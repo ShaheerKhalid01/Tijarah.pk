@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { useParams } from 'next/navigation';
+import { useParams, useRouter } from 'next/navigation';
 import Image from 'next/image';
 import { Star, Heart, Share2, ChevronLeft, ChevronRight, Truck, Shield, RefreshCw, ShoppingCart, CreditCard } from 'lucide-react';
 import Notification from '../../components/Notification';
@@ -128,13 +128,13 @@ export default function ProductPage() {
     
     setIsBuyingNow(true);
     
-    // Simulate API call
+    // Add to cart and proceed to checkout
     setTimeout(() => {
       addToCart();
       showNotification('Proceeding to checkout...', 'success');
       setIsBuyingNow(false);
-      // In a real app, you would redirect to checkout
-      // router.push('/checkout');
+      // Redirect to localized checkout
+      router.push('/en/checkout'); // Default to English, could be made dynamic
     }, 1000);
   };
 

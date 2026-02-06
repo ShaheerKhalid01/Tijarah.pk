@@ -1,0 +1,4988 @@
+﻿
+> tijarah.pk@0.1.0 build
+> next build
+
+node.exe : ÔÜá Warning: 
+Next.js inferred your 
+workspace root, but it 
+may not be correct.
+At line:1 char:1
++ & "C:\Program 
+Files\nodejs/node.exe" 
+"C:\Program 
+Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo        
+      : NotSpecified: (Ô  
+  Üá Warning: Ne...not    
+ be correct.:String) [    
+], RemoteException
+    + FullyQualifiedError 
+   Id : NativeCommandErr  
+  or
+ 
+ We detected multiple 
+lockfiles and selected 
+the directory of D:\Deskto
+p\Web_Development\Tijarah.
+pk\package-lock.json as 
+the root directory.
+ To silence this warning, 
+set `turbopack.root` in 
+your Next.js config, or 
+consider removing one of 
+the lockfiles if it's not 
+needed.
+   See https://nextjs.org/
+docs/app/api-reference/con
+fig/next-config-js/turbopa
+ck#root-directory for 
+more information.
+ Detected additional 
+lockfiles: 
+   * D:\Desktop\Web_Develo
+pment\Tijarah.pk\tijarah.p
+k\package-lock.json
+
+Ôû▓ Next.js 16.1.4 (Turbopack)
+- Environments: .env.local, .env
+- Experiments (use with caution):
+  Ô£ô optimizeCss
+  ┬À optimizePackageImports
+
+ÔÜá The "middleware" file 
+convention is deprecated. 
+Please use "proxy" 
+instead. Learn more: https
+://nextjs.org/docs/message
+s/middleware-to-proxy
+  Creating an optimized production build ...
+Turbopack build 
+encountered 1 warnings:
+./tijarah.pk/tailwind.conf
+ig.js
+Specified module format 
+(EcmaScript Modules) is 
+not matching the module 
+format of the source code 
+(CommonJs)
+The EcmaScript module 
+format was specified in 
+the package.json that is 
+affecting this source 
+file or by using an 
+special extension, but it 
+looks like that CommonJs 
+syntax is used in the 
+source code.
+Exports made by CommonJs 
+syntax will lead to a 
+runtime error, since the 
+module is in EcmaScript 
+mode. Either change the 
+"type" field in the 
+package.json or replace 
+CommonJs syntax with 
+EcmaScript import/export 
+syntax in the source file.
+
+
+Ô£ô Compiled successfully in 13.1s
+  Running TypeScript ...
+  Collecting page data using 7 workers ...
+(node:3060) [MONGOOSE] 
+Warning: Duplicate schema 
+index on {"email":1} 
+found. This is often due 
+to declaring an index 
+using both "index: true" 
+and "schema.index()". 
+Please remove the 
+duplicate index 
+definition.
+(Use `node 
+--trace-warnings ...` to 
+show where the warning 
+was created)
+(node:3060) [MONGOOSE] 
+Warning: Duplicate schema 
+index on {"slug":1} 
+found. This is often due 
+to declaring an index 
+using both "index: true" 
+and "schema.index()". 
+Please remove the 
+duplicate index 
+definition.
+(node:936) [MONGOOSE] 
+Warning: Duplicate schema 
+index on {"email":1} 
+found. This is often due 
+to declaring an index 
+using both "index: true" 
+and "schema.index()". 
+Please remove the 
+duplicate index 
+definition.
+(Use `node 
+--trace-warnings ...` to 
+show where the warning 
+was created)
+(node:26152) [MONGOOSE] 
+Warning: Duplicate schema 
+index on {"email":1} 
+found. This is often due 
+to declaring an index 
+using both "index: true" 
+and "schema.index()". 
+Please remove the 
+duplicate index 
+definition.
+(Use `node 
+--trace-warnings ...` to 
+show where the warning 
+was created)
+(node:26152) [MONGOOSE] 
+Warning: Duplicate schema 
+index on {"slug":1} 
+found. This is often due 
+to declaring an index 
+using both "index: true" 
+and "schema.index()". 
+Please remove the 
+duplicate index 
+definition.
+(node:8140) [MONGOOSE] 
+Warning: Duplicate schema 
+index on {"email":1} 
+found. This is often due 
+to declaring an index 
+using both "index: true" 
+and "schema.index()". 
+Please remove the 
+duplicate index 
+definition.
+(Use `node 
+--trace-warnings ...` to 
+show where the warning 
+was created)
+(node:7436) [MONGOOSE] 
+Warning: Duplicate schema 
+index on {"email":1} 
+found. This is often due 
+to declaring an index 
+using both "index: true" 
+and "schema.index()". 
+Please remove the 
+duplicate index 
+definition.
+(Use `node 
+--trace-warnings ...` to 
+show where the warning 
+was created)
+  Generating static pages using 7 workers (0/497) ...
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/books-media/
+magazines. Please move it 
+to viewport export 
+instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/books-med
+ia/magazines. Please move 
+it to viewport export 
+instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/[locale]/categories. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in 
+/[locale]/categories. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/[locale]/checkout. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in 
+/[locale]/checkout. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/admin-auth/login. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/admin-auth/login. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/electronics/
+tablets. Please move it 
+to viewport export 
+instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/electroni
+cs/tablets. Please move 
+it to viewport export 
+instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/grocery/orga
+nic. Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/grocery/o
+rganic. Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/[locale]/register. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in 
+/[locale]/register. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/admin-auth/login. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/admin-auth/login. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/_not-found. Please move 
+it to viewport export 
+instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in 
+/_not-found. Please move 
+it to viewport export 
+instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/admin-auth/login. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/admin-auth/login. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/books-media/
+magazines. Please move it 
+to viewport export 
+instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/books-med
+ia/magazines. Please move 
+it to viewport export 
+instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/[locale]/register. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in 
+/[locale]/register. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/books-media/
+magazines. Please move it 
+to viewport export 
+instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/books-med
+ia/magazines. Please move 
+it to viewport export 
+instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/grocery/orga
+nic. Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/grocery/o
+rganic. Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/[locale]/register. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in 
+/[locale]/register. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/books-media/
+magazines. Please move it 
+to viewport export 
+instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/books-med
+ia/magazines. Please move 
+it to viewport export 
+instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/electronics/
+tablets. Please move it 
+to viewport export 
+instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/electroni
+cs/tablets. Please move 
+it to viewport export 
+instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/[locale]/returns-orders. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in 
+/[locale]/returns-orders. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/[locale]/categories. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in 
+/[locale]/categories. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/grocery/orga
+nic. Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/grocery/o
+rganic. Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/[locale]/checkout. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in 
+/[locale]/checkout. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/admin-auth/login. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/admin-auth/login. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/grocery/orga
+nic. Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/grocery/o
+rganic. Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/books-media/
+magazines. Please move it 
+to viewport export 
+instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/books-med
+ia/magazines. Please move 
+it to viewport export 
+instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/[locale]/categories. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in 
+/[locale]/categories. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/admin-auth/login. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/admin-auth/login. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/toys-games/p
+uzzles. Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/electronics/
+tablets. Please move it 
+to viewport export 
+instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/electroni
+cs/tablets. Please move 
+it to viewport export 
+instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/toys-game
+s/puzzles. Please move it 
+to viewport export 
+instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/[locale]/returns-orders. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in 
+/[locale]/returns-orders. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/grocery. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/grocery. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/[locale]/categories. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in 
+/[locale]/categories. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/electronics/
+tablets. Please move it 
+to viewport export 
+instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/electroni
+cs/tablets. Please move 
+it to viewport export 
+instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/admin-auth/login. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/admin-auth/login. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/[locale]/returns-orders. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in 
+/[locale]/returns-orders. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/[locale]/categories. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in 
+/[locale]/categories. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/fashion/bags
+. Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/fashion/b
+ags. Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/sports-outdo
+or/camping. Please move 
+it to viewport export 
+instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/sports-ou
+tdoor/camping. Please 
+move it to viewport 
+export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/electronics/
+tablets. Please move it 
+to viewport export 
+instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/electroni
+cs/tablets. Please move 
+it to viewport export 
+instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/sports-outdo
+or/camping. Please move 
+it to viewport export 
+instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/sports-ou
+tdoor/camping. Please 
+move it to viewport 
+export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/[locale]/returns-orders. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in 
+/[locale]/returns-orders. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/[locale]/checkout. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in 
+/[locale]/checkout. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/grocery. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/grocery. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/[locale]/returns-orders. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in 
+/[locale]/returns-orders. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/books-media/
+magazines. Please move it 
+to viewport export 
+instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/books-med
+ia/magazines. Please move 
+it to viewport export 
+instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/books-media/
+magazines. Please move it 
+to viewport export 
+instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/books-med
+ia/magazines. Please move 
+it to viewport export 
+instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/[locale]/checkout. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in 
+/[locale]/checkout. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/books-media/
+ebooks. Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/books-med
+ia/ebooks. Please move it 
+to viewport export 
+instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/grocery/orga
+nic. Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/grocery/o
+rganic. Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/admin-auth/login. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/admin-auth/login. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/toys-games/p
+uzzles. Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/toys-game
+s/puzzles. Please move it 
+to viewport export 
+instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/toys-games/p
+uzzles. Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/toys-game
+s/puzzles. Please move it 
+to viewport export 
+instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/admin/categories. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/admin/categories. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/grocery/orga
+nic. Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/grocery/o
+rganic. Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/admin/categories. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/toys-games/p
+uzzles. Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/admin/categories. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/toys-game
+s/puzzles. Please move it 
+to viewport export 
+instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/electronics/
+tablets. Please move it 
+to viewport export 
+instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/electroni
+cs/tablets. Please move 
+it to viewport export 
+instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/admin/categories. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/admin/categories. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/sports-outdo
+or/camping. Please move 
+it to viewport export 
+instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/sports-ou
+tdoor/camping. Please 
+move it to viewport 
+export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/admin/categories. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/admin/categories. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/electronics/
+tablets. Please move it 
+to viewport export 
+instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/electroni
+cs/tablets. Please move 
+it to viewport export 
+instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/admin/categories. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/admin/categories. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/admin/categories. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/admin/categories. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/admin/categories. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/admin/categories. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/[locale]/returns-orders. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in 
+/[locale]/returns-orders. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/fashion/bags
+. Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/fashion/b
+ags. Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/[locale]/returns. Please 
+move it to viewport 
+export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in 
+/[locale]/returns. Please 
+move it to viewport 
+export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/sports-outdo
+or/camping. Please move 
+it to viewport export 
+instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/sports-ou
+tdoor/camping. Please 
+move it to viewport 
+export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/books-media/
+music. Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/books-med
+ia/music. Please move it 
+to viewport export 
+instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/fashion/bags
+. Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/fashion/b
+ags. Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/sports-outdo
+or/camping. Please move 
+it to viewport export 
+instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/sports-ou
+tdoor/camping. Please 
+move it to viewport 
+export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/[locale]/returns. Please 
+move it to viewport 
+export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in 
+/[locale]/returns. Please 
+move it to viewport 
+export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/fashion/bags
+. Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/books-media/
+music. Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/fashion/b
+ags. Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/books-med
+ia/music. Please move it 
+to viewport export 
+instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/[locale]/returns. Please 
+move it to viewport 
+export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in 
+/[locale]/returns. Please 
+move it to viewport 
+export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/fashion/bags
+. Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/fashion/b
+ags. Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/sports-outdo
+or/camping. Please move 
+it to viewport export 
+instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/sports-ou
+tdoor/camping. Please 
+move it to viewport 
+export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/books-media/
+music. Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/books-med
+ia/music. Please move it 
+to viewport export 
+instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/[locale]/returns. Please 
+move it to viewport 
+export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in 
+/[locale]/returns. Please 
+move it to viewport 
+export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/fashion/bags
+. Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/fashion/b
+ags. Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/books-media/
+music. Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/books-med
+ia/music. Please move it 
+to viewport export 
+instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/fashion/bags
+. Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/fashion/b
+ags. Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/[locale]/checkout. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in 
+/[locale]/checkout. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/grocery/snac
+ks. Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/grocery/s
+nacks. Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/sports-outdo
+or/cycling. Please move 
+it to viewport export 
+instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/sports-ou
+tdoor/cycling. Please 
+move it to viewport 
+export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/[locale]/returns. Please 
+move it to viewport 
+export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in 
+/[locale]/returns. Please 
+move it to viewport 
+export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/books-media/
+music. Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/books-med
+ia/music. Please move it 
+to viewport export 
+instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/[locale]/checkout. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in 
+/[locale]/checkout. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/grocery. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/grocery. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/[locale]/checkout. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in 
+/[locale]/checkout. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/grocery. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/grocery. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/sports-outdo
+or/cycling. Please move 
+it to viewport export 
+instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/sports-ou
+tdoor/cycling. Please 
+move it to viewport 
+export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/books-media/
+music. Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/books-med
+ia/music. Please move it 
+to viewport export 
+instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/[locale]/returns-orders. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in 
+/[locale]/returns-orders. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/customer-service. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/customer-service. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/grocery. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/grocery. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/books-media.
+ Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/[locale]/returns. Please 
+move it to viewport 
+export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in 
+/[locale]/returns. Please 
+move it to viewport 
+export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/customer-service. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/customer-service. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/grocery. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/grocery. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/books-med
+ia. Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/customer-service. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/customer-service. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/grocery. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/grocery. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/customer-service. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/customer-service. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/books-media/
+music. Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/books-med
+ia/music. Please move it 
+to viewport export 
+instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/fashion/frag
+rances. Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/fashion/f
+ragrances. Please move it 
+to viewport export 
+instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/sports-outdo
+or/cycling. Please move 
+it to viewport export 
+instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/sports-ou
+tdoor/cycling. Please 
+move it to viewport 
+export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/customer-service. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/customer-service. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/grocery/snac
+ks. Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/grocery/s
+nacks. Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/admin/dashboard. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/admin/dashboard. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/sports-outdo
+or/cycling. Please move 
+it to viewport export 
+instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/sports-ou
+tdoor/cycling. Please 
+move it to viewport 
+export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/grocery/snac
+ks. Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/grocery/s
+nacks. Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/fashion/frag
+rances. Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/fashion/f
+ragrances. Please move it 
+to viewport export 
+instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/sports-outdo
+or/camping. Please move 
+it to viewport export 
+instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/sports-ou
+tdoor/camping. Please 
+move it to viewport 
+export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/admin/dashboard. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/admin/dashboard. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/admin/dashboard. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/admin/dashboard. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/admin/dashboard. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/admin/dashboard. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/admin/dashboard. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/admin/dashboard. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/[locale]/admin/login. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in 
+/[locale]/admin/login. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/[locale]/returns. Please 
+move it to viewport 
+export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in 
+/[locale]/returns. Please 
+move it to viewport 
+export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/admin/dashboard. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/admin/dashboard. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/[locale]/search. Please 
+move it to viewport 
+export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in 
+/[locale]/search. Please 
+move it to viewport 
+export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/admin/dashboard. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/admin/dashboard. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/fashion/frag
+rances. Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/fashion/f
+ragrances. Please move it 
+to viewport export 
+instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/fashion/frag
+rances. Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/fashion/f
+ragrances. Please move it 
+to viewport export 
+instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/[locale]/search. Please 
+move it to viewport 
+export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in 
+/[locale]/search. Please 
+move it to viewport 
+export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/fashion/frag
+rances. Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/fashion/f
+ragrances. Please move it 
+to viewport export 
+instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/customer-service. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/customer-service. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/[locale]/deals. Please 
+move it to viewport 
+export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in 
+/[locale]/deals. Please 
+move it to viewport 
+export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/home-kitchen
+/bedding. Please move it 
+to viewport export 
+instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/home-kitc
+hen/bedding. Please move 
+it to viewport export 
+instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/fashion/frag
+rances. Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/fashion/f
+ragrances. Please move it 
+to viewport export 
+instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/home-kitchen
+/bedding. Please move it 
+to viewport export 
+instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/home-kitc
+hen/bedding. Please move 
+it to viewport export 
+instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/[locale]/search. Please 
+move it to viewport 
+export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in 
+/[locale]/search. Please 
+move it to viewport 
+export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/home-kitchen
+/bedding. Please move it 
+to viewport export 
+instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/home-kitc
+hen/bedding. Please move 
+it to viewport export 
+instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/[locale]/search. Please 
+move it to viewport 
+export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in 
+/[locale]/search. Please 
+move it to viewport 
+export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/customer-service. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/customer-service. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/sports-outdo
+or/cycling. Please move 
+it to viewport export 
+instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/sports-ou
+tdoor/cycling. Please 
+move it to viewport 
+export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/fashion/jewe
+lry. Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/fashion/j
+ewelry. Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/[locale]/search. Please 
+move it to viewport 
+export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in 
+/[locale]/search. Please 
+move it to viewport 
+export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/sports-outdo
+or/cycling. Please move 
+it to viewport export 
+instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/sports-ou
+tdoor/cycling. Please 
+move it to viewport 
+export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/grocery/snac
+ks. Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/grocery/s
+nacks. Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/[locale]/deals. Please 
+move it to viewport 
+export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in 
+/[locale]/deals. Please 
+move it to viewport 
+export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/[locale]/search. Please 
+move it to viewport 
+export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in 
+/[locale]/search. Please 
+move it to viewport 
+export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/sports-outdo
+or/cycling. Please move 
+it to viewport export 
+instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/sports-ou
+tdoor/cycling. Please 
+move it to viewport 
+export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/fashion/frag
+rances. Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/fashion/f
+ragrances. Please move it 
+to viewport export 
+instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/home-kitchen
+/bedding. Please move it 
+to viewport export 
+instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/home-kitc
+hen/bedding. Please move 
+it to viewport export 
+instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/books-media.
+ Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/books-med
+ia. Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/fashion/jewe
+lry. Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/fashion/j
+ewelry. Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/[locale]/deals. Please 
+move it to viewport 
+export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in 
+/[locale]/deals. Please 
+move it to viewport 
+export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/[locale]/search. Please 
+move it to viewport 
+export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in 
+/[locale]/search. Please 
+move it to viewport 
+export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/[locale]/deals. Please 
+move it to viewport 
+export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/grocery/snac
+ks. Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/grocery/s
+nacks. Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in 
+/[locale]/deals. Please 
+move it to viewport 
+export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/books-media.
+ Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/books-med
+ia. Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/sports-outdo
+or/exercise-fitness. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/sports-ou
+tdoor/exercise-fitness. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/fashion/jewe
+lry. Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/fashion/j
+ewelry. Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/books-media.
+ Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/books-med
+ia. Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/grocery/snac
+ks. Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/grocery/s
+nacks. Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/[locale]/deals. Please 
+move it to viewport 
+export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in 
+/[locale]/deals. Please 
+move it to viewport 
+export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/grocery/snac
+ks. Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/grocery/s
+nacks. Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/sports-outdo
+or/exercise-fitness. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/sports-ou
+tdoor/exercise-fitness. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/[locale]/deals. Please 
+move it to viewport 
+export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in 
+/[locale]/deals. Please 
+move it to viewport 
+export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/sports-outdo
+or/exercise-fitness. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/sports-ou
+tdoor/exercise-fitness. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/books-media.
+ Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/books-med
+ia. Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/books-media/
+physical-books. Please 
+move it to viewport 
+export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/books-med
+ia/physical-books. Please 
+move it to viewport 
+export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/sports-outdo
+or/exercise-fitness. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/sports-ou
+tdoor/exercise-fitness. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/[locale]/admin/login. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in 
+/[locale]/admin/login. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/[locale]/admin/login. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in 
+/[locale]/admin/login. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/[locale]/admin/login. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in 
+/[locale]/admin/login. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/[locale]/cart. Please 
+move it to viewport 
+export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in 
+/[locale]/cart. Please 
+move it to viewport 
+export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/books-media.
+ Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/books-med
+ia. Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/books-media/
+physical-books. Please 
+move it to viewport 
+export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/books-med
+ia/physical-books. Please 
+move it to viewport 
+export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/sports-outdo
+or/exercise-fitness. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/sports-ou
+tdoor/exercise-fitness. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/books-media.
+ Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/books-med
+ia. Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+  Generating static pages using 7 workers (124/497) 
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/[locale]/admin/login. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in 
+/[locale]/admin/login. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/[locale]/admin/login. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in 
+/[locale]/admin/login. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/home-kitchen
+/bedding. Please move it 
+to viewport export 
+instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/home-kitc
+hen/bedding. Please move 
+it to viewport export 
+instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/[locale]/cart. Please 
+move it to viewport 
+export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in 
+/[locale]/cart. Please 
+move it to viewport 
+export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/home-kitchen
+/bedding. Please move it 
+to viewport export 
+instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/home-kitc
+hen/bedding. Please move 
+it to viewport export 
+instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/[locale]/sell. Please 
+move it to viewport 
+export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in 
+/[locale]/sell. Please 
+move it to viewport 
+export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/home-kitchen
+/bedding. Please move it 
+to viewport export 
+instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/home-kitc
+hen/bedding. Please move 
+it to viewport export 
+instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/[locale]/admin/login. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in 
+/[locale]/admin/login. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/[locale]/deals. Please 
+move it to viewport 
+export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in 
+/[locale]/deals. Please 
+move it to viewport 
+export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/[locale]/sell. Please 
+move it to viewport 
+export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in 
+/[locale]/sell. Please 
+move it to viewport 
+export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/[locale]/Good-deals. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in 
+/[locale]/Good-deals. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/[locale]/sell. Please 
+move it to viewport 
+export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in 
+/[locale]/sell. Please 
+move it to viewport 
+export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/[locale]/sell. Please 
+move it to viewport 
+export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in 
+/[locale]/sell. Please 
+move it to viewport 
+export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/[locale]/Good-deals. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in 
+/[locale]/Good-deals. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/fashion/jewe
+lry. Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/fashion/j
+ewelry. Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/fashion/jewe
+lry. Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/fashion/j
+ewelry. Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/[locale]/sell. Please 
+move it to viewport 
+export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in 
+/[locale]/sell. Please 
+move it to viewport 
+export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/home-kitchen
+/furniture. Please move 
+it to viewport export 
+instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/home-kitc
+hen/furniture. Please 
+move it to viewport 
+export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/[locale]/sell. Please 
+move it to viewport 
+export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in 
+/[locale]/sell. Please 
+move it to viewport 
+export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/[locale]/Good-deals. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in 
+/[locale]/Good-deals. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/fashion/mens
+-clothing. Please move it 
+to viewport export 
+instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/fashion/m
+ens-clothing. Please move 
+it to viewport export 
+instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/home-kitchen
+/furniture. Please move 
+it to viewport export 
+instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/home-kitc
+hen/furniture. Please 
+move it to viewport 
+export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/[locale]/Good-deals. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in 
+/[locale]/Good-deals. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/[locale]/special-offers. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in 
+/[locale]/special-offers. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/fashion/mens
+-clothing. Please move it 
+to viewport export 
+instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/fashion/m
+ens-clothing. Please move 
+it to viewport export 
+instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/home-kitchen
+/furniture. Please move 
+it to viewport export 
+instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/home-kitc
+hen/furniture. Please 
+move it to viewport 
+export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/[locale]/Good-deals. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in 
+/[locale]/Good-deals. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/home-kitchen
+/furniture. Please move 
+it to viewport export 
+instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/home-kitc
+hen/furniture. Please 
+move it to viewport 
+export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/[locale]/Good-deals. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in 
+/[locale]/Good-deals. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/fashion/mens
+-clothing. Please move it 
+to viewport export 
+instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/fashion/m
+ens-clothing. Please move 
+it to viewport export 
+instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/home-kitchen
+/furniture. Please move 
+it to viewport export 
+instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/home-kitc
+hen/furniture. Please 
+move it to viewport 
+export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/[locale]/special-offers. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in 
+/[locale]/special-offers. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/[locale]/sell. Please 
+move it to viewport 
+export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in 
+/[locale]/sell. Please 
+move it to viewport 
+export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/[locale]/Good-deals. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in 
+/[locale]/Good-deals. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/sports-outdo
+or/exercise-fitness. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/sports-ou
+tdoor/exercise-fitness. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/fashion/mens
+-clothing. Please move it 
+to viewport export 
+instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/fashion/m
+ens-clothing. Please move 
+it to viewport export 
+instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/books-media/
+physical-books. Please 
+move it to viewport 
+export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/books-med
+ia/physical-books. Please 
+move it to viewport 
+export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/sports-outdo
+or/exercise-fitness. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/sports-ou
+tdoor/exercise-fitness. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/fashion/jewe
+lry. Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/fashion/j
+ewelry. Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/books-media/
+physical-books. Please 
+move it to viewport 
+export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/books-med
+ia/physical-books. Please 
+move it to viewport 
+export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/books-media/
+physical-books. Please 
+move it to viewport 
+export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/books-med
+ia/physical-books. Please 
+move it to viewport 
+export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/sports-outdo
+or/outdoor-recreation. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/sports-ou
+tdoor/outdoor-recreation. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/fashion/jewe
+lry. Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/fashion/j
+ewelry. Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/books-media/
+physical-books. Please 
+move it to viewport 
+export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/books-med
+ia/physical-books. Please 
+move it to viewport 
+export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/beauty/makeu
+p. Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/beauty/ma
+keup. Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/sports-outdo
+or/outdoor-recreation. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/sports-ou
+tdoor/outdoor-recreation. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/books-media/
+physical-books. Please 
+move it to viewport 
+export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/sports-outdo
+or/outdoor-recreation. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/sports-ou
+tdoor/outdoor-recreation. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/books-med
+ia/physical-books. Please 
+move it to viewport 
+export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/beauty/makeu
+p. Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/beauty/ma
+keup. Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/[locale]/cart. Please 
+move it to viewport 
+export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in 
+/[locale]/cart. Please 
+move it to viewport 
+export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+Error occurred 
+prerendering page 
+"/en/special-offers". 
+Read more: https://nextjs.
+org/docs/messages/prerende
+r-error
+ReferenceError: 
+SPECIAL_OFFERS is not 
+defined
+    at <unknown> (D:\Deskt
+op\Web_Development\Tijarah
+.pk\tijarah.pk\.next\serve
+r\chunks\ssr\tijarah_pk_41
+b4f259._.js:177:22189)
+    at m (D:\Desktop\Web_D
+evelopment\Tijarah.pk\tija
+rah.pk\.next\server\chunks
+\ssr\tijarah_pk_41b4f259._
+.js:177:22174) {
+  digest: '750603247'
+}
+Export encountered an 
+error on /[locale]/special
+-offers/page: 
+/en/special-offers, 
+exiting the build.
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/electronics/
+cameras. Please move it 
+to viewport export 
+instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/electroni
+cs/cameras. Please move 
+it to viewport export 
+instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/beauty/makeu
+p. Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/beauty/ma
+keup. Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/sports-outdo
+or/outdoor-recreation. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/sports-ou
+tdoor/outdoor-recreation. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/[locale]/cart. Please 
+move it to viewport 
+export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in 
+/[locale]/cart. Please 
+move it to viewport 
+export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/electronics/
+cameras. Please move it 
+to viewport export 
+instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/electroni
+cs/cameras. Please move 
+it to viewport export 
+instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/sports-outdo
+or/outdoor-recreation. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/sports-ou
+tdoor/outdoor-recreation. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/[locale]/cart. Please 
+move it to viewport 
+export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in 
+/[locale]/cart. Please 
+move it to viewport 
+export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/sports-outdo
+or/outdoor-recreation. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/sports-ou
+tdoor/outdoor-recreation. 
+Please move it to 
+viewport export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /[local
+e]/categories/electronics/
+cameras. Please move it 
+to viewport export 
+instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in /[lo
+cale]/categories/electroni
+cs/cameras. Please move 
+it to viewport export 
+instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/[locale]/cart. Please 
+move it to viewport 
+export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+ÔÜá Unsupported metadata 
+themeColor is configured 
+in metadata export in 
+/[locale]/cart. Please 
+move it to viewport 
+export instead.
+Read more: https://nextjs.
+org/docs/app/api-reference
+/functions/generate-viewpo
+rt
+Ô¿» Next.js build worker 
+exited with code: 1 and 
+signal: null

@@ -1,5 +1,12 @@
 @import "tailwindcss";
 
+/* Force Tailwind v4 gradient syntax */
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;

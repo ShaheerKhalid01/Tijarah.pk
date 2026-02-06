@@ -1,4 +1,16 @@
 {
+  "chatbot": {
+    "welcome_message": "Hello! 👋 I'm your AI shopping assistant. How can I help you today?",
+    "open_chat": "Open Chat",
+    "title": "Tijarah AI Assistant",
+    "subtitle": "Ask me anything about our products!",
+    "expand": "Expand",
+    "minimize": "Minimize",
+    "close": "Close",
+    "placeholder": "Type your message...",
+    "send": "Send",
+    "powered_by_ai": "Powered by AI"
+  },
   "Smartwatches": {
     "title": "Smartwatches",
     "subtitle": "Track your fitness and stay connected in style",
@@ -157,7 +169,8 @@
       "discountHigh": "Highest Discount",
       "priceLow": "Price: Low to High",
       "priceHigh": "Price: High to Low",
-      "newest": "Newest Arrivals"
+      "newest": "Newest Arrivals",
+      "rating": "Highest Rated"
     },
     "newBadge": "New",
     "sign_in": "Sign In",
@@ -186,6 +199,7 @@
     "search_countries": "Search countries",
     "search_tijarah_pk": "Search Tijarah.pk",
     "select_language": "Select Language",
+    "language_changed": "Language changed to {language}",
     "price": "{price}",
     "electronics": "Electronics",
     "fashion": "Fashion",
@@ -198,9 +212,22 @@
     "hot": "HOT",
     "view_details": "View Details",
     "no_products_found": "No products found",
-    "try_changing_filters": "Try changing your filters",
+    "try_changing_filters": "Try adjusting your filters",
+    "clear_filters": "Clear Filters",
     "hotBadge": "Hot",
     "off": "OFF"
+  },
+  "admin": {
+    "success": "Success",
+    "error": "Error",
+    "orders_refreshed_successfully": "Orders refreshed successfully!",
+    "failed_to_refresh_orders": "Failed to refresh orders",
+    "order_status_changed_success": "Order status changed to '{status}' successfully!",
+    "failed_to_update_order_status": "Failed to update order status. Status: {status}, Error: {error}",
+    "error_updating_order_status": "Error updating order status: {error}",
+    "order_removed_successfully": "Order removed successfully!",
+    "failed_to_remove_order": "Failed to remove order. Please try again.",
+    "error_removing_order": "Error removing order. Please check console for details."
   },
   "NewArrivals": {
     "title": "New Arrivals",
@@ -524,7 +551,10 @@
     "description": "Join our community and get access to exclusive deals and updates.",
     "get_started": "Get Started",
     "sign_in": "Sign In",
-    "back_to_top": "Back to Top"
+    "back_to_top": "Back to Top",
+    "continue_shopping_prompt": "Continue shopping to find more amazing products.",
+    "my_orders": "My Orders",
+    "continue_shopping": "Continue Shopping"
   },
   "Laptops": {
     "title": "Laptops",

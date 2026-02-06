@@ -1,0 +1,4407 @@
+﻿
+> tijarah.pk@0.1.0 build
+> next build
+
+node.exe : ÔÜá 
+Warning: Next.js 
+inferred your 
+workspace root, but 
+it may not be 
+correct.
+At line:1 char:1
++ & "C:\Program Files
+\nodejs/node.exe" 
+"C:\Program 
+Files\nodejs/node_mo 
+...
++ ~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~
+    + CategoryInfo   
+           : NotSpe  
+  cified: (ÔÜá War   
+ ning: Ne...not b    
+e correct.:Strin    
+g) [], RemoteExc    
+eption
+    + FullyQualified 
+   ErrorId : Native  
+  CommandError
+ 
+ We detected 
+multiple lockfiles 
+and selected the 
+directory of D:\Deskt
+op\Web_Development\Ti
+jarah.pk\package-lock
+.json as the root 
+directory.
+ To silence this 
+warning, set 
+`turbopack.root` in 
+your Next.js config, 
+or consider removing 
+one of the lockfiles 
+if it's not needed.
+   See https://nextjs
+.org/docs/app/api-ref
+erence/config/next-co
+nfig-js/turbopack#roo
+t-directory for more 
+information.
+ Detected additional 
+lockfiles: 
+   * D:\Desktop\Web_D
+evelopment\Tijarah.pk
+\tijarah.pk\package-l
+ock.json
+
+Ôû▓ Next.js 16.1.4 (Turbopack)
+- Environments: .env.local, .env
+- Experiments (use with caution):
+  Ô£ô optimizeCss
+  ┬À optimizePackageImports
+
+ÔÜá The "middleware" 
+file convention is 
+deprecated. Please 
+use "proxy" instead. 
+Learn more: https://n
+extjs.org/docs/messag
+es/middleware-to-prox
+y
+  Creating an optimized production build ...
+Turbopack build 
+encountered 1 
+warnings:
+./tijarah.pk/tailwind
+.config.js
+Specified module 
+format (EcmaScript 
+Modules) is not 
+matching the module 
+format of the source 
+code (CommonJs)
+The EcmaScript 
+module format was 
+specified in the 
+package.json that is 
+affecting this 
+source file or by 
+using an special 
+extension, but it 
+looks like that 
+CommonJs syntax is 
+used in the source 
+code.
+Exports made by 
+CommonJs syntax will 
+lead to a runtime 
+error, since the 
+module is in 
+EcmaScript mode. 
+Either change the 
+"type" field in the 
+package.json or 
+replace CommonJs 
+syntax with 
+EcmaScript 
+import/export syntax 
+in the source file.
+
+
+Ô£ô Compiled successfully in 16.3s
+  Running TypeScript ...
+  Collecting page data using 7 workers ...
+(node:13296) 
+[MONGOOSE] Warning: 
+Duplicate schema 
+index on {"email":1} 
+found. This is often 
+due to declaring an 
+index using both 
+"index: true" and 
+"schema.index()". 
+Please remove the 
+duplicate index 
+definition.
+(Use `node 
+--trace-warnings 
+...` to show where 
+the warning was 
+created)
+(node:23168) 
+[MONGOOSE] Warning: 
+Duplicate schema 
+index on {"email":1} 
+found. This is often 
+due to declaring an 
+index using both 
+"index: true" and 
+"schema.index()". 
+Please remove the 
+duplicate index 
+definition.
+(Use `node 
+--trace-warnings 
+...` to show where 
+the warning was 
+created)
+(node:26148) 
+[MONGOOSE] Warning: 
+Duplicate schema 
+index on {"email":1} 
+found. This is often 
+due to declaring an 
+index using both 
+"index: true" and 
+"schema.index()". 
+Please remove the 
+duplicate index 
+definition.
+(Use `node 
+--trace-warnings 
+...` to show where 
+the warning was 
+created)
+(node:13296) 
+[MONGOOSE] Warning: 
+Duplicate schema 
+index on {"slug":1} 
+found. This is often 
+due to declaring an 
+index using both 
+"index: true" and 
+"schema.index()". 
+Please remove the 
+duplicate index 
+definition.
+(node:18736) 
+[MONGOOSE] Warning: 
+Duplicate schema 
+index on {"email":1} 
+found. This is often 
+due to declaring an 
+index using both 
+"index: true" and 
+"schema.index()". 
+Please remove the 
+duplicate index 
+definition.
+(Use `node 
+--trace-warnings 
+...` to show where 
+the warning was 
+created)
+(node:18736) 
+[MONGOOSE] Warning: 
+Duplicate schema 
+index on {"slug":1} 
+found. This is often 
+due to declaring an 
+index using both 
+"index: true" and 
+"schema.index()". 
+Please remove the 
+duplicate index 
+definition.
+(node:980) 
+[MONGOOSE] Warning: 
+Duplicate schema 
+index on {"email":1} 
+found. This is often 
+due to declaring an 
+index using both 
+"index: true" and 
+"schema.index()". 
+Please remove the 
+duplicate index 
+definition.
+(Use `node 
+--trace-warnings 
+...` to show where 
+the warning was 
+created)
+(node:9092) 
+[MONGOOSE] Warning: 
+Duplicate schema 
+index on {"email":1} 
+found. This is often 
+due to declaring an 
+index using both 
+"index: true" and 
+"schema.index()". 
+Please remove the 
+duplicate index 
+definition.
+(Use `node 
+--trace-warnings 
+...` to show where 
+the warning was 
+created)
+  Generating static pages using 7 workers (0/497) ...
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in /[
+locale]/categories/gr
+ocery. Please move 
+it to viewport 
+export instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in /[
+locale]/categories/gr
+ocery. Please move 
+it to viewport 
+export instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in 
+/_not-found. Please 
+move it to viewport 
+export instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in 
+/_not-found. Please 
+move it to viewport 
+export instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in /[
+locale]/categories/bo
+oks-media/magazines. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in /[
+locale]/categories/bo
+oks-media/magazines. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in /[
+locale]/categories/fa
+shion/bags. Please 
+move it to viewport 
+export instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in /[
+locale]/categories/fa
+shion/bags. Please 
+move it to viewport 
+export instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in /[
+locale]/categories/to
+ys-games/puzzles. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in /[
+locale]/categories/to
+ys-games/puzzles. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in 
+/[locale]/register. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in 
+/[locale]/register. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in /[
+locale]/categories. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in /[
+locale]/categories. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in /[
+locale]/admin-auth/lo
+gin. Please move it 
+to viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in /[
+locale]/admin-auth/lo
+gin. Please move it 
+to viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in /[
+locale]/categories/bo
+oks-media/magazines. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in /[
+locale]/categories/bo
+oks-media/magazines. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in /[
+locale]/categories/sp
+orts-outdoor/camping.
+ Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in /[
+locale]/categories/sp
+orts-outdoor/camping.
+ Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in /[
+locale]/categories/bo
+oks-media/magazines. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in /[
+locale]/categories/bo
+oks-media/magazines. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in 
+/[locale]/register. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in 
+/[locale]/register. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in /[
+locale]/categories/sp
+orts-outdoor/camping.
+ Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in /[
+locale]/categories/sp
+orts-outdoor/camping.
+ Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in /[
+locale]/admin-auth/lo
+gin. Please move it 
+to viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in /[
+locale]/admin-auth/lo
+gin. Please move it 
+to viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in /[
+locale]/categories/gr
+ocery. Please move 
+it to viewport 
+export instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in /[
+locale]/categories/gr
+ocery. Please move 
+it to viewport 
+export instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in /[
+locale]/returns-order
+s. Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in /[
+locale]/returns-order
+s. Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in /[
+locale]/admin-auth/lo
+gin. Please move it 
+to viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in /[
+locale]/admin-auth/lo
+gin. Please move it 
+to viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in /[
+locale]/categories/to
+ys-games/puzzles. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in /[
+locale]/categories/to
+ys-games/puzzles. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in /[
+locale]/categories/el
+ectronics/tablets. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in /[
+locale]/categories/el
+ectronics/tablets. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in /[
+locale]/categories/sp
+orts-outdoor/camping.
+ Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in /[
+locale]/categories/sp
+orts-outdoor/camping.
+ Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in /[
+locale]/admin-auth/lo
+gin. Please move it 
+to viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in /[
+locale]/admin-auth/lo
+gin. Please move it 
+to viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in /[
+locale]/categories/bo
+oks-media/magazines. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in /[
+locale]/categories/bo
+oks-media/magazines. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in /[
+locale]/categories/to
+ys-games/puzzles. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in /[
+locale]/categories/to
+ys-games/puzzles. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in /[
+locale]/categories/el
+ectronics/tablets. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in /[
+locale]/categories/el
+ectronics/tablets. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in /[
+locale]/admin-auth/lo
+gin. Please move it 
+to viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in /[
+locale]/admin-auth/lo
+gin. Please move it 
+to viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in /[
+locale]/categories. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in /[
+locale]/categories. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in /[
+locale]/admin-auth/lo
+gin. Please move it 
+to viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in /[
+locale]/admin-auth/lo
+gin. Please move it 
+to viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in /[
+locale]/categories. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in /[
+locale]/categories. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in /[
+locale]/returns-order
+s. Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in /[
+locale]/returns-order
+s. Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in /[
+locale]/categories/to
+ys-games/puzzles. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in /[
+locale]/categories/to
+ys-games/puzzles. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in /[
+locale]/categories/bo
+oks-media/magazines. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in /[
+locale]/categories/bo
+oks-media/magazines. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in /[
+locale]/categories/el
+ectronics/tablets. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in /[
+locale]/categories/el
+ectronics/tablets. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in /[
+locale]/returns-order
+s. Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in /[
+locale]/returns-order
+s. Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in /[
+locale]/categories. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in /[
+locale]/categories/gr
+ocery/organic. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in /[
+locale]/categories/gr
+ocery/organic. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in /[
+locale]/categories. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in /[
+locale]/categories/bo
+oks-media/magazines. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in /[
+locale]/categories/bo
+oks-media/magazines. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in /[
+locale]/returns-order
+s. Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in /[
+locale]/returns-order
+s. Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in /[
+locale]/categories/el
+ectronics/tablets. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in /[
+locale]/categories/el
+ectronics/tablets. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in /[
+locale]/returns-order
+s. Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in /[
+locale]/returns-order
+s. Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in /[
+locale]/categories/el
+ectronics/tablets. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in /[
+locale]/categories/el
+ectronics/tablets. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in 
+/[locale]/register. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in 
+/[locale]/register. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in /[
+locale]/categories/gr
+ocery/organic. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in /[
+locale]/categories/gr
+ocery/organic. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in /[
+locale]/admin-auth/lo
+gin. Please move it 
+to viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in /[
+locale]/admin-auth/lo
+gin. Please move it 
+to viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in /[
+locale]/categories/gr
+ocery/organic. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in /[
+locale]/categories/gr
+ocery/organic. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in 
+/[locale]/checkout. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in 
+/[locale]/checkout. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in /[
+locale]/admin/categor
+ies. Please move it 
+to viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in /[
+locale]/admin/categor
+ies. Please move it 
+to viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in 
+/[locale]/checkout. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in /[
+locale]/categories. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in 
+/[locale]/checkout. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in /[
+locale]/categories. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in 
+/[locale]/checkout. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in 
+/[locale]/checkout. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in /[
+locale]/admin/categor
+ies. Please move it 
+to viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in /[
+locale]/admin/categor
+ies. Please move it 
+to viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in 
+/[locale]/checkout. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in 
+/[locale]/checkout. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in /[
+locale]/admin/categor
+ies. Please move it 
+to viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in /[
+locale]/admin/categor
+ies. Please move it 
+to viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in /[
+locale]/categories/el
+ectronics/tablets. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in /[
+locale]/categories/el
+ectronics/tablets. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in /[
+locale]/categories/gr
+ocery/organic. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in /[
+locale]/categories/gr
+ocery/organic. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in /[
+locale]/admin/categor
+ies. Please move it 
+to viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in /[
+locale]/admin/categor
+ies. Please move it 
+to viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in /[
+locale]/categories/gr
+ocery/organic. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in /[
+locale]/categories/gr
+ocery/organic. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in /[
+locale]/categories/bo
+oks-media/magazines. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in /[
+locale]/categories/bo
+oks-media/magazines. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+Error: 
+MISSING_MESSAGE: Tabl
+ets.subcategories.ipa
+ds (ar)
+    at k (D:\Desktop\
+Web_Development\Tijar
+ah.pk\tijarah.pk\.nex
+t\server\chunks\ssr\3
+3709_use-intl_dist_es
+m_production_react_67
+c6a948.js:1:43609)
+    at l (D:\Desktop\
+Web_Development\Tijar
+ah.pk\tijarah.pk\.nex
+t\server\chunks\ssr\3
+3709_use-intl_dist_es
+m_production_react_67
+c6a948.js:1:43805)
+    at m (D:\Desktop\
+Web_Development\Tijar
+ah.pk\tijarah.pk\.nex
+t\server\chunks\ssr\3
+3709_use-intl_dist_es
+m_production_react_67
+c6a948.js:1:44921)
+    at i (D:\Desktop\
+Web_Development\Tijar
+ah.pk\tijarah.pk\.nex
+t\server\chunks\ssr\t
+ijarah_pk_app_[locale
+]_categories_electron
+ics_875f74d9._.js:1:1
+3362) {
+  code: 
+'MISSING_MESSAGE',
+  originalMessage: 'T
+ablets.subcategories.
+ipads (ar)'
+}
+Error: 
+MISSING_MESSAGE: Tabl
+ets.subcategories.and
+roid (ar)
+    at k (D:\Desktop\
+Web_Development\Tijar
+ah.pk\tijarah.pk\.nex
+t\server\chunks\ssr\3
+3709_use-intl_dist_es
+m_production_react_67
+c6a948.js:1:43609)
+    at l (D:\Desktop\
+Web_Development\Tijar
+ah.pk\tijarah.pk\.nex
+t\server\chunks\ssr\3
+3709_use-intl_dist_es
+m_production_react_67
+c6a948.js:1:43805)
+    at m (D:\Desktop\
+Web_Development\Tijar
+ah.pk\tijarah.pk\.nex
+t\server\chunks\ssr\3
+3709_use-intl_dist_es
+m_production_react_67
+c6a948.js:1:44921)
+    at i (D:\Desktop\
+Web_Development\Tijar
+ah.pk\tijarah.pk\.nex
+t\server\chunks\ssr\t
+ijarah_pk_app_[locale
+]_categories_electron
+ics_875f74d9._.js:1:1
+3416) {
+  code: 
+'MISSING_MESSAGE',
+  originalMessage: 'T
+ablets.subcategories.
+android (ar)'
+}
+Error: 
+MISSING_MESSAGE: Tabl
+ets.subcategories.win
+dows (ar)
+    at k (D:\Desktop\
+Web_Development\Tijar
+ah.pk\tijarah.pk\.nex
+t\server\chunks\ssr\3
+3709_use-intl_dist_es
+m_production_react_67
+c6a948.js:1:43609)
+    at l (D:\Desktop\
+Web_Development\Tijar
+ah.pk\tijarah.pk\.nex
+t\server\chunks\ssr\3
+3709_use-intl_dist_es
+m_production_react_67
+c6a948.js:1:43805)
+    at m (D:\Desktop\
+Web_Development\Tijar
+ah.pk\tijarah.pk\.nex
+t\server\chunks\ssr\3
+3709_use-intl_dist_es
+m_production_react_67
+c6a948.js:1:44921)
+    at i (D:\Desktop\
+Web_Development\Tijar
+ah.pk\tijarah.pk\.nex
+t\server\chunks\ssr\t
+ijarah_pk_app_[locale
+]_categories_electron
+ics_875f74d9._.js:1:1
+3472) {
+  code: 
+'MISSING_MESSAGE',
+  originalMessage: 'T
+ablets.subcategories.
+windows (ar)'
+}
+Error: 
+MISSING_MESSAGE: Tabl
+ets.subcategories.kid
+s (ar)
+    at k (D:\Desktop\
+Web_Development\Tijar
+ah.pk\tijarah.pk\.nex
+t\server\chunks\ssr\3
+3709_use-intl_dist_es
+m_production_react_67
+c6a948.js:1:43609)
+    at l (D:\Desktop\
+Web_Development\Tijar
+ah.pk\tijarah.pk\.nex
+t\server\chunks\ssr\3
+3709_use-intl_dist_es
+m_production_react_67
+c6a948.js:1:43805)
+    at m (D:\Desktop\
+Web_Development\Tijar
+ah.pk\tijarah.pk\.nex
+t\server\chunks\ssr\3
+3709_use-intl_dist_es
+m_production_react_67
+c6a948.js:1:44921)
+    at i (D:\Desktop\
+Web_Development\Tijar
+ah.pk\tijarah.pk\.nex
+t\server\chunks\ssr\t
+ijarah_pk_app_[locale
+]_categories_electron
+ics_875f74d9._.js:1:1
+3525) {
+  code: 
+'MISSING_MESSAGE',
+  originalMessage: 'T
+ablets.subcategories.
+kids (ar)'
+}
+Error: 
+MISSING_MESSAGE: Tabl
+ets.brandNames.apple 
+(ar)
+    at k (D:\Desktop\
+Web_Development\Tijar
+ah.pk\tijarah.pk\.nex
+t\server\chunks\ssr\3
+3709_use-intl_dist_es
+m_production_react_67
+c6a948.js:1:43609)
+    at l (D:\Desktop\
+Web_Development\Tijar
+ah.pk\tijarah.pk\.nex
+t\server\chunks\ssr\3
+3709_use-intl_dist_es
+m_production_react_67
+c6a948.js:1:43805)
+    at m (D:\Desktop\
+Web_Development\Tijar
+ah.pk\tijarah.pk\.nex
+t\server\chunks\ssr\3
+3709_use-intl_dist_es
+m_production_react_67
+c6a948.js:1:44921)
+    at i (D:\Desktop\
+Web_Development\Tijar
+ah.pk\tijarah.pk\.nex
+t\server\chunks\ssr\t
+ijarah_pk_app_[locale
+]_categories_electron
+ics_875f74d9._.js:1:1
+3559) {
+  code: 
+'MISSING_MESSAGE',
+  originalMessage: 'T
+ablets.brandNames.app
+le (ar)'
+}
+Error: 
+MISSING_MESSAGE: Tabl
+ets.brandNames.samsun
+g (ar)
+    at k (D:\Desktop\
+Web_Development\Tijar
+ah.pk\tijarah.pk\.nex
+t\server\chunks\ssr\3
+3709_use-intl_dist_es
+m_production_react_67
+c6a948.js:1:43609)
+    at l (D:\Desktop\
+Web_Development\Tijar
+ah.pk\tijarah.pk\.nex
+t\server\chunks\ssr\3
+3709_use-intl_dist_es
+m_production_react_67
+c6a948.js:1:43805)
+    at m (D:\Desktop\
+Web_Development\Tijar
+ah.pk\tijarah.pk\.nex
+t\server\chunks\ssr\3
+3709_use-intl_dist_es
+m_production_react_67
+c6a948.js:1:44921)
+    at i (D:\Desktop\
+Web_Development\Tijar
+ah.pk\tijarah.pk\.nex
+t\server\chunks\ssr\t
+ijarah_pk_app_[locale
+]_categories_electron
+ics_875f74d9._.js:1:1
+3581) {
+  code: 
+'MISSING_MESSAGE',
+  originalMessage: 'T
+ablets.brandNames.sam
+sung (ar)'
+}
+Error: 
+MISSING_MESSAGE: Tabl
+ets.brandNames.micros
+oft (ar)
+    at k (D:\Desktop\
+Web_Development\Tijar
+ah.pk\tijarah.pk\.nex
+t\server\chunks\ssr\3
+3709_use-intl_dist_es
+m_production_react_67
+c6a948.js:1:43609)
+    at l (D:\Desktop\
+Web_Development\Tijar
+ah.pk\tijarah.pk\.nex
+t\server\chunks\ssr\3
+3709_use-intl_dist_es
+m_production_react_67
+c6a948.js:1:43805)
+    at m (D:\Desktop\
+Web_Development\Tijar
+ah.pk\tijarah.pk\.nex
+t\server\chunks\ssr\3
+3709_use-intl_dist_es
+m_production_react_67
+c6a948.js:1:44921)
+    at i (D:\Desktop\
+Web_Development\Tijar
+ah.pk\tijarah.pk\.nex
+t\server\chunks\ssr\t
+ijarah_pk_app_[locale
+]_categories_electron
+ics_875f74d9._.js:1:1
+3605) {
+  code: 
+'MISSING_MESSAGE',
+  originalMessage: 'T
+ablets.brandNames.mic
+rosoft (ar)'
+}
+Error: 
+MISSING_MESSAGE: Tabl
+ets.brandNames.lenovo
+ (ar)
+    at k (D:\Desktop\
+Web_Development\Tijar
+ah.pk\tijarah.pk\.nex
+t\server\chunks\ssr\3
+3709_use-intl_dist_es
+m_production_react_67
+c6a948.js:1:43609)
+    at l (D:\Desktop\
+Web_Development\Tijar
+ah.pk\tijarah.pk\.nex
+t\server\chunks\ssr\3
+3709_use-intl_dist_es
+m_production_react_67
+c6a948.js:1:43805)
+    at m (D:\Desktop\
+Web_Development\Tijar
+ah.pk\tijarah.pk\.nex
+t\server\chunks\ssr\3
+3709_use-intl_dist_es
+m_production_react_67
+c6a948.js:1:44921)
+    at i (D:\Desktop\
+Web_Development\Tijar
+ah.pk\tijarah.pk\.nex
+t\server\chunks\ssr\t
+ijarah_pk_app_[locale
+]_categories_electron
+ics_875f74d9._.js:1:1
+3631) {
+  code: 
+'MISSING_MESSAGE',
+  originalMessage: 'T
+ablets.brandNames.len
+ovo (ar)'
+}
+Error: 
+MISSING_MESSAGE: Tabl
+ets.priceRanges.0-200
+ (ar)
+    at k (D:\Desktop\
+Web_Development\Tijar
+ah.pk\tijarah.pk\.nex
+t\server\chunks\ssr\3
+3709_use-intl_dist_es
+m_production_react_67
+c6a948.js:1:43609)
+    at l (D:\Desktop\
+Web_Development\Tijar
+ah.pk\tijarah.pk\.nex
+t\server\chunks\ssr\3
+3709_use-intl_dist_es
+m_production_react_67
+c6a948.js:1:43805)
+    at m (D:\Desktop\
+Web_Development\Tijar
+ah.pk\tijarah.pk\.nex
+t\server\chunks\ssr\3
+3709_use-intl_dist_es
+m_production_react_67
+c6a948.js:1:44921)
+    at i (D:\Desktop\
+Web_Development\Tijar
+ah.pk\tijarah.pk\.nex
+t\server\chunks\ssr\t
+ijarah_pk_app_[locale
+]_categories_electron
+ics_875f74d9._.js:1:1
+3678) {
+  code: 
+'MISSING_MESSAGE',
+  originalMessage: 'T
+ablets.priceRanges.0-
+200 (ar)'
+}
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in /[
+locale]/admin/categor
+ies. Please move it 
+to viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in /[
+locale]/admin/categor
+ies. Please move it 
+to viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+Error: 
+MISSING_MESSAGE: Tabl
+ets.priceRanges.200-5
+00 (ar)
+    at k (D:\Desktop\
+Web_Development\Tijar
+ah.pk\tijarah.pk\.nex
+t\server\chunks\ssr\3
+3709_use-intl_dist_es
+m_production_react_67
+c6a948.js:1:43609)
+    at l (D:\Desktop\
+Web_Development\Tijar
+ah.pk\tijarah.pk\.nex
+t\server\chunks\ssr\3
+3709_use-intl_dist_es
+m_production_react_67
+c6a948.js:1:43805)
+    at m (D:\Desktop\
+Web_Development\Tijar
+ah.pk\tijarah.pk\.nex
+t\server\chunks\ssr\3
+3709_use-intl_dist_es
+m_production_react_67
+c6a948.js:1:44921)
+    at i (D:\Desktop\
+Web_Development\Tijar
+ah.pk\tijarah.pk\.nex
+t\server\chunks\ssr\t
+ijarah_pk_app_[locale
+]_categories_electron
+ics_875f74d9._.js:1:1
+3735) {
+  code: 
+'MISSING_MESSAGE',
+  originalMessage: 'T
+ablets.priceRanges.20
+0-500 (ar)'
+}
+Error: 
+MISSING_MESSAGE: Tabl
+ets.priceRanges.500-1
+000 (ar)
+    at k (D:\Desktop\
+Web_Development\Tijar
+ah.pk\tijarah.pk\.nex
+t\server\chunks\ssr\3
+3709_use-intl_dist_es
+m_production_react_67
+c6a948.js:1:43609)
+    at l (D:\Desktop\
+Web_Development\Tijar
+ah.pk\tijarah.pk\.nex
+t\server\chunks\ssr\3
+3709_use-intl_dist_es
+m_production_react_67
+c6a948.js:1:43805)
+    at m (D:\Desktop\
+Web_Development\Tijar
+ah.pk\tijarah.pk\.nex
+t\server\chunks\ssr\3
+3709_use-intl_dist_es
+m_production_react_67
+c6a948.js:1:44921)
+    at i (D:\Desktop\
+Web_Development\Tijar
+ah.pk\tijarah.pk\.nex
+t\server\chunks\ssr\t
+ijarah_pk_app_[locale
+]_categories_electron
+ics_875f74d9._.js:1:1
+3797) {
+  code: 
+'MISSING_MESSAGE',
+  originalMessage: 'T
+ablets.priceRanges.50
+0-1000 (ar)'
+}
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in /[
+locale]/categories/bo
+oks-media/ebooks. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in /[
+locale]/categories/bo
+oks-media/ebooks. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in /[
+locale]/admin/categor
+ies. Please move it 
+to viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in /[
+locale]/admin/categor
+ies. Please move it 
+to viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+Error: 
+MISSING_MESSAGE: Tabl
+ets.priceRanges.1000 
+(ar)
+    at k (D:\Desktop\
+Web_Development\Tijar
+ah.pk\tijarah.pk\.nex
+t\server\chunks\ssr\3
+3709_use-intl_dist_es
+m_production_react_67
+c6a948.js:1:43609)
+    at l (D:\Desktop\
+Web_Development\Tijar
+ah.pk\tijarah.pk\.nex
+t\server\chunks\ssr\3
+3709_use-intl_dist_es
+m_production_react_67
+c6a948.js:1:43805)
+    at m (D:\Desktop\
+Web_Development\Tijar
+ah.pk\tijarah.pk\.nex
+t\server\chunks\ssr\3
+3709_use-intl_dist_es
+m_production_react_67
+c6a948.js:1:44921)
+    at i (D:\Desktop\
+Web_Development\Tijar
+ah.pk\tijarah.pk\.nex
+t\server\chunks\ssr\t
+ijarah_pk_app_[locale
+]_categories_electron
+ics_875f74d9._.js:1:1
+3857) {
+  code: 
+'MISSING_MESSAGE',
+  originalMessage: 'T
+ablets.priceRanges.10
+00 (ar)'
+}
+Error: 
+MISSING_MESSAGE: 
+Tablets.priceLow (ar)
+    at k (D:\Desktop\
+Web_Development\Tijar
+ah.pk\tijarah.pk\.nex
+t\server\chunks\ssr\3
+3709_use-intl_dist_es
+m_production_react_67
+c6a948.js:1:43609)
+    at l (D:\Desktop\
+Web_Development\Tijar
+ah.pk\tijarah.pk\.nex
+t\server\chunks\ssr\3
+3709_use-intl_dist_es
+m_production_react_67
+c6a948.js:1:43805)
+    at m (D:\Desktop\
+Web_Development\Tijar
+ah.pk\tijarah.pk\.nex
+t\server\chunks\ssr\3
+3709_use-intl_dist_es
+m_production_react_67
+c6a948.js:1:44921)
+    at i (D:\Desktop\
+Web_Development\Tijar
+ah.pk\tijarah.pk\.nex
+t\server\chunks\ssr\t
+ijarah_pk_app_[locale
+]_categories_electron
+ics_875f74d9._.js:1:1
+3953) {
+  code: 
+'MISSING_MESSAGE',
+  originalMessage: 
+'Tablets.priceLow 
+(ar)'
+}
+Error: 
+MISSING_MESSAGE: 
+Tablets.priceHigh 
+(ar)
+    at k (D:\Desktop\
+Web_Development\Tijar
+ah.pk\tijarah.pk\.nex
+t\server\chunks\ssr\3
+3709_use-intl_dist_es
+m_production_react_67
+c6a948.js:1:43609)
+    at l (D:\Desktop\
+Web_Development\Tijar
+ah.pk\tijarah.pk\.nex
+t\server\chunks\ssr\3
+3709_use-intl_dist_es
+m_production_react_67
+c6a948.js:1:43805)
+    at m (D:\Desktop\
+Web_Development\Tijar
+ah.pk\tijarah.pk\.nex
+t\server\chunks\ssr\3
+3709_use-intl_dist_es
+m_production_react_67
+c6a948.js:1:44921)
+    at i (D:\Desktop\
+Web_Development\Tijar
+ah.pk\tijarah.pk\.nex
+t\server\chunks\ssr\t
+ijarah_pk_app_[locale
+]_categories_electron
+ics_875f74d9._.js:1:1
+3990) {
+  code: 
+'MISSING_MESSAGE',
+  originalMessage: 
+'Tablets.priceHigh 
+(ar)'
+}
+Error: 
+MISSING_MESSAGE: 
+Tablets.rating (ar)
+    at k (D:\Desktop\
+Web_Development\Tijar
+ah.pk\tijarah.pk\.nex
+t\server\chunks\ssr\3
+3709_use-intl_dist_es
+m_production_react_67
+c6a948.js:1:43609)
+    at l (D:\Desktop\
+Web_Development\Tijar
+ah.pk\tijarah.pk\.nex
+t\server\chunks\ssr\3
+3709_use-intl_dist_es
+m_production_react_67
+c6a948.js:1:43805)
+    at m (D:\Desktop\
+Web_Development\Tijar
+ah.pk\tijarah.pk\.nex
+t\server\chunks\ssr\3
+3709_use-intl_dist_es
+m_production_react_67
+c6a948.js:1:44921)
+    at i (D:\Desktop\
+Web_Development\Tijar
+ah.pk\tijarah.pk\.nex
+t\server\chunks\ssr\t
+ijarah_pk_app_[locale
+]_categories_electron
+ics_875f74d9._.js:1:1
+4024) {
+  code: 
+'MISSING_MESSAGE',
+  originalMessage: 
+'Tablets.rating (ar)'
+}
+Error: 
+MISSING_MESSAGE: Tabl
+ets.showingResults 
+(ar)
+    at k (D:\Desktop\
+Web_Development\Tijar
+ah.pk\tijarah.pk\.nex
+t\server\chunks\ssr\3
+3709_use-intl_dist_es
+m_production_react_67
+c6a948.js:1:43609)
+    at l (D:\Desktop\
+Web_Development\Tijar
+ah.pk\tijarah.pk\.nex
+t\server\chunks\ssr\3
+3709_use-intl_dist_es
+m_production_react_67
+c6a948.js:1:43805)
+    at m (D:\Desktop\
+Web_Development\Tijar
+ah.pk\tijarah.pk\.nex
+t\server\chunks\ssr\3
+3709_use-intl_dist_es
+m_production_react_67
+c6a948.js:1:44921)
+    at i (D:\Desktop\
+Web_Development\Tijar
+ah.pk\tijarah.pk\.nex
+t\server\chunks\ssr\t
+ijarah_pk_app_[locale
+]_categories_electron
+ics_875f74d9._.js:1:1
+6233) {
+  code: 
+'MISSING_MESSAGE',
+  originalMessage: 'T
+ablets.showingResults
+ (ar)'
+}
+Error: 
+MISSING_MESSAGE: 
+Tablets.viewDetails 
+(ar)
+    at k (D:\Desktop\
+Web_Development\Tijar
+ah.pk\tijarah.pk\.nex
+t\server\chunks\ssr\3
+3709_use-intl_dist_es
+m_production_react_67
+c6a948.js:1:43609)
+    at l (D:\Desktop\
+Web_Development\Tijar
+ah.pk\tijarah.pk\.nex
+t\server\chunks\ssr\3
+3709_use-intl_dist_es
+m_production_react_67
+c6a948.js:1:43805)
+    at m (D:\Desktop\
+Web_Development\Tijar
+ah.pk\tijarah.pk\.nex
+t\server\chunks\ssr\3
+3709_use-intl_dist_es
+m_production_react_67
+c6a948.js:1:44921)
+    at <unknown> (D:\
+Desktop\Web_Developme
+nt\Tijarah.pk\tijarah
+.pk\.next\server\chun
+ks\ssr\tijarah_pk_app
+_[locale]_categories_
+electronics_875f74d9.
+_.js:1:17545)
+    at Array.map 
+(<anonymous>)
+    at i (D:\Desktop\
+Web_Development\Tijar
+ah.pk\tijarah.pk\.nex
+t\server\chunks\ssr\t
+ijarah_pk_app_[locale
+]_categories_electron
+ics_875f74d9._.js:1:1
+6599) {
+  code: 
+'MISSING_MESSAGE',
+  originalMessage: 
+'Tablets.viewDetails 
+(ar)'
+}
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in /[
+locale]/categories/gr
+ocery/organic. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in /[
+locale]/categories/gr
+ocery/organic. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in /[
+locale]/categories/el
+ectronics/tablets. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in /[
+locale]/categories/el
+ectronics/tablets. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in /[
+locale]/admin/categor
+ies. Please move it 
+to viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in /[
+locale]/admin/categor
+ies. Please move it 
+to viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in /[
+locale]/returns-order
+s. Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in /[
+locale]/returns-order
+s. Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in /[
+locale]/returns-order
+s. Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in /[
+locale]/returns-order
+s. Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in /[
+locale]/categories/sp
+orts-outdoor/camping.
+ Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in /[
+locale]/categories/sp
+orts-outdoor/camping.
+ Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in /[
+locale]/categories/sp
+orts-outdoor/camping.
+ Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in /[
+locale]/categories/sp
+orts-outdoor/camping.
+ Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in /[
+locale]/categories/gr
+ocery/snacks. Please 
+move it to viewport 
+export instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in /[
+locale]/categories/gr
+ocery/snacks. Please 
+move it to viewport 
+export instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in 
+/[locale]/returns. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in 
+/[locale]/returns. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in /[
+locale]/categories/sp
+orts-outdoor/camping.
+ Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in /[
+locale]/categories/sp
+orts-outdoor/camping.
+ Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in /[
+locale]/categories/gr
+ocery. Please move 
+it to viewport 
+export instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in /[
+locale]/categories/gr
+ocery. Please move 
+it to viewport 
+export instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in /[
+locale]/categories/bo
+oks-media/music. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in /[
+locale]/categories/bo
+oks-media/music. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in 
+/[locale]/checkout. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in 
+/[locale]/checkout. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in /[
+locale]/categories/sp
+orts-outdoor/camping.
+ Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in /[
+locale]/categories/sp
+orts-outdoor/camping.
+ Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in 
+/[locale]/returns. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in 
+/[locale]/returns. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in 
+/[locale]/returns. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in 
+/[locale]/returns. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in /[
+locale]/categories/gr
+ocery. Please move 
+it to viewport 
+export instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in /[
+locale]/categories/bo
+oks-media/music. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in /[
+locale]/categories/bo
+oks-media/music. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in /[
+locale]/categories/sp
+orts-outdoor/cycling.
+ Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in /[
+locale]/categories/sp
+orts-outdoor/cycling.
+ Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in 
+/[locale]/checkout. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in 
+/[locale]/checkout. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in /[
+locale]/categories/gr
+ocery. Please move 
+it to viewport 
+export instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in 
+/[locale]/returns. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in 
+/[locale]/returns. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in /[
+locale]/categories/sp
+orts-outdoor/cycling.
+ Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in /[
+locale]/categories/sp
+orts-outdoor/cycling.
+ Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in /[
+locale]/categories/gr
+ocery. Please move 
+it to viewport 
+export instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in /[
+locale]/categories/gr
+ocery. Please move 
+it to viewport 
+export instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in 
+/[locale]/checkout. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in 
+/[locale]/checkout. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in /[
+locale]/categories/bo
+oks-media/music. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in /[
+locale]/categories/bo
+oks-media/music. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in 
+/[locale]/returns. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in 
+/[locale]/returns. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in /[
+locale]/customer-serv
+ice. Please move it 
+to viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in /[
+locale]/customer-serv
+ice. Please move it 
+to viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in /[
+locale]/categories/gr
+ocery. Please move 
+it to viewport 
+export instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in /[
+locale]/categories/gr
+ocery. Please move 
+it to viewport 
+export instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in /[
+locale]/admin/dashboa
+rd. Please move it 
+to viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in /[
+locale]/admin/dashboa
+rd. Please move it 
+to viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in /[
+locale]/customer-serv
+ice. Please move it 
+to viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in /[
+locale]/customer-serv
+ice. Please move it 
+to viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in /[
+locale]/categories/bo
+oks-media/music. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in /[
+locale]/categories/bo
+oks-media/music. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in 
+/[locale]/returns. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in 
+/[locale]/returns. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in /[
+locale]/categories/fa
+shion/bags. Please 
+move it to viewport 
+export instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in /[
+locale]/categories/fa
+shion/bags. Please 
+move it to viewport 
+export instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in 
+/[locale]/returns. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in 
+/[locale]/returns. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in /[
+locale]/customer-serv
+ice. Please move it 
+to viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in /[
+locale]/customer-serv
+ice. Please move it 
+to viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in /[
+locale]/categories/bo
+oks-media/music. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in /[
+locale]/categories/bo
+oks-media/music. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in /[
+locale]/categories/gr
+ocery. Please move 
+it to viewport 
+export instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in /[
+locale]/categories/gr
+ocery. Please move 
+it to viewport 
+export instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in /[
+locale]/admin/dashboa
+rd. Please move it 
+to viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in /[
+locale]/admin/dashboa
+rd. Please move it 
+to viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in /[
+locale]/customer-serv
+ice. Please move it 
+to viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in /[
+locale]/customer-serv
+ice. Please move it 
+to viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+Error: 
+MISSING_MESSAGE: 
+ReturnsAndOrders (zh)
+    at <unknown> (D:\
+Desktop\Web_Developme
+nt\Tijarah.pk\tijarah
+.pk\.next\server\chun
+ks\ssr\33709_use-intl
+_dist_esm_production_
+react_67c6a948.js:1:4
+3253)
+    at <unknown> (D:\
+Desktop\Web_Developme
+nt\Tijarah.pk\tijarah
+.pk\.next\server\chun
+ks\ssr\33709_use-intl
+_dist_esm_production_
+react_67c6a948.js:1:4
+3291)
+    at <unknown> (D:\
+Desktop\Web_Developme
+nt\Tijarah.pk\tijarah
+.pk\.next\server\chun
+ks\ssr\33709_use-intl
+_dist_esm_production_
+react_67c6a948.js:1:4
+3114)
+    at aL (D:\Desktop
+\Web_Development\Tija
+rah.pk\tijarah.pk\.ne
+xt\server\chunks\ssr\
+33709_use-intl_dist_e
+sm_production_react_6
+7c6a948.js:1:45288)
+    at <unknown> (D:\
+Desktop\Web_Developme
+nt\Tijarah.pk\tijarah
+.pk\.next\server\chun
+ks\ssr\[root-of-the-s
+erver]__d1354aab._.js
+:1:2283)
+    at <unknown> (D:\
+Desktop\Web_Developme
+nt\Tijarah.pk\tijarah
+.pk\.next\server\chun
+ks\ssr\tijarah_pk_app
+_[locale]_returns_pag
+e_48e782b5.js:1:226) 
+{
+  code: 
+'MISSING_MESSAGE',
+  originalMessage: 
+'ReturnsAndOrders 
+(zh)'
+}
+Error: 
+MISSING_MESSAGE: 
+ReturnsAndOrders (zh)
+    at <unknown> (D:\
+Desktop\Web_Developme
+nt\Tijarah.pk\tijarah
+.pk\.next\server\chun
+ks\ssr\33709_use-intl
+_dist_esm_production_
+react_67c6a948.js:1:4
+3253)
+    at <unknown> (D:\
+Desktop\Web_Developme
+nt\Tijarah.pk\tijarah
+.pk\.next\server\chun
+ks\ssr\33709_use-intl
+_dist_esm_production_
+react_67c6a948.js:1:4
+3291)
+    at <unknown> (D:\
+Desktop\Web_Developme
+nt\Tijarah.pk\tijarah
+.pk\.next\server\chun
+ks\ssr\33709_use-intl
+_dist_esm_production_
+react_67c6a948.js:1:4
+3114)
+    at aL (D:\Desktop
+\Web_Development\Tija
+rah.pk\tijarah.pk\.ne
+xt\server\chunks\ssr\
+33709_use-intl_dist_e
+sm_production_react_6
+7c6a948.js:1:45288)
+    at <unknown> (D:\
+Desktop\Web_Developme
+nt\Tijarah.pk\tijarah
+.pk\.next\server\chun
+ks\ssr\[root-of-the-s
+erver]__d1354aab._.js
+:1:2283)
+    at <unknown> (D:\
+Desktop\Web_Developme
+nt\Tijarah.pk\tijarah
+.pk\.next\server\chun
+ks\ssr\tijarah_pk_app
+_[locale]_returns_pag
+e_48e782b5.js:1:226) 
+{
+  code: 
+'MISSING_MESSAGE',
+  originalMessage: 
+'ReturnsAndOrders 
+(zh)'
+}
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in /[
+locale]/categories/bo
+oks-media/music. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in /[
+locale]/categories/bo
+oks-media/music. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in /[
+locale]/admin/dashboa
+rd. Please move it 
+to viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in /[
+locale]/admin/dashboa
+rd. Please move it 
+to viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in /[
+locale]/categories/fa
+shion/bags. Please 
+move it to viewport 
+export instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in /[
+locale]/categories/fa
+shion/bags. Please 
+move it to viewport 
+export instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in 
+/[locale]/returns. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in 
+/[locale]/returns. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in /[
+locale]/admin/dashboa
+rd. Please move it 
+to viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in /[
+locale]/admin/dashboa
+rd. Please move it 
+to viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in /[
+locale]/categories/sp
+orts-outdoor/cycling.
+ Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in /[
+locale]/categories/sp
+orts-outdoor/cycling.
+ Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+Error: 
+MISSING_MESSAGE: Cust
+omerService.helpfulLi
+nks.faq.title (ar)
+    at k (D:\Desktop\
+Web_Development\Tijar
+ah.pk\tijarah.pk\.nex
+t\server\chunks\ssr\3
+3709_use-intl_dist_es
+m_production_react_67
+c6a948.js:1:43609)
+    at l (D:\Desktop\
+Web_Development\Tijar
+ah.pk\tijarah.pk\.nex
+t\server\chunks\ssr\3
+3709_use-intl_dist_es
+m_production_react_67
+c6a948.js:1:43805)
+    at m (D:\Desktop\
+Web_Development\Tijar
+ah.pk\tijarah.pk\.nex
+t\server\chunks\ssr\3
+3709_use-intl_dist_es
+m_production_react_67
+c6a948.js:1:44921)
+    at <unknown> (D:\
+Desktop\Web_Developme
+nt\Tijarah.pk\tijarah
+.pk\.next\server\chun
+ks\ssr\tijarah_pk_app
+_[locale]_customer-se
+rvice_page_99a934b9.j
+s:1:20657) {
+  code: 
+'MISSING_MESSAGE',
+  originalMessage: 'C
+ustomerService.helpfu
+lLinks.faq.title 
+(ar)'
+}
+Error: 
+MISSING_MESSAGE: Cust
+omerService.helpfulLi
+nks.faq.description 
+(ar)
+    at k (D:\Desktop\
+Web_Development\Tijar
+ah.pk\tijarah.pk\.nex
+t\server\chunks\ssr\3
+3709_use-intl_dist_es
+m_production_react_67
+c6a948.js:1:43609)
+    at l (D:\Desktop\
+Web_Development\Tijar
+ah.pk\tijarah.pk\.nex
+t\server\chunks\ssr\3
+3709_use-intl_dist_es
+m_production_react_67
+c6a948.js:1:43805)
+    at m (D:\Desktop\
+Web_Development\Tijar
+ah.pk\tijarah.pk\.nex
+t\server\chunks\ssr\3
+3709_use-intl_dist_es
+m_production_react_67
+c6a948.js:1:44921)
+    at <unknown> (D:\
+Desktop\Web_Developme
+nt\Tijarah.pk\tijarah
+.pk\.next\server\chun
+ks\ssr\tijarah_pk_app
+_[locale]_customer-se
+rvice_page_99a934b9.j
+s:1:20752) {
+  code: 
+'MISSING_MESSAGE',
+  originalMessage: 'C
+ustomerService.helpfu
+lLinks.faq.descriptio
+n (ar)'
+}
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in /[
+locale]/categories/bo
+oks-media/music. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in /[
+locale]/categories/bo
+oks-media/music. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in /[
+locale]/admin/dashboa
+rd. Please move it 
+to viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in /[
+locale]/admin/dashboa
+rd. Please move it 
+to viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in /[
+locale]/customer-serv
+ice. Please move it 
+to viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in /[
+locale]/customer-serv
+ice. Please move it 
+to viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in /[
+locale]/categories/fa
+shion/bags. Please 
+move it to viewport 
+export instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in /[
+locale]/categories/fa
+shion/bags. Please 
+move it to viewport 
+export instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in /[
+locale]/categories/gr
+ocery/snacks. Please 
+move it to viewport 
+export instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in /[
+locale]/categories/gr
+ocery/snacks. Please 
+move it to viewport 
+export instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in /[
+locale]/admin/dashboa
+rd. Please move it 
+to viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in /[
+locale]/admin/dashboa
+rd. Please move it 
+to viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in 
+/[locale]/returns. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in 
+/[locale]/returns. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in /[
+locale]/categories/sp
+orts-outdoor/cycling.
+ Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in /[
+locale]/categories/fa
+shion/bags. Please 
+move it to viewport 
+export instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in /[
+locale]/categories/fa
+shion/bags. Please 
+move it to viewport 
+export instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in /[
+locale]/categories/sp
+orts-outdoor/cycling.
+ Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in /[
+locale]/admin/dashboa
+rd. Please move it 
+to viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in /[
+locale]/admin/dashboa
+rd. Please move it 
+to viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in /[
+locale]/categories/bo
+oks-media. Please 
+move it to viewport 
+export instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in /[
+locale]/categories/bo
+oks-media. Please 
+move it to viewport 
+export instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in /[
+locale]/categories/gr
+ocery/snacks. Please 
+move it to viewport 
+export instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in /[
+locale]/categories/gr
+ocery/snacks. Please 
+move it to viewport 
+export instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in /[
+locale]/categories/fa
+shion/bags. Please 
+move it to viewport 
+export instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in /[
+locale]/categories/fa
+shion/bags. Please 
+move it to viewport 
+export instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in 
+/[locale]/returns. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in 
+/[locale]/returns. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in /[
+locale]/categories/fa
+shion/bags. Please 
+move it to viewport 
+export instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in /[
+locale]/categories/fa
+shion/bags. Please 
+move it to viewport 
+export instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in 
+/[locale]/returns. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in 
+/[locale]/returns. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in /[
+locale]/admin/login. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in /[
+locale]/admin/login. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+Error: 
+MISSING_MESSAGE: 
+ReturnsAndOrders (ar)
+    at <unknown> (D:\
+Desktop\Web_Developme
+nt\Tijarah.pk\tijarah
+.pk\.next\server\chun
+ks\ssr\33709_use-intl
+_dist_esm_production_
+react_67c6a948.js:1:4
+3253)
+    at <unknown> (D:\
+Desktop\Web_Developme
+nt\Tijarah.pk\tijarah
+.pk\.next\server\chun
+ks\ssr\33709_use-intl
+_dist_esm_production_
+react_67c6a948.js:1:4
+3291)
+    at <unknown> (D:\
+Desktop\Web_Developme
+nt\Tijarah.pk\tijarah
+.pk\.next\server\chun
+ks\ssr\33709_use-intl
+_dist_esm_production_
+react_67c6a948.js:1:4
+3114)
+    at aL (D:\Desktop
+\Web_Development\Tija
+rah.pk\tijarah.pk\.ne
+xt\server\chunks\ssr\
+33709_use-intl_dist_e
+sm_production_react_6
+7c6a948.js:1:45288)
+    at <unknown> (D:\
+Desktop\Web_Developme
+nt\Tijarah.pk\tijarah
+.pk\.next\server\chun
+ks\ssr\[root-of-the-s
+erver]__d1354aab._.js
+:1:2283)
+    at <unknown> (D:\
+Desktop\Web_Developme
+nt\Tijarah.pk\tijarah
+.pk\.next\server\chun
+ks\ssr\tijarah_pk_app
+_[locale]_returns_pag
+e_48e782b5.js:1:226) 
+{
+  code: 
+'MISSING_MESSAGE',
+  originalMessage: 
+'ReturnsAndOrders 
+(ar)'
+}
+Error: 
+MISSING_MESSAGE: 
+ReturnsAndOrders (ar)
+    at <unknown> (D:\
+Desktop\Web_Developme
+nt\Tijarah.pk\tijarah
+.pk\.next\server\chun
+ks\ssr\33709_use-intl
+_dist_esm_production_
+react_67c6a948.js:1:4
+3253)
+    at <unknown> (D:\
+Desktop\Web_Developme
+nt\Tijarah.pk\tijarah
+.pk\.next\server\chun
+ks\ssr\33709_use-intl
+_dist_esm_production_
+react_67c6a948.js:1:4
+3291)
+    at <unknown> (D:\
+Desktop\Web_Developme
+nt\Tijarah.pk\tijarah
+.pk\.next\server\chun
+ks\ssr\33709_use-intl
+_dist_esm_production_
+react_67c6a948.js:1:4
+3114)
+    at aL (D:\Desktop
+\Web_Development\Tija
+rah.pk\tijarah.pk\.ne
+xt\server\chunks\ssr\
+33709_use-intl_dist_e
+sm_production_react_6
+7c6a948.js:1:45288)
+    at <unknown> (D:\
+Desktop\Web_Developme
+nt\Tijarah.pk\tijarah
+.pk\.next\server\chun
+ks\ssr\[root-of-the-s
+erver]__d1354aab._.js
+:1:2283)
+    at <unknown> (D:\
+Desktop\Web_Developme
+nt\Tijarah.pk\tijarah
+.pk\.next\server\chun
+ks\ssr\tijarah_pk_app
+_[locale]_returns_pag
+e_48e782b5.js:1:226) 
+{
+  code: 
+'MISSING_MESSAGE',
+  originalMessage: 
+'ReturnsAndOrders 
+(ar)'
+}
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in 
+/[locale]/returns. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in 
+/[locale]/returns. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in /[
+locale]/categories/fa
+shion/fragrances. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in /[
+locale]/categories/fa
+shion/fragrances. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+Error occurred 
+prerendering page 
+"/en/returns". Read 
+more: https://nextjs.
+org/docs/messages/pre
+render-error
+ReferenceError: 
+localStorage is not 
+defined
+    at <unknown> (D:\
+Desktop\Web_Developme
+nt\Tijarah.pk\tijarah
+.pk\.next\server\chun
+ks\ssr\tijarah_pk_app
+_[locale]_returns_pag
+e_48e782b5.js:1:2963)
+ {
+  digest: 
+'3313973182'
+}
+Export encountered 
+an error on /[locale]
+/returns/page: 
+/en/returns, exiting 
+the build.
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in /[
+locale]/categories/fa
+shion/fragrances. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in /[
+locale]/categories/fa
+shion/fragrances. 
+Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in /[
+locale]/categories/sp
+orts-outdoor/cycling.
+ Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in /[
+locale]/categories/sp
+orts-outdoor/cycling.
+ Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in /[
+locale]/customer-serv
+ice. Please move it 
+to viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in /[
+locale]/customer-serv
+ice. Please move it 
+to viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata viewport is 
+configured in 
+metadata export in /[
+locale]/categories/sp
+orts-outdoor/cycling.
+ Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+ÔÜá Unsupported 
+metadata themeColor 
+is configured in 
+metadata export in /[
+locale]/categories/sp
+orts-outdoor/cycling.
+ Please move it to 
+viewport export 
+instead.
+Read more: https://ne
+xtjs.org/docs/app/api
+-reference/functions/
+generate-viewport
+Ô¿» Next.js build 
+worker exited with 
+code: 1 and signal: 
+null

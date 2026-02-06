@@ -6,16 +6,11 @@ import { connectToDatabase } from '@/lib/db';
  */
 export async function POST(request) {
   try {
-    console.log('=== [ORDERS API] Request received ===');
-    
     // Parse request body
     let body;
     try {
       body = await request.json();
-      console.log('[ORDERS API] Body parsed successfully');
-      console.log('[ORDERS API] Body keys:', Object.keys(body));
     } catch (parseError) {
-      console.error('[ORDERS API] Failed to parse body:', parseError.message);
       return Response.json(
         { error: 'Invalid JSON in request body' },
         { status: 400 }
@@ -23,28 +18,20 @@ export async function POST(request) {
     }
 
     // Validate required fields
-    console.log('[ORDERS API] Validating required fields...');
     if (!body.customerName) {
-      console.error('[ORDERS API] Missing customerName');
       return Response.json({ error: 'Missing customerName' }, { status: 400 });
     }
     if (!body.customerEmail) {
-      console.error('[ORDERS API] Missing customerEmail');
       return Response.json({ error: 'Missing customerEmail' }, { status: 400 });
     }
     if (!body.items || !Array.isArray(body.items) || body.items.length === 0) {
-      console.error('[ORDERS API] Missing or invalid items');
       return Response.json({ error: 'Missing items array' }, { status: 400 });
     }
-    console.log('[ORDERS API] All required fields present');
 
     // Connect to database
-    console.log('[ORDERS API] Connecting to database...');
     try {
       await connectToDatabase();
-      console.log('[ORDERS API] Database connected');
     } catch (dbError) {
-      console.error('[ORDERS API] Database connection error:', dbError.message);
       return Response.json(
         { error: 'Database connection failed', message: dbError.message },
         { status: 500 }
@@ -52,13 +39,10 @@ export async function POST(request) {
     }
 
     // Import Order model
-    console.log('[ORDERS API] Importing Order model...');
     let Order;
     try {
       Order = (await import('@/models/Order')).default;
-      console.log('[ORDERS API] Order model imported successfully');
     } catch (modelError) {
-      console.error('[ORDERS API] Failed to import Order model:', modelError.message);
       return Response.json(
         { error: 'Order model not found', message: modelError.message },
         { status: 500 }
@@ -67,10 +51,8 @@ export async function POST(request) {
 
     // Generate order number
     const orderNumber = `ORD-${Date.now()}-${Math.floor(Math.random() * 1000)}`;
-    console.log('[ORDERS API] Generated order number:', orderNumber);
 
     // Create order object
-    console.log('[ORDERS API] Creating order object...');
     const orderObj = {
       orderNumber,
       user: body.userId || null,
@@ -88,15 +70,11 @@ export async function POST(request) {
       status: 'pending',
       notes: body.notes || '',
     };
-    console.log('[ORDERS API] Order object created');
 
     // Create and save order
-    console.log('[ORDERS API] Saving order to database...');
     try {
       const order = new Order(orderObj);
       await order.save();
-      console.log('[ORDERS API] Order saved successfully');
-      console.log('[ORDERS API] Order ID:', order._id);
 
       return Response.json(
         {
@@ -111,8 +89,6 @@ export async function POST(request) {
         { status: 201 }
       );
     } catch (saveError) {
-      console.error('[ORDERS API] Failed to save order:', saveError.message);
-      console.error('[ORDERS API] Error details:', saveError);
       return Response.json(
         { error: 'Failed to save order', message: saveError.message },
         { status: 500 }
@@ -120,10 +96,6 @@ export async function POST(request) {
     }
 
   } catch (error) {
-    console.error('=== [ORDERS API] UNEXPECTED ERROR ===');
-    console.error('[ORDERS API] Error message:', error.message);
-    console.error('[ORDERS API] Error stack:', error.stack);
-    
     return Response.json(
       { 
         error: 'Internal server error',
@@ -140,13 +112,12 @@ export async function POST(request) {
  */
 export async function GET(request) {
   try {
-    console.log('[ORDERS API] GET request received');
-    
     await connectToDatabase();
     const Order = (await import('@/models/Order')).default;
 
     const { searchParams } = new URL(request.url);
     const email = searchParams.get('email');
+    const limit = parseInt(searchParams.get('limit') || '20');
 
     let query = {};
     if (email) {
@@ -155,9 +126,8 @@ export async function GET(request) {
 
     const orders = await Order.find(query)
       .sort({ createdAt: -1 })
-      .limit(50);
+      .limit(limit);
 
-    console.log('[ORDERS API] Found orders:', orders.length);
     return Response.json(orders, { status: 200 });
   } catch (error) {
     console.error('[ORDERS API] GET error:', error);

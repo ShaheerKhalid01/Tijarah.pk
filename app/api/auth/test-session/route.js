@@ -1,5 +1,5 @@
 import { getServerSession } from 'next-auth/next';
-import { authOptions } from '../[...nextauth]/route';
+import { authOptions } from '../[...nextauth]/config';
 import { headers } from 'next/headers';
 
 export async function GET() {

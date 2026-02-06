@@ -7,7 +7,7 @@ import { FiShoppingCart, FiHeart, FiShare2, FiInfo, FiStar, FiTruck, FiRotateCcw
 import Link from 'next/link';
 import { useCart } from '../../../../contexts/CartContext';
 import { useTranslations } from 'next-intl';
-import { toast, Toaster } from 'react-hot-toast';
+// import { toast, Toaster } from 'react-hot-toast';
 import { electronicsProducts } from '../../categories/electronics/page';
 import { specialOffers } from '../../special-offers/page';
 
@@ -96,18 +96,16 @@ export default function ProductDetail() {
         quantity: quantity,
         inStock: product.inStock || (product.stock > 0)
       });
-      toast.success(t('toast.addedToCart', { name: product.name }), {
-        position: 'bottom-center',
-        style: {
-          borderRadius: '12px',
-          background: '#1e40af',
-          color: '#fff',
-        },
-      });
-      setTimeout(() => setIsAddingToCart(false), 1000);
+      // toast.success(t('toast.addedToCart', { name: product.name }), {
+      //   position: 'bottom-center',
+      //   style: {
+      //     borderRadius: '12px',
+      //   }
+      // });
     } catch (error) {
       console.error('Error adding to cart:', error);
-      toast.error(t('toast.failedToAdd'));
+      // toast.error(t('toast.failedToAdd'));
+    } finally {
       setIsAddingToCart(false);
     }
   };
@@ -150,7 +148,6 @@ export default function ProductDetail() {
 
   return (
     <div className="bg-slate-50 min-h-screen pb-20 pt-4">
-      <Toaster />
       <div className="max-w-7xl mx-auto px-4 py-6 sm:px-6 lg:px-8">
         <nav className="flex items-center text-sm font-medium text-gray-500 mb-10 gap-2 overflow-x-auto whitespace-nowrap pb-2">
           <Link href={`/${locale}`} className="hover:text-blue-600 transition-colors">{t('navigation.home')}</Link>

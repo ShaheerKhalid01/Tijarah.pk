@@ -1,109 +1,121 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useParams } from 'next/navigation';
 import Image from 'next/image';
 import Link from 'next/link';
+import { useRouter } from 'next/navigation';
 import { useTranslations } from 'next-intl';
+
+// Currency conversion rates (can be updated from API or config)
+const CURRENCY_RATES = {
+  PKR_TO_USD: 0.0036, // 1 PKR = 0.0036 USD (approximate)
+};
+
+// Helper for currency formatting
+const formatCurrency = (amount) => {
+  return new Intl.NumberFormat('en-US', {
+    style: 'currency',
+    currency: 'USD',
+    minimumFractionDigits: 2,
+    maximumFractionDigits: 2
+  }).format((amount || 0) * CURRENCY_RATES.PKR_TO_USD);
+};
 
 // Mock data for laptops
 export const laptops = [
   {
     id: 'macbook-pro-16',
-    name: 'Macbook M1 Max 16"',
+    name: 'MacBook Pro 16"',
     price: 2499,
-    image: 'https://images.unsplash.com/photo-1639087595550-e9770a85f8c0?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    originalPrice: 2699,
+    discount: 7,
+    image: 'https://images.unsplash.com/photo-1639087595550-e9770a85f8c0?w=600&h=600&fit=crop',
+    images: [
+      'https://images.unsplash.com/photo-1639087595550-e9770a85f8c0?w=600&h=600&fit=crop',
+      'https://images.unsplash.com/photo-1675868374786-3edd36dddf04?w=600&h=600&fit=crop',
+      'https://images.unsplash.com/photo-1675868373607-556b8fed6464?w=600&h=600&fit=crop'
+    ],
     rating: 4.9,
-    description: 'Powerful laptop with M2 Max chip and Liquid Retina XDR display',
-    brand: 'Apple',
+    reviewCount: 234,
+    brand: 'apple',
+    category: 'laptops',
     inStock: true,
+    isNew: true,
+    isHot: true,
+    description: 'Powerful MacBook Pro with M3 Max chip for professionals.',
+    stock: 18,
     specs: {
-      processor: 'M2 Max',
+      processor: 'M3 Max',
       ram: '32GB',
       storage: '1TB SSD',
       display: '16.2" Liquid Retina XDR',
-      graphics: '38-core GPU'
+      graphics: '38-core GPU',
+      weight: '4.7 lbs (2.1 kg)',
+      os: 'macOS',
+      battery: 'Up to 21 hours',
+      ports: '3x Thunderbolt 4, HDMI, SDXC, MagSafe 3',
+      wireless: 'Wi-Fi 6E, Bluetooth 5.3'
     }
-  },
-  {
-    id: 'dell-xps-15',
-    name: 'Dell XPS 15',
-    price: 349999,
-    image: 'https://images.unsplash.com/photo-1593642702821-8bce43bdd383?w=500&auto=format&fit=crop&q=60',
-    rating: 4.7,
-    description: 'Premium Windows laptop with 4K OLED display',
-    brand: 'Dell',
-    inStock: true
-  },
-  {
-    id: 'hp-spectre-x360',
-    name: 'HP Spectre x360',
-    price: 299999,
-    image: 'https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?w=500&auto=format&fit=crop&q=60',
-    rating: 4.6,
-    description: 'Convertible laptop with 13.5" 3K2K OLED display',
-    brand: 'HP',
-    inStock: true
-  },
-  {
-    id: 'lenovo-thinkpad-x1',
-    name: 'Lenovo ThinkPad X1 Carbon',
-    price: 279999,
-    image: 'https://images.unsplash.com/photo-1593642634524-b40b5baae6bb?w=500&auto=format&fit=crop&q=60',
-    rating: 4.5,
-    description: 'Business laptop with military-grade durability',
-    brand: 'Lenovo',
-    inStock: true
-  },
-  {
-    id: 'asus-rog-zephyrus',
-    name: 'ASUS ROG Zephyrus G14',
-    price: 329999,
-    image: 'https://images.unsplash.com/photo-1593508512255-86ab42a0e621?w=500&auto=format&fit=crop&q=60',
-    rating: 4.7,
-    description: 'Gaming laptop with AMD Ryzen 9 and RTX 3080',
-    brand: 'ASUS',
-    inStock: true
-  },
-  {
-    id: 'microsoft-surface-laptop',
-    name: 'Microsoft Surface Laptop 5',
-    price: 269999,
-    image: 'https://images.unsplash.com/photo-1603302576837-37561b2e2302?w=500&auto=format&fit=crop&q=60',
-    rating: 4.4,
-    description: 'Sleek Windows laptop with PixelSense touch display',
-    brand: 'Microsoft',
-    inStock: true
   }
 ];
 
-// Subcategories for laptops
-const subcategories = [
-  { id: 'ultrabooks', count: 15 },
-  { id: 'gaming', count: 12 },
-  { id: 'business', count: 18 },
-  { id: 'convertibles', count: 10 },
-  { id: 'budget', count: 20 }
-];
+// Calculate category counts
+const calculateCategoryCounts = (products) => {
+  const counts = {};
+  products.forEach(product => {
+    counts[product.category] = (counts[product.category] || 0) + 1;
+  });
+  return counts;
+};
 
-// Brands filter
+const categoryCounts = calculateCategoryCounts(laptops);
+
+// Category names mapping
+const categoryNames = {
+  'laptops': 'Laptops',
+  'ultrabooks': 'Ultrabooks',
+  'gaming': 'Gaming Laptops',
+  'business': 'Business Laptops',
+  'convertibles': '2-in-1 Convertibles',
+  'budget': 'Budget Laptops'
+};
+
+// Calculate brand counts
+const calculateBrandCounts = (products) => {
+  const counts = {};
+  products.forEach(product => {
+    counts[product.brand] = (counts[product.brand] || 0) + 1;
+  });
+  return counts;
+};
+
+const brandCounts = calculateBrandCounts(laptops);
+
+// Generate subcategories from category names
+const subcategories = Object.entries(categoryNames).map(([id, name]) => ({
+  id,
+  name,
+  count: categoryCounts[id] || 0
+}));
+
+// Brands filter with dynamic counts
 const brands = [
-  { id: 'apple', count: 8 },
-  { id: 'dell', count: 12 },
-  { id: 'hp', count: 15 },
-  { id: 'lenovo', count: 14 },
-  { id: 'asus', count: 10 },
-  { id: 'microsoft', count: 6 }
+  { id: 'apple', name: 'Apple', count: brandCounts['apple'] || 0 },
+  { id: 'dell', name: 'Dell', count: brandCounts['dell'] || 0 },
+  { id: 'hp', name: 'HP', count: brandCounts['hp'] || 0 },
+  { id: 'lenovo', name: 'Lenovo', count: brandCounts['lenovo'] || 0 },
+  { id: 'asus', name: 'ASUS', count: brandCounts['asus'] || 0 },
+  { id: 'acer', name: 'Acer', count: brandCounts['acer'] || 0 },
+  { id: 'microsoft', name: 'Microsoft', count: brandCounts['microsoft'] || 0 }
 ];
 
-// Price ranges in PKR
+// Price ranges in USD (converted from PKR)
 const priceRanges = [
-  { id: '0-50000', value: '0-50000' },
-  { id: '50000-100000', value: '50000-100000' },
-  { id: '100000-200000', value: '100000-200000' },
-  { id: '200000-300000', value: '200000-300000' },
-  { id: '300000-400000', value: '300000-400000' },
-  { id: '400000', value: '400000' }
+  { id: 'under-1000', value: '0-1000', label: 'Under $1,000' },
+  { id: '1000-2000', value: '1000-2000', label: '$1,000 - $2,000' },
+  { id: '2000-3000', value: '2000-3000', label: '$2,000 - $3,000' },
+  { id: 'over-3000', value: '3000-0', label: 'Over $3,000' }
 ];
 
 export default function LaptopsPage() {
@@ -203,7 +215,7 @@ export default function LaptopsPage() {
                         href={`/${locale}/categories/electronics/laptops/${category.id}`}
                         className="text-gray-600 hover:text-blue-600 text-sm"
                       >
-                        {t(`subcategories.${category.id}`)}
+                        {category.name}
                       </Link>
                       <span className="text-xs bg-gray-100 rounded-full px-2 py-1 text-gray-600">
                         {category.count}
@@ -228,7 +240,7 @@ export default function LaptopsPage() {
                         onChange={() => handlePriceRangeChange(range.value)}
                       />
                       <label htmlFor={range.id} className="ml-3 text-sm text-gray-600">
-                        {t(`priceRanges.${range.id}`)}
+                        {range.label}
                       </label>
                     </div>
                   ))}
@@ -249,7 +261,7 @@ export default function LaptopsPage() {
                         onChange={() => handleBrandToggle(brand.name)}
                       />
                       <label htmlFor={`brand-${brand.id}`} className="ml-3 text-sm text-gray-600">
-                        {t(`brandNames.${brand.id}`)} <span className="text-gray-400">({brand.count})</span>
+                        {brand.name} <span className="text-gray-400">({brand.count})</span>
                       </label>
                     </div>
                   ))}
@@ -333,9 +345,14 @@ export default function LaptopsPage() {
                         </span>
                       </div>
                     </div>
-                    <p className="mt-2 text-lg font-semibold text-gray-900">
-                      PKR {laptop.price.toLocaleString()}
-                    </p>
+                    <div className="mt-2">
+                      <p className="text-lg font-semibold text-gray-900">
+                        PKR {laptop.price.toLocaleString()}
+                      </p>
+                      <p className="text-sm text-gray-600">
+                        {formatCurrency(laptop.price)}
+                      </p>
+                    </div>
                     <div className="mt-4">
                       <button
                         type="button"

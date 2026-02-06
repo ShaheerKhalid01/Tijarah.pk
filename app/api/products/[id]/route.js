@@ -1,6 +1,7 @@
 import { NextResponse } from 'next/server';
 import { connectToDatabase } from '@/lib/db';
 import Product from '@/models/Product';
+import { getAllProducts } from '@/lib/product-data';
 
 // Mock data for special offers (should match frontend or be moved to a shared config)
 const specialOffers = {
@@ -714,6 +715,13 @@ export async function GET(request, { params }) {
             return NextResponse.json({ data: specialOffers[id] });
         }
 
+        // Check centralized product data
+        const allProducts = getAllProducts();
+        const centralizedProduct = allProducts.find(p => p.id === id);
+        if (centralizedProduct) {
+            return NextResponse.json({ data: centralizedProduct });
+        }
+
         await connectToDatabase();
 
         // Try to find in database (handles MongoDB ObjectID)
@@ -732,9 +740,6 @@ export async function GET(request, { params }) {
         return NextResponse.json({ data: product });
     } catch (error) {
         console.error('[Product ID API Error]:', error);
-        return NextResponse.json(
-            { error: 'Failed to fetch product', details: error.message },
-            { status: 500 }
-        );
+        return NextResponse.json({ error: 'Internal server error' }, { status: 500 });
     }
 }

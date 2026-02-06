@@ -1,5 +1,5 @@
 import CredentialsProvider from "next-auth/providers/credentials";
-import { connectToDatabase } from "@/lib/db";
+import connectDB from "@/lib/mongodb";
 import User from "@/models/User";
 import bcrypt from "bcryptjs";
 
@@ -17,11 +17,11 @@ export const authOptions = {
             throw new Error("Email and password are required");
           }
 
-          await connectToDatabase();
+          await connectDB();
           const user = await User.findOne({ email: credentials.email.toLowerCase() }).select("+password");
           
           if (!user) {
-            throw new Error("Invalid credentials");
+            throw new Error(`No user found with email: ${credentials.email.toLowerCase()}`);
           }
 
           const isMatch = await bcrypt.compare(credentials.password, user.password);
@@ -63,8 +63,8 @@ export const authOptions = {
     maxAge: 30 * 24 * 60 * 60 // 30 days
   },
   pages: {
-    signIn: "/en/admin/login",
-    error: "/en/admin/login"
+    signIn: "/login",
+    error: "/login"
   },
   secret: process.env.NEXTAUTH_SECRET,
   debug: process.env.NODE_ENV === "development"

@@ -1,5 +1,6 @@
 import { connectToDatabase } from '@/lib/db';
 import { getServerSession } from 'next-auth/next';
+import { authOptions } from '@/app/api/auth/[...nextauth]/config';
 import User from '@/models/User';
 
 /**
@@ -8,9 +9,6 @@ import User from '@/models/User';
  */
 export async function GET(request) {
   try {
-    // Import authOptions from config
-    const { authOptions } = await import('../../../auth/[...nextauth]/config');
-    
     // Check admin auth
     const session = await getServerSession(authOptions);
     if (!session || session.user?.role !== 'admin') {

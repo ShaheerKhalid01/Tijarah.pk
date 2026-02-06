@@ -4,6 +4,7 @@
 import { useParams } from 'next/navigation';
 import { useEffect, useState } from 'react';
 import { NextIntlClientProvider } from 'next-intl';
+import ChatWidget from '../components/ChatWidget';
 
 export default function LocaleLayoutClient({ children, locale, messages }) {
   const [isMounted, setIsMounted] = useState(false);
@@ -19,6 +20,7 @@ export default function LocaleLayoutClient({ children, locale, messages }) {
   return (
     <NextIntlClientProvider locale={locale} messages={messages}>
       {children}
+      <ChatWidget />
     </NextIntlClientProvider>
   );
 }

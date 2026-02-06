@@ -506,17 +506,6 @@ export default function Navbar() {
                 onClose={() => setIsLoginModalOpen(false)} 
                 onSignIn={handleSignIn} 
             />
-            
-            {/* Notification */}
-            {showNotification && (
-                <div className="fixed top-4 right-4 z-50">
-                    <Notification 
-                        message={notification.message} 
-                        type={notification.type} 
-                        onClose={() => setShowNotification(false)} 
-                    />
-                </div>
-            )}
         </>
     );
-}
+};

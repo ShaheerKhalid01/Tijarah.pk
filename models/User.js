@@ -91,24 +91,29 @@ const userSchema = new mongoose.Schema(
   }
 );
 
-/**
- * PRE-SAVE MIDDLEWARE
- * Hashes password before saving
- */
-userSchema.pre('save', async function (next) {
-  // Only hash if password is modified
-  if (!this.isModified('password')) {
-    return next();
-  }
+// Temporarily disabled for debugging
+// userSchema.pre('save', async function (next) {
+//   console.log('Pre-save middleware triggered');
+//   console.log('Password modified:', this.isModified('password'));
+//   console.log('Next function type:', typeof next);
+//   
+//   // Only hash if password is modified
+//   if (!this.isModified('password')) {
+//     console.log('Password not modified, calling next()');
+//     return next();
+//   }
 
-  try {
-    const salt = await bcrypt.genSalt(10);
-    this.password = await bcrypt.hash(this.password, salt);
-    next();
-  } catch (error) {
-    next(error);
-  }
-});
+//   try {
+//     console.log('Hashing password...');
+//     const salt = await bcrypt.genSalt(10);
+//     this.password = await bcrypt.hash(this.password, salt);
+//     console.log('Password hashed successfully');
+//     return next();
+//   } catch (error) {
+//     console.error('Error hashing password:', error);
+//     return next(error);
+//   }
+// });
 
 /**
  * METHOD: comparePassword
@@ -193,7 +198,6 @@ userSchema.methods.resetLoginAttempts = async function () {
 /**
  * INDEX: Improve query performance
  */
-userSchema.index({ email: 1 });
 userSchema.index({ role: 1 });
 userSchema.index({ active: 1 });
 

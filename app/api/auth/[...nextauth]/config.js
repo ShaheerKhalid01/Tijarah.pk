@@ -19,8 +19,10 @@ export const authOptions = {
         try {
           await connectToDatabase();
 
-          const user = await User.findOne({ email: credentials.email }).select('+password');
-
+          // Optimized query - only get necessary fields
+          const user = await User.findOne({ 
+            email: credentials.email.toLowerCase().trim() 
+          }).select('+password name email role').lean();
 
           if (!user) {
             throw new Error('No user found with this email');
@@ -69,7 +71,7 @@ export const authOptions = {
     error: '/en/admin/login',
   },
   secret: process.env.NEXTAUTH_SECRET,
-  debug: process.env.NODE_ENV === 'development',
+  debug: false, // Disabled for performance
 };
 
 export default authOptions;

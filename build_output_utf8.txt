@@ -1,0 +1,2086 @@
+﻿
+> tijarah.pk@0.1.0 build
+> next build
+
+node.exe : ÔÜá 
+Warning: Next.js 
+inferred your 
+workspace root, but 
+it may not be 
+correct.
+At line:1 char:1
++ & "C:\Program Files
+\nodejs/node.exe" 
+"C:\Program 
+Files\nodejs/node_mo 
+...
++ ~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~
+    + CategoryInfo   
+           : NotSpe  
+  cified: (ÔÜá War   
+ ning: Ne...not b    
+e correct.:Strin    
+g) [], RemoteExc    
+eption
+    + FullyQualified 
+   ErrorId : Native  
+  CommandError
+ 
+ We detected 
+multiple lockfiles 
+and selected the 
+directory of D:\Deskt
+op\Web_Development\Ti
+jarah.pk\package-lock
+.json as the root 
+directory.
+ To silence this 
+warning, set 
+`turbopack.root` in 
+your Next.js config, 
+or consider removing 
+one of the lockfiles 
+if it's not needed.
+   See https://nextjs
+.org/docs/app/api-ref
+erence/config/next-co
+nfig-js/turbopack#roo
+t-directory for more 
+information.
+ Detected additional 
+lockfiles: 
+   * D:\Desktop\Web_D
+evelopment\Tijarah.pk
+\tijarah.pk\package-l
+ock.json
+
+Ôû▓ Next.js 16.1.4 (Turbopack)
+- Environments: .env.local, .env
+- Experiments (use with caution):
+  Ô£ô optimizeCss
+  ┬À optimizePackageImports
+
+ÔÜá The "middleware" 
+file convention is 
+deprecated. Please 
+use "proxy" instead. 
+Learn more: https://n
+extjs.org/docs/messag
+es/middleware-to-prox
+y
+  Creating an optimized production build ...
+Turbopack build 
+encountered 1 
+warnings:
+./tijarah.pk/tailwind
+.config.js
+Specified module 
+format (EcmaScript 
+Modules) is not 
+matching the module 
+format of the source 
+code (CommonJs)
+The EcmaScript 
+module format was 
+specified in the 
+package.json that is 
+affecting this 
+source file or by 
+using an special 
+extension, but it 
+looks like that 
+CommonJs syntax is 
+used in the source 
+code.
+Exports made by 
+CommonJs syntax will 
+lead to a runtime 
+error, since the 
+module is in 
+EcmaScript mode. 
+Either change the 
+"type" field in the 
+package.json or 
+replace CommonJs 
+syntax with 
+EcmaScript 
+import/export syntax 
+in the source file.
+
+
+
+> Build error 
+occurred
+Error: Turbopack 
+build failed with 14 
+errors:
+./tijarah.pk/app/[loc
+ale]/returns/page.js:
+8:1
+Module not found: 
+Can't resolve '../../
+contexts/CartContext'
+[0m [90m  6 |[39m 
+[36mimport[39m 
+[33mLink[39m 
+[36mfrom[39m [32m'
+next/link'[39m[33m;
+[39m
+ [90m  7 |[39m 
+[36mimport[39m { 
+toast } 
+[36mfrom[39m [32m'
+react-hot-toast'[39m
+[33m;[39m
+[31m[1m>[22m[39m
+[90m  8 |[39m 
+[36mimport[39m { 
+useCart } 
+[36mfrom[39m [32m'
+../../contexts/CartCo
+ntext'[39m[33m;[39
+m
+ [90m    |[39m [31
+m[1m^[22m[39m[31m
+[1m^[22m[39m[31m
+[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^
+[22m[39m[31m[1m^
+[22m[39m[31m[1m^[
+22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22
+m[39m[31m[1m^[22m
+[39m[31m[1m^[22m
+[39m[31m[1m^[22m[
+39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39
+m[31m[1m^[22m[39m
+[31m[1m^[22m[39m
+[31m[1m^[22m[39m[
+31m[1m^[22m[39m[3
+1m[1m^[22m[39m[31
+m[1m^[22m[39m[31m
+[1m^[22m[39m[31m
+[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^
+[22m[39m[31m[1m^
+[22m[39m[31m[1m^[
+22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22
+m[39m[31m[1m^[22m
+[39m[31m[1m^[22m
+[39m[31m[1m^[22m[
+39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39
+m[31m[1m^[22m[39m
+[31m[1m^[22m[39m
+[31m[1m^[22m[39m[
+31m[1m^[22m[39m[3
+1m[1m^[22m[39m[31
+m[1m^[22m[39m[31m
+[1m^[22m[39m[31m
+[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^
+[22m[39m[31m[1m^
+[22m[39m[31m[1m^[
+22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22
+m[39m
+ [90m  9 |[39m 
+[36mimport[39m { 
+useConfirmDialog } 
+[36mfrom[39m [32m'
+../../hooks/useConfir
+mDialog'[39m[33m;[
+39m
+ [90m 10 |[39m 
+[36mimport[39m [33
+mConfirmDialog[39m 
+[36mfrom[39m [32m'
+../../components/Conf
+irmDialog'[39m[33m;
+[39m
+ [90m 11 |[39m 
+[36mimport[39m { 
+electronicsProducts 
+} [36mfrom[39m [32
+m'../categories/elect
+ronics/page'[39m[33
+m;[39m[0m
+
+
+
+Import traces:
+  Client Component 
+Browser:
+    ./tijarah.pk/app/
+[locale]/returns/page
+.js [Client 
+Component Browser]
+    ./tijarah.pk/app/
+[locale]/returns/page
+.js [Server 
+Component]
+
+  Client Component 
+SSR:
+    ./tijarah.pk/app/
+[locale]/returns/page
+.js [Client 
+Component SSR]
+    ./tijarah.pk/app/
+[locale]/returns/page
+.js [Server 
+Component]
+
+https://nextjs.org/do
+cs/messages/module-no
+t-found
+
+
+./tijarah.pk/app/cart
+/page.js:8:1
+Module not found: 
+Can't resolve '../con
+texts/CartContext'
+[0m [90m  6 |[39m 
+[36mimport[39m 
+[33mLink[39m 
+[36mfrom[39m [32m'
+next/link'[39m[33m;
+[39m
+ [90m  7 |[39m 
+[36mimport[39m [33
+mNotification[39m 
+[36mfrom[39m [32m'
+../components/Notific
+ation'[39m[33m;[39
+m
+[31m[1m>[22m[39m
+[90m  8 |[39m 
+[36mimport[39m { 
+useCart } 
+[36mfrom[39m [32m'
+../contexts/CartConte
+xt'[39m[33m;[39m
+ [90m    |[39m [31
+m[1m^[22m[39m[31m
+[1m^[22m[39m[31m
+[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^
+[22m[39m[31m[1m^
+[22m[39m[31m[1m^[
+22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22
+m[39m[31m[1m^[22m
+[39m[31m[1m^[22m
+[39m[31m[1m^[22m[
+39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39
+m[31m[1m^[22m[39m
+[31m[1m^[22m[39m
+[31m[1m^[22m[39m[
+31m[1m^[22m[39m[3
+1m[1m^[22m[39m[31
+m[1m^[22m[39m[31m
+[1m^[22m[39m[31m
+[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^
+[22m[39m[31m[1m^
+[22m[39m[31m[1m^[
+22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22
+m[39m[31m[1m^[22m
+[39m[31m[1m^[22m
+[39m[31m[1m^[22m[
+39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39
+m[31m[1m^[22m[39m
+[31m[1m^[22m[39m
+[31m[1m^[22m[39m[
+31m[1m^[22m[39m[3
+1m[1m^[22m[39m[31
+m[1m^[22m[39m[31m
+[1m^[22m[39m[31m
+[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^
+[22m[39m[31m[1m^
+[22m[39m
+ [90m  9 |[39m
+ [90m 10 |[39m 
+[36mconst[39m 
+[33mCartPage[39m 
+[33m=[39m () 
+[33m=>[39m {
+ [90m 11 |[39m   
+[36mconst[39m { 
+cart[33m,[39m 
+clearCart[33m,[39m 
+updateItemQuantity[3
+3m,[39m removeFromCa
+rt[33m,[39m diagnos
+eCartItems[33m,[39m
+ testRemoveItem } 
+[33m=[39m useCart()
+[33m;[39m[0m
+
+
+
+Import traces:
+  Client Component 
+Browser:
+    ./tijarah.pk/app/
+cart/page.js [Client 
+Component Browser]
+    ./tijarah.pk/app/
+cart/page.js [Server 
+Component]
+
+  Client Component 
+SSR:
+    ./tijarah.pk/app/
+cart/page.js [Client 
+Component SSR]
+    ./tijarah.pk/app/
+cart/page.js [Server 
+Component]
+
+https://nextjs.org/do
+cs/messages/module-no
+t-found
+
+
+./tijarah.pk/app/[loc
+ale]/admin/dashboard/
+page.js:10:1
+Export hotDeals 
+doesn't exist in 
+target module
+[0m [90m  8 |[39m 
+[36mimport[39m { 
+specialOffers } 
+[36mfrom[39m [32m'
+../../special-offers/
+page.js'[39m[33m;[
+39m
+ [90m  9 |[39m 
+[36mimport[39m { 
+newArrivals } 
+[36mfrom[39m [32m'
+../../new-arrivals/pa
+ge.js'[39m[33m;[39
+m
+[31m[1m>[22m[39m
+[90m 10 |[39m 
+[36mimport[39m { 
+hotDeals } 
+[36mfrom[39m [32m'
+../../Good-deals/page
+.js'[39m[33m;[39m
+ [90m    |[39m [31
+m[1m^[22m[39m[31m
+[1m^[22m[39m[31m
+[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^
+[22m[39m[31m[1m^
+[22m[39m[31m[1m^[
+22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22
+m[39m[31m[1m^[22m
+[39m[31m[1m^[22m
+[39m[31m[1m^[22m[
+39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39
+m[31m[1m^[22m[39m
+[31m[1m^[22m[39m
+[31m[1m^[22m[39m[
+31m[1m^[22m[39m[3
+1m[1m^[22m[39m[31
+m[1m^[22m[39m[31m
+[1m^[22m[39m[31m
+[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^
+[22m[39m[31m[1m^
+[22m[39m[31m[1m^[
+22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22
+m[39m[31m[1m^[22m
+[39m[31m[1m^[22m
+[39m[31m[1m^[22m[
+39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39
+m[31m[1m^[22m[39m
+[31m[1m^[22m[39m
+[31m[1m^[22m[39m[
+31m[1m^[22m[39m[3
+1m[1m^[22m[39m[31
+m[1m^[22m[39m[31m
+[1m^[22m[39m[31m
+[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^
+[22m[39m[31m[1m^
+[22m[39m[31m[1m^[
+22m[39m[31m[1m^[2
+2m[39m
+ [90m 11 |[39m 
+[36mimport[39m { 
+mockDeals } 
+[36mfrom[39m [32m'
+../../deals/page.js'
+[39m[33m;[39m
+ [90m 12 |[39m 
+[36mimport[39m { 
+useOrderUpdates } 
+[36mfrom[39m [32m'
+../../../../hooks/use
+OrderUpdates'[39m[3
+3m;[39m
+ [90m 13 |[39m[0m
+
+The export hotDeals 
+was not found in 
+module [project]/tija
+rah.pk/app/[locale]/G
+ood-deals/page.js 
+[app-client] 
+(ecmascript).
+Did you mean to 
+import default?
+All exports of the 
+module are 
+statically known (It 
+doesn't have dynamic 
+exports). So it's 
+known statically 
+that the requested 
+export doesn't exist.
+
+Import traces:
+  Client Component 
+Browser:
+    ./tijarah.pk/app/
+[locale]/admin/dashbo
+ard/page.js [Client 
+Component Browser]
+    ./tijarah.pk/app/
+[locale]/admin/dashbo
+ard/page.js [Server 
+Component]
+
+  Client Component 
+SSR:
+    ./tijarah.pk/app/
+[locale]/admin/dashbo
+ard/page.js [Client 
+Component SSR]
+    ./tijarah.pk/app/
+[locale]/admin/dashbo
+ard/page.js [Server 
+Component]
+
+
+./tijarah.pk/app/[loc
+ale]/admin/dashboard/
+page.js:10:1
+Export hotDeals 
+doesn't exist in 
+target module
+[0m [90m  8 |[39m 
+[36mimport[39m { 
+specialOffers } 
+[36mfrom[39m [32m'
+../../special-offers/
+page.js'[39m[33m;[
+39m
+ [90m  9 |[39m 
+[36mimport[39m { 
+newArrivals } 
+[36mfrom[39m [32m'
+../../new-arrivals/pa
+ge.js'[39m[33m;[39
+m
+[31m[1m>[22m[39m
+[90m 10 |[39m 
+[36mimport[39m { 
+hotDeals } 
+[36mfrom[39m [32m'
+../../Good-deals/page
+.js'[39m[33m;[39m
+ [90m    |[39m [31
+m[1m^[22m[39m[31m
+[1m^[22m[39m[31m
+[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^
+[22m[39m[31m[1m^
+[22m[39m[31m[1m^[
+22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22
+m[39m[31m[1m^[22m
+[39m[31m[1m^[22m
+[39m[31m[1m^[22m[
+39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39
+m[31m[1m^[22m[39m
+[31m[1m^[22m[39m
+[31m[1m^[22m[39m[
+31m[1m^[22m[39m[3
+1m[1m^[22m[39m[31
+m[1m^[22m[39m[31m
+[1m^[22m[39m[31m
+[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^
+[22m[39m[31m[1m^
+[22m[39m[31m[1m^[
+22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22
+m[39m[31m[1m^[22m
+[39m[31m[1m^[22m
+[39m[31m[1m^[22m[
+39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39
+m[31m[1m^[22m[39m
+[31m[1m^[22m[39m
+[31m[1m^[22m[39m[
+31m[1m^[22m[39m[3
+1m[1m^[22m[39m[31
+m[1m^[22m[39m[31m
+[1m^[22m[39m[31m
+[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^
+[22m[39m[31m[1m^
+[22m[39m[31m[1m^[
+22m[39m[31m[1m^[2
+2m[39m
+ [90m 11 |[39m 
+[36mimport[39m { 
+mockDeals } 
+[36mfrom[39m [32m'
+../../deals/page.js'
+[39m[33m;[39m
+ [90m 12 |[39m 
+[36mimport[39m { 
+useOrderUpdates } 
+[36mfrom[39m [32m'
+../../../../hooks/use
+OrderUpdates'[39m[3
+3m;[39m
+ [90m 13 |[39m[0m
+
+The export hotDeals 
+was not found in 
+module [project]/tija
+rah.pk/app/[locale]/G
+ood-deals/page.js 
+[app-ssr] 
+(ecmascript).
+Did you mean to 
+import default?
+All exports of the 
+module are 
+statically known (It 
+doesn't have dynamic 
+exports). So it's 
+known statically 
+that the requested 
+export doesn't exist.
+
+Import traces:
+  Client Component 
+Browser:
+    ./tijarah.pk/app/
+[locale]/admin/dashbo
+ard/page.js [Client 
+Component Browser]
+    ./tijarah.pk/app/
+[locale]/admin/dashbo
+ard/page.js [Server 
+Component]
+
+  Client Component 
+SSR:
+    ./tijarah.pk/app/
+[locale]/admin/dashbo
+ard/page.js [Client 
+Component SSR]
+    ./tijarah.pk/app/
+[locale]/admin/dashbo
+ard/page.js [Server 
+Component]
+
+
+./tijarah.pk/app/[loc
+ale]/search/page.js:1
+3:1
+Export hotDeals 
+doesn't exist in 
+target module
+[0m [90m 11 |[39m 
+[36mimport[39m { 
+specialOffers } 
+[36mfrom[39m [32m'
+../special-offers/pag
+e.js'[39m[33m;[39m
+ [90m 12 |[39m 
+[36mimport[39m { 
+newArrivals } 
+[36mfrom[39m [32m'
+../new-arrivals/page.
+js'[39m[33m;[39m
+[31m[1m>[22m[39m
+[90m 13 |[39m 
+[36mimport[39m { 
+hotDeals } 
+[36mfrom[39m [32m'
+../Good-deals/page.js
+'[39m[33m;[39m
+ [90m    |[39m [31
+m[1m^[22m[39m[31m
+[1m^[22m[39m[31m
+[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^
+[22m[39m[31m[1m^
+[22m[39m[31m[1m^[
+22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22
+m[39m[31m[1m^[22m
+[39m[31m[1m^[22m
+[39m[31m[1m^[22m[
+39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39
+m[31m[1m^[22m[39m
+[31m[1m^[22m[39m
+[31m[1m^[22m[39m[
+31m[1m^[22m[39m[3
+1m[1m^[22m[39m[31
+m[1m^[22m[39m[31m
+[1m^[22m[39m[31m
+[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^
+[22m[39m[31m[1m^
+[22m[39m[31m[1m^[
+22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22
+m[39m[31m[1m^[22m
+[39m[31m[1m^[22m
+[39m[31m[1m^[22m[
+39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39
+m[31m[1m^[22m[39m
+[31m[1m^[22m[39m
+[31m[1m^[22m[39m[
+31m[1m^[22m[39m[3
+1m[1m^[22m[39m[31
+m[1m^[22m[39m[31m
+[1m^[22m[39m[31m
+[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^
+[22m[39m
+ [90m 14 |[39m 
+[36mimport[39m { 
+mockDeals } 
+[36mfrom[39m [32m'
+../deals/page.js'[39
+m[33m;[39m
+ [90m 15 |[39m
+ [90m 16 |[39m 
+[90m// Currency 
+formatting[39m[0m
+
+The export hotDeals 
+was not found in 
+module [project]/tija
+rah.pk/app/[locale]/G
+ood-deals/page.js 
+[app-client] 
+(ecmascript).
+Did you mean to 
+import default?
+All exports of the 
+module are 
+statically known (It 
+doesn't have dynamic 
+exports). So it's 
+known statically 
+that the requested 
+export doesn't exist.
+
+Import traces:
+  Client Component 
+Browser:
+    ./tijarah.pk/app/
+[locale]/search/page.
+js [Client Component 
+Browser]
+    ./tijarah.pk/app/
+[locale]/search/page.
+js [Server Component]
+
+  Client Component 
+SSR:
+    ./tijarah.pk/app/
+[locale]/search/page.
+js [Client Component 
+SSR]
+    ./tijarah.pk/app/
+[locale]/search/page.
+js [Server Component]
+
+
+./tijarah.pk/app/[loc
+ale]/search/page.js:1
+3:1
+Export hotDeals 
+doesn't exist in 
+target module
+[0m [90m 11 |[39m 
+[36mimport[39m { 
+specialOffers } 
+[36mfrom[39m [32m'
+../special-offers/pag
+e.js'[39m[33m;[39m
+ [90m 12 |[39m 
+[36mimport[39m { 
+newArrivals } 
+[36mfrom[39m [32m'
+../new-arrivals/page.
+js'[39m[33m;[39m
+[31m[1m>[22m[39m
+[90m 13 |[39m 
+[36mimport[39m { 
+hotDeals } 
+[36mfrom[39m [32m'
+../Good-deals/page.js
+'[39m[33m;[39m
+ [90m    |[39m [31
+m[1m^[22m[39m[31m
+[1m^[22m[39m[31m
+[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^
+[22m[39m[31m[1m^
+[22m[39m[31m[1m^[
+22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22
+m[39m[31m[1m^[22m
+[39m[31m[1m^[22m
+[39m[31m[1m^[22m[
+39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39
+m[31m[1m^[22m[39m
+[31m[1m^[22m[39m
+[31m[1m^[22m[39m[
+31m[1m^[22m[39m[3
+1m[1m^[22m[39m[31
+m[1m^[22m[39m[31m
+[1m^[22m[39m[31m
+[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^
+[22m[39m[31m[1m^
+[22m[39m[31m[1m^[
+22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22
+m[39m[31m[1m^[22m
+[39m[31m[1m^[22m
+[39m[31m[1m^[22m[
+39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39
+m[31m[1m^[22m[39m
+[31m[1m^[22m[39m
+[31m[1m^[22m[39m[
+31m[1m^[22m[39m[3
+1m[1m^[22m[39m[31
+m[1m^[22m[39m[31m
+[1m^[22m[39m[31m
+[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^
+[22m[39m
+ [90m 14 |[39m 
+[36mimport[39m { 
+mockDeals } 
+[36mfrom[39m [32m'
+../deals/page.js'[39
+m[33m;[39m
+ [90m 15 |[39m
+ [90m 16 |[39m 
+[90m// Currency 
+formatting[39m[0m
+
+The export hotDeals 
+was not found in 
+module [project]/tija
+rah.pk/app/[locale]/G
+ood-deals/page.js 
+[app-ssr] 
+(ecmascript).
+Did you mean to 
+import default?
+All exports of the 
+module are 
+statically known (It 
+doesn't have dynamic 
+exports). So it's 
+known statically 
+that the requested 
+export doesn't exist.
+
+Import traces:
+  Client Component 
+Browser:
+    ./tijarah.pk/app/
+[locale]/search/page.
+js [Client Component 
+Browser]
+    ./tijarah.pk/app/
+[locale]/search/page.
+js [Server Component]
+
+  Client Component 
+SSR:
+    ./tijarah.pk/app/
+[locale]/search/page.
+js [Client Component 
+SSR]
+    ./tijarah.pk/app/
+[locale]/search/page.
+js [Server Component]
+
+
+./tijarah.pk/app/[loc
+ale]/admin/dashboard/
+page.js:9:1
+Export newArrivals 
+doesn't exist in 
+target module
+[0m [90m  7 |[39m 
+[36mimport[39m { 
+electronicsProducts 
+} [36mfrom[39m [32
+m'../../categories/el
+ectronics/page.js'[3
+9m[33m;[39m
+ [90m  8 |[39m 
+[36mimport[39m { 
+specialOffers } 
+[36mfrom[39m [32m'
+../../special-offers/
+page.js'[39m[33m;[
+39m
+[31m[1m>[22m[39m
+[90m  9 |[39m 
+[36mimport[39m { 
+newArrivals } 
+[36mfrom[39m [32m'
+../../new-arrivals/pa
+ge.js'[39m[33m;[39
+m
+ [90m    |[39m [31
+m[1m^[22m[39m[31m
+[1m^[22m[39m[31m
+[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^
+[22m[39m[31m[1m^
+[22m[39m[31m[1m^[
+22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22
+m[39m[31m[1m^[22m
+[39m[31m[1m^[22m
+[39m[31m[1m^[22m[
+39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39
+m[31m[1m^[22m[39m
+[31m[1m^[22m[39m
+[31m[1m^[22m[39m[
+31m[1m^[22m[39m[3
+1m[1m^[22m[39m[31
+m[1m^[22m[39m[31m
+[1m^[22m[39m[31m
+[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^
+[22m[39m[31m[1m^
+[22m[39m[31m[1m^[
+22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22
+m[39m[31m[1m^[22m
+[39m[31m[1m^[22m
+[39m[31m[1m^[22m[
+39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39
+m[31m[1m^[22m[39m
+[31m[1m^[22m[39m
+[31m[1m^[22m[39m[
+31m[1m^[22m[39m[3
+1m[1m^[22m[39m[31
+m[1m^[22m[39m[31m
+[1m^[22m[39m[31m
+[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^
+[22m[39m[31m[1m^
+[22m[39m[31m[1m^[
+22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22
+m[39m[31m[1m^[22m
+[39m[31m[1m^[22m
+[39m[31m[1m^[22m[
+39m[31m[1m^[22m[3
+9m
+ [90m 10 |[39m 
+[36mimport[39m { 
+hotDeals } 
+[36mfrom[39m [32m'
+../../Good-deals/page
+.js'[39m[33m;[39m
+ [90m 11 |[39m 
+[36mimport[39m { 
+mockDeals } 
+[36mfrom[39m [32m'
+../../deals/page.js'
+[39m[33m;[39m
+ [90m 12 |[39m 
+[36mimport[39m { 
+useOrderUpdates } 
+[36mfrom[39m [32m'
+../../../../hooks/use
+OrderUpdates'[39m[3
+3m;[39m[0m
+
+The export 
+newArrivals was not 
+found in module [proj
+ect]/tijarah.pk/app/[
+locale]/new-arrivals/
+page.js [app-client] 
+(ecmascript).
+Did you mean to 
+import default?
+All exports of the 
+module are 
+statically known (It 
+doesn't have dynamic 
+exports). So it's 
+known statically 
+that the requested 
+export doesn't exist.
+
+Import traces:
+  Client Component 
+Browser:
+    ./tijarah.pk/app/
+[locale]/admin/dashbo
+ard/page.js [Client 
+Component Browser]
+    ./tijarah.pk/app/
+[locale]/admin/dashbo
+ard/page.js [Server 
+Component]
+
+  Client Component 
+SSR:
+    ./tijarah.pk/app/
+[locale]/admin/dashbo
+ard/page.js [Client 
+Component SSR]
+    ./tijarah.pk/app/
+[locale]/admin/dashbo
+ard/page.js [Server 
+Component]
+
+
+./tijarah.pk/app/[loc
+ale]/admin/dashboard/
+page.js:9:1
+Export newArrivals 
+doesn't exist in 
+target module
+[0m [90m  7 |[39m 
+[36mimport[39m { 
+electronicsProducts 
+} [36mfrom[39m [32
+m'../../categories/el
+ectronics/page.js'[3
+9m[33m;[39m
+ [90m  8 |[39m 
+[36mimport[39m { 
+specialOffers } 
+[36mfrom[39m [32m'
+../../special-offers/
+page.js'[39m[33m;[
+39m
+[31m[1m>[22m[39m
+[90m  9 |[39m 
+[36mimport[39m { 
+newArrivals } 
+[36mfrom[39m [32m'
+../../new-arrivals/pa
+ge.js'[39m[33m;[39
+m
+ [90m    |[39m [31
+m[1m^[22m[39m[31m
+[1m^[22m[39m[31m
+[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^
+[22m[39m[31m[1m^
+[22m[39m[31m[1m^[
+22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22
+m[39m[31m[1m^[22m
+[39m[31m[1m^[22m
+[39m[31m[1m^[22m[
+39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39
+m[31m[1m^[22m[39m
+[31m[1m^[22m[39m
+[31m[1m^[22m[39m[
+31m[1m^[22m[39m[3
+1m[1m^[22m[39m[31
+m[1m^[22m[39m[31m
+[1m^[22m[39m[31m
+[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^
+[22m[39m[31m[1m^
+[22m[39m[31m[1m^[
+22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22
+m[39m[31m[1m^[22m
+[39m[31m[1m^[22m
+[39m[31m[1m^[22m[
+39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39
+m[31m[1m^[22m[39m
+[31m[1m^[22m[39m
+[31m[1m^[22m[39m[
+31m[1m^[22m[39m[3
+1m[1m^[22m[39m[31
+m[1m^[22m[39m[31m
+[1m^[22m[39m[31m
+[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^
+[22m[39m[31m[1m^
+[22m[39m[31m[1m^[
+22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22
+m[39m[31m[1m^[22m
+[39m[31m[1m^[22m
+[39m[31m[1m^[22m[
+39m[31m[1m^[22m[3
+9m
+ [90m 10 |[39m 
+[36mimport[39m { 
+hotDeals } 
+[36mfrom[39m [32m'
+../../Good-deals/page
+.js'[39m[33m;[39m
+ [90m 11 |[39m 
+[36mimport[39m { 
+mockDeals } 
+[36mfrom[39m [32m'
+../../deals/page.js'
+[39m[33m;[39m
+ [90m 12 |[39m 
+[36mimport[39m { 
+useOrderUpdates } 
+[36mfrom[39m [32m'
+../../../../hooks/use
+OrderUpdates'[39m[3
+3m;[39m[0m
+
+The export 
+newArrivals was not 
+found in module [proj
+ect]/tijarah.pk/app/[
+locale]/new-arrivals/
+page.js [app-ssr] 
+(ecmascript).
+Did you mean to 
+import default?
+All exports of the 
+module are 
+statically known (It 
+doesn't have dynamic 
+exports). So it's 
+known statically 
+that the requested 
+export doesn't exist.
+
+Import traces:
+  Client Component 
+Browser:
+    ./tijarah.pk/app/
+[locale]/admin/dashbo
+ard/page.js [Client 
+Component Browser]
+    ./tijarah.pk/app/
+[locale]/admin/dashbo
+ard/page.js [Server 
+Component]
+
+  Client Component 
+SSR:
+    ./tijarah.pk/app/
+[locale]/admin/dashbo
+ard/page.js [Client 
+Component SSR]
+    ./tijarah.pk/app/
+[locale]/admin/dashbo
+ard/page.js [Server 
+Component]
+
+
+./tijarah.pk/app/[loc
+ale]/search/page.js:1
+2:1
+Export newArrivals 
+doesn't exist in 
+target module
+[0m [90m 10 |[39m 
+[36mimport[39m { 
+electronicsProducts 
+} [36mfrom[39m [32
+m'../categories/elect
+ronics/page.js'[39m
+[33m;[39m
+ [90m 11 |[39m 
+[36mimport[39m { 
+specialOffers } 
+[36mfrom[39m [32m'
+../special-offers/pag
+e.js'[39m[33m;[39m
+[31m[1m>[22m[39m
+[90m 12 |[39m 
+[36mimport[39m { 
+newArrivals } 
+[36mfrom[39m [32m'
+../new-arrivals/page.
+js'[39m[33m;[39m
+ [90m    |[39m [31
+m[1m^[22m[39m[31m
+[1m^[22m[39m[31m
+[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^
+[22m[39m[31m[1m^
+[22m[39m[31m[1m^[
+22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22
+m[39m[31m[1m^[22m
+[39m[31m[1m^[22m
+[39m[31m[1m^[22m[
+39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39
+m[31m[1m^[22m[39m
+[31m[1m^[22m[39m
+[31m[1m^[22m[39m[
+31m[1m^[22m[39m[3
+1m[1m^[22m[39m[31
+m[1m^[22m[39m[31m
+[1m^[22m[39m[31m
+[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^
+[22m[39m[31m[1m^
+[22m[39m[31m[1m^[
+22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22
+m[39m[31m[1m^[22m
+[39m[31m[1m^[22m
+[39m[31m[1m^[22m[
+39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39
+m[31m[1m^[22m[39m
+[31m[1m^[22m[39m
+[31m[1m^[22m[39m[
+31m[1m^[22m[39m[3
+1m[1m^[22m[39m[31
+m[1m^[22m[39m[31m
+[1m^[22m[39m[31m
+[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^
+[22m[39m[31m[1m^
+[22m[39m[31m[1m^[
+22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22
+m[39m[31m[1m^[22m
+[39m
+ [90m 13 |[39m 
+[36mimport[39m { 
+hotDeals } 
+[36mfrom[39m [32m'
+../Good-deals/page.js
+'[39m[33m;[39m
+ [90m 14 |[39m 
+[36mimport[39m { 
+mockDeals } 
+[36mfrom[39m [32m'
+../deals/page.js'[39
+m[33m;[39m
+ [90m 15 |[39m[0m
+
+The export 
+newArrivals was not 
+found in module [proj
+ect]/tijarah.pk/app/[
+locale]/new-arrivals/
+page.js [app-client] 
+(ecmascript).
+Did you mean to 
+import default?
+All exports of the 
+module are 
+statically known (It 
+doesn't have dynamic 
+exports). So it's 
+known statically 
+that the requested 
+export doesn't exist.
+
+Import traces:
+  Client Component 
+Browser:
+    ./tijarah.pk/app/
+[locale]/search/page.
+js [Client Component 
+Browser]
+    ./tijarah.pk/app/
+[locale]/search/page.
+js [Server Component]
+
+  Client Component 
+SSR:
+    ./tijarah.pk/app/
+[locale]/search/page.
+js [Client Component 
+SSR]
+    ./tijarah.pk/app/
+[locale]/search/page.
+js [Server Component]
+
+
+./tijarah.pk/app/[loc
+ale]/search/page.js:1
+2:1
+Export newArrivals 
+doesn't exist in 
+target module
+[0m [90m 10 |[39m 
+[36mimport[39m { 
+electronicsProducts 
+} [36mfrom[39m [32
+m'../categories/elect
+ronics/page.js'[39m
+[33m;[39m
+ [90m 11 |[39m 
+[36mimport[39m { 
+specialOffers } 
+[36mfrom[39m [32m'
+../special-offers/pag
+e.js'[39m[33m;[39m
+[31m[1m>[22m[39m
+[90m 12 |[39m 
+[36mimport[39m { 
+newArrivals } 
+[36mfrom[39m [32m'
+../new-arrivals/page.
+js'[39m[33m;[39m
+ [90m    |[39m [31
+m[1m^[22m[39m[31m
+[1m^[22m[39m[31m
+[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^
+[22m[39m[31m[1m^
+[22m[39m[31m[1m^[
+22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22
+m[39m[31m[1m^[22m
+[39m[31m[1m^[22m
+[39m[31m[1m^[22m[
+39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39
+m[31m[1m^[22m[39m
+[31m[1m^[22m[39m
+[31m[1m^[22m[39m[
+31m[1m^[22m[39m[3
+1m[1m^[22m[39m[31
+m[1m^[22m[39m[31m
+[1m^[22m[39m[31m
+[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^
+[22m[39m[31m[1m^
+[22m[39m[31m[1m^[
+22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22
+m[39m[31m[1m^[22m
+[39m[31m[1m^[22m
+[39m[31m[1m^[22m[
+39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39
+m[31m[1m^[22m[39m
+[31m[1m^[22m[39m
+[31m[1m^[22m[39m[
+31m[1m^[22m[39m[3
+1m[1m^[22m[39m[31
+m[1m^[22m[39m[31m
+[1m^[22m[39m[31m
+[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^
+[22m[39m[31m[1m^
+[22m[39m[31m[1m^[
+22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22
+m[39m[31m[1m^[22m
+[39m
+ [90m 13 |[39m 
+[36mimport[39m { 
+hotDeals } 
+[36mfrom[39m [32m'
+../Good-deals/page.js
+'[39m[33m;[39m
+ [90m 14 |[39m 
+[36mimport[39m { 
+mockDeals } 
+[36mfrom[39m [32m'
+../deals/page.js'[39
+m[33m;[39m
+ [90m 15 |[39m[0m
+
+The export 
+newArrivals was not 
+found in module [proj
+ect]/tijarah.pk/app/[
+locale]/new-arrivals/
+page.js [app-ssr] 
+(ecmascript).
+Did you mean to 
+import default?
+All exports of the 
+module are 
+statically known (It 
+doesn't have dynamic 
+exports). So it's 
+known statically 
+that the requested 
+export doesn't exist.
+
+Import traces:
+  Client Component 
+Browser:
+    ./tijarah.pk/app/
+[locale]/search/page.
+js [Client Component 
+Browser]
+    ./tijarah.pk/app/
+[locale]/search/page.
+js [Server Component]
+
+  Client Component 
+SSR:
+    ./tijarah.pk/app/
+[locale]/search/page.
+js [Client Component 
+SSR]
+    ./tijarah.pk/app/
+[locale]/search/page.
+js [Server Component]
+
+
+./tijarah.pk/app/[loc
+ale]/admin/dashboard/
+page.js:8:1
+Export specialOffers 
+doesn't exist in 
+target module
+[0m [90m  6 |[39m 
+[36mimport[39m { 
+useTranslations } 
+[36mfrom[39m [32m'
+next-intl'[39m[33m;
+[39m
+ [90m  7 |[39m 
+[36mimport[39m { 
+electronicsProducts 
+} [36mfrom[39m [32
+m'../../categories/el
+ectronics/page.js'[3
+9m[33m;[39m
+[31m[1m>[22m[39m
+[90m  8 |[39m 
+[36mimport[39m { 
+specialOffers } 
+[36mfrom[39m [32m'
+../../special-offers/
+page.js'[39m[33m;[
+39m
+ [90m    |[39m [31
+m[1m^[22m[39m[31m
+[1m^[22m[39m[31m
+[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^
+[22m[39m[31m[1m^
+[22m[39m[31m[1m^[
+22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22
+m[39m[31m[1m^[22m
+[39m[31m[1m^[22m
+[39m[31m[1m^[22m[
+39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39
+m[31m[1m^[22m[39m
+[31m[1m^[22m[39m
+[31m[1m^[22m[39m[
+31m[1m^[22m[39m[3
+1m[1m^[22m[39m[31
+m[1m^[22m[39m[31m
+[1m^[22m[39m[31m
+[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^
+[22m[39m[31m[1m^
+[22m[39m[31m[1m^[
+22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22
+m[39m[31m[1m^[22m
+[39m[31m[1m^[22m
+[39m[31m[1m^[22m[
+39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39
+m[31m[1m^[22m[39m
+[31m[1m^[22m[39m
+[31m[1m^[22m[39m[
+31m[1m^[22m[39m[3
+1m[1m^[22m[39m[31
+m[1m^[22m[39m[31m
+[1m^[22m[39m[31m
+[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^
+[22m[39m[31m[1m^
+[22m[39m[31m[1m^[
+22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22
+m[39m[31m[1m^[22m
+[39m[31m[1m^[22m
+[39m[31m[1m^[22m[
+39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39
+m[31m[1m^[22m[39m
+[31m[1m^[22m[39m
+[31m[1m^[22m[39m
+ [90m  9 |[39m 
+[36mimport[39m { 
+newArrivals } 
+[36mfrom[39m [32m'
+../../new-arrivals/pa
+ge.js'[39m[33m;[39
+m
+ [90m 10 |[39m 
+[36mimport[39m { 
+hotDeals } 
+[36mfrom[39m [32m'
+../../Good-deals/page
+.js'[39m[33m;[39m
+ [90m 11 |[39m 
+[36mimport[39m { 
+mockDeals } 
+[36mfrom[39m [32m'
+../../deals/page.js'
+[39m[33m;[39m[0m
+
+The export 
+specialOffers was 
+not found in module [
+project]/tijarah.pk/a
+pp/[locale]/special-o
+ffers/page.js 
+[app-client] 
+(ecmascript).
+Did you mean to 
+import default?
+All exports of the 
+module are 
+statically known (It 
+doesn't have dynamic 
+exports). So it's 
+known statically 
+that the requested 
+export doesn't exist.
+
+Import traces:
+  Client Component 
+Browser:
+    ./tijarah.pk/app/
+[locale]/admin/dashbo
+ard/page.js [Client 
+Component Browser]
+    ./tijarah.pk/app/
+[locale]/admin/dashbo
+ard/page.js [Server 
+Component]
+
+  Client Component 
+SSR:
+    ./tijarah.pk/app/
+[locale]/admin/dashbo
+ard/page.js [Client 
+Component SSR]
+    ./tijarah.pk/app/
+[locale]/admin/dashbo
+ard/page.js [Server 
+Component]
+
+
+./tijarah.pk/app/[loc
+ale]/admin/dashboard/
+page.js:8:1
+Export specialOffers 
+doesn't exist in 
+target module
+[0m [90m  6 |[39m 
+[36mimport[39m { 
+useTranslations } 
+[36mfrom[39m [32m'
+next-intl'[39m[33m;
+[39m
+ [90m  7 |[39m 
+[36mimport[39m { 
+electronicsProducts 
+} [36mfrom[39m [32
+m'../../categories/el
+ectronics/page.js'[3
+9m[33m;[39m
+[31m[1m>[22m[39m
+[90m  8 |[39m 
+[36mimport[39m { 
+specialOffers } 
+[36mfrom[39m [32m'
+../../special-offers/
+page.js'[39m[33m;[
+39m
+ [90m    |[39m [31
+m[1m^[22m[39m[31m
+[1m^[22m[39m[31m
+[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^
+[22m[39m[31m[1m^
+[22m[39m[31m[1m^[
+22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22
+m[39m[31m[1m^[22m
+[39m[31m[1m^[22m
+[39m[31m[1m^[22m[
+39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39
+m[31m[1m^[22m[39m
+[31m[1m^[22m[39m
+[31m[1m^[22m[39m[
+31m[1m^[22m[39m[3
+1m[1m^[22m[39m[31
+m[1m^[22m[39m[31m
+[1m^[22m[39m[31m
+[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^
+[22m[39m[31m[1m^
+[22m[39m[31m[1m^[
+22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22
+m[39m[31m[1m^[22m
+[39m[31m[1m^[22m
+[39m[31m[1m^[22m[
+39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39
+m[31m[1m^[22m[39m
+[31m[1m^[22m[39m
+[31m[1m^[22m[39m[
+31m[1m^[22m[39m[3
+1m[1m^[22m[39m[31
+m[1m^[22m[39m[31m
+[1m^[22m[39m[31m
+[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^
+[22m[39m[31m[1m^
+[22m[39m[31m[1m^[
+22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22
+m[39m[31m[1m^[22m
+[39m[31m[1m^[22m
+[39m[31m[1m^[22m[
+39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39
+m[31m[1m^[22m[39m
+[31m[1m^[22m[39m
+[31m[1m^[22m[39m
+ [90m  9 |[39m 
+[36mimport[39m { 
+newArrivals } 
+[36mfrom[39m [32m'
+../../new-arrivals/pa
+ge.js'[39m[33m;[39
+m
+ [90m 10 |[39m 
+[36mimport[39m { 
+hotDeals } 
+[36mfrom[39m [32m'
+../../Good-deals/page
+.js'[39m[33m;[39m
+ [90m 11 |[39m 
+[36mimport[39m { 
+mockDeals } 
+[36mfrom[39m [32m'
+../../deals/page.js'
+[39m[33m;[39m[0m
+
+The export 
+specialOffers was 
+not found in module [
+project]/tijarah.pk/a
+pp/[locale]/special-o
+ffers/page.js 
+[app-ssr] 
+(ecmascript).
+Did you mean to 
+import default?
+All exports of the 
+module are 
+statically known (It 
+doesn't have dynamic 
+exports). So it's 
+known statically 
+that the requested 
+export doesn't exist.
+
+Import traces:
+  Client Component 
+Browser:
+    ./tijarah.pk/app/
+[locale]/admin/dashbo
+ard/page.js [Client 
+Component Browser]
+    ./tijarah.pk/app/
+[locale]/admin/dashbo
+ard/page.js [Server 
+Component]
+
+  Client Component 
+SSR:
+    ./tijarah.pk/app/
+[locale]/admin/dashbo
+ard/page.js [Client 
+Component SSR]
+    ./tijarah.pk/app/
+[locale]/admin/dashbo
+ard/page.js [Server 
+Component]
+
+
+./tijarah.pk/app/[loc
+ale]/search/page.js:1
+1:1
+Export specialOffers 
+doesn't exist in 
+target module
+[0m [90m  9 |[39m 
+[90m// Import all 
+product data from 
+admin dashboard[39m
+ [90m 10 |[39m 
+[36mimport[39m { 
+electronicsProducts 
+} [36mfrom[39m [32
+m'../categories/elect
+ronics/page.js'[39m
+[33m;[39m
+[31m[1m>[22m[39m
+[90m 11 |[39m 
+[36mimport[39m { 
+specialOffers } 
+[36mfrom[39m [32m'
+../special-offers/pag
+e.js'[39m[33m;[39m
+ [90m    |[39m [31
+m[1m^[22m[39m[31m
+[1m^[22m[39m[31m
+[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^
+[22m[39m[31m[1m^
+[22m[39m[31m[1m^[
+22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22
+m[39m[31m[1m^[22m
+[39m[31m[1m^[22m
+[39m[31m[1m^[22m[
+39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39
+m[31m[1m^[22m[39m
+[31m[1m^[22m[39m
+[31m[1m^[22m[39m[
+31m[1m^[22m[39m[3
+1m[1m^[22m[39m[31
+m[1m^[22m[39m[31m
+[1m^[22m[39m[31m
+[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^
+[22m[39m[31m[1m^
+[22m[39m[31m[1m^[
+22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22
+m[39m[31m[1m^[22m
+[39m[31m[1m^[22m
+[39m[31m[1m^[22m[
+39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39
+m[31m[1m^[22m[39m
+[31m[1m^[22m[39m
+[31m[1m^[22m[39m[
+31m[1m^[22m[39m[3
+1m[1m^[22m[39m[31
+m[1m^[22m[39m[31m
+[1m^[22m[39m[31m
+[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^
+[22m[39m[31m[1m^
+[22m[39m[31m[1m^[
+22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22
+m[39m[31m[1m^[22m
+[39m[31m[1m^[22m
+[39m[31m[1m^[22m[
+39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39
+m
+ [90m 12 |[39m 
+[36mimport[39m { 
+newArrivals } 
+[36mfrom[39m [32m'
+../new-arrivals/page.
+js'[39m[33m;[39m
+ [90m 13 |[39m 
+[36mimport[39m { 
+hotDeals } 
+[36mfrom[39m [32m'
+../Good-deals/page.js
+'[39m[33m;[39m
+ [90m 14 |[39m 
+[36mimport[39m { 
+mockDeals } 
+[36mfrom[39m [32m'
+../deals/page.js'[39
+m[33m;[39m[0m
+
+The export 
+specialOffers was 
+not found in module [
+project]/tijarah.pk/a
+pp/[locale]/special-o
+ffers/page.js 
+[app-client] 
+(ecmascript).
+Did you mean to 
+import default?
+All exports of the 
+module are 
+statically known (It 
+doesn't have dynamic 
+exports). So it's 
+known statically 
+that the requested 
+export doesn't exist.
+
+Import traces:
+  Client Component 
+Browser:
+    ./tijarah.pk/app/
+[locale]/search/page.
+js [Client Component 
+Browser]
+    ./tijarah.pk/app/
+[locale]/search/page.
+js [Server Component]
+
+  Client Component 
+SSR:
+    ./tijarah.pk/app/
+[locale]/search/page.
+js [Client Component 
+SSR]
+    ./tijarah.pk/app/
+[locale]/search/page.
+js [Server Component]
+
+
+./tijarah.pk/app/[loc
+ale]/search/page.js:1
+1:1
+Export specialOffers 
+doesn't exist in 
+target module
+[0m [90m  9 |[39m 
+[90m// Import all 
+product data from 
+admin dashboard[39m
+ [90m 10 |[39m 
+[36mimport[39m { 
+electronicsProducts 
+} [36mfrom[39m [32
+m'../categories/elect
+ronics/page.js'[39m
+[33m;[39m
+[31m[1m>[22m[39m
+[90m 11 |[39m 
+[36mimport[39m { 
+specialOffers } 
+[36mfrom[39m [32m'
+../special-offers/pag
+e.js'[39m[33m;[39m
+ [90m    |[39m [31
+m[1m^[22m[39m[31m
+[1m^[22m[39m[31m
+[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^
+[22m[39m[31m[1m^
+[22m[39m[31m[1m^[
+22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22
+m[39m[31m[1m^[22m
+[39m[31m[1m^[22m
+[39m[31m[1m^[22m[
+39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39
+m[31m[1m^[22m[39m
+[31m[1m^[22m[39m
+[31m[1m^[22m[39m[
+31m[1m^[22m[39m[3
+1m[1m^[22m[39m[31
+m[1m^[22m[39m[31m
+[1m^[22m[39m[31m
+[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^
+[22m[39m[31m[1m^
+[22m[39m[31m[1m^[
+22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22
+m[39m[31m[1m^[22m
+[39m[31m[1m^[22m
+[39m[31m[1m^[22m[
+39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39
+m[31m[1m^[22m[39m
+[31m[1m^[22m[39m
+[31m[1m^[22m[39m[
+31m[1m^[22m[39m[3
+1m[1m^[22m[39m[31
+m[1m^[22m[39m[31m
+[1m^[22m[39m[31m
+[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^
+[22m[39m[31m[1m^
+[22m[39m[31m[1m^[
+22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22
+m[39m[31m[1m^[22m
+[39m[31m[1m^[22m
+[39m[31m[1m^[22m[
+39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39
+m
+ [90m 12 |[39m 
+[36mimport[39m { 
+newArrivals } 
+[36mfrom[39m [32m'
+../new-arrivals/page.
+js'[39m[33m;[39m
+ [90m 13 |[39m 
+[36mimport[39m { 
+hotDeals } 
+[36mfrom[39m [32m'
+../Good-deals/page.js
+'[39m[33m;[39m
+ [90m 14 |[39m 
+[36mimport[39m { 
+mockDeals } 
+[36mfrom[39m [32m'
+../deals/page.js'[39
+m[33m;[39m[0m
+
+The export 
+specialOffers was 
+not found in module [
+project]/tijarah.pk/a
+pp/[locale]/special-o
+ffers/page.js 
+[app-ssr] 
+(ecmascript).
+Did you mean to 
+import default?
+All exports of the 
+module are 
+statically known (It 
+doesn't have dynamic 
+exports). So it's 
+known statically 
+that the requested 
+export doesn't exist.
+
+Import traces:
+  Client Component 
+Browser:
+    ./tijarah.pk/app/
+[locale]/search/page.
+js [Client Component 
+Browser]
+    ./tijarah.pk/app/
+[locale]/search/page.
+js [Server Component]
+
+  Client Component 
+SSR:
+    ./tijarah.pk/app/
+[locale]/search/page.
+js [Client Component 
+SSR]
+    ./tijarah.pk/app/
+[locale]/search/page.
+js [Server Component]
+
+
+    at <unknown> (./t
+ijarah.pk/app/[locale
+]/returns/page.js:8:1
+)
+    at <unknown> (htt
+ps://nextjs.org/docs/
+messages/module-not-f
+ound)
+    at <unknown> (./t
+ijarah.pk/app/cart/pa
+ge.js:8:1)
+    at <unknown> (htt
+ps://nextjs.org/docs/
+messages/module-not-f
+ound)
+    at <unknown> (./t
+ijarah.pk/app/[locale
+]/admin/dashboard/pag
+e.js:10:1)
+    at <unknown> (./t
+ijarah.pk/app/[locale
+]/admin/dashboard/pag
+e.js:10:1)
+    at <unknown> (./t
+ijarah.pk/app/[locale
+]/search/page.js:13:1
+)
+    at <unknown> (./t
+ijarah.pk/app/[locale
+]/search/page.js:13:1
+)
+    at <unknown> (./t
+ijarah.pk/app/[locale
+]/admin/dashboard/pag
+e.js:9:1)
+    at <unknown> (./t
+ijarah.pk/app/[locale
+]/admin/dashboard/pag
+e.js:9:1)
+    at <unknown> (./t
+ijarah.pk/app/[locale
+]/search/page.js:12:1
+)
+    at <unknown> (./t
+ijarah.pk/app/[locale
+]/search/page.js:12:1
+)
+    at <unknown> (./t
+ijarah.pk/app/[locale
+]/admin/dashboard/pag
+e.js:8:1)
+    at <unknown> (./t
+ijarah.pk/app/[locale
+]/admin/dashboard/pag
+e.js:8:1)
+    at <unknown> (./t
+ijarah.pk/app/[locale
+]/search/page.js:11:1
+)
+    at <unknown> (./t
+ijarah.pk/app/[locale
+]/search/page.js:11:1
+)

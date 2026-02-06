@@ -25,10 +25,10 @@
       "other": "Diğer"
     },
     "priceRanges": {
+      "500": "500$ Üzeri",
       "0-100": "100$ Altı",
       "100-300": "100$ - 300$",
-      "300-500": "300$ - 500$",
-      "500": "500$ Üzeri"
+      "300-500": "300$ - 500$"
     },
     "brandNames": {
       "apple": "Apple",
@@ -61,7 +61,9 @@
       "featured": "Öne Çıkanlar",
       "discountHigh": "En Yüksek İndirim",
       "priceLow": "Fiyat: Düşükten Yükseğe",
-      "priceHigh": "Fiyat: Yüksekten Düşüğe"
+      "priceHigh": "Fiyat: Yüksekten Düşüğe",
+      "rating": "En Yüksek Puan",
+      "newest": "Newest Arrivals"
     },
     "welcome": "Tijarah.pk'ye hoş geldiniz",
     "search_placeholder": "Tijarah.pk içinde ara",
@@ -85,6 +87,7 @@
     "search_countries": "Ülke ara",
     "search_tijarah_pk": "Tijarah.pk'de ara",
     "select_language": "Dil seç",
+    "language_changed": "Dil {language} olarak değiştirildi",
     "hello": "Merhaba",
     "hello_sign_in": "Merhaba, giriş yap",
     "your_profile": "Profiliniz",
@@ -106,7 +109,8 @@
     "beauty_personal_care": "Güzellik & Kişisel Bakım",
     "sports_outdoors": "Spor & Açık Hava",
     "toys_games": "Oyuncak & Oyun",
-    "price": "{price}"
+    "price": "{price}",
+    "clear_filters": "Clear Filters"
   },
   "Electronics": {
     "title": "Elektronik",
@@ -162,7 +166,9 @@
       "featured": "Öne Çıkanlar",
       "discountHigh": "İndirim: Yüksekten Düşüğe",
       "priceLow": "Fiyat: Düşükten Yükseğe",
-      "priceHigh": "Fiyat: Yüksekten Düşüğe"
+      "priceHigh": "Fiyat: Yüksekten Düşüğe",
+      "rating": "Customer Rating",
+      "newest": "Newest"
     },
     "badges": {
       "new": "Yeni",
@@ -263,7 +269,25 @@
         "description": "Sınırlı süreli teklifler",
         "buttonText": "Hemen Alışveriş Yap"
       }
-    }
+    },
+    "title": "Welcome to Tijarah.pk - Your One-Stop Shop",
+    "subtitle": "Discover amazing deals on thousands of products",
+    "hot_deals": "Hot Deals",
+    "browse_categories": "Browse Categories",
+    "limited_offer": "Limited Time Offer",
+    "headphones": "Headphones",
+    "footwear": "Footwear",
+    "kitchen_dining": "Kitchen & Dining",
+    "bed_bath": "Bed & Bath",
+    "garden_outdoor": "Garden & Outdoor",
+    "lighting": "Lighting",
+    "view_all_home_garden": "View All Home & Garden",
+    "haircare": "Hair Care",
+    "personal_care": "Personal Care",
+    "athletic_clothing": "Athletic Clothing",
+    "camping_hiking": "Camping & Hiking",
+    "action_figures": "Action Figures",
+    "dolls": "Dolls & Accessories"
   },
   "navigation": {
     "all_categories": "Tüm Kategoriler",
@@ -327,7 +351,12 @@
       "message": "Mesaj",
       "submit": "Mesaj Gönder",
       "submitting": "Gönderiliyor...",
-      "success": "Mesajınız başarıyla gönderildi!"
+      "success": "Mesajınız başarıyla gönderildi!",
+      "validation": {
+        "required": "This field is required",
+        "invalidEmail": "Please enter a valid email address"
+      },
+      "error": "Failed to send message. Please try again."
     },
     "contactInfo": {
       "title": "İletişim Bilgileri",
@@ -366,7 +395,8 @@
         "orderHistory": "Sipariş Geçmişi"
       },
       "error": "Sipariş takip edilemiyor. Lütfen sipariş ID'nizi kontrol edin ve tekrar deneyin.",
-      "notFound": "Bu ID ile sipariş bulunamadı. Lütfen kontrol edin ve tekrar deneyin."
+      "notFound": "Bu ID ile sipariş bulunamadı. Lütfen kontrol edin ve tekrar deneyin.",
+      "label": "Enter your tracking ID"
     },
     "helpfulLinks": {
       "title": "Yararlı Bağlantılar",
@@ -437,7 +467,7 @@
     "hours": "Saat",
     "minutes": "Dakika",
     "seconds": "Saniye",
-    "sold": "satıldı",
+    "sold": "Satıldı",
     "add_to_cart": "Sepete Ekle",
     "categories": {
       "all": "Tüm Kategoriler",
@@ -473,7 +503,6 @@
       "button": "Şimdi Abone Ol"
     },
     "off": "İndirim",
-    "sold": "Satıldı",
     "view_details": "Fırsatı Gör",
     "save": "Kaydet",
     "free_shipping": "Ücretsiz Kargo",
@@ -507,7 +536,9 @@
     "newsletter_placeholder": "E-postanızı girin",
     "subscribe": "Abone Ol",
     "follow_us": "Bizi Takip Edin",
-    "copyright": "© {year} Tijarah.pk. Tüm hakları saklıdır."
+    "copyright": "© {year} Tijarah.pk. Tüm hakları saklıdır.",
+    "quick_links": "Quick Links",
+    "terms_of_service": "Terms of Service"
   },
   "home_decor": {
     "title": "Ev Dekorasyonu",
@@ -581,7 +612,10 @@
     "initiatingReturn": "İade süreci başlatılıyor...",
     "trackingNotAvailable": "Takip bilgisi henüz mevcut değil",
     "confirmCancelOrder": "Bu siparişi iptal etmek istediğinizden emin misiniz? Bu işlem geri alınamaz.",
-    "orderCancelled": "Siparişiniz iptal edildi"
+    "orderCancelled": "Siparişiniz iptal edildi",
+    "errors": {
+      "fetchError": "Failed to fetch data. Please try again."
+    }
   },
   "ProductDetail": {
     "notFound": {
@@ -598,13 +632,14 @@
     "keyFeatures": "Temel Özellikler",
     "quantity": "Adet",
     "stock": {
-      "inStock": "Stokta Var ({count} adet)",
-      "outOfStock": "Stokta Yok"
+      "readyToShip": "Kargoya Hazır",
+      "soldOut": "Tükendi"
     },
     "buttons": {
-      "addToCart": "Sepete Ekle",
-      "added": "Eklendi!",
-      "outOfStock": "Stokta Yok"
+      "addToCart": "Alışveriş Sepetine Ekle",
+      "addedToCart": "Sepete Eklendi",
+      "added": "Added to Cart",
+      "outOfStock": "Out of Stock"
     },
     "shipping": {
       "inStock": "Stokta - Genellikle 24 saat içinde kargoda",
@@ -620,15 +655,7 @@
       "home": "Ana Sayfa",
       "products": "Ürünler"
     },
-    "stock": {
-      "readyToShip": "Kargoya Hazır",
-      "soldOut": "Tükendi"
-    },
     "reviews": "Yorumlar",
-    "buttons": {
-      "addToCart": "Alışveriş Sepetine Ekle",
-      "addedToCart": "Sepete Eklendi"
-    },
     "trust": {
       "swiftDelivery": "Hızlı Teslimat",
       "freeOver": "50$ Üzeri Ücretsiz",
@@ -642,7 +669,22 @@
     "toast": {
       "addedToCart": "{name} sepete eklendi!",
       "failedToAdd": "Ürün sepete eklenemedi"
-    }
+    },
+    "add_to_cart": "Add to Cart",
+    "add_to_wishlist": "Add to Wishlist",
+    "description": "Description",
+    "features": "Features",
+    "specifications": "Specifications",
+    "related_products": "Related Products",
+    "in_stock": "In Stock",
+    "out_of_stock": "Out of Stock",
+    "categories": "Categories",
+    "tags": "Tags",
+    "share": "Share",
+    "sold": "sold",
+    "available": "available",
+    "view_all_images": "View all images",
+    "you_may_also_like": "You may also like"
   },
   "SpecialOffers": {
     "title": "Özel Teklifler & Fırsatlar",
@@ -683,7 +725,7 @@
     },
     "macbook-pro-16": {
       "name": "MacBook Pro 16 inç",
-      "description": "M3 Max çipi ile profesyoneller için tasarlanmış güçlü MacBook Pro."
+      "description": "M2 Max çip ve Liquid Retina XDR ekranlı güçlü dizüstü bilgisayar"
     },
     "headphones-1": {
       "name": "Sony WH-1000XM3",
@@ -801,10 +843,6 @@
       "name": "Xiaomi Mi 11 Ultra",
       "description": "Yüksek özellikler, rekabetçi fiyat"
     },
-    "macbook-pro-16": {
-      "name": "MacBook Pro 16 inç",
-      "description": "M2 Max çip ve Liquid Retina XDR ekranlı güçlü dizüstü bilgisayar"
-    },
     "dell-xps-15": {
       "name": "Dell XPS 15",
       "description": "4K OLED ekranlı premium Windows dizüstü bilgisayar"
@@ -895,6 +933,108 @@
     "errors": {
       "fetchCategories": "Kategoriler yüklemeye başarısız. Lütfen tekrar deneyin.",
       "submissionError": "Listelemenizi yayınlamaya başarısız. Lütfen tekrar deneyin."
+    },
+    "description": "Description",
+    "specifications": "Specifications",
+    "reviews": "Reviews",
+    "related_products": "Related Products",
+    "in_stock": "In Stock",
+    "out_of_stock": "Out of Stock",
+    "quantity": "Quantity",
+    "add_to_wishlist": "Add to Wishlist",
+    "share": "Share",
+    "featured": "Featured",
+    "priceLow": "Price: Low to High",
+    "priceHigh": "Price: High to Low",
+    "rating": "Rating",
+    "showingResults": "Showing {start}-{end} of {total} products",
+    "inStock": "In Stock",
+    "addToCart": "Add to cart",
+    "foldable": "Foldable Phones",
+    "gaming": "Gaming Phones",
+    "offer-1": {
+      "name": "iPhone 15 Pro",
+      "description": "Latest iPhone with advanced camera system"
+    },
+    "offer-2": {
+      "name": "Samsung Galaxy S24 Ultra",
+      "description": "200MP camera with advanced features"
+    },
+    "offer-3": {
+      "name": "MacBook Pro 16 inch",
+      "description": "Professional laptop with M3 Pro"
+    },
+    "offer-4": {
+      "name": "Sony WH-1000XM5",
+      "description": "Premium noise cancelling headphones"
+    },
+    "offer-5": {
+      "name": "Samsung 65\" 4K QLED Smart TV",
+      "description": "Immersive 4K viewing experience"
+    },
+    "offer-6": {
+      "name": "Nike Air Max 270",
+      "description": "Comfortable running shoes"
+    },
+    "offer-7": {
+      "name": "Dyson V15 Detect",
+      "description": "Powerful cordless vacuum cleaner"
+    },
+    "offer-8": {
+      "name": "Canon EOS R5",
+      "description": "Professional mirrorless camera"
+    },
+    "smartphone-pro": {
+      "name": "Smartphone Pro",
+      "description": "Advanced smartphone with professional camera"
+    },
+    "wireless-earbuds": {
+      "name": "Wireless Earbuds",
+      "description": "High-quality sound with long battery life"
+    },
+    "smart-watch": {
+      "name": "Smart Watch",
+      "description": "Monitor your health and stay connected"
+    },
+    "laptop-ultra": {
+      "name": "Ultra Laptop",
+      "description": "Powerful performance for power users"
+    },
+    "mens-shirt": {
+      "name": "Men's Shirt",
+      "description": "Comfortable and stylish shirt for any occasion"
+    },
+    "womens-dress": {
+      "name": "Women's Dress",
+      "description": "Elegant dress for a premium look"
+    },
+    "running-shoes": {
+      "name": "Running Shoes",
+      "description": "High-performance shoes for professional runners"
+    },
+    "designer-handbag": {
+      "name": "Designer Handbag",
+      "description": "Luxury designer handbag for a stylish statement"
+    },
+    "sony-a7-iv": {
+      "name": "Sony Alpha 7 IV",
+      "description": "Professional mirrorless camera with 33MP sensor and 4K video recording"
+    },
+    "macbook-air-15": {
+      "name": "MacBook Air 15-inch",
+      "description": "Powerful laptop with M2 chip and 18-hour battery life"
+    },
+    "samsung-galaxy-watch6": {
+      "name": "Samsung Galaxy Watch6",
+      "description": "Advanced smartwatch with health monitoring and fitness tracking"
+    },
+    "smartphone-1": {
+      "name": "Premium Smartphone",
+      "description": "High-performance smartphone with advanced features"
+    },
+    "iphone-15-pro": {
+      "name": "iPhone 15 Pro",
+      "description": "Latest iPhone with advanced A17 Pro chip, stunning display, and professional camera system"
     }
   },
   "Smartphones": {
@@ -934,12 +1074,18 @@
       "hp": "HP",
       "lenovo": "Lenovo",
       "asus": "ASUS",
-      "microsoft": "Microsoft"
+      "microsoft": "Microsoft",
+      "samsung": "Samsung",
+      "google": "Google",
+      "oneplus": "OnePlus",
+      "xiaomi": "Xiaomi",
+      "nothing": "Nothing"
     },
     "pagination": {
       "previous": "Önceki",
       "next": "Sonraki"
-    }
+    },
+    "viewDetails": "View Details"
   },
   "Laptops": {
     "title": "Dizüstü Bilgisayarlar",
@@ -965,12 +1111,12 @@
       "budget": "Bütçe Dostu"
     },
     "priceRanges": {
+      "400000": "400.000₺ ve Üzeri",
       "0-50000": "50.000₺ Altı",
       "50000-100000": "50.000₺ - 100.000₺",
       "100000-200000": "100.000₺ - 200.000₺",
       "200000-300000": "200.000₺ - 300.000₺",
-      "300000-400000": "300.000₺ - 400.000₺",
-      "400000": "400.000₺ ve Üzeri"
+      "300000-400000": "300.000₺ - 400.000₺"
     },
     "brandNames": {
       "apple": "Apple",
@@ -1009,10 +1155,10 @@
       "kids": "Çocuk Tabletleri"
     },
     "priceRanges": {
+      "1000": "1000$ Üzeri",
       "0-200": "200$'ın Altı",
       "200-500": "200$ - 500$",
-      "500-1000": "500$ - 1000$",
-      "1000": "1000$ Üzeri"
+      "500-1000": "500$ - 1000$"
     },
     "brandNames": {
       "apple": "Apple",
@@ -1030,6 +1176,500 @@
     "description": "Topluluğumuza katılın ve özel fırsatlar ve güncellemeler alın.",
     "get_started": "Başlayın",
     "sign_in": "Giriş Yap",
-    "back_to_top": "Yukarı Çık"
+    "back_to_top": "Yukarı Çık",
+    "continue_shopping_prompt": "Continue shopping to find more amazing products.",
+    "my_orders": "My Orders",
+    "continue_shopping": "Continue Shopping"
+  },
+  "admin": {
+    "success": "Success",
+    "error": "Error",
+    "orders_refreshed_successfully": "Orders refreshed successfully!",
+    "failed_to_refresh_orders": "Failed to refresh orders",
+    "order_status_changed_success": "Order status changed to '{status}' successfully!",
+    "failed_to_update_order_status": "Failed to update order status. Status: {status}, Error: {error}",
+    "error_updating_order_status": "Error updating order status: {error}",
+    "order_removed_successfully": "Order removed successfully!",
+    "failed_to_remove_order": "Failed to remove order. Please try again.",
+    "error_removing_order": "Error removing order. Please check console for details."
+  },
+  "Headphones": {
+    "title": "Headphones",
+    "subtitle": "Discover premium audio experiences",
+    "categories": "Categories",
+    "priceRange": "Price Range",
+    "brands": "Brands",
+    "sortBy": "Sort by:",
+    "featured": "Featured",
+    "priceLow": "Price: Low to High",
+    "priceHigh": "Price: High to Low",
+    "rating": "Top Rated",
+    "showingResults": "Showing {start}-{end} of {total} products",
+    "inStock": "In Stock",
+    "addToCart": "Add to Cart",
+    "viewDetails": "View Details",
+    "previous": "Previous",
+    "next": "Next",
+    "subcategories": {
+      "wireless": "Wireless Headphones",
+      "noise_cancelling": "Noise Cancelling",
+      "over_ear": "Over-Ear",
+      "earbuds": "Earbuds",
+      "gaming": "Gaming Headsets"
+    },
+    "brandNames": {
+      "sony": "Sony",
+      "bose": "Bose",
+      "sennheiser": "Sennheiser",
+      "beats": "Beats",
+      "apple": "Apple"
+    }
+  },
+  "Cameras": {
+    "title": "Cameras",
+    "subtitle": "Capture every precious moment",
+    "categories": "Categories",
+    "priceRange": "Price Range",
+    "brands": "Brands",
+    "sortBy": "Sort by:",
+    "featured": "Featured",
+    "priceLow": "Price: Low to High",
+    "priceHigh": "Price: High to Low",
+    "rating": "Top Rated",
+    "showingResults": "Showing {start}-{end} of {total} products",
+    "inStock": "In Stock",
+    "addToCart": "Add to Cart",
+    "viewDetails": "View Details",
+    "previous": "Previous",
+    "next": "Next",
+    "subcategories": {
+      "dslr": "DSLR Cameras",
+      "mirrorless": "Mirrorless Cameras",
+      "point_shoot": "Point & Shoot",
+      "action": "Action Cameras"
+    },
+    "brandNames": {
+      "sony": "Sony",
+      "canon": "Canon",
+      "nikon": "Nikon",
+      "fujifilm": "Fujifilm",
+      "gopro": "GoPro"
+    }
+  },
+  "Sell": {
+    "title": "Sell on Tijarah.pk",
+    "subtitle": "Start selling your products today",
+    "form": {
+      "selectCategory": "Select a category",
+      "category": "Category",
+      "productName": "Product Name",
+      "description": "Description",
+      "price": "Price",
+      "quantity": "Quantity",
+      "images": "Product Images",
+      "uploadImages": "Upload Images",
+      "condition": "Condition",
+      "selectCondition": "Select condition",
+      "new": "New",
+      "used": "Used",
+      "refurbished": "Refurbished",
+      "shippingType": "Shipping Type",
+      "selectShippingType": "Select shipping type",
+      "standard": "Standard Shipping",
+      "express": "Express Shipping",
+      "freeShipping": "Free Shipping",
+      "returns": "Return Policy",
+      "selectReturns": "Select return policy",
+      "returnsAccepted": "Accept Returns",
+      "returnsNotAccepted": "No Returns",
+      "submit": "List Product",
+      "validation": {
+        "required": "This field is required",
+        "minLength": "Minimum {length} characters required",
+        "invalidPrice": "Please enter a valid price"
+      },
+      "success": "Product listed successfully!",
+      "error": "Failed to list product. Please try again.",
+      "title": "Product Title",
+      "brand": "Brand",
+      "model": "Model",
+      "sku": "SKU",
+      "warranty": "Warranty",
+      "selectWarranty": "Select warranty",
+      "withWarranty": "With Warranty",
+      "noWarranty": "No Warranty",
+      "shippingCost": "Shipping Cost",
+      "acceptsReturns": "Accept Returns",
+      "returnDays": "Return Days",
+      "selectReturnDays": "Select return period",
+      "returnDays30": "30 Days",
+      "returnDays60": "60 Days",
+      "returnDays90": "90 Days",
+      "dragDropImages": "Drag and drop images here or click to select",
+      "maxImages": "Maximum 10 images allowed",
+      "previewTitle": "Preview Your Product",
+      "save": "Save Draft",
+      "publish": "Publish Listing",
+      "cancel": "Cancel",
+      "requiredField": "Required field",
+      "optional": "Optional",
+      "titlePlaceholder": "Enter product title",
+      "descriptionPlaceholder": "Describe your product in detail including condition, features, and any defects",
+      "pricePlaceholder": "Enter price in PKR",
+      "quantityPlaceholder": "Enter quantity available",
+      "brandPlaceholder": "Enter brand name",
+      "modelPlaceholder": "Enter model number",
+      "skuPlaceholder": "Enter SKU (optional)",
+      "shippingCostPlaceholder": "Enter shipping cost",
+      "descriptionLabel": "Product Description",
+      "priceLabel": "Price (PKR)",
+      "quantityLabel": "Quantity Available",
+      "brandLabel": "Brand",
+      "modelLabel": "Model",
+      "skuLabel": "SKU",
+      "categoryLabel": "Product Category",
+      "conditionLabel": "Product Condition",
+      "shippingTypeLabel": "Shipping Method",
+      "shippingCostLabel": "Shipping Cost (PKR)",
+      "warrantyLabel": "Warranty",
+      "acceptsReturnsLabel": "Accept Returns?",
+      "returnDaysLabel": "Return Period",
+      "imagesLabel": "Product Images",
+      "titleHelp": "Be specific and include the brand name for better visibility",
+      "descriptionHelp": "Provide detailed information about condition, features, and any defects",
+      "priceHelp": "Set a competitive price based on current market rates",
+      "quantityHelp": "Enter the number of items you have available for sale",
+      "brandHelp": "Enter the manufacturer brand",
+      "modelHelp": "Enter the specific model number if applicable",
+      "skuHelp": "Stock Keeping Unit (optional)",
+      "categoryHelp": "Select the most relevant category for your product",
+      "conditionHelp": "Select the current condition of the product",
+      "shippingTypeHelp": "Choose your preferred shipping method",
+      "shippingCostHelp": "Enter the shipping cost for this product",
+      "warrantyHelp": "Indicate if your product comes with warranty",
+      "returnsHelp": "Specify your return policy for buyer protection",
+      "imagesHelp": "Upload clear images from multiple angles. First image will be the thumbnail",
+      "imageQuality": "Recommended: High quality images (at least 1000x1000 pixels)",
+      "subcategory": "Subcategory",
+      "selectSubcategory": "Select a subcategory",
+      "subcategoryLabel": "Subcategory",
+      "subcategoryHelp": "Select a specific subcategory for your product",
+      "tags": "Tags",
+      "tagsPlaceholder": "Add tags separated by commas",
+      "tagsHelp": "Add relevant tags to help buyers find your product",
+      "color": "Color",
+      "selectColor": "Select color",
+      "colorHelp": "Select the color of your product",
+      "size": "Size",
+      "selectSize": "Select size",
+      "sizeHelp": "Select the size if applicable",
+      "material": "Material",
+      "materialPlaceholder": "Enter material",
+      "materialHelp": "Specify the material composition if applicable",
+      "manufacturingDate": "Manufacturing Date",
+      "manufacturingDateHelp": "Enter the manufacturing or purchase date",
+      "expiryDate": "Expiry Date",
+      "expiryDateHelp": "Enter expiry date if applicable",
+      "certifications": "Certifications",
+      "certificationsPlaceholder": "Enter certifications (if any)",
+      "certificationsHelp": "List any relevant certifications or standards",
+      "uploadPhoto": "Click to upload",
+      "dragDropPhotos": "Drag and drop photos here or click to select",
+      "orDragDrop": "or drag and drop",
+      "photoFormats": "PNG, JPG, GIF up to 10MB",
+      "removePhoto": "Remove",
+      "setMainPhoto": "Set as main photo",
+      "photoError": "Error uploading photo",
+      "photoSuccess": "Photo uploaded successfully",
+      "maxPhotos": "Maximum 10 photos allowed",
+      "photoQuality": "High quality images (at least 1000x1000 pixels recommended)",
+      "addMorePhotos": "Add more photos",
+      "noPhotos": "No photos uploaded yet",
+      "photoRequirements": "Requirements: Clear, well-lit photos from multiple angles. Minimum size 1000x1000 pixels",
+      "photoDimensions": "Recommended dimensions: 1000x1000 pixels or larger",
+      "photoTips": "Photo Tips: Use natural lighting, show product from multiple angles, include close-ups of any defects",
+      "uploading": "Uploading...",
+      "uploadingPhotos": "Uploading photos...",
+      "photosUploaded": "photos uploaded",
+      "photoUploadProgress": "Upload progress",
+      "localPickup": "Local Pickup",
+      "localPickupHelp": "Buyers can pick up the item locally from your address",
+      "standardShipping": "Standard Shipping",
+      "standardShippingHelp": "Ship within 3-5 business days",
+      "expressShipping": "Express Shipping",
+      "expressShippingHelp": "Ship within 1-2 business days",
+      "freeShippingHelp": "Offer free shipping to attract more buyers",
+      "pickupLocation": "Pickup Location",
+      "pickupLocationPlaceholder": "Enter pickup location or address",
+      "pickupLocationHelp": "Where will buyers pick up the item?",
+      "acceptsShipping": "Accepts Shipping",
+      "acceptsShippingHelp": "Allow buyers to have the item shipped to them",
+      "calculatedShipping": "Calculated Shipping",
+      "calculatedShippingHelp": "Let the system calculate shipping based on weight and distance",
+      "fixedShipping": "Fixed Shipping",
+      "fixedShippingHelp": "Set a flat shipping rate for all orders",
+      "shippingWeight": "Product Weight (kg)",
+      "shippingWeightPlaceholder": "Enter weight in kilograms",
+      "shippingWeightHelp": "Weight is used to calculate shipping costs",
+      "shippingDimensions": "Product Dimensions (L x W x H)",
+      "shippingDimensionsPlaceholder": "Enter dimensions in cm",
+      "shippingDimensionsHelp": "Dimensions help calculate dimensional weight",
+      "returnsPolicy": "Return Policy",
+      "returnsPolicyHelp": "Select your return policy to build buyer confidence",
+      "returnsNotAcceptedHelp": "Items cannot be returned",
+      "returnsAcceptedHelp": "Allow buyers to return items within the selected period",
+      "returnPeriod": "Return Period",
+      "returnPeriodHelp": "How many days will you accept returns?",
+      "returnDescription": "Return Description",
+      "returnDescriptionPlaceholder": "Describe your return policy",
+      "returnDescriptionHelp": "Explain how returns will be handled",
+      "paymentMethods": "Payment Methods",
+      "selectPaymentMethods": "Select payment methods you accept",
+      "paymentMethodsHelp": "Choose which payment methods to accept",
+      "bankAccountNumber": "Bank Account Number",
+      "bankAccountName": "Account Holder Name",
+      "bankName": "Bank Name",
+      "bankCode": "Bank Code (IBAN)",
+      "easyPaisaNumber": "EasyPaisa Mobile Number",
+      "jazzCashNumber": "JazzCash Mobile Number",
+      "paypalEmail": "PayPal Email",
+      "location": "Location",
+      "locationPlaceholder": "Enter your city or location",
+      "locationHelp": "Where are you located? This helps buyers know about shipping times",
+      "country": "Country",
+      "selectCountry": "Select country",
+      "countryHelp": "Select your country of operation",
+      "province": "Province/State",
+      "selectProvince": "Select province",
+      "provinceHelp": "Select your province or state",
+      "city": "City",
+      "cityPlaceholder": "Enter your city",
+      "cityHelp": "Enter the city where you are located",
+      "zipCode": "Zip/Postal Code",
+      "zipCodePlaceholder": "Enter zip code",
+      "zipCodeHelp": "Enter your postal code",
+      "businessName": "Business Name",
+      "businessNamePlaceholder": "Enter business name",
+      "businessNameHelp": "Your business or store name",
+      "taxId": "Tax ID",
+      "taxIdPlaceholder": "Enter tax ID",
+      "taxIdHelp": "Your tax identification number (optional)",
+      "ntn": "NTN (National Tax Number)",
+      "ntnPlaceholder": "Enter NTN",
+      "ntnHelp": "Your National Tax Number",
+      "cnic": "CNIC",
+      "cnicPlaceholder": "Enter CNIC",
+      "cnicHelp": "Your CNIC number for verification",
+      "agreeTerms": "I agree to the Terms & Conditions",
+      "agreeTermsHelp": "You must agree to our terms to list products",
+      "agreePolicy": "I understand the seller policy",
+      "agreePolicyHelp": "You must understand and follow our seller policies",
+      "termsLink": "View Terms & Conditions",
+      "policyLink": "View Seller Policy",
+      "agreeToTerms": "I agree to the Terms of Service and Privacy Policy",
+      "termsAndConditions": "I have read and agree to",
+      "termsOfService": "Terms of Service",
+      "and": "and",
+      "privacyPolicy": "Privacy Policy",
+      "agreeToSellerPolicy": "I understand and agree to the Seller Policy",
+      "sellerPolicy": "Seller Policy",
+      "confirmListing": "Confirm Listing",
+      "listingConfirmation": "Your listing will be reviewed and published within 24 hours",
+      "editListing": "Edit Listing",
+      "viewListing": "View Listing",
+      "continueSelling": "Continue Selling",
+      "successMessage": "Your product has been successfully listed!",
+      "successTitle": "Listing Published",
+      "saveDraft": "Save Draft",
+      "publishProduct": "Publish Product",
+      "submitForReview": "Submit for Review",
+      "previewListing": "Preview Listing",
+      "goBackToEdit": "Go Back to Edit",
+      "backToHome": "Back to Home",
+      "viewMyListings": "View My Listings",
+      "draftSaved": "Draft saved successfully",
+      "productPublished": "Product published successfully",
+      "submittedForReview": "Submitted for review. We'll notify you once approved",
+      "publishing": "Publishing...",
+      "saving": "Saving...",
+      "processingError": "An error occurred while processing your request",
+      "validationError": "Please fix the errors below before continuing",
+      "confirmLeave": "You have unsaved changes. Are you sure you want to leave?",
+      "requiresApproval": "Your product listing requires approval before going live",
+      "errorMessage": "There was an error listing your product. Please try again.",
+      "publishListing": "Publish Listing"
+    },
+    "requirements": {
+      "title": "Seller Requirements",
+      "description": "To start selling, you need to meet these requirements:",
+      "items": [
+        "Valid email address",
+        "Complete profile information",
+        "Valid payment method",
+        "Acceptance of seller terms and conditions"
+      ]
+    },
+    "benefits": {
+      "title": "Benefits of Selling on Tijarah.pk",
+      "items": [
+        "Reach millions of buyers across Asia",
+        "Fast and secure payment processing",
+        "Professional seller dashboard",
+        "24/7 seller support",
+        "Competitive seller fees",
+        "Marketing tools to boost sales"
+      ]
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "items": [
+        {
+          "question": "How do I start selling?",
+          "answer": "Create an account, fill in your seller profile, and list your first product."
+        },
+        {
+          "question": "What are the seller fees?",
+          "answer": "Seller fees vary by category. Please check your category's fee structure."
+        },
+        {
+          "question": "How long does it take to get paid?",
+          "answer": "Payments are processed within 7-10 business days after order completion."
+        },
+        {
+          "question": "Can I edit my product listing?",
+          "answer": "Yes, you can edit your listings anytime from your seller dashboard."
+        },
+        {
+          "question": "What if a buyer returns a product?",
+          "answer": "Returns are handled based on your return policy. We provide full support during the process."
+        }
+      ]
+    },
+    "contact": {
+      "title": "Need Help?",
+      "description": "Contact our seller support team for any questions about selling on Tijarah.pk",
+      "email": "sellers@tijarah.pk",
+      "phone": "+92 123 4567890"
+    },
+    "sections": {
+      "basicInfo": "Basic Information",
+      "productInfo": "Product Information",
+      "pricing": "Pricing & Shipping",
+      "images": "Product Images",
+      "policies": "Return & Shipping Policies",
+      "preview": "Preview Your Listing",
+      "priceQuantity": "Price & Quantity",
+      "shipping": "Shipping Details",
+      "productCondition": "Product Condition & Details",
+      "media": "Product Media",
+      "additionalInfo": "Additional Information",
+      "reviewListing": "Review Your Listing",
+      "photos": "Product Photos",
+      "shippingReturns": "Shipping & Returns",
+      "confirmation": "Confirmation",
+      "returnPolicy": "Return Policy",
+      "listingPreview": "Listing Preview",
+      "publishListing": "Publish Your Listing",
+      "paymentMethods": "Payment Methods",
+      "location": "Seller Location",
+      "sellerInfo": "Seller Information",
+      "terms": "Terms & Conditions"
+    },
+    "labels": {
+      "productName": "Product Name",
+      "category": "Category",
+      "description": "Product Description",
+      "price": "Price",
+      "quantity": "Quantity Available",
+      "condition": "Product Condition",
+      "shippingType": "Shipping Type",
+      "shippingCost": "Shipping Cost",
+      "returnPolicy": "Return Policy",
+      "images": "Product Images",
+      "sku": "SKU (Optional)",
+      "brand": "Brand",
+      "model": "Model",
+      "warranty": "Warranty"
+    },
+    "placeholders": {
+      "productName": "Enter product name",
+      "description": "Describe your product in detail",
+      "price": "Enter price",
+      "quantity": "Enter quantity",
+      "sku": "Enter SKU",
+      "brand": "Enter brand name",
+      "model": "Enter model number"
+    },
+    "helpers": {
+      "productName": "Be specific and include the brand name for better visibility",
+      "description": "Provide detailed information about condition, features, and any defects",
+      "images": "Upload clear images from multiple angles. First image will be the thumbnail",
+      "price": "Set a competitive price based on current market rates",
+      "shipping": "Choose your preferred shipping method and cost"
+    },
+    "conditions": {
+      "new": "New",
+      "likeNew": "Like New",
+      "good": "Good",
+      "fair": "Fair",
+      "used": "Used",
+      "poor": "Poor"
+    },
+    "shippingMethods": {
+      "standard": "Standard Shipping",
+      "express": "Express Shipping",
+      "freeShipping": "Free Shipping",
+      "pickup": "Local Pickup"
+    },
+    "returnPolicies": {
+      "7days": "7 Days Returns",
+      "14days": "14 Days Returns",
+      "30days": "30 Days Returns",
+      "60days": "60 Days Returns",
+      "90days": "90 Days Returns",
+      "noReturns": "No Returns"
+    },
+    "warranty": {
+      "withWarranty": "With Warranty",
+      "noWarranty": "No Warranty",
+      "manufacturerWarranty": "Manufacturer Warranty",
+      "sellerWarranty": "Seller Warranty"
+    },
+    "colors": {
+      "black": "Black",
+      "white": "White",
+      "red": "Red",
+      "blue": "Blue",
+      "green": "Green",
+      "yellow": "Yellow",
+      "gray": "Gray",
+      "silver": "Silver",
+      "gold": "Gold",
+      "other": "Other"
+    },
+    "sizes": {
+      "xsmall": "Extra Small",
+      "small": "Small",
+      "medium": "Medium",
+      "large": "Large",
+      "xlarge": "Extra Large",
+      "oneSize": "One Size"
+    },
+    "paymentMethods": {
+      "bankTransfer": "Bank Transfer",
+      "bankTransferHelp": "Accept payments via bank transfer",
+      "easypaisa": "EasyPaisa",
+      "easypaisaHelp": "Accept EasyPaisa mobile money payments",
+      "jazzcash": "JazzCash",
+      "jazzcashHelp": "Accept JazzCash mobile money payments",
+      "paypal": "PayPal",
+      "paypalHelp": "Accept payments via PayPal",
+      "creditCard": "Credit/Debit Card",
+      "creditCardHelp": "Accept credit and debit card payments",
+      "cashOnDelivery": "Cash on Delivery",
+      "cashOnDeliveryHelp": "Allow buyers to pay when item is delivered",
+      "stripeCheckout": "Stripe Checkout",
+      "stripeCheckoutHelp": "Accept payments via Stripe"
+    }
   }
 }

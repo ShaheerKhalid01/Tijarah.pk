@@ -1,68 +1,74 @@
 {
   "common": {
-    "new": "新品",
-    "hot": "热门",
-    "view_details": "查看详情",
-    "no_products_found": "未找到产品",
-    "try_changing_filters": "尝试更改筛选条件",
+    "new": "NEW",
+    "hot": "HOT",
+    "view_details": "View Details",
+    "no_products_found": "No products found",
+    "try_changing_filters": "Try adjusting your filters",
     "sortOptions": {
-      "featured": "精选",
-      "discountHigh": "最高折扣",
-      "priceLow": "价格：从低到高",
-      "priceHigh": "价格：从高到低",
-      "rating": "客户评分"
+      "featured": "Featured",
+      "discountHigh": "Highest Discount",
+      "priceLow": "Price: Low to High",
+      "priceHigh": "Price: High to Low",
+      "rating": "Highest Rated",
+      "newest": "Newest Arrivals"
     },
-    "welcome": "欢迎来到 Tijarah.pk",
-    "search_placeholder": "在 Tijarah.pk 搜索",
-    "sortBy": "排序方式",
-    "newBadge": "新品",
+    "welcome": "Welcome to Tijarah.pk",
+    "search_placeholder": "Search Tijarah.pk",
+    "sortBy": "Sort by",
+    "newBadge": "New",
     "showing": "显示第 {start} 至 {end} 条，共 {total} 条商品",
     "inStock": "{count} 件有货",
-    "addToCart": "加入购物车",
-    "sign_in": "登录",
-    "sign_out": "退出登录",
-    "account": "我的账户",
-    "account_label": "账户",
-    "orders": "我的订单",
-    "returns": "退货",
-    "and_orders": "和订单",
-    "cart": "购物车",
-    "cart_label": "购物车",
-    "categories": "分类",
-    "home": "首页",
-    "products": "商品",
-    "about": "关于我们",
-    "contact": "联系我们",
-    "deliver_to": "配送到",
-    "search_countries": "搜索国家",
-    "search_tijarah_pk": "搜索 Tijarah.pk",
-    "select_language": "选择语言",
-    "hello": "你好",
-    "hello_sign_in": "你好，请登录",
-    "your_profile": "个人资料",
-    "all_asian_countries": "所有亚洲国家",
+    "addToCart": "Add to Cart",
+    "sign_in": "Sign In",
+    "sign_out": "Sign Out",
+    "account": "My Account",
+    "account_label": "Account",
+    "orders": "My Orders",
+    "returns": "Returns",
+    "and_orders": "& Orders",
+    "cart": "Shopping Cart",
+    "cart_label": "Cart",
+    "categories": "Categories",
+    "home": "Home",
+    "products": "Products",
+    "about": "About Us",
+    "contact": "Contact Us",
+    "deliver_to": "Deliver to",
+    "search_countries": "Search countries",
+    "search_tijarah_pk": "Search Tijarah.pk",
+    "select_language": "Select Language",
+    "language_changed": "Language changed to {language}",
+    "hello": "Hello",
+    "hello_sign_in": "Hello, sign in",
+    "your_profile": "Your Profile",
+    "all_asian_countries": "All Asian Countries",
     "all": "全部",
-    "all_categories": "所有分类",
-    "todays_deals": "今日优惠",
-    "customer_service": "客户服务",
-    "sell": "出售",
-    "hotBadge": "热卖",
-    "off": "折扣",
-    "electronics": "电子产品",
-    "fashion": "时尚",
-    "home_kitchen": "家居与厨房",
-    "books_media": "书籍与媒体",
-    "beauty_personal_care": "美容与个人护理",
-    "sports_outdoors": "运动与户外",
-    "toys_games": "玩具与游戏",
-    "price": "{price}"
+    "all_categories": "All Categories",
+    "todays_deals": "Today's Deals",
+    "customer_service": "Customer Service",
+    "sell": "Sell",
+    "hotBadge": "Hot",
+    "off": "OFF",
+    "electronics": "Electronics",
+    "fashion": "Fashion",
+    "home_kitchen": "Home & Kitchen",
+    "books_media": "Books & Media",
+    "beauty_personal_care": "Beauty & Personal Care",
+    "sports_outdoors": "Sports & Outdoors",
+    "toys_games": "Toys & Games",
+    "price": "{price}",
+    "clear_filters": "Clear Filters"
   },
   "footer_cta": {
-    "title": "准备发现更多？",
-    "description": "加入我们的社区，获取独家优惠和更新。",
-    "get_started": "立即开始",
-    "sign_in": "登录",
-    "back_to_top": "返回顶部"
+    "title": "Ready to Discover More?",
+    "description": "Join our community and get access to exclusive deals and updates.",
+    "get_started": "Get Started",
+    "sign_in": "Sign In",
+    "back_to_top": "Back to Top",
+    "continue_shopping_prompt": "Continue shopping to find more amazing products.",
+    "my_orders": "My Orders",
+    "continue_shopping": "Continue Shopping"
   },
   "navigation": {
     "all_categories": "所有分类",
@@ -99,525 +105,737 @@
     "confirm_password": "确认密码"
   },
   "Smartwatches": {
-    "title": "智能手表",
-    "subtitle": "追踪您的健康，保持优雅连接",
-    "categories": "分类",
-    "priceRange": "价格范围",
-    "brands": "品牌",
-    "sortBy": "排序方式:",
-    "featured": "精选",
-    "priceLow": "价格: 低到高",
-    "priceHigh": "价格: 高到低",
-    "rating": "评分最高",
-    "showingResults": "显示 {start}-{end} 条，共 {total} 条商品",
-    "inStock": "有货",
-    "addToCart": "加入购物车",
-    "viewDetails": "查看详情",
-    "previous": "上一页",
-    "next": "下一页",
+    "title": "Smartwatches",
+    "subtitle": "Track your fitness and stay connected in style",
+    "categories": "Categories",
+    "priceRange": "Price Range",
+    "brands": "Brands",
+    "sortBy": "Sort by:",
+    "featured": "Featured",
+    "priceLow": "Price: Low to High",
+    "priceHigh": "Price: High to Low",
+    "rating": "Top Rated",
+    "showingResults": "Showing {start}-{end} of {total} products",
+    "inStock": "In Stock",
+    "addToCart": "Add to Cart",
+    "viewDetails": "View Details",
+    "previous": "Previous",
+    "next": "Next",
     "subcategories": {
-      "apple_watch": "苹果手表",
-      "samsung_galaxy_watch": "三星Galaxy手表",
+      "apple_watch": "Apple Watch",
+      "samsung_galaxy_watch": "Samsung Galaxy Watch",
       "fitbit": "Fitbit",
-      "garmin": "佳明",
-      "xiaomi": "小米",
-      "other": "其他"
+      "garmin": "Garmin",
+      "xiaomi": "Xiaomi",
+      "other": "Other"
     },
     "priceRanges": {
-      "0-100": "$100以下",
+      "500": "Over $500",
+      "0-100": "Under $100",
       "100-300": "$100 - $300",
-      "300-500": "$300 - $500",
-      "500": "$500以上"
+      "300-500": "$300 - $500"
     },
     "brandNames": {
-      "apple": "苹果",
-      "samsung": "三星",
+      "apple": "Apple",
+      "samsung": "Samsung",
       "fitbit": "Fitbit",
-      "garmin": "佳明",
-      "xiaomi": "小米",
-      "huawei": "华为",
+      "garmin": "Garmin",
+      "xiaomi": "Xiaomi",
+      "huawei": "Huawei",
       "fossil": "Fossil",
-      "amazfit": "华米"
+      "amazfit": "Amazfit"
+    },
+    "features": {
+      "heart_rate": "Heart Rate Monitor",
+      "gps": "Built-in GPS",
+      "waterproof": "Water Resistant",
+      "sleep_tracking": "Sleep Tracking",
+      "ecg": "ECG",
+      "sp02": "Blood Oxygen",
+      "nfc": "NFC Payments",
+      "long_battery": "Long Battery Life"
     }
   },
   "Headphones": {
-    "title": "耳机",
-    "subtitle": "发现最优质的音频体验",
-    "categories": "分类",
-    "priceRange": "价格范围",
-    "brands": "品牌",
-    "sortBy": "排序方式:",
-    "featured": "精选",
-    "priceLow": "价格: 低到高",
-    "priceHigh": "价格: 高到低",
-    "rating": "评分最高",
-    "showingResults": "显示 {start}-{end} 条，共 {total} 条商品",
-    "inStock": "有货",
-    "addToCart": "加入购物车",
-    "viewDetails": "查看详情",
-    "previous": "上一页",
-    "next": "下一页",
+    "title": "Headphones",
+    "subtitle": "Discover premium audio experiences",
+    "categories": "Categories",
+    "priceRange": "Price Range",
+    "brands": "Brands",
+    "sortBy": "Sort by:",
+    "featured": "Featured",
+    "priceLow": "Price: Low to High",
+    "priceHigh": "Price: High to Low",
+    "rating": "Top Rated",
+    "showingResults": "Showing {start}-{end} of {total} products",
+    "inStock": "In Stock",
+    "addToCart": "Add to Cart",
+    "viewDetails": "View Details",
+    "previous": "Previous",
+    "next": "Next",
     "subcategories": {
-      "wireless": "无线耳机",
-      "noise_cancelling": "降噪耳机",
-      "over_ear": "头戴式",
-      "earbuds": "耳塞",
-      "gaming": "游戏耳机"
+      "wireless": "Wireless Headphones",
+      "noise_cancelling": "Noise Cancelling",
+      "over_ear": "Over-Ear",
+      "earbuds": "Earbuds",
+      "gaming": "Gaming Headsets"
     },
     "priceRanges": {
+      "500": "$500以上",
       "0-100": "$100以下",
       "100-300": "$100 - $300",
-      "300-500": "$300 - $500",
-      "500": "$500以上"
+      "300-500": "$300 - $500"
     },
     "brandNames": {
-      "sony": "索尼",
-      "bose": "博士",
-      "sennheiser": "森海塞尔",
+      "sony": "Sony",
+      "bose": "Bose",
+      "sennheiser": "Sennheiser",
       "audio_technica": "铁三角",
       "beats": "Beats",
-      "apple": "苹果"
+      "apple": "Apple"
     }
   },
   "Cameras": {
-    "title": "相机",
-    "subtitle": "捕捉每一个珍贵瞬间",
-    "categories": "分类",
-    "priceRange": "价格范围",
-    "brands": "品牌",
-    "sortBy": "排序方式:",
-    "featured": "精选",
-    "priceLow": "价格: 低到高",
-    "priceHigh": "价格: 高到低",
-    "rating": "评分最高",
-    "showingResults": "显示 {start}-{end} 条，共 {total} 条商品",
-    "inStock": "有货",
-    "addToCart": "加入购物车",
-    "viewDetails": "查看详情",
-    "previous": "上一页",
-    "next": "下一页",
+    "title": "Cameras",
+    "subtitle": "Capture every precious moment",
+    "categories": "Categories",
+    "priceRange": "Price Range",
+    "brands": "Brands",
+    "sortBy": "Sort by:",
+    "featured": "Featured",
+    "priceLow": "Price: Low to High",
+    "priceHigh": "Price: High to Low",
+    "rating": "Top Rated",
+    "showingResults": "Showing {start}-{end} of {total} products",
+    "inStock": "In Stock",
+    "addToCart": "Add to Cart",
+    "viewDetails": "View Details",
+    "previous": "Previous",
+    "next": "Next",
     "subcategories": {
-      "dslr": "数码单反",
-      "mirrorless": "无反相机",
-      "point_shoot": "卡片机",
-      "action": "运动相机"
+      "dslr": "DSLR Cameras",
+      "mirrorless": "Mirrorless Cameras",
+      "point_shoot": "Point & Shoot",
+      "action": "Action Cameras"
     },
     "priceRanges": {
+      "2000": "$2000以上",
       "0-500": "$500以下",
       "500-1000": "$500 - $1000",
-      "1000-2000": "$1000 - $2000",
-      "2000": "$2000以上"
+      "1000-2000": "$1000 - $2000"
     },
     "brandNames": {
-      "sony": "索尼",
-      "canon": "佳能",
-      "nikon": "尼康",
-      "fujifilm": "富士",
+      "sony": "Sony",
+      "canon": "Canon",
+      "nikon": "Nikon",
+      "fujifilm": "Fujifilm",
       "gopro": "GoPro"
     }
   },
   "Tablets": {
-    "title": "平板电脑",
-    "subtitle": "适用于工作和娱乐的优质平板电脑",
-    "categories": "分类",
-    "priceRange": "价格范围",
-    "brands": "品牌",
-    "sortBy": "排序方式：",
-    "featured": "精选",
-    "priceLow": "价格：从低到高",
-    "priceHigh": "价格：从高到低",
-    "rating": "最高评分",
-    "showingResults": "显示 {start}-{end} 共 {total} 个产品",
-    "inStock": "有货",
-    "addToCart": "加入购物车",
-    "viewDetails": "查看详情",
-    "previous": "上一页",
-    "next": "下一页",
+    "title": "Tablets",
+    "subtitle": "Premium tablets for work and play",
+    "categories": "Categories",
+    "priceRange": "Price Range",
+    "brands": "Brands",
+    "sortBy": "Sort by:",
+    "featured": "Featured",
+    "priceLow": "Price: Low to High",
+    "priceHigh": "Price: High to Low",
+    "rating": "Top Rated",
+    "showingResults": "Showing {start}-{end} of {total} products",
+    "inStock": "In Stock",
+    "addToCart": "Add to Cart",
+    "viewDetails": "View Details",
+    "previous": "Previous",
+    "next": "Next",
     "subcategories": {
-      "ipads": "iPad",
-      "android": "安卓平板",
-      "windows": "Windows 平板",
-      "kids": "儿童平板"
+      "ipads": "iPads",
+      "android": "Android Tablets",
+      "windows": "Windows Tablets",
+      "kids": "Kids Tablets"
     },
     "priceRanges": {
-      "0-200": "200美元以下",
-      "200-500": "200 - 500美元",
-      "500-1000": "500 - 1000美元",
-      "1000": "1000美元以上"
+      "1000": "Over $1000",
+      "0-200": "Under $200",
+      "200-500": "$200 - $500",
+      "500-1000": "$500 - $1000"
     },
     "brandNames": {
-      "apple": "苹果",
-      "samsung": "三星",
-      "microsoft": "微软",
-      "lenovo": "联想"
+      "apple": "Apple",
+      "samsung": "Samsung",
+      "microsoft": "Microsoft",
+      "lenovo": "Lenovo"
+    },
+    "pagination": {
+      "previous": "Previous",
+      "next": "Next"
     }
   },
   "Smartphones": {
-    "title": "智能手机",
-    "subtitle": "以无与伦比的价格发现最新的智能手机",
-    "categories": "分类",
-    "priceRange": "价格范围",
-    "brands": "品牌",
-    "sortBy": "排序方式:",
-    "featured": "精选",
-    "priceLow": "价格：从低到高",
-    "priceHigh": "价格：从高到低",
-    "rating": "评分",
-    "showingResults": "显示 {start}-{end} 共 {total} 个产品",
-    "inStock": "有货",
-    "addToCart": "加入购物车",
-    "viewDetails": "查看详情",
-    "previous": "上一页",
-    "next": "下一页",
+    "title": "Smartphones",
+    "subtitle": "Discover the latest phones at unbeatable prices",
+    "categories": "Categories",
+    "priceRange": "Price Range",
+    "brands": "Brands",
+    "sortBy": "Sort by:",
+    "featured": "Featured",
+    "priceLow": "Price: Low to High",
+    "priceHigh": "Price: High to Low",
+    "rating": "Top Rated",
+    "showingResults": "Showing {start}-{end} of {total} products",
+    "inStock": "In Stock",
+    "addToCart": "Add to Cart",
+    "viewDetails": "View Details",
+    "previous": "Previous",
+    "next": "Next",
     "subcategories": {
-      "flagship": "旗舰手机",
-      "midRange": "中端手机",
-      "budget": "预算手机",
-      "foldable": "折叠手机",
-      "gaming": "游戏手机"
+      "flagship": "Flagship Phones",
+      "midRange": "Mid-Range Phones",
+      "budget": "Budget Phones",
+      "foldable": "Foldable Phones",
+      "gaming": "Gaming Phones"
     },
     "priceRanges": {
-      "under200": "200美元以下",
-      "200to500": "200美元 - 500美元",
-      "500to1000": "500美元 - 1,000美元",
-      "1000to1500": "1,000美元 - 1,500美元",
-      "1500to2000": "1,500美元 - 2,000美元",
-      "over2000": "2,000美元以上"
+      "under200": "Under $200",
+      "200to500": "$200 - $500",
+      "500to1000": "$500 - $1,000",
+      "1000to1500": "$1,000 - $1,500",
+      "1500to2000": "$1,500 - $2,000",
+      "over2000": "Over $2,000"
     },
     "brandNames": {
-      "apple": "苹果",
-      "samsung": "三星",
-      "google": "谷歌",
-      "oneplus": "一加",
-      "xiaomi": "小米",
+      "apple": "Apple",
+      "samsung": "Samsung",
+      "google": "Google",
+      "oneplus": "OnePlus",
+      "xiaomi": "Xiaomi",
       "nothing": "Nothing"
     }
   },
   "Laptops": {
-    "title": "笔记本电脑",
-    "subtitle": "发现适合工作、游戏和创意的完美笔记本电脑",
-    "categories": "分类",
-    "priceRange": "价格范围",
-    "brands": "品牌",
-    "sortBy": "排序方式：",
-    "featured": "精选",
-    "priceLow": "价格：从低到高",
-    "priceHigh": "价格：从高到低",
-    "rating": "最高评分",
-    "showingResults": "显示 {start}-{end} 共 {total} 个产品",
-    "inStock": "有货",
-    "addToCart": "加入购物车",
+    "title": "Laptops",
+    "subtitle": "Discover the perfect laptop for work, gaming, and creativity",
+    "categories": "Categories",
+    "priceRange": "Price Range",
+    "brands": "Brands",
+    "sortBy": "Sort by:",
+    "featured": "Featured",
+    "priceLow": "Price: Low to High",
+    "priceHigh": "Price: High to Low",
+    "rating": "Highest Rated",
+    "showingResults": "Showing {start}-{end} of {total} products",
+    "inStock": "In Stock",
+    "addToCart": "Add to cart",
     "viewDetails": "查看详情",
-    "previous": "上一页",
-    "next": "下一页",
+    "previous": "Previous",
+    "next": "Next",
     "subcategories": {
-      "ultrabooks": "超极本",
-      "gaming": "游戏笔记本",
-      "business": "商务笔记本",
-      "convertibles": "二合一笔记本",
-      "budget": "经济型笔记本"
+      "ultrabooks": "Ultrabooks",
+      "gaming": "Gaming Laptops",
+      "business": "Business Laptops",
+      "convertibles": "2-in-1 Convertibles",
+      "budget": "Budget Laptops"
     },
     "priceRanges": {
-      "0-50000": "低于 50,000 巴基斯坦卢比",
-      "50000-100000": "50,000 - 100,000 巴基斯坦卢比",
-      "100000-200000": "100,000 - 200,000 巴基斯坦卢比",
-      "200000-300000": "200,000 - 300,000 巴基斯坦卢比",
-      "300000-400000": "300,000 - 400,000 巴基斯坦卢比",
-      "400000": "超过 400,000 巴基斯坦卢比"
+      "400000": "Over PKR 400,000",
+      "0-50000": "Under PKR 50,000",
+      "50000-100000": "PKR 50,000 - 100,000",
+      "100000-200000": "PKR 100,000 - 200,000",
+      "200000-300000": "PKR 200,000 - 300,000",
+      "300000-400000": "PKR 300,000 - 400,000"
     },
     "brandNames": {
-      "apple": "苹果",
-      "dell": "戴尔",
-      "hp": "惠普",
-      "lenovo": "联想",
-      "asus": "华硕",
-      "microsoft": "微软"
+      "apple": "Apple",
+      "dell": "Dell",
+      "hp": "HP",
+      "lenovo": "Lenovo",
+      "asus": "ASUS",
+      "microsoft": "Microsoft"
+    },
+    "pagination": {
+      "previous": "Previous",
+      "next": "Next"
     }
   },
   "Electronics": {
-    "title": "电子产品",
-    "subtitle": "发现最新的数码产品，价格无与伦比",
-    "allElectronics": "所有电子产品",
-    "inStock": "有货",
-    "addToCart": "加入购物车",
-    "sortBy": "排序方式",
-    "showingResults": "显示第 {start} 到 {end} 条，共 {total} 条结果",
+    "title": "Electronics",
+    "subtitle": "Discover the latest gadgets and electronics at unbeatable prices",
+    "allElectronics": "All Electronics",
+    "inStock": "In Stock",
+    "addToCart": "Add to Cart",
+    "sortBy": "Sort by",
+    "showingResults": "Showing {start} to {end} of {total} results",
     "noProducts": {
-      "title": "未找到产品",
-      "description": "尝试调整搜索或筛选条件以找到您需要的内容。"
+      "title": "No products found",
+      "description": "Try adjusting your search or filter to find what you're looking for."
+    },
+    "filters": {
+      "categories": "Categories",
+      "priceRange": "Price Range",
+      "brands": "Brands"
+    },
+    "priceRanges": {
+      "under100": "Under $100",
+      "100to250": "$100 - $250",
+      "250to500": "$250 - $500",
+      "500to1000": "$500 - $1000",
+      "over1000": "Over $1000"
+    },
+    "sortOptions": {
+      "featured": "Featured",
+      "priceLow": "Price: Low to High",
+      "priceHigh": "Price: High to Low",
+      "rating": "Customer Rating"
+    },
+    "subcategories": {
+      "smartphones": "Smartphones",
+      "laptops": "Laptops",
+      "tablets": "Tablets",
+      "headphones": "Headphones",
+      "smartwatches": "Smartwatches",
+      "cameras": "Cameras"
     }
   },
   "home": {
-    "browse_our_collection": "浏览我们的精选系列",
-    "featured_products": "特色产品",
-    "view_all": "查看全部",
+    "browse_our_collection": "Browse our extensive collection of high-quality products across various categories",
+    "featured_products": "Featured Products",
+    "view_all": "View All",
     "add_to_cart": "添加到购物车",
     "price": "{price}",
     "currency": "PKR",
-    "best_sellers": "最畅销",
-    "new_arrivals": "新品",
-    "on_sale": "特价",
-    "trending_now": "热门趋势",
-    "trending_now_description": "看看现在最受欢迎的商品",
+    "best_sellers": "Best Sellers",
+    "new_arrivals": "New Arrivals",
+    "on_sale": "On Sale",
+    "trending_now": "Trending Now",
+    "trending_now_description": "Check out what's popular right now",
     "special_offers": "特别优惠",
     "carousel": {
       "slide1": {
-        "title": "欢迎来到 Tijarah.pk",
-        "description": "发现数千种产品的惊人优惠。立即购物，享受最佳价格！",
-        "buttonText": "开始购物"
+        "title": "Welcome to Tijarah.pk",
+        "description": "Discover amazing deals on thousands of products. Shop now for the best prices!",
+        "buttonText": "Start Shopping"
       },
       "slide2": {
-        "title": "新品上市",
-        "description": "探索我们最新的产品系列",
-        "buttonText": "查看系列"
+        "title": "New Arrivals",
+        "description": "Discover our latest collection of products",
+        "buttonText": "View Collection"
       },
       "slide3": {
-        "title": "优惠商品",
-        "description": "不要错过我们价格实惠的产品！",
-        "buttonText": "查看优惠"
+        "title": "Good Deals",
+        "description": "Don't miss out on our products at unbeatable prices!",
+        "buttonText": "View Deals"
       }
     },
-    "electronics": "电子产品",
-    "smartphones": "智能手机",
-    "laptops": "笔记本电脑",
-    "tablets": "平板电脑",
-    "headphones": "耳机",
-    "smartwatches": "智能手表",
-    "accessories": "配件",
-    "view_all_electronics": "查看所有电子产品",
-    "fashion": "时尚",
-    "mens_fashion": "男装",
-    "womens_fashion": "女装",
-    "kids_fashion": "童装",
-    "footwear": "鞋类",
-    "fashion_accessories": "时尚配饰",
-    "view_all_fashion": "查看所有时尚",
-    "beauty_personal_care": "美容个人护理",
-    "skincare": "护肤",
-    "makeup": "彩妆",
-    "fragrances": "香水",
-    "hair_care": "发护",
-    "view_all_beauty": "查看所有美容",
-    "fashion_collection": "时尚系列",
-    "latest_fashion_trends": "最新时尚趋势",
-    "mens_shirt": "男士衬衫",
-    "womens_dress": "女士连衣裙",
-    "running_shoes": "跑鞋",
-    "designer_handbag": "设计师手袋",
-    "sports_outdoors": "运动户外",
-    "fitness_equipment": "健身器材",
-    "camping_gear": "露营装备",
-    "team_sports": "团队运动",
-    "outdoor_recreation": "户外休闲",
-    "view_all_sports": "查看所有运动",
-    "toys_games": "玩具游戏",
-    "educational_toys": "教育玩具",
-    "board_games": "桌游",
-    "puzzles": "益智玩具",
-    "view_all_toys": "查看所有玩具",
-    "home_garden": "家居园艺",
-    "view_all_home": "查看所有家居",
-    "garden": "园艺",
-    "furniture": "家具",
-    "decor": "装饰",
-    "home_decor": "家居装饰",
-    "kitchen": "厨房",
-    "kitchen_dining": "厨房餐饮",
-    "smartphone_pro": "专业版智能手机",
-    "wireless_earbuds": "无线耳机",
-    "smart_watch": "智能手表",
-    "laptop_ultra": "超极本"
+    "electronics": "Electronics",
+    "smartphones": "Smartphones",
+    "laptops": "Laptops",
+    "tablets": "Tablets",
+    "headphones": "Headphones",
+    "smartwatches": "Smartwatches",
+    "accessories": "Accessories",
+    "view_all_electronics": "View All Electronics",
+    "fashion": "Fashion",
+    "mens_fashion": "Men's Fashion",
+    "womens_fashion": "Women's Fashion",
+    "kids_fashion": "Kids' Fashion",
+    "footwear": "Footwear",
+    "fashion_accessories": "Fashion Accessories",
+    "view_all_fashion": "View All Fashion",
+    "beauty_personal_care": "Beauty & Personal Care",
+    "skincare": "Skincare",
+    "makeup": "Makeup",
+    "fragrances": "Fragrances",
+    "hair_care": "Hair Care",
+    "view_all_beauty": "View All Beauty & Personal Care",
+    "fashion_collection": "Fashion Collection",
+    "latest_fashion_trends": "Latest Fashion Trends",
+    "mens_shirt": "Men's Shirt",
+    "womens_dress": "Women's Dress",
+    "running_shoes": "Running Shoes",
+    "designer_handbag": "Designer Handbag",
+    "sports_outdoors": "Sports & Outdoors",
+    "fitness_equipment": "Fitness Equipment",
+    "camping_gear": "Camping Gear",
+    "team_sports": "Team Sports",
+    "outdoor_recreation": "Outdoor Recreation",
+    "view_all_sports": "View All Sports & Outdoors",
+    "toys_games": "Toys & Games",
+    "educational_toys": "Educational Toys",
+    "board_games": "Board Games",
+    "puzzles": "Puzzles",
+    "view_all_toys": "View All Toys & Games",
+    "home_garden": "Home & Garden",
+    "view_all_home": "View All Home & Garden",
+    "garden": "Garden",
+    "furniture": "Furniture",
+    "decor": "Home Decor",
+    "home_decor": "Home Decor",
+    "kitchen": "Kitchen",
+    "kitchen_dining": "Kitchen & Dining",
+    "smartphone_pro": "Smartphone Pro",
+    "wireless_earbuds": "Wireless Earbuds",
+    "smart_watch": "Smart Watch",
+    "laptop_ultra": "Ultra Laptop",
+    "title": "Welcome to Tijarah.pk - Your One-Stop Shop",
+    "subtitle": "Discover amazing deals on thousands of products",
+    "hot_deals": "Hot Deals",
+    "browse_categories": "Browse Categories",
+    "limited_offer": "Limited Time Offer",
+    "free_shipping": "Free Shipping on Orders Over $50",
+    "secure_payment": "Secure Payment",
+    "easy_returns": "Easy Returns",
+    "customer_support": "24/7 Customer Support",
+    "bed_bath": "Bed & Bath",
+    "garden_outdoor": "Garden & Outdoor",
+    "lighting": "Lighting",
+    "view_all_home_garden": "View All Home & Garden",
+    "haircare": "Hair Care",
+    "personal_care": "Personal Care",
+    "athletic_clothing": "Athletic Clothing",
+    "camping_hiking": "Camping & Hiking",
+    "action_figures": "Action Figures",
+    "dolls": "Dolls & Accessories"
   },
   "footer": {
-    "about_title": "关于 Tijarah.pk",
-    "about_description": "一站式购物平台。我们提供优质商品，并在亚洲范围内快速配送。",
-    "quick_links_title": "快速链接",
-    "home": "首页",
-    "shop": "购物",
-    "categories": "分类",
-    "deals": "优惠",
-    "contact_us": "联系我们",
-    "customer_service_title": "客户服务",
-    "my_account": "我的账户",
-    "order_tracking": "订单追踪",
-    "wishlist": "心愿单",
-    "customer_service": "客户服务",
-    "returns_exchange": "退换货",
-    "contact_title": "联系我们",
-    "address": "123 商业街，城市，国家",
-    "phone": "+92 123 4567890",
+    "about_title": "About Tijarah.pk",
+    "about_description": "Your one-stop shop for all your needs. We provide quality products with fast delivery across Asia.",
+    "quick_links_title": "Quick Links",
+    "home": "Home",
+    "shop": "Shop",
+    "categories": "Categories",
+    "deals": "Deals",
+    "contact_us": "Contact Us",
+    "customer_service_title": "Customer Service",
+    "my_account": "My Account",
+    "order_tracking": "Order Tracking",
+    "wishlist": "Wishlist",
+    "customer_service": "Customer Service",
+    "returns_exchange": "Returns & Exchange",
+    "contact_title": "Contact Us",
+    "address": "123 Main Street, City, Country",
+    "phone": "+1 234 567 8900",
     "email": "info@tijarah.pk",
-    "about_us": "关于我们",
-    "privacy_policy": "隐私政策",
+    "about_us": "About Us",
+    "privacy_policy": "Privacy Policy",
     "terms_conditions": "条款和条件",
-    "return_policy": "退货政策",
-    "shipping_policy": "配送政策",
-    "newsletter": "订阅我们的新闻通讯",
-    "newsletter_placeholder": "输入您的电子邮件",
-    "subscribe": "订阅",
+    "return_policy": "Return Policy",
+    "shipping_policy": "Shipping Policy",
+    "newsletter": "Subscribe to our newsletter",
+    "newsletter_placeholder": "Enter your email",
+    "subscribe": "Subscribe",
     "follow_us": "关注我们",
-    "copyright": "© {year} Tijarah.pk. 版权所有。"
+    "copyright": "  {year} Tijarah.pk. All rights reserved.",
+    "quick_links": "Quick Links",
+    "terms_of_service": "Terms of Service"
   },
   "ProductDetail": {
     "notFound": {
-      "title": "未找到商品",
-      "description": "您查找的商品不存在或已被移除。",
-      "continueShopping": "继续购物"
+      "title": "Product Not Found",
+      "description": "The product you are looking for might have been moved or deleted.",
+      "continueShopping": "Continue Shopping"
     },
-    "backButton": "返回商品列表",
+    "backButton": "Back to Products",
     "rating": {
-      "withRating": "{rating}分（{count}条评价）",
-      "noRating": "暂无评分（{count}条评价）"
+      "withRating": "{rating} out of 5 stars ({count} reviews)",
+      "noRating": "No ratings yet"
     },
-    "savePercentage": "立省{percent}%",
-    "keyFeatures": "主要特点",
-    "quantity": "数量",
+    "savePercentage": "Save {percent}%",
+    "keyFeatures": "Key Features",
+    "quantity": "Quantity",
     "stock": {
       "inStock": "有货（库存{count}件）",
-      "outOfStock": "缺货"
+      "outOfStock": "缺货",
+      "readyToShip": "Ready To Ship",
+      "soldOut": "Sold Out"
     },
     "buttons": {
-      "addToCart": "加入购物车",
-      "added": "已添加！",
-      "outOfStock": "缺货"
+      "addToCart": "Add to Cart",
+      "added": "Added to Cart",
+      "outOfStock": "Out of Stock"
     },
     "shipping": {
-      "inStock": "有货 - 通常24小时内发货",
-      "outOfStock": "缺货",
-      "free": "免费配送",
-      "onAllOrders": "所有订单"
+      "inStock": "In Stock & Ready to Ship",
+      "outOfStock": "Currently Unavailable",
+      "free": "Free Shipping",
+      "onAllOrders": "on all orders over $50"
     },
     "returnPolicy": {
-      "days": "{days}天退货政策",
-      "policy": "保证退款"
+      "days": "{days}-Day Returns",
+      "policy": "Full refund or exchange"
+    },
+    "add_to_cart": "Add to Cart",
+    "add_to_wishlist": "Add to Wishlist",
+    "description": "Description",
+    "features": "Features",
+    "specifications": "Specifications",
+    "reviews": "Reviews",
+    "related_products": "Related Products",
+    "in_stock": "In Stock",
+    "out_of_stock": "Out of Stock",
+    "categories": "Categories",
+    "tags": "Tags",
+    "share": "Share",
+    "sold": "sold",
+    "available": "available",
+    "view_all_images": "View all images",
+    "you_may_also_like": "You may also like",
+    "navigation": {
+      "home": "Home",
+      "products": "Products"
+    },
+    "trust": {
+      "swiftDelivery": "Swift Delivery",
+      "freeOver": "Free over $50",
+      "secureWarranty": "Secure Warranty",
+      "genuine": "100% Genuine"
+    },
+    "sections": {
+      "coreFeatures": "Core Features",
+      "technicalSpecifications": "Technical Specifications"
+    },
+    "toast": {
+      "addedToCart": "{name} added to cart!",
+      "failedToAdd": "Failed to add item to cart"
     }
   },
   "NewArrivals": {
-    "title": "新品上市",
-    "subtitle": "发现最新的产品和创新",
-    "viewDetails": "查看详情",
+    "title": "New Arrivals",
+    "subtitle": "Explore our latest products and innovations just for you",
+    "viewDetails": "View Details",
     "noProducts": {
-      "title": "未找到商品",
-      "description": "请尝试调整搜索或筛选条件。"
+      "title": "No new arrivals found",
+      "description": "Try adjusting your search or filters to find what you're looking for.",
+      "clearFilters": "Clear all filters"
+    },
+    "viewDeal": "View Deal",
+    "filters": {
+      "categories": "Categories",
+      "priceRange": "Price Range",
+      "clearPrice": "Clear price filter",
+      "brands": "Brands",
+      "clearBrands": "Clear brand filters"
+    },
+    "sort": {
+      "featured": "Featured",
+      "discountHigh": "Discount: High to Low",
+      "priceLow": "Price: Low to High",
+      "priceHigh": "Price: High to Low",
+      "rating": "Customer Rating",
+      "newest": "Newest"
+    },
+    "badges": {
+      "new": "New",
+      "hot": "Hot"
+    },
+    "pagination": {
+      "showing": "Showing {start} to {end} of {total} results",
+      "previous": "Previous",
+      "next": "Next"
     }
   },
   "SpecialOffers": {
-    "title": "特别优惠",
-    "subtitle": "限时特惠"
+    "title": "Special Offers & Deals",
+    "subtitle": "Limited time offers on your favorite products. Don't miss out on these amazing deals!",
+    "filters": {
+      "categories": "Categories",
+      "priceRange": "Price Range",
+      "clearPrice": "Clear price filter",
+      "brands": "Brands",
+      "clearBrands": "Clear brands"
+    },
+    "sort": {
+      "featured": "Featured",
+      "discountHigh": "Discount: High to Low",
+      "priceLow": "Price: Low to High",
+      "priceHigh": "Price: High to Low"
+    },
+    "badges": {
+      "new": "New",
+      "hot": "Hot"
+    },
+    "viewDeal": "View Deal",
+    "noProducts": {
+      "title": "No products found",
+      "description": "Try adjusting your search or filters.",
+      "clearFilters": "Clear all filters"
+    },
+    "pagination": {
+      "showing": "Showing {start} to {end} of {total} results",
+      "previous": "Previous",
+      "next": "Next"
+    }
   },
   "deals": {
-    "title": "今日闪购优惠",
-    "subtitle": "限时优惠",
-    "description": "在您喜爱的产品消失之前，抢购惊人的优惠！",
-    "load_more": "加载更多优惠"
+    "title": "Today's Flash Deals",
+    "subtitle": "LIMITED TIME OFFERS",
+    "description": "Grab amazing deals on your favorite products before they're gone!",
+    "load_more": "Load More Deals",
+    "title_sub": "Don't miss out on these amazing deals. Limited quantities available!",
+    "deals_count": "{count} Hot Deals Available",
+    "filters": "Filters",
+    "filter_by_category": "Filter by Category",
+    "filter_by_discount": "Filter by Discount",
+    "all_discounts": "All Discounts",
+    "or_more": "or more",
+    "no_deals_found": "No deals found",
+    "try_changing_filters": "Try changing your filters",
+    "hours": "Hours",
+    "minutes": "Minutes",
+    "seconds": "Seconds",
+    "sold": "sold",
+    "add_to_cart": "Add to Cart",
+    "categories": {
+      "all": "All Categories",
+      "electronics": "Electronics",
+      "fashion": "Fashion",
+      "home": "Home & Garden",
+      "beauty": "Beauty"
+    },
+    "sort": {
+      "popular": "Most Popular",
+      "newest": "Newest Deals",
+      "discount": "Highest Discount",
+      "price_low": "Price: Low to High",
+      "price_high": "Price: High to Low"
+    },
+    "filter_options": {
+      "all_categories": "All Categories",
+      "price_range": "Price Range",
+      "clear_filters": "Clear All Filters",
+      "discount": "Brands",
+      "showing": "Showing {start} to {end} of {total} results"
+    },
+    "sort_options": {
+      "ending_soon": "Ending Soon",
+      "discount": "Biggest Discount",
+      "price_low": "Price: Low to High",
+      "price_high": "Price: High to Low"
+    },
+    "newsletter": {
+      "title": "Get Deals in Your Inbox",
+      "description": "Subscribe to our newsletter and never miss a hot deal again.",
+      "placeholder": "Enter your email address",
+      "button": "Subscribe Now"
+    },
+    "off": "OFF",
+    "view_details": "View Deal",
+    "save": "Save",
+    "free_shipping": "Free Shipping",
+    "limited_stock": "Limited Stock"
   },
   "CustomerService": {
-    "title": "客户服务",
-    "subtitle": "我们如何为您提供帮助？",
-    "faqTitle": "常见问题",
-    "needMoreHelp": "需要更多帮助？",
-    "contactUsPrompt": "如果您找不到所需的答案，请随时联系我们的客户服务团队。",
-    "contactUsButton": "联系我们",
+    "title": "Customer Service",
+    "subtitle": "We're here to help you with any questions or concerns",
+    "faqTitle": "Frequently Asked Questions",
+    "needMoreHelp": "Need More Help?",
+    "contactUsPrompt": "If you can't find the answer you're looking for, please don't hesitate to contact our customer service team.",
+    "contactUsButton": "Contact Us",
     "tabs": {
-      "faq": "常见问题",
-      "contact": "联系我们",
-      "track": "追踪订单"
+      "faq": "FAQ",
+      "contact": "Contact Us",
+      "track": "Track Order"
     },
     "faq1": {
-      "question": "如何下订单？",
-      "answer": "只需浏览我们的产品，将商品添加到购物车，然后前往结账。您需要提供送货和付款信息以完成订单。"
+      "question": "How do I place an order?",
+      "answer": "Simply browse our products, add items to your cart, and proceed to checkout. You'll need to provide your shipping information and payment details to complete the order."
     },
     "faq2": {
-      "question": "你们接受哪些付款方式？",
-      "answer": "我们接受信用卡/借记卡、银行转账，以及巴基斯坦境内订单的货到付款。"
+      "question": "What payment methods do you accept?",
+      "answer": "We accept credit/debit cards, bank transfers, and cash on delivery for orders within Pakistan."
     },
     "faq3": {
-      "question": "配送需要多长时间？",
-      "answer": "标准配送需要3-5个工作日，而主要城市内的快速配送需要1-2个工作日。"
+      "question": "How long does shipping take?",
+      "answer": "Standard shipping takes 3-5 business days, while express shipping takes 1-2 business days within major cities."
     },
     "faq4": {
-      "question": "你们的退货政策是什么？",
-      "answer": "我们为大多数商品提供30天退货政策。商品必须未使用且在原包装中。某些商品可能为最终销售。"
+      "question": "What is your return policy?",
+      "answer": "We offer a 30-day return policy for most items. Products must be unused and in their original packaging. Some items may be final sale."
     },
     "faq5": {
-      "question": "我如何追踪我的订单？",
-      "answer": "您可以使用订单确认邮件中提供的追踪ID来追踪您的订单。只需在上方的订单追踪部分输入追踪ID即可。"
+      "question": "How do I track my order?",
+      "answer": "You can track your order using the tracking ID provided in your order confirmation email. Simply enter the tracking ID in the Track Order section above."
     },
-    "contactUs": "联系我们",
+    "contactUs": "Contact Us",
     "form": {
-      "name": "全名",
-      "email": "电子邮件地址",
-      "orderId": "订单ID",
-      "optional": "可选",
-      "subject": "主题",
-      "selectSubject": "选择主题",
-      "orderIssue": "订单问题",
-      "shipping": "配送",
-      "return": "退货",
-      "payment": "付款",
-      "other": "其他",
-      "message": "消息",
-      "submit": "发送消息",
-      "success": "您的消息已成功发送！"
+      "name": "Name",
+      "email": "Email",
+      "orderId": "Order ID",
+      "optional": "Optional",
+      "subject": "Subject",
+      "selectSubject": "Select a subject",
+      "orderIssue": "Order Issue",
+      "shipping": "Shipping",
+      "return": "Return",
+      "payment": "Payment",
+      "other": "Other",
+      "message": "Message",
+      "submit": "Send Message",
+      "success": "Message sent successfully! We'll get back to you soon.",
+      "validation": {
+        "required": "This field is required",
+        "invalidEmail": "Please enter a valid email address"
+      },
+      "error": "Failed to send message. Please try again."
     },
     "helpfulLinks": {
-      "title": "有用链接",
+      "title": "Helpful Links",
       "payment": {
-        "title": "付款选项",
-        "description": "了解我们的安全付款方式"
+        "title": "Payment Options",
+        "description": "Learn about our secure payment methods"
       },
       "returns": {
-        "title": "退货和退款",
-        "description": "我们简单的退货政策"
+        "title": "Returns and Refunds",
+        "description": "Our simple return policy"
       },
       "shipping": {
-        "title": "配送信息",
-        "description": "配送时间和选项"
+        "title": "Shipping Information",
+        "description": "Shipping times and options"
       },
       "faq": {
-        "title": "常见问题",
-        "description": "查找常见问题的答案"
+        "title": "Frequently Asked Questions",
+        "description": "Find answers to common questions"
       }
     },
     "contactInfo": {
-      "title": "联系信息",
-      "email": "电子邮件",
-      "phone": "电话",
-      "hours": "营业时间",
-      "hoursValue": "周一 - 周五: 09:00 - 18:00 (PST)",
-      "address": "地址",
-      "addressLine1": "123 Tijarah 街",
-      "addressLine2": "卡拉奇, 75500, 巴基斯坦"
+      "title": "Contact Information",
+      "email": "Email",
+      "phone": "Phone",
+      "hours": "Business Hours",
+      "hoursValue": "Monday - Friday: 09:00 - 18:00 (PST)",
+      "address": "Address",
+      "addressLine1": "123 Tijarah Street",
+      "addressLine2": "Karachi, 75500, Pakistan"
     },
     "trackOrder": {
-      "title": "追踪您的订单",
-      "label": "输入您的追踪ID",
-      "button": "追踪",
+      "title": "Track Your Order",
+      "label": "Enter your tracking ID",
+      "button": "Track",
       "validation": {
-        "required": "请输入追踪ID"
+        "required": "Please enter a tracking ID"
       },
-      "error": "追踪订单失败。请检查您的追踪ID并重试。",
-      "description": "输入您的追踪ID以检查订单状态",
-      "placeholder": "输入追踪ID",
-      "viewAllOrders": "查看所有订单",
-      "viewAllPrompt": "正在查找所有订单？",
-      "viewDetails": "查看订单详情",
-      "tracking": "追踪中...",
+      "error": "Failed to track order. Please check your tracking ID and try again.",
+      "description": "Enter your tracking ID to check the status of your order",
+      "placeholder": "Enter tracking ID",
+      "viewAllOrders": "View all orders",
+      "viewAllPrompt": "Looking for all your orders?",
+      "viewDetails": "View order details",
+      "tracking": "Tracking...",
       "status": {
-        "ordered": "已下单",
-        "processing": "处理中",
-        "shipped": "已发货",
-        "delivered": "已送达",
-        "cancelled": "已取消"
+        "ordered": "Order Placed",
+        "processing": "Processing",
+        "shipped": "Shipped",
+        "delivered": "Delivered",
+        "cancelled": "Cancelled"
       },
       "details": {
-        "trackingNumber": "追踪号码",
-        "carrier": "承运商",
-        "estimatedDelivery": "预计送达",
-        "orderHistory": "订单历史"
+        "trackingNumber": "Tracking Number",
+        "carrier": "Carrier",
+        "estimatedDelivery": "Estimated Delivery",
+        "orderHistory": "Order History"
       },
-      "notFound": "未找到订单。请检查您的追踪ID并重试。",
-      "helpText": "您可以在订单确认邮件或账户订单中找到您的追踪ID。"
+      "notFound": "Order not found. Please check your tracking ID and try again.",
+      "helpText": "You can find your tracking ID in your order confirmation email or in your account orders."
     }
   },
   "checkout": {
@@ -631,5 +849,668 @@
     "tax": "税",
     "total": "总计",
     "proceed_to_checkout": "继续结账"
+  },
+  "products": {
+    "description": "Description",
+    "specifications": "Specifications",
+    "reviews": "Reviews",
+    "related_products": "Related Products",
+    "in_stock": "In Stock",
+    "out_of_stock": "Out of Stock",
+    "quantity": "Quantity",
+    "add_to_wishlist": "Add to Wishlist",
+    "share": "Share",
+    "featured": "Featured",
+    "priceLow": "Price: Low to High",
+    "priceHigh": "Price: High to Low",
+    "rating": "Rating",
+    "showingResults": "Showing {start}-{end} of {total} products",
+    "inStock": "In Stock",
+    "addToCart": "Add to cart",
+    "foldable": "Foldable Phones",
+    "gaming": "Gaming Phones",
+    "offer-1": {
+      "name": "iPhone 15 Pro",
+      "description": "Latest iPhone with advanced camera system"
+    },
+    "offer-2": {
+      "name": "Samsung Galaxy S24 Ultra",
+      "description": "200MP camera with advanced features"
+    },
+    "offer-3": {
+      "name": "MacBook Pro 16 inch",
+      "description": "Professional laptop with M3 Pro"
+    },
+    "offer-4": {
+      "name": "Sony WH-1000XM5",
+      "description": "Premium noise cancelling headphones"
+    },
+    "offer-5": {
+      "name": "Samsung 65\" 4K QLED Smart TV",
+      "description": "Immersive 4K viewing experience"
+    },
+    "offer-6": {
+      "name": "Nike Air Max 270",
+      "description": "Comfortable running shoes"
+    },
+    "offer-7": {
+      "name": "Dyson V15 Detect",
+      "description": "Powerful cordless vacuum cleaner"
+    },
+    "offer-8": {
+      "name": "Canon EOS R5",
+      "description": "Professional mirrorless camera"
+    },
+    "smartphone-pro": {
+      "name": "Smartphone Pro",
+      "description": "Advanced smartphone with professional camera"
+    },
+    "wireless-earbuds": {
+      "name": "Wireless Earbuds",
+      "description": "High-quality sound with long battery life"
+    },
+    "smart-watch": {
+      "name": "Smart Watch",
+      "description": "Monitor your health and stay connected"
+    },
+    "laptop-ultra": {
+      "name": "Ultra Laptop",
+      "description": "Powerful performance for power users"
+    },
+    "mens-shirt": {
+      "name": "Men's Shirt",
+      "description": "Comfortable and stylish shirt for any occasion"
+    },
+    "womens-dress": {
+      "name": "Women's Dress",
+      "description": "Elegant dress for a premium look"
+    },
+    "running-shoes": {
+      "name": "Running Shoes",
+      "description": "High-performance shoes for professional runners"
+    },
+    "designer-handbag": {
+      "name": "Designer Handbag",
+      "description": "Luxury designer handbag for a stylish statement"
+    },
+    "headphones-1": {
+      "name": "Sony WH-1000XM5",
+      "description": "Premium noise-cancelling headphones with exceptional sound quality"
+    },
+    "laptop-1": {
+      "name": "MacBook Pro",
+      "description": "High-performance laptop with M2 Pro/Max chip and Liquid Retina XDR display"
+    },
+    "smartwatch-1": {
+      "name": "Apple Watch Ultra 3",
+      "description": "Premium smartwatch with rugged design and advanced fitness features"
+    },
+    "tablet-1": {
+      "name": "Samsung Galaxy Tab S9",
+      "description": "Premium tablet with Dynamic AMOLED 2X display and included S Pen"
+    },
+    "samsung-s23-ultra": {
+      "name": "Samsung Galaxy S23 Ultra",
+      "description": "Advanced smartphone with 200MP camera and Dynamic display"
+    },
+    "sony-wh-1000xm5": {
+      "name": "Sony WH-1000XM5",
+      "description": "Wireless headphones with industry-leading noise cancellation and 30-hour battery life"
+    },
+    "ipad-pro-12-9": {
+      "name": "iPad Pro 12.9-inch",
+      "description": "Powerful tablet with Liquid Retina XDR display and M2 chip"
+    },
+    "samsung-galaxy-tab-s9": {
+      "name": "Samsung Galaxy Tab S9",
+      "description": "Slim tablet with S Pen and Dynamic AMOLED display"
+    },
+    "sony-a7-iv": {
+      "name": "Sony Alpha 7 IV",
+      "description": "Professional mirrorless camera with 33MP sensor and 4K video recording"
+    },
+    "macbook-air-15": {
+      "name": "MacBook Air 15-inch",
+      "description": "Powerful laptop with M2 chip and 18-hour battery life"
+    },
+    "samsung-galaxy-watch6": {
+      "name": "Samsung Galaxy Watch6",
+      "description": "Advanced smartwatch with health monitoring and fitness tracking"
+    },
+    "smartphone-1": {
+      "name": "Premium Smartphone",
+      "description": "High-performance smartphone with advanced features"
+    },
+    "smartphone-2": {
+      "name": "Samsung Galaxy S24 Ultra",
+      "description": "Flagship Samsung phone with advanced AI features and stunning camera"
+    },
+    "ipad-air": {
+      "name": "iPad Air",
+      "description": "Versatile iPad with M1 chip and stunning Liquid Retina display"
+    },
+    "iphone-15-pro-max": {
+      "name": "iPhone 15 Pro Max",
+      "description": "Latest iPhone with A17 Pro chip and advanced camera system"
+    },
+    "macbook-pro-16": {
+      "name": "MacBook Pro 16\"",
+      "description": "Powerful MacBook Pro with M3 Max chip for professionals"
+    },
+    "iphone-15-pro": {
+      "name": "iPhone 15 Pro",
+      "description": "Latest iPhone with advanced A17 Pro chip, stunning display, and professional camera system"
+    },
+    "google-pixel-8-pro": {
+      "name": "Google Pixel 8 Pro",
+      "description": "Best-in-class camera with Google AI features"
+    },
+    "xiaomi-13-pro": {
+      "name": "Xiaomi Mi 11 Ultra",
+      "description": "High-end specs at a competitive price"
+    },
+    "dell-xps-15": {
+      "name": "Dell XPS 15",
+      "description": "Premium Windows laptop with 4K OLED display"
+    },
+    "hp-spectre-x360": {
+      "name": "HP Spectre x360",
+      "description": "Convertible laptop with 13.5\" 3K2K OLED display"
+    },
+    "lenovo-thinkpad-x1": {
+      "name": "Lenovo ThinkPad X1 Carbon",
+      "description": "Business laptop with military-grade durability"
+    },
+    "asus-rog-zephyrus": {
+      "name": "ASUS ROG Zephyrus G14",
+      "description": "Gaming laptop with AMD Ryzen 9 and RTX 3080"
+    },
+    "microsoft-surface-laptop": {
+      "name": "Microsoft Surface Laptop 5",
+      "description": "Sleek Windows laptop with PixelSense touch display"
+    }
+  },
+  "admin": {
+    "success": "Success",
+    "error": "Error",
+    "orders_refreshed_successfully": "Orders refreshed successfully!",
+    "failed_to_refresh_orders": "Failed to refresh orders",
+    "order_status_changed_success": "Order status changed to '{status}' successfully!",
+    "failed_to_update_order_status": "Failed to update order status. Status: {status}, Error: {error}",
+    "error_updating_order_status": "Error updating order status: {error}",
+    "order_removed_successfully": "Order removed successfully!",
+    "failed_to_remove_order": "Failed to remove order. Please try again.",
+    "error_removing_order": "Error removing order. Please check console for details."
+  },
+  "ReturnsAndOrders": {
+    "title": "Returns and Orders",
+    "subtitle": "Track your orders and manage returns",
+    "tabs": {
+      "orders": "Orders",
+      "returns": "Returns"
+    },
+    "noOrders": "No orders yet",
+    "noOrdersDescription": "When you place orders, they will appear here",
+    "noReturns": "No returns yet",
+    "noReturnsDescription": "When you initiate returns, they will appear here",
+    "continueShopping": "Continue Shopping",
+    "selectAll": "Select all",
+    "selectedCount": "{count} selected",
+    "returnSelectedItems": "Return Selected Items",
+    "orderPlaced": "Order placed",
+    "order": "Order",
+    "quantity": "Quantity",
+    "returnItem": "Return Item",
+    "total": "Total",
+    "tracking": "Tracking",
+    "estimatedDelivery": "Estimated Delivery",
+    "trackPackage": "Track Package",
+    "viewOrder": "View Order",
+    "cancelOrder": "Cancel Order",
+    "returnRequested": "Return requested",
+    "return": "Return",
+    "itemsReturned": "Items Returned",
+    "reason": "Reason",
+    "condition": "Condition",
+    "refundAmount": "Refund Amount",
+    "refundMethod": "Refund Method",
+    "returnTracking": "Return Tracking",
+    "carrier": "Carrier",
+    "viewReturnDetails": "View Return Details",
+    "status": {
+      "processing": "Processing",
+      "shipped": "Shipped",
+      "delivered": "Delivered",
+      "cancelled": "Cancelled",
+      "returnRequested": "Return Requested",
+      "returnApproved": "Return Approved",
+      "returnInTransit": "Return In Transit",
+      "refundProcessed": "Refund Processed",
+      "refundRejected": "Refund Rejected"
+    },
+    "errors": {
+      "fetchError": "Failed to fetch data. Please try again."
+    },
+    "noOrdersSelected": "No orders selected",
+    "initiatingReturn": "Initiating return process...",
+    "trackingNotAvailable": "Tracking not available",
+    "confirmCancelOrder": "Are you sure you want to cancel this order?",
+    "orderCancelled": "Order cancelled successfully"
+  },
+  "Sell": {
+    "title": "Sell on Tijarah.pk",
+    "subtitle": "Start selling your products today",
+    "form": {
+      "selectCategory": "Select a category",
+      "category": "Category",
+      "productName": "Product Name",
+      "description": "Description",
+      "price": "Price",
+      "quantity": "Quantity",
+      "images": "Product Images",
+      "uploadImages": "Upload Images",
+      "condition": "Condition",
+      "selectCondition": "Select condition",
+      "new": "New",
+      "used": "Used",
+      "refurbished": "Refurbished",
+      "shippingType": "Shipping Type",
+      "selectShippingType": "Select shipping type",
+      "standard": "Standard Shipping",
+      "express": "Express Shipping",
+      "freeShipping": "Free Shipping",
+      "returns": "Return Policy",
+      "selectReturns": "Select return policy",
+      "returnsAccepted": "Accept Returns",
+      "returnsNotAccepted": "No Returns",
+      "submit": "List Product",
+      "validation": {
+        "required": "This field is required",
+        "minLength": "Minimum {length} characters required",
+        "invalidPrice": "Please enter a valid price"
+      },
+      "success": "Product listed successfully!",
+      "error": "Failed to list product. Please try again.",
+      "title": "Product Title",
+      "brand": "Brand",
+      "model": "Model",
+      "sku": "SKU",
+      "warranty": "Warranty",
+      "selectWarranty": "Select warranty",
+      "withWarranty": "With Warranty",
+      "noWarranty": "No Warranty",
+      "shippingCost": "Shipping Cost",
+      "acceptsReturns": "Accept Returns",
+      "returnDays": "Return Days",
+      "selectReturnDays": "Select return period",
+      "returnDays30": "30 Days",
+      "returnDays60": "60 Days",
+      "returnDays90": "90 Days",
+      "dragDropImages": "Drag and drop images here or click to select",
+      "maxImages": "Maximum 10 images allowed",
+      "previewTitle": "Preview Your Product",
+      "save": "Save Draft",
+      "publish": "Publish Listing",
+      "cancel": "Cancel",
+      "requiredField": "Required field",
+      "optional": "Optional",
+      "titlePlaceholder": "Enter product title",
+      "descriptionPlaceholder": "Describe your product in detail including condition, features, and any defects",
+      "pricePlaceholder": "Enter price in PKR",
+      "quantityPlaceholder": "Enter quantity available",
+      "brandPlaceholder": "Enter brand name",
+      "modelPlaceholder": "Enter model number",
+      "skuPlaceholder": "Enter SKU (optional)",
+      "shippingCostPlaceholder": "Enter shipping cost",
+      "descriptionLabel": "Product Description",
+      "priceLabel": "Price (PKR)",
+      "quantityLabel": "Quantity Available",
+      "brandLabel": "Brand",
+      "modelLabel": "Model",
+      "skuLabel": "SKU",
+      "categoryLabel": "Product Category",
+      "conditionLabel": "Product Condition",
+      "shippingTypeLabel": "Shipping Method",
+      "shippingCostLabel": "Shipping Cost (PKR)",
+      "warrantyLabel": "Warranty",
+      "acceptsReturnsLabel": "Accept Returns?",
+      "returnDaysLabel": "Return Period",
+      "imagesLabel": "Product Images",
+      "titleHelp": "Be specific and include the brand name for better visibility",
+      "descriptionHelp": "Provide detailed information about condition, features, and any defects",
+      "priceHelp": "Set a competitive price based on current market rates",
+      "quantityHelp": "Enter the number of items you have available for sale",
+      "brandHelp": "Enter the manufacturer brand",
+      "modelHelp": "Enter the specific model number if applicable",
+      "skuHelp": "Stock Keeping Unit (optional)",
+      "categoryHelp": "Select the most relevant category for your product",
+      "conditionHelp": "Select the current condition of the product",
+      "shippingTypeHelp": "Choose your preferred shipping method",
+      "shippingCostHelp": "Enter the shipping cost for this product",
+      "warrantyHelp": "Indicate if your product comes with warranty",
+      "returnsHelp": "Specify your return policy for buyer protection",
+      "imagesHelp": "Upload clear images from multiple angles. First image will be the thumbnail",
+      "imageQuality": "Recommended: High quality images (at least 1000x1000 pixels)",
+      "subcategory": "Subcategory",
+      "selectSubcategory": "Select a subcategory",
+      "subcategoryLabel": "Subcategory",
+      "subcategoryHelp": "Select a specific subcategory for your product",
+      "tags": "Tags",
+      "tagsPlaceholder": "Add tags separated by commas",
+      "tagsHelp": "Add relevant tags to help buyers find your product",
+      "color": "Color",
+      "selectColor": "Select color",
+      "colorHelp": "Select the color of your product",
+      "size": "Size",
+      "selectSize": "Select size",
+      "sizeHelp": "Select the size if applicable",
+      "material": "Material",
+      "materialPlaceholder": "Enter material",
+      "materialHelp": "Specify the material composition if applicable",
+      "manufacturingDate": "Manufacturing Date",
+      "manufacturingDateHelp": "Enter the manufacturing or purchase date",
+      "expiryDate": "Expiry Date",
+      "expiryDateHelp": "Enter expiry date if applicable",
+      "certifications": "Certifications",
+      "certificationsPlaceholder": "Enter certifications (if any)",
+      "certificationsHelp": "List any relevant certifications or standards",
+      "uploadPhoto": "Click to upload",
+      "dragDropPhotos": "Drag and drop photos here or click to select",
+      "orDragDrop": "or drag and drop",
+      "photoFormats": "PNG, JPG, GIF up to 10MB",
+      "removePhoto": "Remove",
+      "setMainPhoto": "Set as main photo",
+      "photoError": "Error uploading photo",
+      "photoSuccess": "Photo uploaded successfully",
+      "maxPhotos": "Maximum 10 photos allowed",
+      "photoQuality": "High quality images (at least 1000x1000 pixels recommended)",
+      "addMorePhotos": "Add more photos",
+      "noPhotos": "No photos uploaded yet",
+      "photoRequirements": "Requirements: Clear, well-lit photos from multiple angles. Minimum size 1000x1000 pixels",
+      "photoDimensions": "Recommended dimensions: 1000x1000 pixels or larger",
+      "photoTips": "Photo Tips: Use natural lighting, show product from multiple angles, include close-ups of any defects",
+      "uploading": "Uploading...",
+      "uploadingPhotos": "Uploading photos...",
+      "photosUploaded": "photos uploaded",
+      "photoUploadProgress": "Upload progress",
+      "localPickup": "Local Pickup",
+      "localPickupHelp": "Buyers can pick up the item locally from your address",
+      "standardShipping": "Standard Shipping",
+      "standardShippingHelp": "Ship within 3-5 business days",
+      "expressShipping": "Express Shipping",
+      "expressShippingHelp": "Ship within 1-2 business days",
+      "freeShippingHelp": "Offer free shipping to attract more buyers",
+      "pickupLocation": "Pickup Location",
+      "pickupLocationPlaceholder": "Enter pickup location or address",
+      "pickupLocationHelp": "Where will buyers pick up the item?",
+      "acceptsShipping": "Accepts Shipping",
+      "acceptsShippingHelp": "Allow buyers to have the item shipped to them",
+      "calculatedShipping": "Calculated Shipping",
+      "calculatedShippingHelp": "Let the system calculate shipping based on weight and distance",
+      "fixedShipping": "Fixed Shipping",
+      "fixedShippingHelp": "Set a flat shipping rate for all orders",
+      "shippingWeight": "Product Weight (kg)",
+      "shippingWeightPlaceholder": "Enter weight in kilograms",
+      "shippingWeightHelp": "Weight is used to calculate shipping costs",
+      "shippingDimensions": "Product Dimensions (L x W x H)",
+      "shippingDimensionsPlaceholder": "Enter dimensions in cm",
+      "shippingDimensionsHelp": "Dimensions help calculate dimensional weight",
+      "returnsPolicy": "Return Policy",
+      "returnsPolicyHelp": "Select your return policy to build buyer confidence",
+      "returnsNotAcceptedHelp": "Items cannot be returned",
+      "returnsAcceptedHelp": "Allow buyers to return items within the selected period",
+      "returnPeriod": "Return Period",
+      "returnPeriodHelp": "How many days will you accept returns?",
+      "returnDescription": "Return Description",
+      "returnDescriptionPlaceholder": "Describe your return policy",
+      "returnDescriptionHelp": "Explain how returns will be handled",
+      "paymentMethods": "Payment Methods",
+      "selectPaymentMethods": "Select payment methods you accept",
+      "paymentMethodsHelp": "Choose which payment methods to accept",
+      "bankAccountNumber": "Bank Account Number",
+      "bankAccountName": "Account Holder Name",
+      "bankName": "Bank Name",
+      "bankCode": "Bank Code (IBAN)",
+      "easyPaisaNumber": "EasyPaisa Mobile Number",
+      "jazzCashNumber": "JazzCash Mobile Number",
+      "paypalEmail": "PayPal Email",
+      "location": "Location",
+      "locationPlaceholder": "Enter your city or location",
+      "locationHelp": "Where are you located? This helps buyers know about shipping times",
+      "country": "Country",
+      "selectCountry": "Select country",
+      "countryHelp": "Select your country of operation",
+      "province": "Province/State",
+      "selectProvince": "Select province",
+      "provinceHelp": "Select your province or state",
+      "city": "City",
+      "cityPlaceholder": "Enter your city",
+      "cityHelp": "Enter the city where you are located",
+      "zipCode": "Zip/Postal Code",
+      "zipCodePlaceholder": "Enter zip code",
+      "zipCodeHelp": "Enter your postal code",
+      "businessName": "Business Name",
+      "businessNamePlaceholder": "Enter business name",
+      "businessNameHelp": "Your business or store name",
+      "taxId": "Tax ID",
+      "taxIdPlaceholder": "Enter tax ID",
+      "taxIdHelp": "Your tax identification number (optional)",
+      "ntn": "NTN (National Tax Number)",
+      "ntnPlaceholder": "Enter NTN",
+      "ntnHelp": "Your National Tax Number",
+      "cnic": "CNIC",
+      "cnicPlaceholder": "Enter CNIC",
+      "cnicHelp": "Your CNIC number for verification",
+      "agreeTerms": "I agree to the Terms & Conditions",
+      "agreeTermsHelp": "You must agree to our terms to list products",
+      "agreePolicy": "I understand the seller policy",
+      "agreePolicyHelp": "You must understand and follow our seller policies",
+      "termsLink": "View Terms & Conditions",
+      "policyLink": "View Seller Policy",
+      "agreeToTerms": "I agree to the Terms of Service and Privacy Policy",
+      "termsAndConditions": "I have read and agree to",
+      "termsOfService": "Terms of Service",
+      "and": "and",
+      "privacyPolicy": "Privacy Policy",
+      "agreeToSellerPolicy": "I understand and agree to the Seller Policy",
+      "sellerPolicy": "Seller Policy",
+      "confirmListing": "Confirm Listing",
+      "listingConfirmation": "Your listing will be reviewed and published within 24 hours",
+      "editListing": "Edit Listing",
+      "viewListing": "View Listing",
+      "continueSelling": "Continue Selling",
+      "successMessage": "Your product has been successfully listed!",
+      "successTitle": "Listing Published",
+      "saveDraft": "Save Draft",
+      "publishProduct": "Publish Product",
+      "submitForReview": "Submit for Review",
+      "previewListing": "Preview Listing",
+      "goBackToEdit": "Go Back to Edit",
+      "backToHome": "Back to Home",
+      "viewMyListings": "View My Listings",
+      "draftSaved": "Draft saved successfully",
+      "productPublished": "Product published successfully",
+      "submittedForReview": "Submitted for review. We'll notify you once approved",
+      "publishing": "Publishing...",
+      "saving": "Saving...",
+      "processingError": "An error occurred while processing your request",
+      "validationError": "Please fix the errors below before continuing",
+      "confirmLeave": "You have unsaved changes. Are you sure you want to leave?",
+      "requiresApproval": "Your product listing requires approval before going live",
+      "errorMessage": "There was an error listing your product. Please try again.",
+      "publishListing": "Publish Listing"
+    },
+    "requirements": {
+      "title": "Seller Requirements",
+      "description": "To start selling, you need to meet these requirements:",
+      "items": [
+        "Valid email address",
+        "Complete profile information",
+        "Valid payment method",
+        "Acceptance of seller terms and conditions"
+      ]
+    },
+    "benefits": {
+      "title": "Benefits of Selling on Tijarah.pk",
+      "items": [
+        "Reach millions of buyers across Asia",
+        "Fast and secure payment processing",
+        "Professional seller dashboard",
+        "24/7 seller support",
+        "Competitive seller fees",
+        "Marketing tools to boost sales"
+      ]
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "items": [
+        {
+          "question": "How do I start selling?",
+          "answer": "Create an account, fill in your seller profile, and list your first product."
+        },
+        {
+          "question": "What are the seller fees?",
+          "answer": "Seller fees vary by category. Please check your category's fee structure."
+        },
+        {
+          "question": "How long does it take to get paid?",
+          "answer": "Payments are processed within 7-10 business days after order completion."
+        },
+        {
+          "question": "Can I edit my product listing?",
+          "answer": "Yes, you can edit your listings anytime from your seller dashboard."
+        },
+        {
+          "question": "What if a buyer returns a product?",
+          "answer": "Returns are handled based on your return policy. We provide full support during the process."
+        }
+      ]
+    },
+    "contact": {
+      "title": "Need Help?",
+      "description": "Contact our seller support team for any questions about selling on Tijarah.pk",
+      "email": "sellers@tijarah.pk",
+      "phone": "+92 123 4567890"
+    },
+    "sections": {
+      "basicInfo": "Basic Information",
+      "productInfo": "Product Information",
+      "pricing": "Pricing & Shipping",
+      "images": "Product Images",
+      "policies": "Return & Shipping Policies",
+      "preview": "Preview Your Listing",
+      "priceQuantity": "Price & Quantity",
+      "shipping": "Shipping Details",
+      "productCondition": "Product Condition & Details",
+      "media": "Product Media",
+      "additionalInfo": "Additional Information",
+      "reviewListing": "Review Your Listing",
+      "photos": "Product Photos",
+      "shippingReturns": "Shipping & Returns",
+      "confirmation": "Confirmation",
+      "returnPolicy": "Return Policy",
+      "listingPreview": "Listing Preview",
+      "publishListing": "Publish Your Listing",
+      "paymentMethods": "Payment Methods",
+      "location": "Seller Location",
+      "sellerInfo": "Seller Information",
+      "terms": "Terms & Conditions"
+    },
+    "labels": {
+      "productName": "Product Name",
+      "category": "Category",
+      "description": "Product Description",
+      "price": "Price",
+      "quantity": "Quantity Available",
+      "condition": "Product Condition",
+      "shippingType": "Shipping Type",
+      "shippingCost": "Shipping Cost",
+      "returnPolicy": "Return Policy",
+      "images": "Product Images",
+      "sku": "SKU (Optional)",
+      "brand": "Brand",
+      "model": "Model",
+      "warranty": "Warranty"
+    },
+    "placeholders": {
+      "productName": "Enter product name",
+      "description": "Describe your product in detail",
+      "price": "Enter price",
+      "quantity": "Enter quantity",
+      "sku": "Enter SKU",
+      "brand": "Enter brand name",
+      "model": "Enter model number"
+    },
+    "helpers": {
+      "productName": "Be specific and include the brand name for better visibility",
+      "description": "Provide detailed information about condition, features, and any defects",
+      "images": "Upload clear images from multiple angles. First image will be the thumbnail",
+      "price": "Set a competitive price based on current market rates",
+      "shipping": "Choose your preferred shipping method and cost"
+    },
+    "conditions": {
+      "new": "New",
+      "likeNew": "Like New",
+      "good": "Good",
+      "fair": "Fair",
+      "used": "Used",
+      "poor": "Poor"
+    },
+    "shippingMethods": {
+      "standard": "Standard Shipping",
+      "express": "Express Shipping",
+      "freeShipping": "Free Shipping",
+      "pickup": "Local Pickup"
+    },
+    "returnPolicies": {
+      "7days": "7 Days Returns",
+      "14days": "14 Days Returns",
+      "30days": "30 Days Returns",
+      "60days": "60 Days Returns",
+      "90days": "90 Days Returns",
+      "noReturns": "No Returns"
+    },
+    "warranty": {
+      "withWarranty": "With Warranty",
+      "noWarranty": "No Warranty",
+      "manufacturerWarranty": "Manufacturer Warranty",
+      "sellerWarranty": "Seller Warranty"
+    },
+    "colors": {
+      "black": "Black",
+      "white": "White",
+      "red": "Red",
+      "blue": "Blue",
+      "green": "Green",
+      "yellow": "Yellow",
+      "gray": "Gray",
+      "silver": "Silver",
+      "gold": "Gold",
+      "other": "Other"
+    },
+    "sizes": {
+      "xsmall": "Extra Small",
+      "small": "Small",
+      "medium": "Medium",
+      "large": "Large",
+      "xlarge": "Extra Large",
+      "oneSize": "One Size"
+    },
+    "paymentMethods": {
+      "bankTransfer": "Bank Transfer",
+      "bankTransferHelp": "Accept payments via bank transfer",
+      "easypaisa": "EasyPaisa",
+      "easypaisaHelp": "Accept EasyPaisa mobile money payments",
+      "jazzcash": "JazzCash",
+      "jazzcashHelp": "Accept JazzCash mobile money payments",
+      "paypal": "PayPal",
+      "paypalHelp": "Accept payments via PayPal",
+      "creditCard": "Credit/Debit Card",
+      "creditCardHelp": "Accept credit and debit card payments",
+      "cashOnDelivery": "Cash on Delivery",
+      "cashOnDeliveryHelp": "Allow buyers to pay when item is delivered",
+      "stripeCheckout": "Stripe Checkout",
+      "stripeCheckoutHelp": "Accept payments via Stripe"
+    }
   }
 }

@@ -25,7 +25,7 @@ const orderSchema = new mongoose.Schema(
     },
     customerPhone: {
       type: String,
-      required: true,
+      required: false,
     },
     
     // Shipping Address

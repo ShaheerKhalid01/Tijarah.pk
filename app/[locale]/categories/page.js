@@ -7,8 +7,11 @@ import Image from 'next/image';
 import { useCart } from '@/contexts/CartContext';
 import { FiShoppingCart, FiFilter, FiStar, FiChevronDown, FiX } from 'react-icons/fi';
 import { toast, Toaster } from 'react-hot-toast';
+import { electronicsProducts } from './electronics/page.js';
 
-export default function AllProductsPage() {
+import { Suspense } from 'react';
+
+function AllProductsPageContent() {
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -18,7 +21,7 @@ export default function AllProductsPage() {
   const [currentPage, setCurrentPage] = useState(1);
   const [filteredProducts, setFilteredProducts] = useState([]);
   const [showMobileFilters, setShowMobileFilters] = useState(false);
-  
+
   const searchParams = useSearchParams();
   const params = useParams();
   const locale = params?.locale || 'en';
@@ -29,31 +32,43 @@ export default function AllProductsPage() {
 
   const productsPerPage = 12;
 
-  // Fetch products
+  // Use electronics products directly with category filtering
   useEffect(() => {
-    const fetchProducts = async () => {
-      try {
-        setLoading(true);
-        const response = await fetch('/api/products?limit=200');
-        
-        if (!response.ok) {
-          throw new Error('Failed to fetch products');
-        }
-        
-        const data = await response.json();
-        setProducts(Array.isArray(data.data) ? data.data : []);
-        setError(null);
-      } catch (err) {
-        console.error('Error fetching products:', err);
-        setError('Failed to load products. Please try again later.');
-        setProducts([]);
-      } finally {
-        setLoading(false);
-      }
-    };
+    // Convert electronics products to the expected format
+    let convertedProducts = electronicsProducts.map(product => ({
+      _id: product.id,
+      id: product.id,
+      name: product.name,
+      price: product.price,
+      originalPrice: product.originalPrice,
+      brand: product.brand,
+      image: product.image,
+      images: product.images,
+      rating: product.rating,
+      stock: product.stock,
+      inStock: product.inStock,
+      category: product.category, // Keep the category for filtering
+      createdAt: new Date().toISOString()
+    }));
 
-    fetchProducts();
-  }, []);
+    // Filter by category if specified in URL
+    if (category) {
+      convertedProducts = convertedProducts.filter(product =>
+        product.category === category.toLowerCase()
+      );
+    }
+
+    // Filter by subcategory if specified in URL  
+    if (subcategory) {
+      convertedProducts = convertedProducts.filter(product =>
+        product.category === subcategory.toLowerCase()
+      );
+    }
+
+    setProducts(convertedProducts);
+    setLoading(false);
+    setError(null);
+  }, [category, subcategory]);
 
   // Filter and sort products
   useEffect(() => {
@@ -61,7 +76,7 @@ export default function AllProductsPage() {
 
     // Brand filter
     if (selectedBrands.length > 0) {
-      filtered = filtered.filter(p => 
+      filtered = filtered.filter(p =>
         selectedBrands.includes(p.brand?.toLowerCase() || '')
       );
     }
@@ -153,15 +168,15 @@ export default function AllProductsPage() {
   return (
     <div className="min-h-screen bg-gray-50">
       <Toaster />
-      
+
       {/* Header */}
       <div className="bg-white border-b border-gray-200 sticky top-0 z-30">
         <div className="max-w-7xl mx-auto px-4 py-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center">
             <div>
               <h1 className="text-3xl font-bold text-gray-900">
-                {category 
-                  ? subcategory 
+                {category
+                  ? subcategory
                     ? `${subcategory.replace(/-/g, ' ')}`
                     : `${category.replace(/-/g, ' ')}`
                   : 'All Products'}
@@ -170,7 +185,7 @@ export default function AllProductsPage() {
                 {loading ? 'Loading...' : `${filteredProducts.length} products found`}
               </p>
             </div>
-            <Link 
+            <Link
               href={`/${locale}/cart`}
               className="relative inline-flex items-center gap-2 bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-all shadow-md hover:shadow-lg"
             >
@@ -200,12 +215,12 @@ export default function AllProductsPage() {
                 <select
                   value={sortBy}
                   onChange={(e) => setSortBy(e.target.value)}
-                  className="w-full border border-gray-300 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                  className="w-full border border-gray-300 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent text-black"
                 >
-                  <option value="featured">Featured</option>
-                  <option value="price-low">Price: Low to High</option>
-                  <option value="price-high">Price: High to Low</option>
-                  <option value="rating">Highest Rated</option>
+                  <option value="featured" className="text-black">Featured</option>
+                  <option value="price-low" className="text-black">Price: Low to High</option>
+                  <option value="price-high" className="text-black">Price: High to Low</option>
+                  <option value="rating" className="text-black">Highest Rated</option>
                 </select>
               </div>
 
@@ -292,12 +307,12 @@ export default function AllProductsPage() {
               <select
                 value={sortBy}
                 onChange={(e) => setSortBy(e.target.value)}
-                className="flex-1 border border-gray-300 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="flex-1 border border-gray-300 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 text-black"
               >
-                <option value="featured">Featured</option>
-                <option value="price-low">Price: Low → High</option>
-                <option value="price-high">Price: High → Low</option>
-                <option value="rating">Highest Rated</option>
+                <option value="featured" className="text-black">Featured</option>
+                <option value="price-low" className="text-black">Price: Low → High</option>
+                <option value="price-high" className="text-black">Price: High → Low</option>
+                <option value="rating" className="text-black">Highest Rated</option>
               </select>
             </div>
 
@@ -477,11 +492,10 @@ export default function AllProductsPage() {
                         <button
                           onClick={(e) => handleAddToCart(product, e)}
                           disabled={product.stock === 0}
-                          className={`w-full py-2.5 rounded-lg font-semibold transition-all flex items-center justify-center gap-2 text-sm ${
-                            product.stock > 0
+                          className={`w-full py-2.5 rounded-lg font-semibold transition-all flex items-center justify-center gap-2 text-sm ${product.stock > 0
                               ? 'bg-blue-600 text-white hover:bg-blue-700 active:scale-95'
                               : 'bg-gray-200 text-gray-400 cursor-not-allowed'
-                          }`}
+                            }`}
                         >
                           <FiShoppingCart size={16} />
                           {product.stock > 0 ? 'Add to Cart' : 'Out of Stock'}
@@ -501,18 +515,17 @@ export default function AllProductsPage() {
                     >
                       ← Previous
                     </button>
-                    
+
                     <div className="flex items-center gap-1">
                       {totalPages <= 5 ? (
                         [...Array(totalPages)].map((_, i) => (
                           <button
                             key={i + 1}
                             onClick={() => setCurrentPage(i + 1)}
-                            className={`px-3 py-2 rounded-lg transition-colors font-medium ${
-                              currentPage === i + 1
+                            className={`px-3 py-2 rounded-lg transition-colors font-medium ${currentPage === i + 1
                                 ? 'bg-blue-600 text-white'
                                 : 'border border-gray-300 hover:bg-gray-100'
-                            }`}
+                              }`}
                           >
                             {i + 1}
                           </button>
@@ -537,11 +550,10 @@ export default function AllProductsPage() {
                               <button
                                 key={pageNum}
                                 onClick={() => setCurrentPage(pageNum)}
-                                className={`px-3 py-2 rounded-lg transition-colors font-medium ${
-                                  currentPage === pageNum
+                                className={`px-3 py-2 rounded-lg transition-colors font-medium ${currentPage === pageNum
                                     ? 'bg-blue-600 text-white'
                                     : 'border border-gray-300 hover:bg-gray-100'
-                                }`}
+                                  }`}
                               >
                                 {pageNum}
                               </button>
@@ -577,5 +589,17 @@ export default function AllProductsPage() {
         </div>
       </div>
     </div>
+  );
+}
+
+export default function AllProductsPage() {
+  return (
+    <Suspense fallback={
+      <div className="min-h-screen bg-gray-50 flex justify-center items-center">
+        <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-500"></div>
+      </div>
+    }>
+      <AllProductsPageContent />
+    </Suspense>
   );
 }
