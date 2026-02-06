@@ -1,7 +1,7 @@
 import ClientLayout from '../client-layout';
 
 // ✅ OPTIMIZED: Memoize static params
-const SUPPORTED_LOCALES = ['en', 'ar', 'ur', 'zh', 'tr', 'ms', 'id'];
+const SUPPORTED_LOCALES = ['en', 'ur', 'zh', 'tr', 'ms', 'id'];
 
 export function generateStaticParams() {
   return SUPPORTED_LOCALES.map(locale => ({ locale }));
