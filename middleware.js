@@ -109,6 +109,8 @@ export default async function middleware(request) {
     const token = await getToken({
       req: request,
       secret: process.env.NEXTAUTH_SECRET,
+      // Ensure secure cookie is used on HTTPS or production
+      secureCookie: request.nextUrl.protocol === 'https:' || process.env.NODE_ENV === 'production',
     });
 
     // Debug logs
