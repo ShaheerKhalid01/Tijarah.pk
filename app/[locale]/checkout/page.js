@@ -29,8 +29,8 @@ const StepIndicator = memo(({ activeStep }) => (
         <div key={step} className="flex items-center">
           <div
             className={`flex items-center justify-center w-10 h-10 rounded-full ${activeStep >= step
-                ? 'bg-blue-600 text-white'
-                : 'bg-white border-2 border-gray-300 text-gray-500'
+              ? 'bg-blue-600 text-white'
+              : 'bg-white border-2 border-gray-300 text-gray-500'
               }`}
           >
             {activeStep > step ? <FiCheckCircle className="w-6 h-6" /> : step}
@@ -296,7 +296,7 @@ const useOrderCalculations = (cart) => {
 
 // ✅ OPTIMIZED: Main component
 export default function CheckoutPage() {
-  const { data: session } = useSession();
+  const { data: session, status } = useSession();
   const router = useRouter();
   const params = useParams();
   const { cart = [], clearCart } = useCart();
@@ -317,13 +317,21 @@ export default function CheckoutPage() {
   // ✅ OPTIMIZED: Memoized locale
   const locale = useMemo(() => params?.locale || 'en', [params?.locale]);
 
-  // ✅ Auth guard: redirect to login if not authenticated
+  // ✅ Auth guard: only redirect when session is fully loaded and user is NOT authenticated
   useEffect(() => {
-    if (session === null) {
-      // session is null means loaded but not authenticated
+    if (status === 'unauthenticated') {
       router.push(`/${locale}/login?callbackUrl=/${locale}/checkout`);
     }
-  }, [session, locale, router]);
+  }, [status, locale, router]);
+
+  // Show loading spinner while session is being checked
+  if (status === 'loading') {
+    return (
+      <div className="min-h-screen flex items-center justify-center bg-gray-50">
+        <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600"></div>
+      </div>
+    );
+  }
 
   // ✅ OPTIMIZED: Use calculation hook
   const { subtotal, total } = useOrderCalculations(cart);
