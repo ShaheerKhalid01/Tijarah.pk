@@ -3,6 +3,9 @@ import connectDB from "@/lib/mongodb";
 import User from "@/models/User";
 import bcrypt from "bcryptjs";
 
+const useSecureCookies = process.env.NODE_ENV === 'production';
+const cookiePrefix = useSecureCookies ? '__Secure-' : '';
+
 export const authOptions = {
   providers: [
     CredentialsProvider({
@@ -19,7 +22,7 @@ export const authOptions = {
 
           await connectDB();
           const user = await User.findOne({ email: credentials.email.toLowerCase() }).select("+password");
-          
+
           if (!user) {
             throw new Error(`No user found with email: ${credentials.email.toLowerCase()}`);
           }
@@ -62,9 +65,22 @@ export const authOptions = {
     strategy: "jwt",
     maxAge: 30 * 24 * 60 * 60 // 30 days
   },
+  // Use standard next-auth cookie name — no prefix override
+  // This ensures getToken() in middleware can find it
+  cookies: {
+    sessionToken: {
+      name: `${cookiePrefix}next-auth.session-token`,
+      options: {
+        httpOnly: true,
+        sameSite: 'lax',
+        path: '/',
+        secure: useSecureCookies,
+      },
+    },
+  },
   pages: {
-    signIn: "/login",
-    error: "/login"
+    signIn: "/en/login",
+    error: "/en/login"
   },
   secret: process.env.NEXTAUTH_SECRET,
   debug: process.env.NODE_ENV === "development"

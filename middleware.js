@@ -107,9 +107,16 @@ export default async function middleware(request) {
     }
 
     // Get the token for protected routes
+    // Must match the cookie name in auth config
+    const isSecure = request.nextUrl.protocol === 'https:' || process.env.NODE_ENV === 'production';
+    const cookieName = isSecure
+      ? '__Secure-next-auth.session-token'
+      : 'next-auth.session-token';
+
     const token = await getToken({
       req: request,
       secret: process.env.NEXTAUTH_SECRET,
+      cookieName,
     });
 
     // Debug logs for Vercel
@@ -119,6 +126,7 @@ export default async function middleware(request) {
         pathname,
         hasToken: !!token,
         cookieNames: allCookies,
+        lookingFor: cookieName,
         nextAuthUrl: process.env.NEXTAUTH_URL,
         protocol: request.nextUrl.protocol
       });
