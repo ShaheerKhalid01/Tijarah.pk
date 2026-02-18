@@ -27,6 +27,7 @@ const publicPaths = new Set([
   'register',
   'categories',
   'cart',
+  'checkout',
   'customer-service',
   'deals',
   'new-arrivals',

@@ -3,7 +3,7 @@
 import { useSession } from 'next-auth/react';
 import { useRouter, useParams } from 'next/navigation';
 import { useCart } from '@/contexts/CartContext';
-import { useState, useCallback, useMemo, memo } from 'react';
+import { useState, useCallback, useMemo, memo, useEffect } from 'react';
 import Link from 'next/link';
 import { FiArrowLeft, FiCheckCircle } from 'react-icons/fi';
 
@@ -28,19 +28,17 @@ const StepIndicator = memo(({ activeStep }) => (
       {CHECKOUT_STEPS.map((step) => (
         <div key={step} className="flex items-center">
           <div
-            className={`flex items-center justify-center w-10 h-10 rounded-full ${
-              activeStep >= step
+            className={`flex items-center justify-center w-10 h-10 rounded-full ${activeStep >= step
                 ? 'bg-blue-600 text-white'
                 : 'bg-white border-2 border-gray-300 text-gray-500'
-            }`}
+              }`}
           >
             {activeStep > step ? <FiCheckCircle className="w-6 h-6" /> : step}
           </div>
           {step < 3 && (
             <div
-              className={`h-1 w-16 ${
-                activeStep > step ? 'bg-blue-600' : 'bg-gray-300'
-              }`}
+              className={`h-1 w-16 ${activeStep > step ? 'bg-blue-600' : 'bg-gray-300'
+                }`}
             />
           )}
         </div>
@@ -318,6 +316,14 @@ export default function CheckoutPage() {
 
   // ✅ OPTIMIZED: Memoized locale
   const locale = useMemo(() => params?.locale || 'en', [params?.locale]);
+
+  // ✅ Auth guard: redirect to login if not authenticated
+  useEffect(() => {
+    if (session === null) {
+      // session is null means loaded but not authenticated
+      router.push(`/${locale}/login?callbackUrl=/${locale}/checkout`);
+    }
+  }, [session, locale, router]);
 
   // ✅ OPTIMIZED: Use calculation hook
   const { subtotal, total } = useOrderCalculations(cart);
