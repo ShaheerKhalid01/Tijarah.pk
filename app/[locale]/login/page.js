@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useCallback, useMemo, memo } from 'react';
+import { useState, useCallback, useMemo, memo, Suspense } from 'react';
 import { signIn } from 'next-auth/react';
 import { useRouter, useParams, useSearchParams } from 'next/navigation';
 import Link from 'next/link';
@@ -165,8 +165,8 @@ const SubmitButton = memo(({ isLoading }) => (
 
 SubmitButton.displayName = 'SubmitButton';
 
-// ✅ OPTIMIZED: Main component with memoized callbacks
-export default function LoginPage() {
+// ✅ OPTIMIZED: Login Form logic wrapped in a separate component for Suspense
+function LoginForm() {
   const router = useRouter();
   const params = useParams();
   const searchParams = useSearchParams();
@@ -217,7 +217,7 @@ export default function LoginPage() {
       toast.error('An error occurred during login');
       setIsLoading(false);
     }
-  }, [email, password, locale, router]);
+  }, [email, password, locale, router, callbackUrl]);
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 flex items-center justify-center p-4">
@@ -259,5 +259,18 @@ export default function LoginPage() {
         </div>
       </div>
     </div>
+  );
+}
+
+// ✅ EXPORT: Main component with Suspense boundary for useSearchParams
+export default function LoginPage() {
+  return (
+    <Suspense fallback={
+      <div className="min-h-screen flex items-center justify-center bg-gray-50">
+        <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600"></div>
+      </div>
+    }>
+      <LoginForm />
+    </Suspense>
   );
 }
