@@ -33,7 +33,8 @@ const publicPaths = new Set([
   'special-offers',
   'sell',
   'search',
-  'product'
+  'product',
+  'products'
 ]);
 
 // Performance optimization: Pre-compile admin paths
@@ -108,7 +109,6 @@ export default async function middleware(request) {
     const token = await getToken({
       req: request,
       secret: process.env.NEXTAUTH_SECRET,
-      secureCookie: process.env.NODE_ENV === 'production',
     });
 
     // Debug logs
@@ -122,7 +122,7 @@ export default async function middleware(request) {
     // Check if this is an admin route (excluding admin-auth)
     if (pathname.includes('/admin') && !pathname.includes('/admin-auth')) {
       console.log('Admin route detected:', pathname);
-      
+
       // If no token or not admin role, redirect to admin login
       if (!token || token.role !== 'admin') {
         console.log('Redirecting to admin login - not authenticated or not admin');
@@ -130,7 +130,7 @@ export default async function middleware(request) {
         loginUrl.searchParams.set('callbackUrl', pathname);
         return NextResponse.redirect(loginUrl);
       }
-      
+
       console.log('Admin authenticated, allowing access');
       return NextResponse.next();
     }
