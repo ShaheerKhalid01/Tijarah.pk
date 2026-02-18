@@ -109,17 +109,19 @@ export default async function middleware(request) {
     const token = await getToken({
       req: request,
       secret: process.env.NEXTAUTH_SECRET,
-      // Ensure secure cookie is used on HTTPS or production
-      secureCookie: request.nextUrl.protocol === 'https:' || process.env.NODE_ENV === 'production',
     });
 
-    // Debug logs
-    console.log('Middleware debug:', {
-      pathname,
-      hasToken: !!token,
-      tokenRole: token?.role,
-      pathLocale
-    });
+    // Debug logs for Vercel
+    if (process.env.NODE_ENV === 'production') {
+      const allCookies = request.cookies.getAll().map(c => c.name);
+      console.log('Middleware Session Debug:', {
+        pathname,
+        hasToken: !!token,
+        cookieNames: allCookies,
+        nextAuthUrl: process.env.NEXTAUTH_URL,
+        protocol: request.nextUrl.protocol
+      });
+    }
 
     // Check if this is an admin route (excluding admin-auth)
     if (pathname.includes('/admin') && !pathname.includes('/admin-auth')) {
